@@ -1,0 +1,22 @@
+<header role="banner">
+  <div class="usa-disclaimer">
+    <div class="usa-disclaimer-official usa-grid">
+      <img src="{{ site.baseurl }}/assets/img/global/usa-flag.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+    </div>
+  </div>
+  <div class="site-navbar usa-grid">
+    <a class="site-logo media_link" href="{{ site.baseurl }}/">
+      xD
+    </a>
+    {% if page.url == '/' %}
+      <h1 class="usa-sr-only">xD</h1>
+      {% else %}
+        <span class="usa-sr-only">xD</span>
+    {% endif %}
+    <nav role="navigation">
+    </nav>
+    <button class="menu-btn">Menu</button>
+  </div>
+</header>
+<div class="overlay"></div>
