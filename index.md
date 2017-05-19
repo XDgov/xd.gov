@@ -8,10 +8,10 @@ layout: default
   <div class="usa-grid island-container">
     <div class="usa-width-one-third island island-callout">
       <h2>We build experimental data products for the public good.</h2>
-      <a class="cta" href="/about">Learn More</a>
+      <a class="cta" href="{{ site.baseurl }}/about">Learn More</a>
     </div>
     <div class="usa-width-two-thirds island island-dds">
-      <a href="/about">
+      <a href="{{ site.baseurl }}/about">
         <h2>Data Design Standards</h2>
         <p class="cta">Learn More</p>
       </a>
@@ -26,10 +26,10 @@ layout: default
         and easy to use. That's why our door is open to any agency collecting
         and dissemenating public data.
       </p>
-      <a class="cta" href="/about">Work With Us</a>
+      <a class="cta" href="{{ site.baseurl }}/about">Work With Us</a>
     </div>
     <div class="usa-width-one-half island island-dds">
-      <a href="/about">
+      <a href="{{ site.baseurl }}/about">
         <h2>Data Design Standards</h2>
         <p class="cta">Learn More</p>
       </a>
