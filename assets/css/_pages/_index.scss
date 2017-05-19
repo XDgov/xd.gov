@@ -13,6 +13,10 @@
 
     &.island-callout {
 
+      h2 {
+        font-size: 3rem;
+      }
+
       .cta {
         color: $color-brand-blue;
       }
@@ -23,6 +27,7 @@
       @include transition(all 0.25s ease);
       background-image: linear-gradient(to bottom, transparent 0%, rgba($color-black, 0.3) 50%, rgba($color-black, 0.6) 100%), url("../img/pages/index/dds-image.jpg");
       background-size: cover;
+      padding: 0;
 
       &:hover {
         @include transform(scale3d(1.02, 1.02, 1.02));
@@ -32,8 +37,7 @@
       a {
         color: $color-white;
         display: block;
-        padding-bottom: 3rem;
-        padding-top: 25rem;
+        padding: 25rem 3rem 3rem;
       }
 
       .cta {

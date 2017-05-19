@@ -11,14 +11,14 @@ layout: default
       <a class="cta" href="{{ site.baseurl }}/about">Learn More</a>
     </div>
     <div class="usa-width-two-thirds island island-dds">
-      <a href="{{ site.baseurl }}/about">
+      <a href="{{ site.baseurl }}/projects/data-design-standards">
         <h2>Data Design Standards</h2>
         <p class="cta">Learn More</p>
       </a>
     </div>
   </div>
   <div class="usa-grid island-container">
-    <div class="usa-width-one-half island island-callout">
+    <div class="usa-width-one-half island">
       <h2>How might we maximize the value of public data?</h2>
       <p class="island-description">
         As an office of the U.S. Census Bureau, our team understands the value
@@ -29,7 +29,7 @@ layout: default
       <a class="cta" href="{{ site.baseurl }}/about">Work With Us</a>
     </div>
     <div class="usa-width-one-half island island-dds">
-      <a href="{{ site.baseurl }}/about">
+      <a href="{{ site.baseurl }}/projects/data-design-standards">
         <h2>Data Design Standards</h2>
         <p class="cta">Learn More</p>
       </a>
