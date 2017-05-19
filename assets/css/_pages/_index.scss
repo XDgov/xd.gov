@@ -1,0 +1,73 @@
+.page-index {
+  padding-bottom: 6em;
+
+  .island {
+    background-color: $color-white;
+    box-shadow: 0 2px 3px rgba($color-gray-dark, 0.05);
+    box-sizing: border-box;
+    padding: 3rem;
+
+    @include media($medium-screen) {
+      height: 40rem;
+    }
+
+    &.island-callout {
+
+      .cta {
+        color: $color-brand-blue;
+      }
+    }
+
+    &.island-dds {
+      @include transform(scale3d(1, 1, 1));
+      @include transition(all 0.25s ease);
+      background-image: linear-gradient(to bottom, transparent 0%, rgba($color-black, 0.3) 50%, rgba($color-black, 0.6) 100%), url("../img/pages/index/dds-image.jpg");
+      background-size: cover;
+
+      &:hover {
+        @include transform(scale3d(1.02, 1.02, 1.02));
+        box-shadow: 0 3px 6px rgba($color-gray-dark, 0.3);
+      }
+
+      a {
+        color: $color-white;
+        display: block;
+        padding-bottom: 3rem;
+        padding-top: 25rem;
+      }
+
+      .cta {
+        color: $color-white;
+      }
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    .cta {
+      @include transition(color 0.25s ease);
+      color: $color-brand-blue;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 1.5rem 0;
+    }
+  }
+
+  .island-container {
+    margin-bottom: 3rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .island-description {
+    font-size: 1.85rem;
+  }
+}

@@ -1,0 +1,59 @@
+header {
+  &[role=banner] {
+    background-color: $color-white;
+    box-shadow: 0 2px 3px rgba($color-gray-dark, 0.05);
+  }
+}
+
+nav {
+  &[role=navigation] {
+    float: right;
+    margin-top: 5.5rem;
+
+    a {
+      @include transition(all 0.2s ease);
+      color: $color-gray-dark;
+      font-weight: bold;
+      padding: 1.5rem 2.5rem;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $color-gray-lightest;
+        color: $color-black;
+      }
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 1rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.menu-btn {
+  float: right;
+
+  @include media($medium-screen) {
+    display: none;
+  }
+}
+
+.site-logo {
+  float: left;
+
+  img {
+    width: 8rem;
+
+    @include media($medium-screen) {
+      margin: 4rem 0 2rem;
+    }
+  }
+}
+
+.site-navbar {
+  @include clearfix;
+}

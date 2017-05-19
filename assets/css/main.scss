@@ -4,4 +4,8 @@
 
 @import "_vendor/uswds/stylesheets/all";
 
-@import "_components/disclaimer";
+@import "_core/all";
+@import "_components/all";
+
+@import "_layouts/all";
+@import "_pages/all";

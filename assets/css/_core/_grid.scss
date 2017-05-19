@@ -1,0 +1,9 @@
+body {
+  .usa-grid,
+  .usa-grid-full {
+    
+    @include media($medium-screen) {
+      max-width: $site-max-width;
+    }
+  }
+}

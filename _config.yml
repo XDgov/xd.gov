@@ -35,7 +35,7 @@ defaults:
   scope:
     path: "pages"
   values:
-    layout: primary
+    layout: default
  -
   scope:
     path: "_projects"
@@ -80,6 +80,9 @@ exclude:
 - tests/schema/tags.yml
 - tmp/
 - vendor
+
+include:
+  - _pages
 
 # jekyll plugins
 gems:
