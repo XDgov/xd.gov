@@ -4,6 +4,8 @@ body {
     
     @include media($medium-screen) {
       max-width: $site-max-width;
+      padding-left: 5rem;
+      padding-right: 5rem;
     }
   }
 }

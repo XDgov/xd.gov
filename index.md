@@ -5,34 +5,41 @@
 layout: default
 ---
 <section class="hero">
-  <div class="usa-grid island-container">
-    <div class="usa-width-one-third island island-callout">
-      <h2>We build experimental data products for the public good.</h2>
-      <a class="cta" href="{{ site.baseurl }}/about">Learn More</a>
-    </div>
-    <div class="usa-width-two-thirds island island-dds">
-      <a href="{{ site.baseurl }}/projects/data-design-standards">
-        <h2>Data Design Standards</h2>
-        <p class="cta">Learn More</p>
-      </a>
+  <div class="usa-grid">
+    <div class="hero-content">
+      <h1>
+        XD is a government product studio. We build experimental data products
+        for the public good.
+      </h1>
+      <a href="#">Learn More</a>
     </div>
   </div>
-  <div class="usa-grid island-container">
-    <div class="usa-width-one-half island">
-      <h2>How might we maximize the value of public data?</h2>
-      <p class="island-description">
-        As an office of the U.S. Census Bureau, our team understands the value
-        of public data. We believe public data should be current, accurate,
-        and easy to use. That's why our door is open to any agency collecting
-        and dissemenating public data.
-      </p>
-      <a class="cta" href="{{ site.baseurl }}/about">Work With Us</a>
+</section>
+<section class="ctas">
+  <div class="usa-grid">
+    <div class="tile">
+      <img src="assets/img/pages/index/dds-image.jpg">
+      <span>About Us</span>
+      <h2>
+        We help agencies maximize the impact of their data.
+      </h2>
+      <a class="cta-link" href="#">Learn More</a>
     </div>
-    <div class="usa-width-one-half island island-dds">
-      <a href="{{ site.baseurl }}/projects/data-design-standards">
-        <h2>Data Design Standards</h2>
-        <p class="cta">Learn More</p>
-      </a>
+    <div class="tile">
+      <img src="assets/img/pages/index/dds-image.jpg">
+      <span>We’re Hiring</span>
+      <h2>
+        Join our growing team at the intersection of data and impact.
+      </h2>
+      <a class="cta-link" href="#">Apply Now</a>
+    </div>
+    <div class="tile">
+      <img src="assets/img/pages/index/dds-image.jpg">
+      <span>Current Projects</span>
+      <h2>
+        We’re working on some incredible projects.
+      </h2>
+      <a class="cta-link" href="#">Learn More</a>
     </div>
   </div>
 </section>

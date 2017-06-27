@@ -1,6 +1,51 @@
 .page-index {
   padding-bottom: 6em;
 
+  .cta-link {
+    bottom: 1rem;
+    color: $color-brand-blue;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($color-brand-blue, 10);
+    }
+  }
+
+  .ctas {
+    margin-top: 4rem;
+
+    .usa-grid {
+      display: flex;
+    }
+  }
+
+  .hero {
+    padding: 8rem 0;
+  }
+
+  .hero-content {
+    max-width: 62rem;
+
+    a {
+      border-bottom: 2px solid $color-brand-blue;
+      color: $color-brand-blue;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 2px solid darken($color-brand-blue, 10);
+        color: darken($color-brand-blue, 10);
+      }
+    }
+
+    h1 {
+      font-weight: normal;
+      margin: 0 0 1rem;
+    }
+  }
+
   .island {
     background-color: $color-white;
     box-shadow: 0 2px 3px rgba($color-gray-dark, 0.05);
@@ -73,5 +118,29 @@
 
   .island-description {
     font-size: 1.85rem;
+  }
+
+  .main-content {
+    padding-top: 0;
+  }
+
+  .tile {
+    @include span-columns(2 of 6);
+    border-bottom: 4px solid $color-gray-light;
+    flex: 1;
+    padding-bottom: 6rem;
+    position: relative;
+
+    h2 {
+      font-weight: normal;
+      margin: 1.5rem 0 0;
+    }
+
+    span {
+      color: lighten($color-gray, 10);
+      display: inline-block;
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
   }
 }

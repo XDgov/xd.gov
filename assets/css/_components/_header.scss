@@ -1,14 +1,13 @@
 header {
   &[role=banner] {
     background-color: $color-white;
-    box-shadow: 0 2px 3px rgba($color-gray-dark, 0.05);
   }
 }
 
 nav {
   &[role=navigation] {
     float: right;
-    margin-top: 5.5rem;
+    margin-top: 3.5rem;
 
     a {
       @include transition(all 0.2s ease);
@@ -49,7 +48,7 @@ nav {
     width: 8rem;
 
     @include media($medium-screen) {
-      margin: 4rem 0 2rem;
+      margin: 2rem 0 2rem;
     }
   }
 }
