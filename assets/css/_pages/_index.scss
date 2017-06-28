@@ -126,7 +126,7 @@
 
   .tile {
     @include span-columns(2 of 6);
-    border-bottom: 4px solid $color-gray-light;
+    border-bottom: 3px solid darken($color-gray-lightest, 10);
     flex: 1;
     padding-bottom: 6rem;
     position: relative;

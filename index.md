@@ -18,7 +18,9 @@ layout: default
 <section class="ctas">
   <div class="usa-grid">
     <div class="tile">
-      <img src="assets/img/pages/index/dds-image.jpg">
+      <a href="#">
+        <img src="assets/img/pages/index/dds-image.jpg">
+      </a>
       <span>About Us</span>
       <h2>
         We help agencies maximize the impact of their data.
@@ -26,7 +28,9 @@ layout: default
       <a class="cta-link" href="#">Learn More</a>
     </div>
     <div class="tile">
-      <img src="assets/img/pages/index/dds-image.jpg">
+      <a href="#">
+        <img src="assets/img/pages/index/dds-image.jpg">
+      </a>
       <span>We’re Hiring</span>
       <h2>
         Join our growing team at the intersection of data and impact.
@@ -34,7 +38,9 @@ layout: default
       <a class="cta-link" href="#">Apply Now</a>
     </div>
     <div class="tile">
-      <img src="assets/img/pages/index/dds-image.jpg">
+      <a href="#">
+        <img src="assets/img/pages/index/dds-image.jpg">
+      </a>
       <span>Current Projects</span>
       <h2>
         We’re working on some incredible projects.
