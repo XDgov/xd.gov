@@ -1,0 +1,23 @@
+footer {
+  &[role=contentinfo] {
+    background-color: $color-gray-lightest;
+    padding: 5rem 0 10rem;
+  }
+}
+
+.census-logo-footer {
+  float: left;
+  margin: 0.5rem 0 0 2rem;
+
+  img {
+    width: 8rem;
+  }
+}
+
+.site-logo-footer {
+  float: left;
+
+  img {
+    width: 4rem;
+  }
+}

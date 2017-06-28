@@ -11,21 +11,23 @@ layout: default
         XD is a government product studio. We build experimental data products
         for the public good.
       </h1>
-      <a href="#">Learn More</a>
+      <a href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
   </div>
 </section>
+
+<!---
 <section class="ctas">
   <div class="usa-grid">
     <div class="tile">
-      <a href="#">
+      <a href="{{ site.baseurl }}{% link _pages/about.md %}">
         <img src="assets/img/pages/index/dds-image.jpg">
       </a>
       <span>About Us</span>
       <h2>
         We help agencies maximize the impact of their data.
       </h2>
-      <a class="cta-link" href="#">Learn More</a>
+      <a class="cta-link" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
     <div class="tile">
       <a href="#">
@@ -49,3 +51,4 @@ layout: default
     </div>
   </div>
 </section>
+-->
