@@ -4,5 +4,7 @@ layout: page
 title: About
 ---
 
-<h1>About xD</h1>
-<h2>We help other government agencies unlock the power of their public data</h2>
+<h1>About Us</h1>
+<h2 class="page-subtitle">
+  We help government agencies unlock the power of their data.
+</h2>
