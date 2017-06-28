@@ -25,22 +25,22 @@
   }
 
   .hero-content {
-    max-width: 62rem;
+    max-width: 84rem;
 
     a {
-      border-bottom: 2px solid $color-brand-blue;
+      border-bottom: 3px solid $color-brand-blue;
       color: $color-brand-blue;
-      font-weight: bold;
+      font-size: 2.25rem;
       text-decoration: none;
 
       &:hover {
-        border-bottom: 2px solid darken($color-brand-blue, 10);
+        border-bottom: 3px solid darken($color-brand-blue, 10);
         color: darken($color-brand-blue, 10);
       }
     }
 
     h1 {
-      font-weight: normal;
+      font-size: 5rem;
       margin: 0 0 1rem;
     }
   }

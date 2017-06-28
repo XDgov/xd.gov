@@ -1,14 +1,35 @@
 .page {
 
   h1 {
-    font-weight: normal;
+    font-size: 6.5rem;
     margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    line-height: 1.65em;
+    max-width: 50em;
+  }
+}
+
+.page-cta {
+  border-bottom: 3px solid $color-brand-blue;
+  color: $color-brand-blue;
+  font-size: 1.75rem;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 3px solid darken($color-brand-blue, 10);
+    color: darken($color-brand-blue, 10);
   }
 }
 
 .page-subtitle {
   color: $color-gray;
   font-size: 2.25rem;
-  font-weight: normal;
   margin: 0;
 }

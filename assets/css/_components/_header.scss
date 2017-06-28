@@ -12,7 +12,8 @@ nav {
     a {
       @include transition(all 0.2s ease);
       color: $color-gray-dark;
-      font-weight: bold;
+      font-size: 1.5rem;
+      font-weight: 500;
       padding: 1.5rem 2.5rem;
       text-decoration: none;
 

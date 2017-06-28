@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,500');
 
-$font-sans: Nunito Sans, Open Sans;
+$font-sans: Montserrat, Open Sans;
 
 html {
   font-family: $font-sans;
+  font-weight: 300;
 }
 
 h1,
@@ -13,4 +14,5 @@ h4,
 h5,
 h6 {
   font-family: $font-sans;
+  font-weight: 300;
 }
