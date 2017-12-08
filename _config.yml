@@ -1,7 +1,7 @@
 # Site settings
 title: "xD: The Design and Dissemenation of Government Data"
 description: "xD builds ...."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/xd.gov" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://xd.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4500"
