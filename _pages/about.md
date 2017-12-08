@@ -11,10 +11,10 @@ title: About
     </h2>
   </header>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed viverra ipsum, vel fermentum metus. Phasellus eu leo non lectus ullamcorper posuere. Cras laoreet elementum ipsum eu luctus. Suspendisse sollicitudin ipsum erat, et dictum nulla dignissim eu. Phasellus ultrices vitae dolor lacinia tincidunt. Nunc sollicitudin turpis vel nibh vulputate sagittis. Nam cursus dapibus ligula in vestibulum. Pellentesque pharetra mi neque, sit amet faucibus lorem iaculis eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tincidunt elit condimentum dolor elementum, vel molestie turpis hendrerit. Praesent pretium egestas accumsan.
+    Government agencies have incredibly valuable data. By leveraging this data more effectively, agencies can operate with more efficiency and provide better services to the public. We create products and services that leverage agencies‘ data to help deliver superior experiences to the public. And we do so in short order - we build prototypes early and iterate quickly using agile delivery methods pioneered by digital service teams across government.
   </p>
   <h3>
     <em>Interested in working with us?</em>
   </h3>
-  <a class="page-cta" href="#">Contact Us</a>
+  <a class="page-cta" href="mailto:hello@xd.gov">Contact Us</a>
 </section>

@@ -7,21 +7,10 @@ title: Join Our team
   <header>
     <h1>Join Our Team</h1>
     <h2 class="page-subtitle">
-      We help government agencies unlock the power of their data.
+      The people who work at XD share a passion for helping government agencies unlock the power of their data.
     </h2>
   </header>
-  <ul class="usa-unstyled-list">
-    <li>
-      <h3>Open Position</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed viverra ipsum, vel fermentum metus. Phasellus eu leo non lectus ullamcorper posuere. Cras laoreet elementum ipsum eu luctus. Suspendisse sollicitudin ipsum erat, et dictum nulla dignissim eu. Phasellus ultrices vitae dolor lacinia tincidunt. Nunc sollicitudin turpis vel nibh vulputate sagittis. Nam cursus dapibus ligula in vestibulum. Pellentesque pharetra mi neque, sit amet faucibus lorem iaculis eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tincidunt elit condimentum dolor elementum, vel molestie turpis hendrerit. Praesent pretium egestas accumsan.
-      </p>
-    </li>
-    <li>
-      <h3>Open Position</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed viverra ipsum, vel fermentum metus. Phasellus eu leo non lectus ullamcorper posuere. Cras laoreet elementum ipsum eu luctus. Suspendisse sollicitudin ipsum erat, et dictum nulla dignissim eu. Phasellus ultrices vitae dolor lacinia tincidunt. Nunc sollicitudin turpis vel nibh vulputate sagittis. Nam cursus dapibus ligula in vestibulum. Pellentesque pharetra mi neque, sit amet faucibus lorem iaculis eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tincidunt elit condimentum dolor elementum, vel molestie turpis hendrerit. Praesent pretium egestas accumsan.
-      </p>
-    </li>
-  </ul>
+  <p>
+    We are looking for top technology, design, data, and operations talent to join us in our mission. If you feel that you have one of these skillsets and care deeply about improving the way that our government serves its people, then we want to hear from you. Please contact us at <a href="mailto:hello@xd.gov">mailto:hello@xd.gov</a>.
+  </p>
 </section>
