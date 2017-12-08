@@ -1,9 +1,13 @@
 .page {
 
   h1 {
-    font-size: 6.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
     margin-top: 0;
+
+    @include media($medium-screen) {
+      font-size: 5rem;
+    }
   }
 
   h3 {

@@ -6,12 +6,55 @@ header {
 
 nav {
   &[role=navigation] {
-    float: right;
-    margin-top: 3.5rem;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: auto;
+    padding: 2rem;
+    position: fixed;
+    right: 0;
+    -webkit-transform: translateX(26rem);
+    -moz-transform: translateX(26rem);
+    -ms-transform: translateX(26rem);
+    -o-transform: translateX(26rem);
+    transform: translateX(26rem);
+    top: 0;
+    width: 26rem;
+    background: #ffffff;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 999999;
+
+    &.open {
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+
+    @include media($medium-screen) {
+      float: right;
+      height: auto;
+      margin-top: 3.5rem;
+      padding: 0;
+      position: static;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      transform: none;
+      width: auto;
+      z-index: 1;
+    }
 
     a {
       @include transition(all 0.2s ease);
       color: $color-gray-dark;
+      display: block;
       font-size: 1.5rem;
       font-weight: 500;
       padding: 1.5rem 2.5rem;
@@ -21,14 +64,51 @@ nav {
         background-color: $color-gray-lightest;
         color: $color-black;
       }
+
+      @include media($medium-screen) {
+        display: inline-block;
+      }
     }
 
     li {
-      display: inline-block;
-      margin-right: 1rem;
+
+      @include media($medium-screen) {
+        display: inline-block;
+        margin-right: 1rem;        
+      }
 
       &:last-child {
         margin-right: 0;
+      }
+    }
+
+    ul {
+      margin-top: 5rem;
+
+      @include media($medium-screen) {
+        margin-top: 0;
+      }
+    }
+
+    .close-icon-container {
+      cursor: pointer;
+      display: block;
+      padding: 1rem 1.3rem;
+      position: absolute;
+      right: 0.7em;
+      top: 1rem;
+
+      @include media($medium-screen) {
+        display: none;
+      }
+
+      &:hover {
+        background-color: $color-gray-lightest;
+      }
+
+      svg {
+        max-height: 13px;
+        max-width: 13px;
       }
     }
   }
@@ -36,6 +116,8 @@ nav {
 
 .menu-btn {
   float: right;
+  margin-top: 3rem;
+  width: auto;
 
   @include media($medium-screen) {
     display: none;
@@ -46,6 +128,7 @@ nav {
   float: left;
 
   img {
+    margin-top: 1rem;
     width: 8rem;
 
     @include media($medium-screen) {

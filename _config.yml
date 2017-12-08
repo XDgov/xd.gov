@@ -4,7 +4,7 @@ description: "xD builds ...."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://xd.gov" # the base hostname & protocol for your sites
-localhost: "localhost:4000"
+localhost: "localhost:4500"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags

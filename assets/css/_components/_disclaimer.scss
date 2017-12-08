@@ -11,12 +11,25 @@
 
 .usa-disclaimer-official {
 
-  p {
-    @include margin(3px 0);
-    display: inline-block;
+  a {
+    color: $color-white;
+    font-weight: bold;
+  }
 
-    @include media($small-screen) {
-      @include margin(2px null);
+  p {
+    display: inline-block;
+    font-size: 1.15rem;
+    line-height: 20px;
+    margin-top: 0;
+    vertical-align: middle;
+
+    &.right {
+      display: none;
+      float: right;
+
+      @include media($small-screen) {
+        display: block;
+      }
     }
   }
 
