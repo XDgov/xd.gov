@@ -2,6 +2,18 @@
 
 $font-sans: Montserrat, Open Sans;
 
+a {
+  color: $color-brand-blue;
+
+  &:hover {
+    color: darken($color-brand-blue, 15);
+  }
+
+  &:visited {
+    color: $color-brand-blue;
+  }
+}
+
 html {
   font-family: $font-sans;
   font-weight: 300;

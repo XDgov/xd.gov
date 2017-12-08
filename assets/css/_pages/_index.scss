@@ -10,6 +10,10 @@
     &:hover {
       color: darken($color-brand-blue, 10);
     }
+
+    &:visited {
+      color: $color-brand-blue;
+    }
   }
 
   .ctas {
