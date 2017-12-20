@@ -9,3 +9,7 @@
 
 @import "_layouts/all";
 @import "_pages/all";
+
+.clearfix {
+  @include clearfix;
+}

@@ -117,7 +117,7 @@ nav {
 
 .menu-btn {
   float: right;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   width: auto;
 
   @include media($medium-screen) {
@@ -129,11 +129,12 @@ nav {
   float: left;
 
   img {
-    margin-top: 1rem;
-    width: 8rem;
+    margin: 1rem 0;
+    width: 6rem;
 
     @include media($medium-screen) {
-      margin: 2rem 0 2rem;
+      margin: 2rem 0;
+      width: 8rem;
     }
   }
 }

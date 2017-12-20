@@ -10,8 +10,15 @@ footer {
   }
 
   .footer-links {
-    float: left;
-    width: 50%;
+
+    @include media($small-screen) {
+      float: left;
+      width: 50%;
+    }
+
+    @include media($medium-screen) {
+      margin-top: 0;
+    }
 
     a {
       color: $color-black;
@@ -26,6 +33,10 @@ footer {
         color: $color-black;
       }
     }
+  }
+
+  .img-links {
+    margin-bottom: 1.5rem;
   }
 
   .usa-unstyled-list {

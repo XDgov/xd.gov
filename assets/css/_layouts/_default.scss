@@ -1,6 +1,11 @@
 .main-content {
-  padding-bottom: 9rem;
-  padding-top: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+
+  @include media($medium-screen) {
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+  }
 }
 
 .overlay {
