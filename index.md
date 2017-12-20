@@ -11,7 +11,7 @@ layout: default
         XD is a government product studio. We build experimental data products
         for the public good.
       </h1>
-      <a href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
+      <a class="usa-button xd-btn" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
   </div>
 </section>

@@ -1,6 +1,7 @@
 header {
   &[role=banner] {
     background-color: $color-white;
+    border-bottom: 1px solid #ccc;
   }
 }
 
@@ -39,7 +40,7 @@ nav {
     @include media($medium-screen) {
       float: right;
       height: auto;
-      margin-top: 3.5rem;
+      margin-top: 4rem;
       padding: 0;
       position: static;
       -webkit-transform: none;

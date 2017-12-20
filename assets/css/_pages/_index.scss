@@ -2,18 +2,9 @@
 
   .cta-link {
     bottom: 1rem;
-    color: $color-brand-blue;
     font-weight: bold;
     position: absolute;
     text-decoration: none;
-
-    &:hover {
-      color: darken($color-brand-blue, 10);
-    }
-
-    &:visited {
-      color: $color-brand-blue;
-    }
   }
 
   .ctas {
@@ -32,15 +23,8 @@
     max-width: 84rem;
 
     a {
-      border-bottom: 3px solid $color-brand-blue;
-      color: $color-brand-blue;
       font-size: 2.25rem;
       text-decoration: none;
-
-      &:hover {
-        border-bottom: 3px solid darken($color-brand-blue, 10);
-        color: darken($color-brand-blue, 10);
-      }
     }
 
     h1 {

@@ -16,18 +16,18 @@ title: About
   </p>
   <h3>Our Mission</h3>
   <p>
-    We build products that challenge the status quo of how agencies are
-    leveraging their public data. To meet the growing demands of technology and
-    business, we work closely with our agency partners to deliver new and
-    exceptional product experiences to their constituents.
+    We build products that challenge the status quo of how agencies leverage
+    their public data. To meet the growing demands of business and technology,
+    we work closely with our agency partners to deliver new and exceptional
+    product experiences to their constituents.
   </p>
   <p>
-    To support this mission, our team recruits top technical talent from the
+    In support of this mission, our team recruits top technical talent from the
     fields of design, technology, and data science. We adhere to a user-centered
     design process and use agile delivery methods to deliver prototypes quickly
     and at a reasonable cost.
   </p>
-  <h3>
+  <h3 class="page-bottom-cta">
     <em>Interested in working with us?</em>
   </h3>
   <a class="page-cta" href="mailto:hello@xd.gov">Contact Us</a>

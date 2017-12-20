@@ -3,6 +3,37 @@ footer {
     background-color: $color-gray-lightest;
     padding: 5rem 0 10rem;
   }
+
+  li {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .footer-links {
+    float: left;
+    width: 50%;
+
+    a {
+      color: $color-black;
+      padding-bottom: 0.1rem;
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 3px solid $color-black;
+      }
+
+      &:visited {
+        color: $color-black;
+      }
+    }
+  }
+
+  .usa-unstyled-list {
+    
+    >li {
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 
 .census-logo-footer {
