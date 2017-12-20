@@ -16,7 +16,6 @@ a {
 
 html {
   font-family: $font-sans;
-  font-weight: 300;
 }
 
 h1,
@@ -26,5 +25,9 @@ h4,
 h5,
 h6 {
   font-family: $font-sans;
-  font-weight: 300;
+}
+
+p {
+  font-size: 1.85rem;
+  font-weight: normal;
 }
