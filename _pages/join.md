@@ -7,7 +7,7 @@ title: Join Our team
   <header>
     <h1>Join Our Team</h1>
     <h2 class="page-subtitle">
-      The people who work at XD share a passion for helping government agencies unlock the power of their data.
+      The people who work at XD share a passion for building experimental data products.
     </h2>
   </header>
   <p>

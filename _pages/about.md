@@ -4,17 +4,18 @@ layout: page
 title: About
 ---
 <section>
-  <header>
-    <h1>About Us</h1>
+  <header class="banner">
+    <h1 class="page-title">About xD</h1>
     <h2 class="page-subtitle">
       We help government agencies unlock the potential of their data.
     </h2>
   </header>
   <p>
-    xD is a startup in the U.S. Census Bureau that works with internal
+    xD is a startup in the <a href="https://www.census.gov" target="_blank">U.S. Census Bureau</a> that works with internal
     partners and other agencies to build experimental data products.
   </p>
   <h3>Our Mission</h3>
+  <div class="mini-border"></div>
   <p>
     We build products that challenge the status quo of how agencies leverage
     their public data. To meet the growing demands of business and technology,

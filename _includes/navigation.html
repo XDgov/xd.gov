@@ -7,6 +7,18 @@
   </svg>
 </div>
 <ul class="usa-unstyled-list">
-  <li><a href="{{ site.baseurl }}{% link _pages/about.md %}">About Us</a></li>
-  <li><a href="{{ site.baseurl }}{% link _pages/join.md %}">Join Our Team</a></li>
+  <li>
+    {% assign current = nil %}
+    {% if page.path == '_pages/about.md' %}
+      {% assign current = "current" %}
+    {% endif %}
+    <a {% if current %}class="usa-current"{% endif %} href="{{ site.baseurl }}{% link _pages/about.md %}">About Us</a>
+  </li>
+  <li>
+    {% assign current = nil %}
+    {% if page.path == '_pages/join.md' %}
+      {% assign current = "current" %}
+    {% endif %}
+    <a {% if current %}class="usa-current"{% endif %} href="{{ site.baseurl }}{% link _pages/join.md %}">Join Our Team</a>
+  </li>
 </ul>
