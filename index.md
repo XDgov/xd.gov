@@ -15,13 +15,11 @@ layout: default
     </div>
   </div>
 </section>
-
-<!---
 <section class="ctas">
   <div class="usa-grid">
     <div class="tile">
       <a href="{{ site.baseurl }}{% link _pages/about.md %}">
-        <img src="assets/img/pages/index/dds-image.jpg">
+        <img src="assets/img/pages/index/hiring-desk.jpg">
       </a>
       <span>About Us</span>
       <h2>
@@ -30,25 +28,24 @@ layout: default
       <a class="cta-link" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
     <div class="tile">
-      <a href="#">
-        <img src="assets/img/pages/index/dds-image.jpg">
+      <a href="{{ site.baseurl }}{% link _pages/join.md %}">
+        <img src="assets/img/pages/index/hiring-3.jpg">
       </a>
       <span>We’re Hiring</span>
       <h2>
         Join our growing team at the intersection of data and impact.
       </h2>
-      <a class="cta-link" href="#">Apply Now</a>
+      <a class="cta-link" href="{{ site.baseurl }}{% link _pages/join.md %}">Join Us</a>
     </div>
     <div class="tile">
-      <a href="#">
+      <a href="{{ site.baseurl }}{% link _projects/data-design-standards.md %}">
         <img src="assets/img/pages/index/dds-image.jpg">
       </a>
-      <span>Current Projects</span>
+      <span>Case Study</span>
       <h2>
-        We’re working on some incredible projects.
+        Building a better way to visualize government data.
       </h2>
-      <a class="cta-link" href="#">Learn More</a>
+      <a class="cta-link" href="{{ site.baseurl }}{% link _projects/data-design-standards.md %}">Learn More</a>
     </div>
   </div>
 </section>
--->

@@ -4,6 +4,7 @@ $font-sans: Montserrat, Open Sans;
 
 a {
   color: $color-brand-blue;
+  text-decoration: none;
 
   &:hover {
     color: darken($color-brand-blue, 15);

@@ -1,7 +1,18 @@
 navigation = {
   init: function(){
+    navigation.bindCloseButton();
     navigation.bindMenuButton();
     navigation.bindOverlay();
+  },
+
+  bindCloseButton: function(){
+    var closeBtn = document.getElementById("close-icon");
+
+    closeBtn.addEventListener("click", function(event) {
+      event.preventDefault();
+      navigation.closeOverlay();
+      navigation.closeMenu();
+    });
   },
 
   bindMenuButton: function(){

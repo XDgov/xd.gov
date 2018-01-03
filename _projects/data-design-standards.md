@@ -1,14 +1,26 @@
 ---
 title: Data Design Standards
-subtitle: Codifying data visualization expertise
+subtitle: Making government data more accessible, consistent, and easy to use for everyone.
 permalink: /projects/data-design-standards
+agency_partner: Census Bureau
 ---
-
-<h3>What are the Data Design Standards?</h3>
+<h3>Premise</h3>
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum, risus id condimentum vehicula, nisi metus laoreet diam, ut sollicitudin urna elit ac dui. Maecenas at facilisis purus. Ut dui ex, porttitor id faucibus eget, vehicula eu mi. Suspendisse sodales fringilla ipsum, sit amet finibus erat sodales id. Donec at nulla in est finibus aliquet et at metus. Suspendisse pretium dolor et aliquam bibendum. Quisque aliquet aliquam sapien ac ornare. Nam auctor quam vitae metus auctor ornare. Curabitur sit amet enim id elit aliquam gravida. Morbi ornare lorem dictum risus cursus, dignissim vestibulum leo sodales. Donec nec semper orci. Nullam velit tellus, rhoncus at finibus vitae, dapibus sed felis.
+  Across all federal agencies, statisticians, developers, designers, and data
+  scientists are tackling the same problem: how to present the government‘s vast
+  amount of data to the public. This approach has led to the creation of
+  competing standards within agencies and across government – leading to
+  inconsistent user experiences and slowing down the release of valuable data.
 </p>
-<h3>What makes these Standards valuable?</h3>
+<h3>Outcome</h3>
 <p>
-  Curabitur ut nulla semper, suscipit tellus ut, posuere urna. Mauris aliquet porttitor ex at ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc nec libero nisl. Etiam mauris purus, consequat eget ornare pulvinar, varius vitae lacus. Aliquam malesuada turpis quis magna hendrerit, in mattis dui consectetur. Suspendisse vitae enim nec augue tempor rutrum. Suspendisse et convallis nisi, varius consequat justo. Nulla luctus dignissim sem, et varius velit porta eu. Phasellus velit felis, rhoncus tempus gravida in, pulvinar quis purus. Aliquam aliquam arcu quam, gravida interdum ex scelerisque sed. Praesent imperdiet, enim vel ornare eleifend, turpis elit auctor risus, in pulvinar diam massa a ipsum. Ut venenatis lorem in massa mollis placerat at convallis justo.
+  The Data Design Standards are a collection of tools and templates to make 
+  government data more accessible, consistent, and easy to use for everyone.
+  The Standards include visualization principles and breakdowns of different
+  types of visualizations written by experts at the U.S. Census Bureau.
+</p>
+<p>
+  The Standards are optional to use but are available to everyone both in and
+  outside of government to use. They‘re also open source and continue to
+  develop as more agencies and practioners get involved in the project.
 </p>

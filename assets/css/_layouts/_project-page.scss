@@ -1,4 +1,25 @@
 .project-page {
+
+  .breadcrumbs {
+    color: lighten($color-gray, 10);
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    @include media($large-screen) {
+      font-size: 1.4rem;
+    }
+  }
+
+  .main-content {
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+
+    @include media($medium-screen) {
+      padding-bottom: 7rem;
+      padding-top: 6rem;
+    }
+  }
   
   .project-content {
 
@@ -28,7 +49,7 @@
     }
 
     h1 {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
     
     h2 {
@@ -36,5 +57,21 @@
       font-weight: normal;
       margin-top: 0;
     }
-  } 
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
+
+  .project-subtitle {
+    font-size: 2.25rem;
+  }
+
+  .sidebar-heading {
+    margin-bottom: 0.25rem;
+  }
+
+  .sidebar-value {
+    margin-top: 0;
+  }
 }

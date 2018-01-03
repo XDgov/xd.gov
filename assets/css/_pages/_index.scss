@@ -1,7 +1,7 @@
 .page-index {
 
   .cta-link {
-    bottom: 1rem;
+    bottom: 1.5rem;
     font-weight: bold;
     position: absolute;
     text-decoration: none;
@@ -11,16 +11,23 @@
     margin-top: 4rem;
 
     .usa-grid {
-      display: flex;
+
+      @include media($medium-screen) {
+        display: flex;
+      }
     }
   }
 
   .hero {
-    padding: 0 0 5rem;
+    padding: 0 0 2rem;
+
+    @include media($medium-screen) {
+      padding: 0 0 4rem;
+    }
   }
 
   .hero-content {
-    max-width: 84rem;
+    max-width: 78rem;
 
     a {
       font-size: 2.25rem;
@@ -112,22 +119,43 @@
   }
 
   .tile {
-    @include span-columns(2 of 6);
     border-bottom: 3px solid darken($color-gray-lightest, 10);
-    flex: 1;
-    padding-bottom: 6rem;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     position: relative;
 
+    a {
+      display: inline-block;
+      line-height: 1rem;
+    }
+
+    @include media($medium-screen) {
+      @include span-columns(2 of 6);
+      flex: 1;
+      margin-bottom: 0;
+      padding-bottom: 6rem;
+    }
+
     h2 {
+      font-size: 2.25rem;
       font-weight: normal;
-      margin: 1.5rem 0 0;
+      margin: 0.5rem 0 0;
+
+      @include media($large-screen) {
+        font-size: 2.75rem;
+        margin: 1.5rem 0 0;
+      }
     }
 
     span {
       color: lighten($color-gray, 10);
       display: inline-block;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       margin-top: 1rem;
+
+      @include media($large-screen) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
