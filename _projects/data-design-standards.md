@@ -20,7 +20,7 @@ agency_partner: Census Bureau
   types of visualizations written by experts at the U.S. Census Bureau.
 </p>
 <p>
-  The Standards are optional to use but are available to everyone both in and
-  outside of government to use. They‘re also open source and continue to
-  develop as more agencies and practioners get involved in the project.
+  The Standards are optional to use but are available to everyone to use.
+  They‘re also open source and continue to develop as more agencies and
+  practioners get involved in the project.
 </p>
