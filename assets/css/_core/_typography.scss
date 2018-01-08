@@ -7,11 +7,15 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: darken($color-brand-blue, 15);
+    color: darken($color-brand-blue, 20);
   }
 
   &:visited {
     color: $color-brand-blue;
+
+    &:hover {
+      color: darken($color-brand-blue, 20);
+    }
   }
 }
 

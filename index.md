@@ -6,12 +6,14 @@ layout: default
 ---
 <section class="hero">
   <div class="usa-grid">
-    <div class="hero-content">
-      <h1>
-        XD is a government product studio. We build experimental data products
-        for the public good.
-      </h1>
-      <a class="usa-button xd-btn" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>
+          XD is a government product studio. We build experimental data products
+          for the public good.
+        </h1>
+        <a class="usa-button xd-btn" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
+      </div>
     </div>
   </div>
 </section>
@@ -23,7 +25,7 @@ layout: default
       </a>
       <span>About Us</span>
       <h2>
-        We help agencies maximize the impact of their data.
+        We help agencies unlock the potential of their data.
       </h2>
       <a class="cta-link" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
