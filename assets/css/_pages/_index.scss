@@ -30,7 +30,11 @@
   .hero-container {
     background-color: darken($color-brand-blue, 10);
     color: $color-white;
-    padding: 6rem;
+    padding: 3rem;
+
+    @include media($medium-screen) {
+      padding: 6rem;
+    }
   }
 
   .hero-content {
