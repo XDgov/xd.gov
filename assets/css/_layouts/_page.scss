@@ -24,8 +24,26 @@
     font-size: 2.5rem;
   }
 
-  section {
+  .page-content {
     max-width: 80rem;
+    padding: 0 0 6rem 2rem;
+
+
+    @include media($medium-screen) {
+      padding-left: 5rem;
+    }
+  }
+
+  .page-subtitle {
+    font-size: 3rem;
+    line-height: 1.3em;
+    margin: 0;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    line-height: 1.3em;
+    margin: 0;
   }
 }
 
@@ -39,10 +57,4 @@
     border-bottom: 3px solid darken($color-brand-blue, 10);
     color: darken($color-brand-blue, 10);
   }
-}
-
-.page-subtitle {
-  font-size: 2.25rem;
-  line-height: 1.3em;
-  margin: 0;
 }

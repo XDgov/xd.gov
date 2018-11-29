@@ -9,8 +9,8 @@ layout: default
     <div class="hero-container">
       <div class="hero-content">
         <h1>
-          XD is a government product studio. We build experimental data products
-          for the public good.
+          xD is a startup at the U.S. Census Bureau that builds cutting-edge data
+          products for the public good.
         </h1>
         <a class="usa-button xd-btn" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
       </div>

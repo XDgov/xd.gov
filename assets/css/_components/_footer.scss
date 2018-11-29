@@ -1,6 +1,6 @@
 footer {
   &[role=contentinfo] {
-    background-color: $color-gray-lightest;
+    background-color: $color-brand-blue;
     padding: 5rem 0 10rem;
   }
 
@@ -21,16 +21,16 @@ footer {
     }
 
     a {
-      color: $color-black;
+      color: $color-white;
       padding-bottom: 0.1rem;
       text-decoration: none;
 
       &:hover {
-        border-bottom: 3px solid $color-black;
+        border-bottom: 3px solid $color-white;
       }
 
       &:visited {
-        color: $color-black;
+        color: $color-white;
       }
     }
   }
@@ -49,10 +49,9 @@ footer {
 
 .census-logo-footer {
   float: left;
-  margin: 0.5rem 0 0 2rem;
 
   img {
-    width: 8rem;
+    width: 10rem;
   }
 }
 

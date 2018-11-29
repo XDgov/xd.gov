@@ -40,7 +40,7 @@ nav {
     @include media($medium-screen) {
       float: right;
       height: auto;
-      margin-top: 4rem;
+      margin-top: 2rem;
       padding: 0;
       position: static;
       -webkit-transform: none;
@@ -133,8 +133,8 @@ nav {
     width: 6rem;
 
     @include media($medium-screen) {
-      margin: 2rem 0;
-      width: 7rem;
+      margin: 1rem 0;
+      width: 5rem;
     }
   }
 }
