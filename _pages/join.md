@@ -4,16 +4,22 @@ layout: page
 title: Join Our team
 ---
 <section>
-  <header>
-    <h1>Join Our Team</h1>
-    <h2 class="page-subtitle">
-      The people who work at xD share a passion for building products that make a difference.
-    </h2>
-  </header>
-  <p>
-    We are looking for top technology, design, data, and operations talent to join us in our mission of building experimental data products for the public good. If you feel that you have one of these skillsets and care deeply about improving the way that our government serves its people, then we want to hear from you.
-  </p>
-  <p>
-    Please contact us at <a href="mailto:hello@xd.gov">hello@xd.gov</a>.
-  </p>
+  <div class="page-content">
+    <header>
+      <h1>Join Our Team</h1>
+      <h2 class="page-subtitle">
+        We’re recruiting changemakers with a passion for data and technology
+        to build a better government.
+      </h2>
+    </header>
+    <p>
+      If you are a data scientist, software engineer, designer, or
+      product manager with a passion for social impact, we want to here from you! 
+    </p>
+    <p>
+      Please contact us at
+      <a class="page-cta" href="mailto:hello@xd.gov">hello@xd.gov</a>
+      to learn more about open positions.
+    </p>
+  </div>
 </section>

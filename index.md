@@ -9,8 +9,8 @@ layout: default
     <div class="hero-container">
       <div class="hero-content">
         <h1>
-          xD is a startup at the U.S. Census Bureau that builds cutting-edge data
-          products for the public good.
+          xD is a startup at the U.S. Census Bureau that works with federal
+          agencies to build cutting-edge data products for the public good.
         </h1>
         <a class="usa-button xd-btn" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
       </div>
@@ -25,7 +25,7 @@ layout: default
       </a>
       <span>About Us</span>
       <h2>
-        We help agencies unlock the potential of their data.
+        We’re using AI to build a better government.
       </h2>
       <a class="cta-link" href="{{ site.baseurl }}{% link _pages/about.md %}">Learn More</a>
     </div>
@@ -35,19 +35,19 @@ layout: default
       </a>
       <span>We’re Hiring</span>
       <h2>
-        Join our growing team at the intersection of data and impact.
+        Join our growing team of technologists.
       </h2>
       <a class="cta-link" href="{{ site.baseurl }}{% link _pages/join.md %}">Join Us</a>
     </div>
     <div class="tile">
-      <a href="{{ site.baseurl }}{% link _projects/data-design-standards.md %}">
+      <a href="{{ site.baseurl }}{% link _projects/data-visualization-standards.md %}">
         <img src="assets/img/pages/index/dds-image.jpg">
       </a>
-      <span>Case Study</span>
+      <span>Projects</span>
       <h2>
-        Building a better way to visualize government data.
+        Find out what we’re working on.
       </h2>
-      <a class="cta-link" href="{{ site.baseurl }}{% link _projects/data-design-standards.md %}">Learn More</a>
+      <a class="cta-link" href="{{ site.baseurl }}{% link _projects/data-visualization-standards.md %}">Learn More</a>
     </div>
   </div>
 </section>

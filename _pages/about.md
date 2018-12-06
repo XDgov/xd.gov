@@ -6,30 +6,46 @@ title: About
 <section>
   <header class="hero-container">
     <div class="hero-content">
-      <h2 class="page-subtitle">
-        We help federal agencies build cutting-edge data products to solve
-        complex problems.
-      </h2>
+      <h3 class="page-subtitle">
+        We’re leveraging AI and data science to build better products and
+        services with our agency partners.
+      </h3>
     </div>
   </header>
   <div class="page-content">
-    <h3>Our Mission</h3>
+    <h1>About Us</h1>
     <div class="mini-border"></div>
     <p>
-      We build products that challenge the status quo of how federal agencies leverage
-      their public data. To meet the growing demands of business and technology,
-      we work closely with our agency partners to deliver new and exceptional
-      product experiences to their constituents.
+      xD is an office of federal employees within the U.S. Census Bureau that
+      partners with federal agencies, academic institutions, and research centers
+      to create better government products and services. We are a team of
+      data scientists, software engineers, designers, and product managers
+      working together to deliver cutting-edge data products for 
+      the public good.
+    </p>
+    <h2>Our Approach</h2>
+    <p>
+      We believe in putting users first, prototyping quickly, and using agile
+      delivery methods to create better products and services at less cost. To
+      that end, xD is a cost-recoverable team – meaning that we are required to
+      charge partner agencies for our work through 
+      <a href="https://www.fiscal.treasury.gov/fsreports/ref/fincMgmtStdzn/iaa_forms.htm" target="_blank">
+        Interagency Agreements
+      </a>
+      (IAAs).
     </p>
     <p>
-      In support of this mission, our team recruits top technical talent from the
-      fields of design, technology, and data science. We adhere to a user-centered
-      design process and use agile delivery methods to deliver prototypes quickly
-      and at a reasonable cost.
+      xD also partners with external organizations and institutions that have
+      specialized expertise in data management through Joint Partnership
+      Agreements (JPAs). This allows our team to leverage the innovation of the
+      private sector towards products and services that benefit the public.
     </p>
-    <h3 class="page-bottom-cta">
+    <h2 class="page-bottom-cta">
       Interested in working with us?
-    </h3>
-    <a class="page-cta" href="mailto:hello@xd.gov">Contact Us</a>
+    </h2>
+    <p>
+      Email us at 
+      <a class="page-cta" href="mailto:hello@xd.gov">hello@xd.gov</a>.
+    </p>
   </div>
 </section>

@@ -25,7 +25,7 @@
     margin: 0 0 2rem;
 
     @include media($medium-screen) {
-      font-size: 3.65rem;
+      font-size: 3.5rem;
     }
   }
 
@@ -168,14 +168,15 @@
       margin: 0.5rem 0 0;
 
       @include media($large-screen) {
-        font-size: 2.75rem;
-        margin: 1.5rem 0 0;
+        font-size: 2.5rem;
+        margin: 1rem 0 0;
       }
     }
 
     img {
-      @include transition(opacity 0.25s ease);
+      @include transition(opacity 0.1s ease);
       opacity: 1;
+      -webkit-backface-visibility: hidden;
 
       &:hover {
         opacity: 0.75;
