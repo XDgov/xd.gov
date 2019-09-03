@@ -1,5 +1,5 @@
 ---
-permalink: /about
+permalink: /about/
 layout: page
 title: About
 ---
@@ -16,12 +16,12 @@ title: About
     <h1>About Us</h1>
     <div class="mini-border"></div>
     <p>
-      xD is an office of federal employees within the U.S. Census Bureau that
+      xD is an office of federal employees at the U.S. Census Bureau that
       partners with federal agencies, academic institutions, and research centers
-      to create better government products and services. We are a team of
-      data scientists, software engineers, designers, and product managers
-      working together to deliver cutting-edge data products for 
-      the public good.
+      to create better government products and services with the latest
+      technologies. We are a team of data scientists, software engineers,
+      designers, and product managers working together to deliver cutting-edge
+      data products for the public good.
     </p>
     <h2>Our Approach</h2>
     <p>

@@ -1,0 +1,139 @@
+.site-banner {
+  .usa-banner__content {
+    margin-left: 0;
+  }
+}
+
+.site-logo {
+
+  @include at-media('desktop') {
+    display: initial;
+    float: left;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+
+  .usa-logo__text {
+
+    @include at-media('desktop') {
+      line-height: 4.5rem;
+    }
+
+    &::before {
+      background-image: url('../img/xd-logo.png');
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      display: inline-block;
+      content: "";
+      height: 3rem;
+      margin-left: -2px;
+      margin-right: .25rem;
+      position: relative;
+      top: -1px;
+      vertical-align: middle;
+      width: 3rem;
+    }
+  }
+}
+
+.site-header {
+  height: auto;
+  padding: 0.5rem 0;
+
+  &.usa-header {
+    line-height: inherit;
+  }
+
+  .grid-row {
+    width: 100%;
+  }
+
+  .hero-right {
+    text-align: right;
+  }
+
+  .usa-menu-btn {
+    background-color: #000;
+    font-weight: bold;
+    margin-right: 1rem;
+    text-transform: none;
+
+    &:hover {
+      background-color: #222;      
+    }
+  }
+
+  .usa-nav-link {
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+
+  .usa-navbar {
+    border-bottom: none;
+
+    @include at-media('desktop') {
+      display: block;
+    }
+  }
+}
+
+.site-title-short {
+  @include at-media('desktop') {
+    display: none;
+  }
+}
+
+.site-title {
+  display: none;
+
+  @include at-media('desktop') {
+    display: inherit;
+  }
+}
+
+.usa-nav-inner {
+  @include at-media('desktop') {
+    margin-right: 2rem
+  }
+}
+
+.usa-nav-primary {
+
+  a {
+    color: #1b1b1b;
+    font-weight: bold;
+
+    @include at-media('desktop') {
+      font-weight: bold;
+    }
+  }
+
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+
+    @include at-media('desktop') {
+      display: inline-block;
+      font-size: 0.9rem;
+      margin-right: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.usa-nav__close {
+  background-color: #f0f0f0;
+  background-image: url('../img/xd-logo.png'), linear-gradient(transparent, transparent);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+}

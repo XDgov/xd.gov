@@ -1,0 +1,42 @@
+.census-logo-footer {
+  display: inline-block;
+  max-width: 8rem;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+
+  a {
+    color: $color-white;
+    font-weight: bold;
+  }
+}
+
+.usa-footer_nav {
+  
+  a {
+    color: $color-white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include at-media('desktop') {
+      font-size: 0.9rem;
+    }
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.usa-footer__primary-section {
+  background-color: $color-banner;
+  padding: 3rem 0 2rem;
+
+  h4 {
+    color: $color-white;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+  }
+}

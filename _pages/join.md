@@ -1,5 +1,5 @@
 ---
-permalink: /join
+permalink: /join/
 layout: page
 title: Join Our team
 ---

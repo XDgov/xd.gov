@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,500');
-
-$font-sans: Montserrat, Open Sans;
+$font-serif: Merriweather, serif;
 
 a {
-  color: $color-brand-blue;
+  color: $color-black;
   text-decoration: none;
 
   &:hover {
-    color: darken($color-brand-blue, 20);
+    color: $color-black;
+    text-decoration: underline;
   }
 
   &:visited {
-    color: $color-brand-blue;
+    color: $color-black;
 
     &:hover {
-      color: darken($color-brand-blue, 20);
+      color: $color-black;
+      text-decoration: underline;
     }
   }
 }
 
-html {
-  font-family: $font-sans;
+body {
+  font-size: 1rem;
 }
 
 h1,
@@ -29,15 +29,58 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-sans;
+  font-family: $font-serif;
 }
 
 p {
-  font-family: Open Sans;
-  font-size: 1.7rem;
-  font-weight: normal;
+  color: $color-gray-warm-70;
+  line-height: 1.4em;
+}
 
-  @include media($small-screen) {
-    font-size: 1.9rem;
+.section-breadcrumb {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  position: relative;
+  text-transform: uppercase;
+
+  &::after {
+    bottom: -4px;
+    border-bottom: 3px solid #000;
+    content: '';
+    left: 0;
+    position: absolute;
+    width: 25px;
+  }
+}
+
+.square-link {
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 1.75rem;
+  position: relative;
+  text-transform: uppercase;
+
+  &:hover {
+
+    &::after {
+      left: 0.15rem;
+    }
+  }
+
+  &::after {
+    background: $color-brand-teal url("../img/uswds/angle-arrow-down-white.svg");
+    background-position: center center;
+    background-size: 0.85rem;
+    background-repeat: no-repeat;
+    color: #FFF;
+    content: "";
+    height: 1.25rem;
+    left: 0;
+    position: absolute;
+    transform: rotate(-90deg);
+    transition: left 0.1s ease-in-out;
+    width: 1.25rem;
   }
 }

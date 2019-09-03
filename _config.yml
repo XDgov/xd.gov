@@ -21,9 +21,12 @@ analytics:
     subagency: Census # Change this to your agency
 
 collections:
+  news:
+    output: true
+    permalink: /news/:path/
   projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /projects/:path/
 
 defaults:
  -
