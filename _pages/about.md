@@ -3,49 +3,45 @@ permalink: /about/
 layout: page
 title: About
 ---
-<section>
-  <header class="hero-container">
-    <div class="hero-content">
-      <h3 class="page-subtitle">
-        We’re leveraging AI and data science to build better products and
-        services with our agency partners.
-      </h3>
-    </div>
-  </header>
-  <div class="page-content">
-    <h1>About Us</h1>
-    <div class="mini-border"></div>
-    <p>
-      xD is an office of federal employees at the U.S. Census Bureau that
-      partners with federal agencies, academic institutions, and research centers
-      to create better government products and services with the latest
-      technologies. We are a team of data scientists, software engineers,
-      designers, and product managers working together to deliver cutting-edge
-      data products for the public good.
-    </p>
-    <h2>Our Approach</h2>
-    <p>
-      We believe in putting users first, prototyping quickly, and using agile
-      delivery methods to create better products and services at less cost. To
-      that end, xD is a cost-recoverable team – meaning that we are required to
-      charge partner agencies for our work through 
-      <a href="https://www.fiscal.treasury.gov/fsreports/ref/fincMgmtStdzn/iaa_forms.htm" target="_blank">
-        Interagency Agreements
-      </a>
-      (IAAs).
-    </p>
-    <p>
-      xD also partners with external organizations and institutions that have
-      specialized expertise in data management through Joint Partnership
-      Agreements (JPAs). This allows our team to leverage the innovation of the
-      private sector towards products and services that benefit the public.
-    </p>
-    <h2 class="page-bottom-cta">
-      Interested in working with us?
+<section class="about-mission">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Our Mission</div>
+    <h2>
+      xD is an emerging technology group at the U.S. Census Bureau that helps federal agencies apply artificial intelligence solutions to complex challenges. We're working to do this thing, that thing, and some other stuff too.
     </h2>
-    <p>
-      Email us at 
-      <a class="page-cta" href="mailto:hello@xd.gov">hello@xd.gov</a>.
-    </p>
+    <a class="square-link" href="/charter">View Our Charter</a>
   </div>
 </section>
+<section class="about-priorities">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Priority Areas</div>
+    <div class="grid-row">
+      <div class="grid-col-6">
+        <div class="about-priority">
+          <h3>Priority One</h3>
+        </div>
+        <div class="about-priority">
+          <h3>Priority Two</h3>
+        </div>
+      </div>
+      <div class="grid-col-6">
+        <div class="about-priority">
+          <h3>Priority Three</h3>
+        </div>
+        <div class="about-priority">
+          <h3>Priority Four</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-ai">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Why Artificial Intelligence?</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <a class="square-link" href="/artifical-intelligence">Learn More</a>
+  </div>
+</section>
+{% include components/hiring.html %}

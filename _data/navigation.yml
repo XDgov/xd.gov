@@ -1,12 +1,12 @@
 primary:
   - text: Our Mission
-    href: /our-mission/
+    href: /about/
   - text: Projects
     href: /projects/
 
 secondary:
   - text: Our Mission
-    href: /our-mission/
+    href: /about/
   - text: Projects
     href: /projects/
   - text: Fellowship

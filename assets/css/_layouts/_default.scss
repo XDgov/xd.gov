@@ -2,10 +2,30 @@ main {
 
   &.main-content {
     padding-bottom: 3rem;
+    padding-top: 4rem;
 
     @include at-media('desktop') {
       border-top: 0;
       padding-bottom: 6rem;
+    }
+  }
+}
+
+.hiring {
+
+  a {
+    font-size: 1.2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @include at-media('desktop') {
+      font-size: 2rem;
     }
   }
 }
