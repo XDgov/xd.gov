@@ -1,11 +1,9 @@
-body {
-  .usa-grid,
-  .usa-grid-full {
-    
-    @include media($medium-screen) {
-      max-width: $site-max-width;
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
+.grid-container-lg {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+
+  @include at-media('desktop') {
+    padding: 0 2rem;
   }
 }

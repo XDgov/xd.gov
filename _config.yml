@@ -1,7 +1,7 @@
 # Site settings
 title: "xD is a government product studio. | xd.gov"
 description: "xD builds ...."
-baseurl: "/xd.gov" # the subpath of your site, e.g. /blog
+baseurl: "/xd.gov/" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://xd.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4500"
@@ -21,9 +21,12 @@ analytics:
     subagency: Census # Change this to your agency
 
 collections:
+  news:
+    output: true
+    permalink: /news/:path/
   projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /projects/:path/
 
 defaults:
  -

@@ -1,26 +1,36 @@
-<footer role="contentinfo">
-  <div class="usa-grid">
-    <div class="usa-width-one-half img-links">
-      <div class="clearfix">
-        <a class="census-logo-footer" href="https://www.census.gov/" target="_blank">
-          <img src="{{ site.baseurl }}/assets/img/logos/census.png" alt="U.S. Census Bureau">
-        </a>
+<footer role="contentinfo" class="usa-footer">
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="col-6 tablet:grid-col-4">
+          <a class="census-logo-footer" href="https://www.census.gov/" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/logos/census.png" alt="U.S. Census Bureau">
+          </a>
+        </div>
+        <div class="col-6 tablet:grid-col-8">
+          <div class="col-12 tablet:grid-col-6">
+            <h4>Helpful Links</h4>
+            <nav class="usa-footer_nav">
+              {% assign footer = site.data.footer %}
+              {% assign _secondary = footer.secondary.links %}
+              {% assign secondary_links = site.data.navigation[_secondary] | default: _secondary %}
+              {% if secondary_links %}
+                <ul class="usa-list usa-list--unstyled">
+                  {% for _section in secondary_links %}
+                    <li>
+                      <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav-link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+                        <span>{{ _section.text }}</span>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </nav>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="usa-width-one-half">
-      <div class="clearfix">
-        <div class="footer-links">
-          <ul class="usa-unstyled-list">
-            <li><a href="{{ site.baseurl }}{% link _pages/about.md %}">About Us</a></li>
-            <li><a href="{{ site.baseurl }}{% link _pages/join.md %}">Join xD</a></li>
-            <li><a href="mailto:hello@xd.gov">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <ul class="usa-unstyled-list">
-            <li><a href="https://github.com/XDgov/xd.gov/issues/new">Report a Bug</a></li>
-          </ul>
-        </div>
+      <div class="footer-bottom">
+        <a href="https://github.com/XDgov/xd.gov/issues/new">Report a Bug</a> 🐛
       </div>
     </div>
   </div>

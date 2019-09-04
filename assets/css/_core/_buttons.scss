@@ -1,0 +1,12 @@
+.usa-button {
+  &.usa-button-black {
+    background-color: #000;
+    color: #fff;
+    padding: 0.85rem 1.25rem;
+    text-transform: none;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
