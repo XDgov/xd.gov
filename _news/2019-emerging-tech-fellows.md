@@ -1,5 +1,6 @@
 ---
 title: 2019 Emerging Tech Fellows
+date: 2019-07-01
 permalink: /news/2019-emerging-tech-fellows
 ---
 <h3>Premise</h3>
