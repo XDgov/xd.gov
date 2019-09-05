@@ -4,6 +4,7 @@ subtitle: Making government data more accessible, consistent, and easy to use fo
 permalink: /projects/surfacing-public-voices
 agency_partner: General Services Administration
 project_url: https://xdgov.github.io/data-design-standards
+featured: false
 ---
 <h3>Premise</h3>
 <p>

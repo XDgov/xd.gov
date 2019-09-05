@@ -6,6 +6,10 @@
     margin: 0 0 1rem;
 
     @include at-media('tablet') {
+      font-size: 2.5rem;
+    }
+
+    @include at-media('desktop') {
       font-size: 3rem;
     }
   }
@@ -22,11 +26,18 @@
       bottom: -30px;
       height: 60px;
       position: absolute;
-      width: 140%;
+      width: 160%;
 
       @include at-media('tablet') {
+        bottom: -55px;
+        height: 110px;
+        width: 140%;
+      }
+
+      @include at-media('desktop') {
         bottom: -75px;
         height: 150px;
+        width: 140%;
       }
     }
   }
@@ -36,28 +47,30 @@
     img {
       display: block;
       margin: 0 auto;
-      max-width: 10rem;
+      max-width: 8rem;
+      width: 100%;
 
       @include at-media('tablet') {
-        max-width: 15rem;        
+        max-width: 11rem;      
       }
-    }
-  }
 
-  .hero-left-content,
-  .hero-right-content {
-    padding: 1rem;
-
-    @include at-media('tablet') {
-      padding: 2rem;      
+      @include at-media('desktop') {
+        max-width: 15rem;      
+      }
     }
   }
 
   .hero-left-content {
     margin: 0 auto;
     max-width: 600px;
-    padding-right: 2rem;
+    padding: 1rem 2rem 1rem 1rem;
     width: 100%;
+
+    padding: 1rem 2rem 1rem 1rem;
+
+    @include at-media('tablet') {
+      padding: 2rem;      
+    }
 
     p {
 
@@ -69,6 +82,15 @@
 
   .hero-right-content {
     background-color: $color-banner;
+    padding: 4rem 1rem;
+
+    @include at-media('tablet') {
+      padding: 6rem 2rem;        
+    }
+
+    @include at-media('desktop') {
+      padding: 2rem;        
+    }
   }
 }
 

@@ -1,10 +1,11 @@
 ---
-title: Mis- & Disinformation Detection for 2020 Census
+title: Combating Bias in AI
 subtitle: Making government data more accessible, consistent, and easy to use for everyone.
-permalink: /projects/2020-mis-disinformation
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit leo at diam suscipit mattis. Sed sagittis cursus euismod. Aliquam at volutpat ipsum. Maecenas faucibus purus sed sem euismod auctor.
+permalink: /projects/combating-bias-in-ai
 agency_partner: U.S. Census Bureau
 project_url: https://xdgov.github.io/data-design-standards
-featured: false
+featured: true
 ---
 <h3>Premise</h3>
 <p>

@@ -8,16 +8,11 @@ title: Home
   <div class="grid-row">
     <div class="hero-left grid-col-7">
       <div class="hero-left-content">
-        <div class="section-breadcrumb">Case Study</div>
-        <h1>Combating Bias in AI</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Morbi hendrerit leo at diam suscipit mattis. Sed sagittis cursus
-          euismod. Aliquam at volutpat ipsum. Maecenas faucibus purus sed sem
-          euismod auctor.
-        </p>
-        <a class="square-link" href="/projects/combating-bias">View Case Study</a>
-        <div class="gray-box"></div>
+        <div class="section-breadcrumb">Recent Work</div>
+        {% assign site_banner = site.projects | where: 'featured', 'true' %}
+        {% for project in site_banner limit:1 %}
+          {% include components/homepage-banner.html project=project %}
+        {% endfor %}
       </div>
     </div>
     <div class="hero-right grid-col-5">
@@ -38,13 +33,14 @@ title: Home
 </section>
 <section class="home-projects">
   <div class="grid-container">
-    <div class="section-breadcrumb">Case Studies</div>
+    <div class="section-breadcrumb">Active Projects</div>
     <div class="grid-row grid-gap-lg">
-      {% for project in site.projects limit:3 %}
+      {% assign site_projects = site.projects | where: 'featured', 'false' %}
+      {% for project in site_projects limit:3 %}
         {% include components/project-card.html project=project %}
       {% endfor %}
     </div>
-    <a class="usa-button usa-button-black" href="/projects">View All</a>
+    <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All</a>
   </div>
 </section>
 <section class="home-news">
