@@ -1,15 +1,15 @@
 <div class="col-12 tablet:grid-col-4 project-cards">
   <div class="project-card">
-    <a href="{{ project.permalink }}">
+    <a href="{{ site.baseurl }}{{ project.permalink }}">
       <img class="project-card-img" src="assets/img/projects/data-design-standards/banner.jpg" alt="{{ project.title }} Image">
     </a>
     <div class="project-card-content">
       <p class="project-card-partner">{{ project.agency_partner }}</p>
       <h3>
-        <a href="{{ project.permalink }}">{{ project.title }}</a>
+        <a href="{{{ site.baseurl }}{ project.permalink }}">{{ project.title }}</a>
       </h3>
       <p>{{ project.subtitle }}</p>
-      <a class="square-link" href="{{ project.permalink }}">Learn More</a>
+      <a class="square-link" href="{{ site.baseurl }}{{ project.permalink }}">Learn More</a>
     </div>
   </div>
 </div>

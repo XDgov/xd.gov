@@ -1,5 +1,5 @@
 <div class="news-item featured-news-item">
-  <img class="news-img" src="assets/img/projects/data-design-standards/banner.jpg" alt="{{ news.title }} Image">
+  <img class="news-img" src="{{ site.baseurl }}/assets/img/news/{{ news.title | slugify }}.jpg" alt="{{ news.title }}">
   <h2>{{ news.title }}</h2>
-  <a class="square-link" href="{{ news.permalink }}">Learn More</a>
+  <a class="square-link" href="{{ site.baseurl }}{{ news.permalink }}">Learn More</a>
 </div>
