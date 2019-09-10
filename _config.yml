@@ -24,6 +24,8 @@ collections:
   news:
     output: true
     permalink: /news/:permalink/
+  positions:
+    output: false
   projects:
     output: true
     permalink: /projects/:permalink/
