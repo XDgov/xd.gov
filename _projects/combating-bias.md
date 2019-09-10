@@ -1,29 +1,18 @@
 ---
 title: Combating Bias in AI
-subtitle: Making government data more accessible, consistent, and easy to use for everyone.
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit leo at diam suscipit mattis. Sed sagittis cursus euismod. Aliquam at volutpat ipsum. Maecenas faucibus purus sed sem euismod auctor.
+subtitle: Building a product that automatically detects bias in datasets that could lead to incorrect, systematically biased predictions.
+excerpt: A major risk in building data-driven applications is susceptibility to biases in data. This project seeks to develop scalable solutions to help those using federal data to identify sources of biased training data.
 permalink: /projects/combating-bias-in-ai
+img_alt_text: An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.
 agency_partner: U.S. Census Bureau
+university_partner:
+  entities:
+    - { url: 'http://probcomp.csail.mit.edu/', name: 'Probabalistic Computing Project' }
+    - { url: 'https://mit.edu/', name: 'Massachusetts Institute of Technology (MIT)' }
+status: Ongoing
 project_url: https://xdgov.github.io/data-design-standards
 featured: true
 ---
-<h3>Premise</h3>
 <p>
-  Across all federal agencies, statisticians, developers, designers, and data
-  scientists are tackling the same problem: how to present the government‘s vast
-  amount of data to the public. This approach has led to the creation of
-  competing standards within agencies and across government – leading to
-  inconsistent user experiences and slowing down the release of valuable data.
-</p>
-<h3>Outcome</h3>
-<p>
-  The Data Visualization Standards are a collection of tools and templates to make 
-  government data more accessible, consistent, and easy to use for everyone.
-  The Standards include visualization principles and breakdowns of different
-  types of visualizations written by experts at the U.S. Census Bureau.
-</p>
-<p>
-  The Standards are optional but available for everyone to use.
-  They‘re also open source and continue to develop as more agencies and
-  practioners get involved in the project.
+  A major risk in building data-driven applications, including those that use machine learning methods, is susceptibility to biases in data.  Even the best models can fail if the distribution of out-of-sample data differs significantly from the distribution of the data that was used to train or validate the model. Also, machine learning algorithms trained on biased data can sometimes amplify those biases. To address this problem, we are developing a set of scalable software products and companion training material to help those using federal data systematically identify sources of biased training data.
 </p>

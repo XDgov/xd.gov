@@ -4,24 +4,10 @@ layout: home
 title: Home
 ---
 
-<section class="home-hero">
-  <div class="grid-row">
-    <div class="hero-left grid-col-7">
-      <div class="hero-left-content">
-        <div class="section-breadcrumb">Recent Work</div>
-        {% assign site_banner = site.projects | where: 'featured', 'true' %}
-        {% for project in site_banner limit:1 %}
-          {% include components/homepage-banner.html project=project %}
-        {% endfor %}
-      </div>
-    </div>
-    <div class="hero-right grid-col-5">
-      <div class="hero-right-content">
-        <img src="assets/img/projects/combating-bias/combating-bias-banner.png" alt="An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.">
-      </div>
-    </div>
-  </div>
-</section>
+{% assign site_banner = site.projects | where: 'featured', 'true' %}
+{% for project in site_banner limit:1 %}
+  {% include components/homepage-banner.html project=project %}
+{% endfor %}
 <section class="home-mission">
   <div class="grid-container">
     <div class="section-breadcrumb">Our Mission</div>

@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<section class="project-hero">
+  <div class="grid-row">
+    <div class="hero-left grid-col-7">
+      <div class="hero-left-content">
+        <div class="section-breadcrumb">Project</div>
+        <h1>{{ page.title }}</h1>
+        <table class="project-details">
+          <tr>
+            <td>Client:</td>
+            <td>{{ page.agency_partner }}</td>
+          </tr>
+          {% if page.university_partner != null %}
+            <tr>
+              <td>University Partner:</td>
+              <td>
+                {% for entity in page.university_partner.entities %}
+                  {% unless forloop.index == 1 %}
+                   /
+                  {% endunless %}
+                  <a href="{{ entity.url }}" target="_blank">{{ entity.name }}</a>
+                {% endfor %}
+              </td>
+            </tr>
+          {% endif %}
+          <tr>
+            <td>Project Status:</td>
+            <td>{{ page.status }}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="hero-right grid-col-5">
+      <div class="hero-right-content">
+        <img src="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner.png" alt="{{ page.img_alt_text }}">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="grid-container-sm">
+    <div class="grid-row">
+      <div class="grid-col-12 project-content">
+        <div class="section-breadcrumb">Overview</div>
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</section>
+{% include components/hiring.html %}

@@ -15,6 +15,15 @@
     }
   }
 
+  .hiring {
+    margin-top: 6rem;
+
+    @include at-media('tablet') {
+      margin-top: 8rem;
+
+    }
+  }
+
   .news-content-container {
 
     @include at-media('tablet') {

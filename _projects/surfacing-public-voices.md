@@ -5,6 +5,7 @@ permalink: /projects/surfacing-public-voices
 agency_partner: General Services Administration
 project_url: https://xdgov.github.io/data-design-standards
 featured: false
+status: Ongoing
 ---
 <h3>Premise</h3>
 <p>

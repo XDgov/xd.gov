@@ -26,6 +26,7 @@
       bottom: -30px;
       height: 60px;
       position: absolute;
+      max-width: 1160px;
       width: 160%;
 
       @include at-media('tablet') {

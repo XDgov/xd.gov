@@ -1,0 +1,239 @@
+.project-hero {
+  background-color: $color-banner;
+  color: $color-white;
+  margin-bottom: 75px;
+
+  @include at-media('tablet') {
+    height: 520px;
+  }
+
+  @include at-media('desktop') {
+    height: 565px;
+  }
+
+  h1 {
+    font-weight: normal;
+    margin: 0 0 1rem;
+
+    @include at-media('tablet') {
+      font-size: 2.5rem;
+    }
+
+    @include at-media('desktop') {
+      font-size: 3rem;
+    }
+  }
+
+  .hero-left {
+    padding-top: 2rem;
+
+    @include at-media('tablet') {
+      padding-top: 4rem;      
+    }
+
+    @include at-media('desktop') {
+      padding-top: 6rem;      
+    }
+
+    .gray-box {
+      background-color: $color-gray-cool-5;
+      bottom: -30px;
+      height: 60px;
+      max-width: 1160px;
+      position: absolute;
+      width: 160%;
+
+      @include at-media('tablet') {
+        bottom: -55px;
+        height: 110px;
+        width: 140%;
+      }
+
+      @include at-media('desktop') {
+        bottom: -75px;
+        height: 150px;
+        width: 140%;
+      }
+    }
+  }
+
+  .hero-right {
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 8rem;
+      width: 100%;
+
+      @include at-media('tablet') {
+        max-width: 10rem;      
+      }
+
+      @include at-media('desktop') {
+        max-width: 13rem;      
+      }
+    }
+  }
+
+  .hero-left-content {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1rem 0 1rem 1rem;
+    width: 100%;
+
+    @include at-media('tablet') {
+      padding: 2rem 0 2rem 2rem;      
+    }
+
+    p {
+
+      @include at-media('tablet') {
+        font-size: 1.2rem;        
+      }
+    }
+  }
+
+  .hero-right-content {
+    padding: 2rem 1rem 4rem;
+
+    @include at-media('tablet') {
+      padding: 4rem 2rem 6rem;        
+    }
+
+    @include at-media('desktop') {
+      padding: 2rem 2rem 4rem;        
+    }
+  }
+
+  .section-breadcrumb {
+    
+    &:after {
+      border-bottom: 3px solid #fff;
+    }
+  }
+}
+
+.project {
+
+  main {
+    
+    &.main-content {
+      padding-top: 0;
+    }
+  }
+
+  .hiring {
+    margin-top: 4rem;
+  }
+
+  .project-content {
+    background-color: $color-white;
+    border-radius: 3px;
+    box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.15);
+    margin-top: -120px;
+    padding: 1.5rem 1rem;
+
+    @include at-media('tablet') {
+      padding: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6em;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .project-details {
+    font-family: $font-serif;
+    font-size: 0.9rem;
+
+    @include at-media('tablet') {
+      font-size: 1rem;      
+    }
+    
+    a {
+      color: $color-white;
+    }
+
+    td {
+      color: lighten($color-banner, 57);
+      padding-bottom: 0.5rem;
+      vertical-align: top;
+
+      &:first-child {
+        padding-right: 1rem;
+
+        @include at-media('tablet') {
+          min-width: 12rem;          
+        }
+      }
+    }
+  }
+
+  .site-header {
+
+    .usa-button {
+      
+      &.usa-button-black {
+        
+        &:hover {
+          background-color: darken($color-banner, 15);
+        }
+      }
+    }
+
+    .usa-menu-btn {
+
+      &:hover {
+        background-color: darken($color-banner, 15);
+      }
+    }
+
+    .usa-nav-link {
+      
+      &:hover {
+        border-bottom: 2px solid $color-white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .site-logo {
+
+    .usa-logo__text {
+
+      &::before {
+        background-image: url('../img/xd-logo-light.png');
+      }
+    }
+  }
+
+  .usa-logo {
+    
+    a {
+      color: $color-white;
+    }
+  }
+
+  .usa-nav-primary {
+    
+    a {
+
+      @include at-media('desktop') {
+        color: $color-white;
+      }
+    }
+  }
+
+  .usa-header {
+    background-color: $color-banner;
+  }
+}

@@ -43,7 +43,7 @@ defaults:
   scope:
     path: "_projects"
   values:
-    layout: project-page 
+    layout: project
  -
   scope:
     path: "_news"

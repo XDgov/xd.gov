@@ -1,6 +1,20 @@
-<h1>{{ project.title }}</h1>
-<p>
-  {{ project.excerpt }}
-</p>
-<a class="square-link" href="{{ site.baseurl }}{{ project.permalink }}">View Case Study</a>
-<div class="gray-box"></div>
+<section class="home-hero">
+  <div class="grid-row">
+    <div class="hero-left grid-col-7">
+      <div class="hero-left-content">
+        <div class="section-breadcrumb">Recent Work</div>
+        <h1>{{ project.title }}</h1>
+        <p>
+          {{ project.excerpt }}
+        </p>
+        <a class="square-link" href="{{ site.baseurl }}{{ project.permalink }}">View Case Study</a>
+        <div class="gray-box"></div>
+      </div>
+    </div>
+    <div class="hero-right grid-col-5">
+      <div class="hero-right-content">
+        <img src="{{ site.baseurl }}/assets/img/projects/{{ project.title | slugify }}/{{ project.title | slugify }}-banner.png" alt="{{ project.img_alt_text }}">
+      </div>
+    </div>
+  </div>
+</section>

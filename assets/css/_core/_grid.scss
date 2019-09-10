@@ -1,3 +1,13 @@
+.grid-container-sm {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 1rem;
+
+  @include at-media('desktop') {
+    padding: 0 2rem;
+  }
+}
+
 .grid-container-lg {
   margin: 0 auto;
   max-width: 1200px;
