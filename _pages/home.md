@@ -14,7 +14,7 @@ title: Home
     <h2>
       xD is an emerging technology group at the U.S. Census Bureau that helps federal agencies apply artificial intelligence solutions to complex challenges. We're working to do this thing, that thing, and some other stuff too.
     </h2>
-    <a class="square-link" href="/mission">Learn More</a>
+    <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
   </div>
 </section>
 <section class="home-projects">
