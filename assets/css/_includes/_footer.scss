@@ -7,11 +7,21 @@
   color: lighten($color-banner, 57);
   font-size: 0.9rem;
   margin-top: 2rem;
+  text-align: center;
 
   a {
     color: $color-white;
     font-weight: bold;
+
+    &:hover {
+      color: $color-white;
+    }
   }
+}
+
+.footer-seperator {
+  display: inline-block;
+  margin: 0 0.75rem;
 }
 
 .usa-footer_nav {
@@ -20,6 +30,10 @@
     color: $color-white;
     font-weight: bold;
     text-transform: uppercase;
+
+    &:hover {
+      color: $color-white;
+    }
 
     @include at-media('desktop') {
       font-size: 0.9rem;
