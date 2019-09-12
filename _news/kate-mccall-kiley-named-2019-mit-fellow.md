@@ -1,6 +1,6 @@
 ---
 title: Kate McCall-Kiley, Co-Director of xD, Named 2019 MIT Director’s Fellow
-date: 2019-08-01
+publish_date: 2019-10-02
 permalink: /news/kate-mccall-kiley-named-2019-mit-fellow
 ---
 <h3>Premise</h3>
