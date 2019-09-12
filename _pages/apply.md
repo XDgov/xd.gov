@@ -23,7 +23,10 @@ title: Apply
       <div class="tablet:grid-col-6">
         <h3>What to Expect</h3>
         <p>
-          We love a good challenge;....
+          We’re looking for self-starters who are excited to join an ambitious
+          team of makers. xD’ers work in small project teams alongside our
+          university and federal partners to research and deploy artificial
+          intelligence solutions.
         </p>
       </div>
     </div>
