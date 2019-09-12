@@ -16,3 +16,6 @@ permalink: /news/emerging-tech-fellowship
   To learn more and see what roles we’re currently recruiting for, head over to
   our <a href="{{ site.baseurl }}/apply">Apply</a> page.
 </p>
+<p class="news-cta">
+  <a class="square-link" href="{{ site.baseurl }}/apply" target="_blank">Apply to the Fellowship</a>
+</p>

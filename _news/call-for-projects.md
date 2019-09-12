@@ -9,3 +9,6 @@ permalink: /news/call-for-projects
   agency interested in exploring how artificial intelligence can help your
   office meets its mission, reach out to us at hello@xd.gov.
 </p>
+<p class="news-cta">
+  <a class="square-link" href="mailto:hello@xd.gov" target="_blank">Get in Touch</a>
+</p>
