@@ -16,17 +16,14 @@ title: Apply
         <p>
           xD’ers join government for tours of civic service that help bring new
           perspectives and expertise to our team while they work on a diversity
-          of projects and challenges. Positions are non-permanent and offered
-          for up to four years of service.
+          of high-impact projects. Positions are remote-first, non-permanent, and
+          offered for up to four years of service.
         </p>
       </div>
       <div class="tablet:grid-col-6">
         <h3>What to Expect</h3>
         <p>
-          xD works on a range of problems spanning many industries and federal
-          agencies. We frequently partner with top universities in joint
-          projects to bring the latest technical solutions to pressing
-          government challenges.
+          We love a good challenge;....
         </p>
       </div>
     </div>

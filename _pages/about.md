@@ -7,9 +7,11 @@ title: About
   <div class="grid-container">
     <div class="section-breadcrumb">Our Mission</div>
     <h2>
-      xD is an emerging technology group at the U.S. Census Bureau that helps federal agencies apply artificial intelligence solutions to complex challenges. We're working to do this thing, that thing, and some other stuff too.
+      xD is an emerging technology group at the U.S. Census Bureau that researches
+      and deploys artificial intelligence solutions to improve public services.
+      We pair federal agencies with universities and our own delivery team to
+      test and deploy nascent technology solutions.
     </h2>
-    <a class="square-link" href="/charter">View Our Charter</a>
   </div>
 </section>
 <section class="about-priorities">
@@ -18,18 +20,18 @@ title: About
     <div class="grid-row">
       <div class="grid-col-6">
         <div class="about-priority">
-          <h3>Priority One</h3>
+          <h3>Data Futures</h3>
         </div>
         <div class="about-priority">
-          <h3>Priority Two</h3>
+          <h3>Ethics & Bias</h3>
         </div>
       </div>
       <div class="grid-col-6">
         <div class="about-priority">
-          <h3>Priority Three</h3>
+          <h3>Mis/Disinformation</h3>
         </div>
         <div class="about-priority">
-          <h3>Priority Four</h3>
+          <h3>Increased Efficiency</h3>
         </div>
       </div>
     </div>
@@ -39,9 +41,15 @@ title: About
   <div class="grid-container">
     <div class="section-breadcrumb">Why Artificial Intelligence?</div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Across the federal government, there are a tremendous number of organizations
+      working diligently to modernize information technology services. This work
+      is incredibly important and is creating new and exciting opportunities for
+      more robust technology solutions to be applied towards the improvement of
+      public services. As the complexity of federal data challenges increases,
+      artificial intelligence presents unique opportunities to radically transform
+      the quality and type of public services being delivered.  
     </p>
-    <a class="square-link" href="/artifical-intelligence">Learn More</a>
+    <a class="square-link" href="https://www.whitehouse.gov/ai/" target="_blank">Learn More</a>
   </div>
 </section>
 {% include components/hiring.html %}
