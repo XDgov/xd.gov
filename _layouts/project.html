@@ -9,12 +9,12 @@ layout: default
         <h1>{{ page.title }}</h1>
         <table class="project-details">
           <tr>
-            <td>Client:</td>
+            <td>Agency Partners:</td>
             <td>{{ page.agency_partner }}</td>
           </tr>
           {% if page.university_partner != null %}
             <tr>
-              <td>University Partner:</td>
+              <td>University Partners:</td>
               <td>
                 {% for entity in page.university_partner.entities %}
                   {% unless forloop.index == 1 %}

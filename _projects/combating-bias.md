@@ -4,10 +4,10 @@ subtitle: Building a product that automatically detects bias in datasets that co
 excerpt: A major risk in building data-driven applications is susceptibility to biases in data. This project seeks to develop scalable solutions to help those using federal data to identify sources of biased training data.
 permalink: /projects/combating-bias-in-ai
 img_alt_text: An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.
-agency_partner: U.S. Census Bureau
+agency_partner: General Services Administration
 university_partner:
   entities:
-    - { url: 'http://probcomp.csail.mit.edu/', name: 'Probabalistic Computing Project' }
+    - { url: 'http://probcomp.csail.mit.edu/', name: 'Probabilistic Computing Project' }
     - { url: 'https://mit.edu/', name: 'Massachusetts Institute of Technology (MIT)' }
 status: Ongoing
 project_url: https://xdgov.github.io/data-design-standards

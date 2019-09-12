@@ -19,7 +19,7 @@ title: Home
 </section>
 <section class="home-projects">
   <div class="grid-container">
-    <div class="section-breadcrumb">Active Projects</div>
+    <div class="section-breadcrumb">Select Projects</div>
     <div class="grid-row grid-gap-lg">
       {% assign site_projects = site.projects | where: 'featured', 'false' %}
       {% for project in site_projects limit:3 %}
