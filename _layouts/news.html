@@ -8,6 +8,7 @@ layout: default
         <header>
           <div class="section-breadcrumb">News</div>
           <h1>{{ page.title }}</h1>
+          <p class="news-date">{{ page.publish_date | date: '%B %d, %Y' }}
         </header>
         <div class="news-content">
           {{ content }}

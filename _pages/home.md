@@ -10,9 +10,11 @@ title: Home
 {% endfor %}
 <section class="home-mission">
   <div class="grid-container">
-    <div class="section-breadcrumb">Our Mission</div>
+    <div class="section-breadcrumb">About xD</div>
     <h2>
-      xD is an emerging technology group at the U.S. Census Bureau that helps federal agencies apply artificial intelligence solutions to complex challenges. We're working to do this thing, that thing, and some other stuff too.
+      xD is an emerging technologies group at the U.S. Census Bureau that
+      partners with federal agencies and universities to improve the delivery of
+      government services using artificial intelligence.
     </h2>
     <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
   </div>

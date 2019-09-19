@@ -5,12 +5,10 @@ title: About
 ---
 <section class="about-mission">
   <div class="grid-container">
-    <div class="section-breadcrumb">About xD</div>
+    <div class="section-breadcrumb">Our Mission</div>
     <h2>
-      xD is an emerging technologies group at the U.S. Census Bureau that researches
-      and deploys artificial intelligence solutions to improve public services.
-      We partner with federal agencies and universities to test and deploy
-      nascent technology solutions.
+      To improve government services through the research and application of
+      artificial intelligence solutions.
     </h2>
   </div>
 </section>
@@ -39,14 +37,15 @@ title: About
 </section>
 <section class="about-ai">
   <div class="grid-container">
-    <div class="section-breadcrumb">Our Mission</div>
+    <div class="section-breadcrumb">How We Work</div>
     <p>
-      We believe emerging technologies have the potential to fundamentally change how
-      government delivers on its missions and serves the public. We partner with
-      top public servants, researchers, designers, and builders to test and
-      deliver applications of nascent technologies.
+      xD works in multi-discplinary teams of engineers, project managers, and
+      data scientists to support the research and application of artificial
+      intelligence solutions to the delivery of government services. Each team
+      works with civil servants across government and with other stakeholders,
+      such as partners at academic research groups, to apply the latest
+      innovations in artificial intelligence.
     </p>
-    <a class="square-link" href="https://www.whitehouse.gov/ai/" target="_blank">Learn More</a>
   </div>
 </section>
 {% include components/hiring.html %}
