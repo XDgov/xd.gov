@@ -1,8 +1,5 @@
 ---
-title: ML Engineer
-subtitle: Emerging Technology Fellow
-apply_url: mailto:info@xd.gov
+title: Jr. ML Engineer
+subtitle: Emerging Technology Fellow - GS-13
+apply_email: HRD.Schedule.A.R.Fellow.Hiring@census.gov?subject=xD Fellowship Application - ML Engineer - CB2146
 ---
-<p>
-  This is a great position.
-</p>

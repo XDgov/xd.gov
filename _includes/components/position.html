@@ -1,8 +1,9 @@
-<div class="position tablet:grid-col-8">
+<div class="position tablet:grid-col-12">
   <h2>{{ position.title }}</h2>
   <p class="position-subtitle">{{ position.subtitle }}</p>
   <p>
     <a href="{{ site.baseurl }}/assets/positions/{{ position.title | slugify }}.pdf">View Position Details</a>
   </p>
-  <a class="usa-button usa-button-black" href="{{ position.url }}">Apply Now</a>
+  <a class="usa-button usa-button-black" href="mailto:{{ position.apply_email }}">Apply Now</a>
+  <p class="email-alt">Email: "{{ position.apply_email }}"</p>
 </div>

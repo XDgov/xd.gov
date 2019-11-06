@@ -42,9 +42,9 @@ title: About
       xD works in multi-discplinary teams of engineers, project managers, and
       data scientists to support the research and application of artificial
       intelligence solutions to the delivery of government services. Each team
-      works with civil servants across government and with other stakeholders,
-      such as partners at academic research groups, to apply the latest
-      innovations in artificial intelligence.
+      works with federal stakeholders across government and often with the 
+      support of outside partners,such as academic research groups, to apply the
+      latest innovations in artificial intelligence to each project.
     </p>
   </div>
 </section>
