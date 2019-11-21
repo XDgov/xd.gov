@@ -1,7 +1,7 @@
 ---
 title: xD Launches the Emerging Technology Fellowship
 publish_date: 2019-10-01
-permalink: /news/emerging-tech-fellowship
+permalink: /news/emerging-tech-fellowship.html
 ---
 <p>
   As part of its mission to improve government services through the research
