@@ -1,7 +1,7 @@
 ---
 title: Machine Learning for Customer Insight
 subtitle: Better customer experience by utilizing machine learning.
-permalink: /projects/ml-for-customer-insight
+permalink: /projects/ml-for-customer-insight.html
 agency_partner: General Services Administration
 featured: false
 status: Ongoing
