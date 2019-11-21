@@ -1,7 +1,7 @@
 # Site settings
 title: "xD is a government product studio. | xd.gov"
 description: "xD builds ...."
-baseurl: "./site/loganpowell/xd.gov" # the subpath of your site, e.g. /blog
+baseurl: "/site/loganpowell/xd.gov" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://cg-843bb463-d0c8-4a3a-9aaf-c477e7d4a901.app.cloud.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4500"
