@@ -1,9 +1,9 @@
 # Site settings
 title: "xD is a government product studio. | xd.gov"
 description: "xD builds ...."
-baseurl: "/xd.gov" # the subpath of your site, e.g. /blog
+baseurl: "/cg-843bb463-d0c8-4a3a-9aaf-c477e7d4a901.app.cloud.gov/site/loganpowell/xd.gov" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://xd.gov" # the base hostname & protocol for your sites
+url: "https://cg-843bb463-d0c8-4a3a-9aaf-c477e7d4a901.app.cloud.gov/site/loganpowell/xd.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4500"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
