@@ -1,7 +1,7 @@
 ---
 title: Surfacing Public Voices
 subtitle: Using alternative methods to solicit feedback about government-provided services.
-permalink: /projects/surfacing-public-voices.html
+permalink: /projects/surfacing-public-voices/
 agency_partner: General Services Administration, Department of Veteran Affairs
 project_url: https://xdgov.github.io/data-design-standards
 featured: false
