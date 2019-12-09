@@ -2,6 +2,9 @@
 permalink: /about/
 layout: page
 title: About
+seo_excerpt:
+  xD’s mission is to improve government services through the research and
+  application of artificial intelligence solutions.
 ---
 <section class="about-mission">
   <div class="grid-container">

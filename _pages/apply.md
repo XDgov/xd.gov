@@ -2,6 +2,9 @@
 permalink: /apply/
 layout: page
 title: Apply
+seo_excerpt:
+  We’re looking for purpose-driven technologists and innovators to be part
+  of our growing emerging technologies team.
 ---
 <section class="apply-overview">
   <div class="grid-container">

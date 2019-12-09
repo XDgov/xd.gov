@@ -2,6 +2,7 @@
 permalink: /projects/
 layout: page
 title: Projects
+seo_excerpt: View select projects from our team.
 ---
 <section class="projects-projects">
   <div class="grid-container">

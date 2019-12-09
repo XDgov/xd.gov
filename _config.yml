@@ -1,6 +1,9 @@
 # Site settings
-title: "xD is a government product studio. | xd.gov"
-description: "xD builds ...."
+title: "xD - U.S. Census Bureau"
+description:
+  "xD is an emerging technologies group at the U.S. Census Bureau that
+  partners with federal agencies and universities to improve the delivery of
+  government services using artificial intelligence."
 baseurl: ""
 permalink: pretty
 url: "https://www.xd.gov"
