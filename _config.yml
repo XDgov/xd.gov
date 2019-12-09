@@ -1,6 +1,7 @@
 # Site settings
 title: "xD is a government product studio. | xd.gov"
 description: "xD builds ...."
+baseurl: ""
 permalink: pretty
 url: "https://www.xd.gov"
 localhost: "localhost:4500"
