@@ -2,6 +2,7 @@
 title: "xD is a government product studio. | xd.gov"
 description: "xD builds ...."
 permalink: pretty
+url: "https://www.xd.gov"
 localhost: "localhost:4500"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
