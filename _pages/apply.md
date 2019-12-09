@@ -40,9 +40,7 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      {% for position in site.positions %}
-        {% include components/position.html position=position %}
-      {% endfor %}
+      <p>There are currently no openings at this time.
     </div>
   </div>
 </section>
