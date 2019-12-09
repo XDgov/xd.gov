@@ -40,7 +40,7 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      <p>There are currently no openings at this time.
+      <p>There are currently no openings at this time.</p>
     </div>
   </div>
 </section>
