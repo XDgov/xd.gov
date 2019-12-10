@@ -40,7 +40,11 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      <p>There are currently no openings at this time.</p>
+      <p>
+        There are currently no openings at this time. If you’d like to get in
+        touch, email us at
+        <a href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
+      </p>
     </div>
   </div>
 </section>
