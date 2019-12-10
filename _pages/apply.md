@@ -43,7 +43,7 @@ seo_excerpt:
       <p>
         There are currently no openings at this time. If you’d like to get in
         touch, email us at
-        <a href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
+        <a class="usa-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
       </p>
     </div>
   </div>
@@ -81,7 +81,7 @@ seo_excerpt:
         <div class="faq">
           <h3>How should my resume be formatted?</h3>
           <p>
-            Resumes should be formatted based on best practices listed on the<a class="usa-link" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" target="_blank"> USAJOBS website</a>. Additional guidance has been published by the <a class="usa-link" href="https://join.tts.gsa.gov/resume/" target="_blank">Technology Transformation Service (TTS)</a> and <a class="usa-link" href="https://handbook.18f.gov/resume/" target="_blank">18F</a>.
+            Resumes should be formatted based on best practices listed on the <a class="usa-link" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" target="_blank">USAJOBS website</a>. Additional guidance has been published by the <a class="usa-link" href="https://join.tts.gsa.gov/resume/" target="_blank">Technology Transformation Service (TTS)</a> and <a class="usa-link" href="https://handbook.18f.gov/resume/" target="_blank">18F</a>.
           </p>
         </div>
       </div>
