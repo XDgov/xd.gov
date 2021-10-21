@@ -1,5 +1,19 @@
-.apply-openings {
-  margin-top: 1rem;
+.page-apply {
+  section {
+    margin-top: 2rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.apply-faq {
+
+  .grid-container {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+  }
 }
 
 .apply-overview {
