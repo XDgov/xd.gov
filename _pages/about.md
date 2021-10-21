@@ -10,8 +10,8 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">Our Mission</div>
     <h2>
-      To improve government services through the research and application of
-      artificial intelligence solutions.
+      To advance the delivery of data-driven government services through new and 
+      transformative technologies.
     </h2>
   </div>
 </section>
@@ -21,18 +21,18 @@ seo_excerpt:
     <div class="grid-row">
       <div class="grid-col-6">
         <div class="about-priority">
-          <h3>AI-driven Data Augmentation</h3>
+          <h3>1. Bias Mitigation in Federal Data</h3>
         </div>
         <div class="about-priority">
-          <h3>Ethics & Bias of AI</h3>
+          <h3>2. Future of Data Collection and Sharing</h3>
         </div>
       </div>
       <div class="grid-col-6">
         <div class="about-priority">
-          <h3>Mis/Disinformation</h3>
+          <h3>3. Reducing Costs and Increasing Efficiencies</h3>
         </div>
         <div class="about-priority">
-          <h3>Extending Workforce Capabilities</h3>
+          <h3>4. Enterprise-wide Developer Experience</h3>
         </div>
       </div>
     </div>
@@ -46,8 +46,8 @@ seo_excerpt:
       data scientists to support the research and application of artificial
       intelligence solutions to the delivery of government services. Each team
       works with federal stakeholders across government and often with the 
-      support of outside partners,such as academic research groups, to apply the
-      latest innovations in artificial intelligence to each project.
+      support of outside partners, such as academic research groups, to apply
+      the latest innovations in artificial intelligence to each project.
     </p>
   </div>
 </section>
