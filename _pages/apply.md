@@ -2,6 +2,9 @@
 permalink: /apply/
 layout: page
 title: Apply
+seo_excerpt:
+  We’re looking for purpose-driven technologists and innovators to be part
+  of our growing emerging technologies team.
 ---
 <section class="apply-overview">
   <div class="grid-container">
@@ -39,9 +42,11 @@ title: Apply
   <div class="grid-container">
     <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      {% for position in site.positions %}
-        {% include components/position.html position=position %}
-      {% endfor %}
+      <p>
+        There are currently no openings at this time. If you’d like to get in
+        touch, email us at
+        <a class="usa-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
+      </p>
     </div>
   </div>
 </section>
