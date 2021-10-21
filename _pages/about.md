@@ -7,8 +7,8 @@ title: About
   <div class="grid-container">
     <div class="section-breadcrumb">Our Mission</div>
     <h2>
-      To improve government services through the research and application of
-      artificial intelligence solutions.
+      To advance the delivery of data-driven government services through new and 
+      transformative technologies.
     </h2>
   </div>
 </section>
