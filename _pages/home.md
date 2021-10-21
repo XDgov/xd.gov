@@ -12,9 +12,8 @@ title: Home
   <div class="grid-container">
     <div class="section-breadcrumb">About xD</div>
     <h2>
-      xD is an emerging technologies group at the U.S. Census Bureau that
-      partners with federal agencies and universities to improve the delivery of
-      government services using artificial intelligence.
+      xD is an emerging technologies group that’s advancing the delivery of 
+      data-driven services through new and transformative technologies.
     </h2>
     <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
   </div>
