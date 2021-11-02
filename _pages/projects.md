@@ -2,16 +2,22 @@
 permalink: /projects/
 layout: page
 title: Projects
-seo_excerpt: View select projects from our team.
 ---
 <section class="projects-projects">
   <div class="grid-container">
-    <div class="section-breadcrumb">Select Projects</div>
+    {% assign site_portfolios = site.portfolios | where: "featured", "true" %}
+    {% for portfolio in site_portfolios %}
+      <div>
+	<h1>{{ portfolio.title }}</h1>
+	<h5>{{ portfolio.content }}</h5>
+      </div>
     <div class="grid-row grid-gap-lg">
-      {% assign site_projects = site.projects %}
+      {% assign site_projects = site.projects | where: "portfolio", portfolio.portfolio %}
       {% for project in site_projects %}
         {% include components/project-card.html project=project %}
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
+
