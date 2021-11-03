@@ -1,5 +1,5 @@
 ---
-title: Secure Multiparty Computation & Differential Policy
+title: Secure Multiparty Computation & Differential Privacy
 subtitle: Enabling safe data axchanges for collaborative computation
 excerpt: How do we share data efficiently while maintaining privacy?
 permalink: /projects/secure-multiparty-computation
