@@ -1,9 +1,4 @@
----
-title: xD Launches the Emerging Technology Fellowship
-publish_date: 2020-10-01
-permalink: /news/emerging-tech-fellowship
----
-<p>
+I"ú<p>
   As part of its mission to advance the delivery of data-driven services
   through new and transformative technologies, xD is launching the Emerging
   Technology Fellowship to recruit the best and brightest technologists and
@@ -14,8 +9,9 @@ permalink: /news/emerging-tech-fellowship
 </p>
 <p>
   To learn more and see what roles weâ€™re currently recruiting for, head over to
-  our <a href="{{ site.baseurl }}/apply">apply</a> page.
+  our <a href="/apply">apply</a> page.
 </p>
 <p class="news-cta">
-  <a class="square-link" href="{{ site.baseurl }}/apply" target="_blank">Apply Now</a>
+  <a class="square-link" href="/apply" target="_blank">Apply Now</a>
 </p>
+:ET

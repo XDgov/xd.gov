@@ -1,0 +1,111 @@
+I"W
+<section class="home-hero">
+  <div class="grid-row">
+    <div class="hero-left grid-col-7">
+      <div class="hero-left-content">
+        <div class="section-breadcrumb">Recent Work</div>
+        <h1>Combating Bias in AI</h1>
+        <p>
+          A major risk in building data-driven applications is susceptibility to biases in data. This project seeks to develop scalable solutions to help those using federal data to identify sources of biased training data.
+        </p>
+        <a class="square-link" href="/projects/combating-bias-in-ai/">View Project</a>
+        <div class="gray-box"></div>
+      </div>
+    </div>
+    <div class="hero-right grid-col-5">
+      <div class="hero-right-content">
+        <img src="/assets/img/projects/combating-bias-in-ai/combating-bias-in-ai-banner.jpg" alt="An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid." />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-mission">
+  <div class="grid-container">
+    <div class="section-breadcrumb">About xD</div>
+    <h2>
+      xD is an emerging technologies group that’s advancing the delivery of 
+      data-driven services through new and transformative technologies.
+    </h2>
+    <a class="square-link" href="/about">Learn More</a>
+  </div>
+</section>
+<section class="home-projects">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Select Projects</div>
+    <div class="grid-row grid-gap-lg">
+      
+      
+        <div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="project-card">
+    <a href="/projects/ml-for-customer-insight/">
+      <img src="/assets/img/projects/machine-learning-for-customer-insight/machine-learning-for-customer-insight-card.jpg" alt="" />
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="/projects/ml-for-customer-insight/">Machine Learning for Customer Insight</a>
+      </h3>
+      <p>Better customer experience by utilizing machine learning.</p>
+      <a class="square-link" href="/projects/ml-for-customer-insight/">Learn More</a>
+    </div>
+  </div>
+</div>
+      
+        <div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="project-card">
+    <a href="/projects/surfacing-public-voices/">
+      <img src="/assets/img/projects/surfacing-public-voices/surfacing-public-voices-card.jpg" alt="" />
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="/projects/surfacing-public-voices/">Surfacing Public Voices</a>
+      </h3>
+      <p>Using alternative methods to solicit feedback about government-provided services.</p>
+      <a class="square-link" href="/projects/surfacing-public-voices/">Learn More</a>
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <a class="usa-button usa-button-black" href="/projects">View All</a>
+  </div>
+</section>
+<section class="home-news">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Recent News</div>
+    <div class="grid-row grid-gap-lg home-news-items">
+      
+      
+        <div class="col-12 tablet:grid-col-6 featured-news-col">
+          <div class="news-item featured-news-item">
+  <a href="/news/kate-mccall-kiley-named-2019-mit-fellow/">
+    <img class="news-img" src="/assets/img/news/kate-mccall-kiley-co-director-of-xd-named-2019-mit-director-s-fellow.jpg" alt="Kate McCall-Kiley, Co-Director of xD, Named 2019 MIT Director’s Fellow" />
+  </a>
+  <a href="/news/kate-mccall-kiley-named-2019-mit-fellow/">
+    <h2>Kate McCall-Kiley, Co-Director of xD, Named 2019 MIT Director’s Fellow</h2>
+  </a>
+  <a class="square-link" href="/news/kate-mccall-kiley-named-2019-mit-fellow/">Learn More</a>
+</div>  
+        </div>
+      
+      <div class="col-12 tablet:grid-col-6">
+        
+          <div class="news-item news-item-sm grid-row grid-gap-lg">
+  <div class="grid-col-4">
+    <a href="/news/emerging-tech-fellowship">
+      <img class="news-img" src="/assets/img/news/xd-launches-the-emerging-technology-fellowship.jpg" alt="xD Launches the Emerging Technology Fellowship" />
+    </a>
+  </div>
+  <div class="grid-col-8">
+    <h3>
+      <a href="/news/emerging-tech-fellowship">xD Launches the Emerging Technology Fellowship</a>
+    </h3>
+    <a class="square-link" href="/news/emerging-tech-fellowship">Learn More</a>
+  </div>
+</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+:ET
