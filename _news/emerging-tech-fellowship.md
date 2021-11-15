@@ -1,6 +1,6 @@
 ---
 title: xD Launches the Emerging Technology Fellowship
-publish_date: 2020-10-01
+publish_date: 2021-10-01
 permalink: /news/emerging-tech-fellowship
 ---
 <p>
