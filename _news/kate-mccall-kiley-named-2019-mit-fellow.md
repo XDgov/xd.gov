@@ -1,6 +1,6 @@
 ---
 title: Kate McCall-Kiley, Co-Founder of xD, Named 2019 MIT Director’s Fellow
-publish_dat: 2019-10-02
+publish_date: 2019-10-02
 permalink: /news/kate-mccall-kiley-named-2019-mit-fellow/
 ---
 <p>
