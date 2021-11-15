@@ -1,0 +1,55 @@
+I"ï<section class="projects-projects">
+  <div class="grid-container">
+    <div class="section-breadcrumb">Select Projects</div>
+    <div class="grid-row grid-gap-lg">
+      
+      
+        <div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="project-card">
+    <a href="/projects/combating-bias-in-ai/">
+      <img src="/assets/img/projects/combating-bias-in-ai/combating-bias-in-ai-card.jpg" alt="An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid." />
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="/projects/combating-bias-in-ai/">Combating Bias in AI</a>
+      </h3>
+      <p>Building a product that automatically detects bias in datasets that could lead to incorrect, systematically biased predictions.</p>
+      <a class="square-link" href="/projects/combating-bias-in-ai/">Learn More</a>
+    </div>
+  </div>
+</div>
+      
+        <div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="project-card">
+    <a href="/projects/ml-for-customer-insight/">
+      <img src="/assets/img/projects/machine-learning-for-customer-insight/machine-learning-for-customer-insight-card.jpg" alt="" />
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="/projects/ml-for-customer-insight/">Machine Learning for Customer Insight</a>
+      </h3>
+      <p>Better customer experience by utilizing machine learning.</p>
+      <a class="square-link" href="/projects/ml-for-customer-insight/">Learn More</a>
+    </div>
+  </div>
+</div>
+      
+        <div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="project-card">
+    <a href="/projects/surfacing-public-voices/">
+      <img src="/assets/img/projects/surfacing-public-voices/surfacing-public-voices-card.jpg" alt="" />
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="/projects/surfacing-public-voices/">Surfacing Public Voices</a>
+      </h3>
+      <p>Using alternative methods to solicit feedback about government-provided services.</p>
+      <a class="square-link" href="/projects/surfacing-public-voices/">Learn More</a>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</section>
+:ET

@@ -21,7 +21,7 @@ layout: default
   </article>
 </section>
 <section class="more-news">
-  {% assign site_news = site.news | sort: 'date' | reverse %}
+  {% assign site_news = site.news | reverse %}
   <div class="grid-container">
     <div class="section-breadcrumb">More News</div>
     <div class="grid-row grid-gap-lg">

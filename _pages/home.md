@@ -34,7 +34,7 @@ title: Home
   <div class="grid-container">
     <div class="section-breadcrumb">Recent News</div>
     <div class="grid-row grid-gap-lg home-news-items">
-      {% assign site_news = site.news | sort: 'date' | reverse %}
+      {% assign site_news = site.news | sort: 'publish_date' | reverse %}
       {% for news in site_news limit:1 %}
         <div class="col-12 tablet:grid-col-6 featured-news-col">
           {% include components/featured-news-item.html news=news %}  
