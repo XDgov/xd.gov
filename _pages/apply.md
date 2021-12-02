@@ -27,12 +27,11 @@ seo_excerpt:
       <div class="tablet:grid-col-6">
         <h3>How to Apply</h3>
         <p>
-          The official <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Emerging Technology Fellowship</a> page on Census.gov
-          includes information about the program’s structure,
-          eligibility requirements, salary and benefits, and application
-          instructions. Openings will be advertised on this page but applicants
-          must follow the instructions provided on the official program page to 
-          be considered fully.
+          To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
+        </p>
+        <p>
+          For more information about the Emerging Technology Fellowship, please visit the official 
+          <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Census.gov page</a>. If you have additional questions, please reach out to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
         </p>
       </div>
     </div>
@@ -42,11 +41,9 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      <p>
-        There are currently no openings at this time. If you’d like to get in
-        touch, email us at
-        <a class="usa-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
-      </p>
+      {% for position in site.positions %}
+        {% include components/position.html position=position %}
+      {% endfor %}
     </div>
   </div>
 </section>

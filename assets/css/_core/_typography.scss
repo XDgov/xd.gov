@@ -2,7 +2,6 @@ $font-serif: Merriweather Web, serif;
 
 a {
   color: $color-black;
-  text-decoration: none;
 
   &:hover {
     color: $color-black;
@@ -52,6 +51,10 @@ p {
     position: absolute;
     width: 25px;
   }
+}
+
+.long-link {
+  word-wrap: break-word;
 }
 
 .square-link {

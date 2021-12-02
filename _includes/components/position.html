@@ -1,6 +1,8 @@
-<div class="position tablet:grid-col-12">
-  <h2>{{ position.title }}</h2>
+<div class="position-list-item tablet:grid-col-12">
+  <h2>
+    <a href="{{ site.baseurl }}{{ position.permalink }}">{{ position.title }}</a>
+  </h2>
   <p class="position-subtitle">{{ position.subtitle }}</p>
   {{ position.content }}
-  <a class="usa-button usa-button-black" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Apply Now</a>
+  <a class="usa-button usa-button-black" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">Apply Now</a>
 </div>
