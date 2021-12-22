@@ -69,8 +69,7 @@ seo_excerpt:
         <div class="faq">
           <h3>How do I apply?</h3>
           <p>
-            Visit the <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Emerging Technology Fellowship</a> program page on Census.gov for
-            detailed application instructions.
+            To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
           </p>
         </div>
         <div class="faq">
