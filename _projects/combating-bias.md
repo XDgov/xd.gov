@@ -6,10 +6,10 @@ seo_excerpt: A product that automatically detects bias in datasets that could le
 permalink: /projects/combating-bias-in-ai/
 img_alt_text: An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.
 agency_partner: General Services Administration, U.S. Census Bureau
-university_partner:
+partner:
   entities:
-    - { url: 'http://probcomp.csail.mit.edu/', name: 'Probabilistic Computing Project' }
-    - { url: 'https://mit.edu/', name: 'Massachusetts Institute of Technology (MIT)' }
+    - { url: 'https://10x.gsa.gov', name: '10x' }
+    - { url: 'https://dol.gov', name: 'Department of Labor' }
 status: Ongoing
 project_url: https://xdgov.github.io/data-design-standards
 featured: true

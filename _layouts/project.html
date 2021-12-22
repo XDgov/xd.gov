@@ -8,15 +8,11 @@ layout: default
         <div class="section-breadcrumb">Project</div>
         <h1>{{ page.title }}</h1>
         <table class="project-details">
-          <tr>
-            <td>Agency Partners:</td>
-            <td>{{ page.agency_partner }}</td>
-          </tr>
-          {% if page.university_partner != null %}
+          {% if page.partners != null %}
             <tr>
-              <td>University Partners:</td>
+              <td>Partners:</td>
               <td>
-                {% for entity in page.university_partner.entities %}
+                {% for entity in page.partners.entities %}
                   {% unless forloop.index == 1 %}
                    /
                   {% endunless %}
