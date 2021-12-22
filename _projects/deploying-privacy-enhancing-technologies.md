@@ -1,8 +1,8 @@
 ---
 title: Deploying Privacy-Enhancing Technologies
-subtitle: Deploying privacy-enhancing technologies to understand the future of data collection & dissemenation.  
-seo_excerpt: Deploying privacy-enhancing technologies to understand the future of data collection & dissemenation.
-permalink: /projects/deploying-privacy-enhancing-technologies
+subtitle: Deploying privacy-enhancing technologies to understand the future of data collection & dissemination.  
+seo_excerpt: Deploying privacy-enhancing technologies to understand the future of data collection & dissemination.
+permalink: /projects/deploying-privacy-enhancing-technologies/
 img_alt_text: A group of isometric cubes is connected by lines to illustrate the connection of nodes to one another.
 agency_partner: U.S. Census Bureau 
 partners:
