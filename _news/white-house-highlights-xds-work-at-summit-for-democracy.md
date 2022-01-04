@@ -12,7 +12,7 @@ permalink: /news/white-house-highlights-xds-work-at-summit-for-democracy/
   Lander's remarks on <a href="https://youtu.be/JcR8_YyiqWY?t=26945" target="_blank" rel="noreferrer">YouTube</a> starting at 7:29:05. 
 </p>
 <p>
-  To learn more our Deploying Privacy Enhancing Technologies project, visit our
+  To learn more about our Deploying Privacy Enhancing Technologies project, visit our
   <a href="{{ site.baseurl }}/projects/deploying-privacy-enhancing-technologies/">
   project page</a>.
 </p>
