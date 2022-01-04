@@ -128,6 +128,11 @@
     margin-bottom: 0;
   }
 
+  &:not(:first-child) {
+    padding-top: 1rem;
+  }
+
+
   &.featured-news-item {
     @include at-media('desktop') {
       border-bottom: 0;
@@ -146,7 +151,6 @@
 }
 
 .news-item-sm {
-
   h3 {
     line-height: 1.7rem;
     margin-top: 0.5rem;
