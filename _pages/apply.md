@@ -6,6 +6,144 @@ seo_excerpt:
   We’re looking for purpose-driven technologists and innovators to be part
   of our growing emerging technologies team.
 ---
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">Apply to xD</div>
+        <h2>Emerging Technology Fellowship</h2>
+        <p>
+            We’re looking for purpose-driven technologists and innovators to 
+            join the <b>Emerging Technology Fellowship (ETF)</b>.
+        </p>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <h3>Next Cohort</h3>
+                <p>
+                    Applications for the Spring 2022 Cohort are now being 
+                    accepted. To apply, please send your <b>resume and statement 
+                    of interest</b> to 
+                    <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">
+                        HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov
+                    </a>.
+                    Applications for the first round of recruitment close on 
+                    January 31, 2022.
+                </p>
+                <a 
+                    class="usa-button usa-button-black" 
+                    href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application"
+                >
+                    Apply Now
+                </a>
+                <p>
+                    To learn more about qualifications, the application process, 
+                    or the fellowship in general, please see our FAQs below. 
+                    For questions not covered by the FAQs, please reach out to 
+                    <a href="mailto:inquiries@xd.gov?subject=Emerging Technology Fellowship Inquiry">inquiries@xd.gov</a>.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">What You'll be Doing</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <p>
+                    While fellows will be hired with a project-focus in mind, 
+                    we want you to have a well-rounded fellowship experience. 
+                    What’s that mean? Each fellow will have the opportunity to 
+                    pitch new projects for funding, to meet practitioners across 
+                    government working in data science and AI, and to become 
+                    involved in the civic tech space. To learn more about the 
+                    initial project focus, see the description below.
+                 </p>
+                <h3>Automated Change Detection Project</h3>
+                <p>
+                    How might we improve representation in Census Bureau surveys 
+                    through automated change detection in satellite imagery? 
+                    This project will focus on the application of machine 
+                    learning and computer vision techniques to target updates to 
+                    the Master Address File and is being done in partnership 
+                    with the Census Bureau’s Geography Division.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">What to Expect</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <p>
+                    Keeping in mind that this is our inaugural year, we may 
+                    encounter some bumps along the way. We’ll do our best to 
+                    keep you informed throughout the process, but here’s what we 
+                    know so far:
+                </p>
+                <ul>
+                    <li>Applications are due January 31st, 2022.</li>
+                    <li>Our HR counterparts and team conduct resume reviews.</li>
+                    <li>xD selects candidates for a cultural and technical interview.</li>
+                    <li>Final candidate selections will be made, and tentative offers will be delivered by HR.</li>
+                    <li>Background checks and final offers then occur.</li>
+                    <li>Fellows start.</li>
+                    <li>As we learn more about the timing of these processes, we will update this page and notify candidates where possible.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="apply-overview apply-faq">
+    <div class="grid-container">
+        <div class="section-breadcrumb">Frequently Asked Questions</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                {% for faq in site.data.faqs %}
+                    {% include components/faq.html faq=faq %}
+                {% endfor %}
+                <div class="faq">
+                    <h3>What qualifications do I need? </h3>
+                    <p>
+                        Applications are initially reviewed by HR specialists 
+                        based on expertise listed in your resume. For candidates 
+                        to qualify, your resume should indicate the following
+                         experience:
+                    </p>
+                    <ul>
+                        <li>Mastery knowledge at a level to serve as an expert in a specialty area, e.g., artificial intelligence (AI), data science, web application development, design, etc.</li>
+                        <li>Comprehensive knowledge of and expertise in user centered design, consumer internet technologies, service delivery, and management approaches, allowing the incumbent to provide sound and authoritative leadership on all issues related to the program. </li>
+                        <li>Extensive knowledge and expertise in product delivery, agile development methodologies, and open-source software development. </li>
+                        <li>Expert knowledge of and expertise in driving and implementing technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems. </li>
+                        <li>Expert knowledge of and expertise in frameworks for evaluating a range of qualitative and quantitative metrics around user needs, resource prioritization, and program management. </li>
+                        <li>Expert skill in oral communications to present sensitive recommendations to higher authority, to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces. </li>
+                        <li>Expert analytical skills to apply a wide range of qualitative and/or quantitative methods for assessing and improving program effectiveness.</li>
+                        <li>Education - Bachelor’s Degree in a related field</li>
+                        <li>Candidates are also evaluated for their competencies in key areas, including:
+                            <ul>
+                                <li>Analysis and Creative Problem Solving: Expertise determining user needs or identifying market opportunities and designing and deploying solutions;</li>
+                                <li>Technology Acumen: Knowledge of standard and emergent web technologies; </li>
+                                <li>Entrepreneurship and Product Management: experience delivering products or services from concept to market; </li>
+                                <li>Approach and Methodology: Expertise applying frameworks that emphasize delivery, iteration, quantitative and qualitative learnings, and responsiveness; </li>
+                                <li>Empathy and Emotional Intelligence: Experience in client-facing roles, navigating bureaucracy, business development, or delivering services with a strong user-facing or consumer-oriented element; </li>
+                                <li>Tools and Execution: Experience in design, development and deployment of solutions leveraging current and emergent technologies and best practices.</li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--
 <section class="apply-overview">
   <div class="grid-container">
     <div class="section-breadcrumb">Apply to xD</div>
@@ -17,8 +155,8 @@ seo_excerpt:
       <div class="tablet:grid-col-6">
         <h3>Overview</h3>
         <p>
-          Come join xD at the U.S. Census Bureau for a tour of civic service 
-          that enables you to bring your unique perspective and expertise to a 
+          Come join xD at the U.S. Census Bureau for a tour of civic service
+          that enables you to bring your unique perspective and expertise to a
           diversity of high-impact transformative projects. <strong>Emerging
           Technology Fellowship</strong> positions are non-permanent and offered
           for up to four years of service. For more information, see our FAQs.
@@ -30,7 +168,7 @@ seo_excerpt:
           To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
         </p>
         <p>
-          For more information about the Emerging Technology Fellowship, please visit the official 
+          For more information about the Emerging Technology Fellowship, please visit the official
           <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Census.gov page</a>. If you have additional questions, please reach out to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
         </p>
       </div>
@@ -38,14 +176,16 @@ seo_excerpt:
   </div>
 </section>
 <section class="apply-openings">
-  <div class="grid-container">
-    <div class="section-breadcrumb">Openings</div>
-    <div class="grid-row">
-      {% for position in site.positions %}
-        {% include components/position.html position=position %}
-      {% endfor %}
+    <div class="grid-container">
+        <div class="section-breadcrumb">Openings</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                {% for position in site.positions %}
+                    {% include components/position.html position=position %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <section class="apply-overview apply-faq">
@@ -56,13 +196,13 @@ seo_excerpt:
         <div class="faq">
           <h3>What is an Emerging Technology Fellow?</h3>
           <p>
-            The Emerging Technology Fellowship (ETF) recruits the best and 
-            brightest technologists with expertise in emerging data technology 
-            trends to drive data innovation at the U.S. Census Bureau and other 
-            federal agencies. This fellowship brings together experts in data 
-            science and artificial intelligence (AI), design, and product 
-            management with innovators across the federal government to solve 
-            pressing technology problems, save taxpayer money, and position the 
+            The Emerging Technology Fellowship (ETF) recruits the best and
+            brightest technologists with expertise in emerging data technology
+            trends to drive data innovation at the U.S. Census Bureau and other
+            federal agencies. This fellowship brings together experts in data
+            science and artificial intelligence (AI), design, and product
+            management with innovators across the federal government to solve
+            pressing technology problems, save taxpayer money, and position the
             Census Bureau as a leader in federal data innovation.
           </p>
         </div>
@@ -81,4 +221,5 @@ seo_excerpt:
       </div>
     </div>
   </div>
-</section>
+</section>-->
+
