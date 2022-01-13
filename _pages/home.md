@@ -6,8 +6,9 @@ title: Home
 
 {% assign site_banner = site.projects | where: 'featured', 'true' %}
 {% for project in site_banner limit:1 %}
-  {% include components/homepage-banner.html project=project %}
+{% include components/homepage-banner.html project=project %}
 {% endfor %}
+
 <section class="home-mission">
   <div class="grid-container">
     <div class="section-breadcrumb">About xD</div>
@@ -18,6 +19,7 @@ title: Home
     <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
   </div>
 </section>
+
 <section class="home-projects">
   <div class="grid-container">
     <div class="section-breadcrumb">Select Projects</div>
@@ -30,6 +32,7 @@ title: Home
     <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All</a>
   </div>
 </section>
+
 <section class="home-news">
   <div class="grid-container">
     <div class="section-breadcrumb">Recent News</div>

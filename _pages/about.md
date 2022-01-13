@@ -6,6 +6,7 @@ seo_excerpt:
   xD’s mission is to improve government services through the research and
   application of artificial intelligence solutions.
 ---
+
 <section class="about-mission">
   <div class="grid-container">
     <div class="section-breadcrumb">Our Mission</div>
@@ -15,6 +16,7 @@ seo_excerpt:
     </h2>
   </div>
 </section>
+
 <section class="about-priorities">
   <div class="grid-container">
     <div class="section-breadcrumb">Current Focus Areas</div>
@@ -38,6 +40,7 @@ seo_excerpt:
     </div>
   </div>
 </section>
+
 <section class="about-ai">
   <div class="grid-container">
     <div class="section-breadcrumb">How We Work</div>
@@ -51,4 +54,5 @@ seo_excerpt:
     </p>
   </div>
 </section>
+
 {% include components/hiring.html %}
