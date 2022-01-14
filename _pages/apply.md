@@ -25,14 +25,14 @@ seo_excerpt:
                   We are now accepting applications for the Spring 2022 Cohort
                   of the ETF. To apply, please send your <b>resume and 
                   one-page statement of interest</b> to 
-                  <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> <b>by January 31, 2022</b>. To learn more about
+                  <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> <b>by January 31, 2022</b>. To learn more about
                   qualifications, the application process, or the fellowship
                   in general, please see our FAQs below.
                 </p>
                 <p>
                 <a 
                   class="usa-button usa-button-black" 
-                  href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">
+                  href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">
                   Apply Now
                 </a>
                 </p>
@@ -99,122 +99,12 @@ seo_excerpt:
         <div class="section-breadcrumb">Frequently Asked Questions</div>
         <div class="grid-row">
             <div class="grid-col-12">
+                <br/>
                 {% for faq in site.data.faqs %}
                     {% include components/faq.html faq=faq %}
                 {% endfor %}
-                <div class="faq">
-                    <h3>What qualifications do I need? </h3>
-                    <p>
-                      Applications are initially reviewed by HR specialists 
-                      based on expertise listed in your resume. For candidates 
-                      to qualify, your resume should indicate the following
-                       experience:
-                    </p>
-                    <ul>
-                        <li>Education - Bachelor’s Degree in a related field</li>
-                        <li>Mastery knowledge at a level to serve as an expert in a specialty area, e.g., artificial intelligence (AI), data science, web application development, design, etc.</li>
-                        <li>Comprehensive knowledge of and expertise in user centered design, consumer internet technologies, service delivery, and management approaches, allowing the incumbent to provide sound and authoritative leadership on all issues related to the program. </li>
-                        <li>Extensive knowledge and expertise in product delivery, agile development methodologies, and open-source software development. </li>
-                        <li>Expert knowledge of and expertise in driving and implementing technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems. </li>
-                        <li>Expert knowledge of and expertise in frameworks for evaluating a range of qualitative and quantitative metrics around user needs, resource prioritization, and program management. </li>
-                        <li>Expert skill in oral communications to present sensitive recommendations to higher authority, to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces. </li>
-                        <li>Expert analytical skills to apply a wide range of qualitative and/or quantitative methods for assessing and improving program effectiveness.</li>
-                        <li>Candidates are also evaluated for their competencies in key areas, including:
-                          <ul>
-                            <li>Analysis and Creative Problem Solving: Expertise determining user needs or identifying market opportunities and designing and deploying solutions;</li>
-                            <li>Technology Acumen: Knowledge of standard and emergent web technologies; </li>
-                            <li>Entrepreneurship and Product Management: experience delivering products or services from concept to market; </li>
-                            <li>Approach and Methodology: Expertise applying frameworks that emphasize delivery, iteration, quantitative and qualitative learnings, and responsiveness; </li>
-                            <li>Empathy and Emotional Intelligence: Experience in client-facing roles, navigating bureaucracy, business development, or delivering services with a strong user-facing or consumer-oriented element; </li>
-                            <li>Tools and Execution: Experience in design, development and deployment of solutions leveraging current and emergent technologies and best practices.</li>
-
-                          </ul>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
 
 </section>
-
-<!--
-<section class="apply-overview">
-  <div class="grid-container">
-    <div class="section-breadcrumb">Apply to xD</div>
-    <h2>
-      We’re looking for purpose-driven technologists and innovators to be part
-      of our growing emerging technologies team.
-    </h2>
-    <div class="grid-row grid-gap-lg">
-      <div class="tablet:grid-col-6">
-        <h3>Overview</h3>
-        <p>
-          Come join xD at the U.S. Census Bureau for a tour of civic service
-          that enables you to bring your unique perspective and expertise to a
-          diversity of high-impact transformative projects. <strong>Emerging
-          Technology Fellowship</strong> positions are non-permanent and offered
-          for up to four years of service. For more information, see our FAQs.
-        </p>
-      </div>
-      <div class="tablet:grid-col-6">
-        <h3>How to Apply</h3>
-        <p>
-          To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
-        </p>
-        <p>
-          For more information about the Emerging Technology Fellowship, please visit the official
-          <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Census.gov page</a>. If you have additional questions, please reach out to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="apply-openings">
-    <div class="grid-container">
-        <div class="section-breadcrumb">Openings</div>
-        <div class="grid-row">
-            <div class="grid-col-12">
-                {% for position in site.positions %}
-                    {% include components/position.html position=position %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="apply-overview apply-faq">
-  <div class="grid-container">
-    <div class="section-breadcrumb">Frequently Asked Questions</div>
-    <div class="grid-row">
-      <div class="grid-col-12">
-        <div class="faq">
-          <h3>What is an Emerging Technology Fellow?</h3>
-          <p>
-            The Emerging Technology Fellowship (ETF) recruits the best and
-            brightest technologists with expertise in emerging data technology
-            trends to drive data innovation at the U.S. Census Bureau and other
-            federal agencies. This fellowship brings together experts in data
-            science and artificial intelligence (AI), design, and product
-            management with innovators across the federal government to solve
-            pressing technology problems, save taxpayer money, and position the
-            Census Bureau as a leader in federal data innovation.
-          </p>
-        </div>
-        <div class="faq">
-          <h3>How do I apply?</h3>
-          <p>
-            To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
-          </p>
-        </div>
-        <div class="faq">
-          <h3>How should my resume be formatted?</h3>
-          <p>
-            We recommend formatting resumes based on best practices listed on the <a class="usa-link" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" target="_blank">USAJOBS website</a>. Additional guidance has been published by the <a class="usa-link" href="https://handbook.tts.gov/resume/" target="_blank">Technology Transformation Service (TTS)</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
