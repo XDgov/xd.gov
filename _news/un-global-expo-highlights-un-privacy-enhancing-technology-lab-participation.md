@@ -6,7 +6,7 @@ img_alt_text: Road to Expo 2020 - UN Big Data
 ---
 <p>
   Team xD is thrilled to announce the U.S. Census Bureau’s involvement in the 
-  United Nation’s Privacy-Enhancing Technologies (PET) Lab pilot alongside 
+  United Nations’ Privacy-Enhancing Technologies (PET) Lab pilot alongside 
   Statistics Netherlands, ISTAT of Italy, and the U.K.’s Office for National 
   Statistics.
 </p>
