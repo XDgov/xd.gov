@@ -22,19 +22,10 @@ seo_excerpt:
             <div class="grid-col-12">
                 <h3>Our Next Cohort</h3>
                 <p>
-                  We are now accepting applications for the Spring 2022 Cohort
-                  of the ETF. To apply, please send your <b>resume and 
-                  one-page statement of interest</b> to 
-                  <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> <b>by January 31, 2022</b>. To learn more about
-                  qualifications, the application process, or the fellowship
-                  in general, please see our FAQs below.
-                </p>
-                <p>
-                <a 
-                  class="usa-button usa-button-black" 
-                  href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">
-                  Apply Now
-                </a>
+                  <strong>
+                    Applications for the Spring 2022 Cohort of the ETF are now closed
+                  </strong>. However, we will begin accepting applications again
+                  in February 2022. Stay tuned!
                 </p>
             </div>
         </div>
