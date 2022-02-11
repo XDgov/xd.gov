@@ -2,25 +2,40 @@
   answer: We will be recruiting for different projects throughout our inaugural year.  We anticipate having regular recruiting time frames in the coming years.
 
 - question: What should I include in my application email?
-  answer: Don't worry too much about the content of the email. We’re only looking at what’s in your resume and letter of interest.
+  answer: Don't worry too much about the content of the email. We’re only looking at what’s in your resumé and letter of interest.
 
 - question: How should I format my resumé?
-  answer: Give us an honest read on what makes you a great candidate! Emphasize your experience. Don’t overstate it, but don’t undersell yourself either.  And, be sure to demonstrate **leadership in technology projects**, especially projects that have leveraged any of the topics listed in the "How will my resume be evaluated?" question below in the FAQs. While we do not require a specific format, your resumé will be reviewed by federal HR specialists. So if you'd like to get a sense of how typical federal resumés are formatted, we encourage you to visit [USAJobs](https://www.usajobs.gov/help/faq/application/documents/resume/what-to-include/) to take a look.
+  answer: Give us an honest read on what makes you a great candidate! Emphasize your experience. Don’t overstate it, but don’t undersell yourself either.  And, be sure to demonstrate **leadership in technology projects**, especially projects that have leveraged any of the topics listed in the "How will my resumé be evaluated?" question below in the FAQs. While we do not require a specific format, your resumé will be reviewed by federal HR specialists. So if you'd like to get a sense of how typical federal resumés are formatted, we encourage you to visit [USAJobs](https://www.usajobs.gov/help/faq/application/documents/resume/what-to-include/) to take a look.
 
 - question: What should be included in the statement of interest?
   answer: Please elaborate on why you’re interested in becoming an Emerging Technology Fellow. If there’s a particular project you’re interested in, please indicate that as well.
 
 - question: What does an ideal candidate look like?
-  answer: We know you’re more than a resume or cover letter, so here are some other things we’re looking for. You have an entrepreneurial mindset, are open to trying new things, being wrong, and consistently improving. You are independent yet collaborative, you enjoy working with a variety of technical and non-technical stakeholders, you’re passionate about using your skills to solve real-world problems, and you excel at implementing new techniques from ML/AI/Data Science research into your work. You’re flexible, you like a challenge, and you’re motivated to find creative solutions while guiding/inspiring others along the way.
+  answer: We know you’re more than a resumé or cover letter, so here are some other things we’re looking for. You have an entrepreneurial mindset, are open to trying new things, being wrong, and consistently improving. You are independent yet collaborative, you enjoy working with a variety of technical and non-technical stakeholders, you’re passionate about using your skills to solve real-world problems, and you excel at implementing new techniques from ML/AI/Data Science research into your work. You’re flexible, you like a challenge, and you’re motivated to find creative solutions while guiding/inspiring others along the way.
 
 - question: How will my resumé be evaluated?
   answer: |
     Specialized Experience:  For the GS-15, you must have one year of experience at a level of difficulty and responsibility equivalent to the GS-14 in the Federal Service. Experience for this position includes:
       - Data science, data processing, data mining, data analysis, data analytics, or data cleaning
-      - Web scraping, software development, web application development, software development, backend development, full stack development, agile development, test-driven development (TDD), or API design and development
-      - Programming languages, e.g., CPython (Python), SQL, R, Java, JS, Go, Scala, C, C++, Julia, or MatLab
-      - Artificial intelligence (AI), machine learning, machine learning technologies, e.g. TensorFlow or PyTorch, models such as multivariate, logistic and linear regression models, or natural language processing (NLP)
-      - Secure multiparty computation (SMPC), privacy-enhancing technologies (PETs), or federated learning
-      - Technology and cybersecurity policy and oversight
+      - Web scraping, software development, web application development, software development,
+        backend development, full stack development, agile development, test-driven development
+        (TDD), or API design and development
+      - Lead complex IT projects/programs, including application development efforts, systems
+        upgrades, cloud service deployments, and apply best practices from IT project management
+      - Perform project lifecycle planning for project/program implementation and create strategies for
+        risk mitigation and contingency planning as well as plan and schedule project deliverables, goals,
+        and milestones
+      - Programming languages, e.g., CPython (Python), SQL, R, Java, JS, Go, Scala, C, C++, Julia, or
+        MatLab
+      - Artificial intelligence (AI), machine learning, machine learning technologies, e.g. TensorFlow or
+        PyTorch, models such as multivariate, logistic and linear regression models, or natural language
+        processing (NLP)
+      - Secure multiparty computation (SMPC), privacy-enhancing technologies (PETs), or federated
+        learning
       - Database technologies such as SQL, Postgres, MySQL, Oracle, MongoDB, and NoSQL
-      - Manage, or deliver complex technology projects, research papers, white papers, or policies to a diverse audience that meet organizational goals.
+
+      - Serve as liaison with stakeholders and senior management to lead software development
+        activities, including defining the IT requirements, high-level software architecture, setting
+        platform and coding standards, architecture and design frameworks, and technical specifications
+      - Manage complex technology projects and cybersecurity policy and oversight, deliver research
+        papers, white papers, or policies to a diverse audience to meet organizational goals.&gt;
