@@ -22,10 +22,18 @@ seo_excerpt:
             <div class="grid-col-12">
                 <h3>Our Next Cohort</h3>
                 <p>
-                  <strong>
-                    Applications for the Spring 2022 Cohort of the ETF are now closed
-                  </strong>. However, we will begin accepting applications again
-                  in February 2022. Stay tuned!
+                  We are now accepting applications for our next cohort. Applications are due by Monday, March 21,
+                  2022. To apply, please send your <b>resume and one-page statement of interest</b> to 
+                  <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> <b>by March 21, 2022</b>. To learn more about
+                  qualifications, the application process, or the fellowship
+                  in general, please see our FAQs below.
+                </p>
+                <p>
+                <a 
+                  class="usa-button usa-button-black" 
+                  href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application&body=Please find attached my resume and statement of interest for the Emerging Technology Fellowship application.">
+                  Apply Now
+                </a>
                 </p>
             </div>
         </div>
@@ -34,7 +42,7 @@ seo_excerpt:
 
 <section class="apply-overview">
     <div class="grid-container">
-        <div class="section-breadcrumb">What to Expect</div>
+        <div class="section-breadcrumb">Initial Projects</div>
         <div class="grid-row">
             <div class="grid-col-12">
                 <p>
@@ -53,6 +61,16 @@ seo_excerpt:
                   the Master Address File. This project is being done in 
                   partnership  with the Census Bureau’s Geography Division.
                 </p>
+                <h3>Deploying Privacy-Enhancing Technologies</h3>
+                <p>
+                    What if researchers could answer questions by accessing data from around the globe
+                    that they never actually touch or "see"? How do we transform the use of private data while keeping it
+                    entirely secure? The Deploying Privacy-Enhancing Technology (PET) projects seeks to increase our
+                    understanding of remote execution, federated learning, secure multi-party computation, homomorphic
+                    encryption, and differential privacy. This project will create a roadmap for deployments of these
+                    technologies to transform how the Census Bureau collects, shares, and computes data and is being done
+                    in partnership with the United Nations, other federal agencies and thought leaders in the field.
+                </p>
             </div>
         </div>
     </div>
@@ -70,7 +88,7 @@ seo_excerpt:
                   know so far:
                 </p>
                 <ul>
-                  <li>Applications are due January 31st, 2022.</li>
+                  <li>Applications are due March 21, 2022.</li>
                   <li>Our HR counterparts and team conduct resume reviews.</li>
                   <li>xD selects candidates for two interviews.</li>
                   <li>Final candidate selections will be made, and tentative offers, contingent on a background check, will be delivered by HR.</li>
