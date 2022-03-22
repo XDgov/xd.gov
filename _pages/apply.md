@@ -82,7 +82,7 @@ seo_excerpt:
                   know so far:
                 </p>
                 <ul>
-                  <li>Applications are due March 21, 2022. <b>NOTE: You will not be considered if you fail to provide the required application documents</b></li>
+                  <li>Applications are due March 21, 2022. <b>NOTE: You will not be considered if you fail to provide the required application documents.</b></li>
                   <li>Our HR counterparts and team conduct resume reviews.</li>
                   <li>xD selects candidates for two interviews.</li>
                   <li>Final candidate selections will be made, and tentative offers, contingent on a background check, will be delivered by HR.</li>
