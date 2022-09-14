@@ -36,34 +36,17 @@ seo_excerpt:
 
 <section class="apply-overview">
     <div class="grid-container">
-        <div class="section-breadcrumb">Initial Projects</div>
+        <div class="section-breadcrumb">Emerging Tech at xD</div>
         <div class="grid-row">
             <div class="grid-col-12">
                 <p>
-                  While fellows will be hired with a project-focus in mind, 
-                  we want you to have a well-rounded fellowship experience. 
-                  Each fellow will have the opportunity to pitch new projects for funding, to meet practitioners across government working in data science and
-                  AI, and to become involved more in the civic tech space. To
-                  learn more about the initial project focus, see the description below:
-                 </p>
-                <h3>Automated Change Detection in Satellite Imagery</h3>
-                <p>
-                  How might we improve representation in Census Bureau surveys 
-                  through automated change detection in satellite imagery? 
-                  This project will focus on the application of machine 
-                  learning and computer vision techniques to target updates to 
-                  the Master Address File. This project is being done in 
-                  partnership  with the Census Bureau’s Geography Division.
-                </p>
-                <h3>Deploying Privacy-Enhancing Technologies</h3>
-                <p>
-                    What if researchers could answer questions by accessing data from around the globe
-                    that they never actually touch or "see"? How do we transform the use of private data while keeping it
-                    entirely secure? The Deploying Privacy-Enhancing Technology (PET) projects seeks to increase our
-                    understanding of remote execution, federated learning, secure multi-party computation, homomorphic
-                    encryption, and differential privacy. This project will create a roadmap for deployments of these
-                    technologies to transform how the Census Bureau collects, shares, and computes data and is being done
-                    in partnership with the United Nations, other federal agencies and thought leaders in the field.
+                  We foster the work of great technological minds to bring innovative solutions to 
+                  the civic tech space. Collaborating inside and outside of government, we believe 
+                  partnership is key to advancing innovations to create efficiency and to further 
+                  the reach of the vast troves of data that the Census Bureau has collected and the 
+                  research the agency has shared for more than a century. At xD, we also believe 
+                  that work should be fun, and we make space to bring our authentic selves to the 
+                  ‘office.’ 
                 </p>
             </div>
         </div>
@@ -72,25 +55,77 @@ seo_excerpt:
 
 <section class="apply-overview">
     <div class="grid-container">
-        <div class="section-breadcrumb">Our Timeline</div>
+        <div class="section-breadcrumb">Fellowship Opportunity</div>
         <div class="grid-row">
             <div class="grid-col-12">
                 <p>
-                  Keeping in mind that this is our inaugural year, we may 
-                  encounter some bumps along the way. We’ll do our best to 
-                  keep you informed throughout the process, but here’s what we 
-                  know so far:
+                  <b>xD is looking for motivated innovators to shape the future of technological 
+                  growth and exploration at the U.S. Census Bureau and beyond! </b> 
+                  The Emerging Technology Fellowship includes a term of up to four years with a 
+                  salary ranging from $81,000 to $147,000 and full Federal benefits. Fellows will 
+                  have the opportunity to advance the deployment of privacy-enhancing technologies 
+                  or to mitigate bias in AI as part of xD’s existing portfolios of work, while 
+                  simultaneously pursuing their own research interests with one of the largest data 
+                  dissemination agencies in the world.  
                 </p>
-                <ul>
-                  <li>Applications are due March 21, 2022. <b>NOTE: You will not be considered if you fail to provide the required application documents.</b></li>
-                  <li>Our HR counterparts and team conduct resume reviews.</li>
-                  <li>xD selects candidates for two interviews.</li>
-                  <li>Final candidate selections will be made, and tentative offers, contingent on a background check, will be delivered by HR.</li>
-                  <li>Background checks and security clearance begins. This typically takes several months.</li>
-                  <li>Final offers are rendered and fellows are welcomed!</li>
-                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">We’re Looking for You!</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
                 <p>
-                  As we learn more about the timing of these processes, we will update this page and notify candidates where possible.
+                  Fellows are driven by a sense of curiosity and bring their know-how and intellect 
+                  to projects while viewing challenges as a blank slate to introduce ground-breaking 
+                  technical solutions. Enthusiasm to share their ideas, make a positive impact, and 
+                  to guide others in the pursuit of the high-tech modernization of government is a 
+                  driver for these leaders. Being unafraid to make waves when necessary while 
+                  maintaining a healthy approach to risk mitigation, fellows bring an 
+                  entrepreneurial spirit to their work and believe in their ability to bring lasting 
+                  change as part of a dedicated team.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">How Do We Know You’re a Great Fit?</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <p>
+                  You have wide-ranging tech experience and are compelled to make government better. 
+                  Data science, machine learning, AI, natural language processing, web scraping, 
+                  software development, secure multi-party computation, programming languages, and 
+                  design are just a few of the things that could make you a great candidate. We’re 
+                  also looking for those with experience leading complex IT projects, being deft at 
+                  stakeholder engagement, understanding data privacy as well as protecting the 
+                  public’s data security. If you have full lifecycle project planning and management 
+                  skills, have served as a liaison to the public or to senior leadership, or are an 
+                  accomplished researcher or writer, you may be a great fit for the Emerging 
+                  Technology Fellowship! 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">How Do I Apply?</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <p>
+                  To apply, please email your resume or CV as well as a letter of interest to 
+                  <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a>.  
+                  Applications are being accepted on a rolling basis until filled through 
+                  January 15, 2023. For questions, please email us at 
+                  <a href="mailto:xdinquiries@census.gov">xdinquiries@census.gov</a>.  
                 </p>
             </div>
         </div>
