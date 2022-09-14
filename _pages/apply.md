@@ -12,13 +12,25 @@ seo_excerpt:
         <div class="section-breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
-          We’re looking for purpose-driven technologists and innovators to 
-          join this unique fellowship experience with xD. The <b>Emerging 
-          Technology Fellowship (ETF)</b> recruits the best and brightest
+          We’re looking for purpose-driven technologists and innovators to join 
+          this unique fellowship experience with xD. <strong>The Emerging 
+          Technology Fellowship (ETF)</strong> recruits the best and brightest 
           technologists with expertise in emerging data technology trends to 
-          drive data innovation at the U.S. Census Bureau and other federal agencies.
+          build a better government for everyone.
         </p>
-        <div class="grid-row">
+        <div class="usa-alert usa-alert--info">
+            <div class="usa-alert__body">
+                <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
+                <p class="usa-alert__text">
+                    Applications are being accepted from <strong>November 1st, 
+                    2022 - December 15th, 2022</strong>. See details below.
+                </p>
+            </div>
+        </div>
+        {% for position in site.positions %} 
+            {% include components/position.html position=position %}
+        {% endfor %}
+        <!--<div class="grid-row">
             <div class="grid-col-12">
                 <h3>Our Next Cohort</h3>
                 <p>
@@ -30,71 +42,61 @@ seo_excerpt:
                     more information to share.
                 </p>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
 
 <section class="apply-overview">
-    <div class="grid-container">
-        <div class="section-breadcrumb">Initial Projects</div>
-        <div class="grid-row">
-            <div class="grid-col-12">
-                <p>
-                  While fellows will be hired with a project-focus in mind, 
-                  we want you to have a well-rounded fellowship experience. 
-                  Each fellow will have the opportunity to pitch new projects for funding, to meet practitioners across government working in data science and
-                  AI, and to become involved more in the civic tech space. To
-                  learn more about the initial project focus, see the description below:
-                 </p>
-                <h3>Automated Change Detection in Satellite Imagery</h3>
-                <p>
-                  How might we improve representation in Census Bureau surveys 
-                  through automated change detection in satellite imagery? 
-                  This project will focus on the application of machine 
-                  learning and computer vision techniques to target updates to 
-                  the Master Address File. This project is being done in 
-                  partnership  with the Census Bureau’s Geography Division.
-                </p>
-                <h3>Deploying Privacy-Enhancing Technologies</h3>
-                <p>
-                    What if researchers could answer questions by accessing data from around the globe
-                    that they never actually touch or "see"? How do we transform the use of private data while keeping it
-                    entirely secure? The Deploying Privacy-Enhancing Technology (PET) projects seeks to increase our
-                    understanding of remote execution, federated learning, secure multi-party computation, homomorphic
-                    encryption, and differential privacy. This project will create a roadmap for deployments of these
-                    technologies to transform how the Census Bureau collects, shares, and computes data and is being done
-                    in partnership with the United Nations, other federal agencies and thought leaders in the field.
-                </p>
-            </div>
-        </div>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="section-breadcrumb">Who should apply to the Fellowship?</div>
     </div>
-</section>
-
-<section class="apply-overview">
-    <div class="grid-container">
-        <div class="section-breadcrumb">Our Timeline</div>
-        <div class="grid-row">
-            <div class="grid-col-12">
-                <p>
-                  Keeping in mind that this is our inaugural year, we may 
-                  encounter some bumps along the way. We’ll do our best to 
-                  keep you informed throughout the process, but here’s what we 
-                  know so far:
-                </p>
-                <ul>
-                  <li>Applications are due March 21, 2022. <b>NOTE: You will not be considered if you fail to provide the required application documents.</b></li>
-                  <li>Our HR counterparts and team conduct resume reviews.</li>
-                  <li>xD selects candidates for two interviews.</li>
-                  <li>Final candidate selections will be made, and tentative offers, contingent on a background check, will be delivered by HR.</li>
-                  <li>Background checks and security clearance begins. This typically takes several months.</li>
-                  <li>Final offers are rendered and fellows are welcomed!</li>
-                </ul>
-                <p>
-                  As we learn more about the timing of these processes, we will update this page and notify candidates where possible.
-                </p>
-            </div>
-        </div>
+    <div class="grid-row">
+      <p>
+        We’re looking for teammates who are motivated by curiosity and have a 
+        desire to make lasting positive impact. Emerging Technology Fellows 
+        bring an entrepreneurial spirit and expertise in emerging technologies 
+        to solve some of the most pressing federal data challenges of the 21st 
+        century. If you love a challenge, have demonstrated leadership in your 
+        career, and you’re looking to apply your talents towards high-impact 
+        projects, you may be a great fit for the Emerging Technology Fellowship!
+      </p>
     </div>
+    {% 
+      include components/praise.html 
+      content="Working at xD gives an opportunity to work on interesting data problems with interesting people from within one of the most quietly important agencies in the U.S. There is no shortage of issues in government that can be improved with better collection, management, and use of data, and xD gives exposure to a bunch of them." 
+      author="Aidan Feldman" 
+      author_title="2017 Fellow. Technologist, Dancer, Adjunct Assistant Professor of Public Service NYU|Wagner" 
+      image_path="/assets/img/praise/feldman.jpeg" 
+    %}
+    <div class="grid-row">
+      <div class="section-breadcrumb">What Skills Are We Looking For?</div>
+    </div>
+    <div class="grid-row">
+      <p>
+        We’re seeking candidates with professional experiences in the following
+        categories:
+      </p>
+    </div>
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        <ul class="usa-icon-list usa-icon-list--primary">
+          {% include components/icon-list-item.html content="Data Science" %}
+          {% include components/icon-list-item.html content="Machine Learning" %}
+          {% include components/icon-list-item.html content="Natural Language Processing" %}
+          {% include components/icon-list-item.html content="Responsible AI " %}
+        </ul>
+      </div>
+      <div class="tablet:grid-col">
+        <ul class="usa-icon-list usa-icon-list--primary">
+          {% include components/icon-list-item.html content="Data Governance & AI Policy" %}
+          {% include components/icon-list-item.html content="Privacy-enhancing Technologies" %}
+          {% include components/icon-list-item.html content="Algorithmic Bias" %}
+          {% include components/icon-list-item.html content="Technical Project Management" %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="apply-overview apply-faq">
@@ -109,5 +111,4 @@ seo_excerpt:
             </div>
         </div>
     </div>
-
 </section>

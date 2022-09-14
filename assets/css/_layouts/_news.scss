@@ -23,7 +23,7 @@
   .hiring {
     margin-top: 6rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       margin-top: 8rem;
 
     }
@@ -31,11 +31,11 @@
 
   .news-content-container {
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       margin-top: 4rem;
     }
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       margin-top: 6rem;
     }
   }
@@ -64,7 +64,7 @@
   }
   
   .news-item {
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       border-bottom: 0;
     }
   }
@@ -72,7 +72,7 @@
   .news-row {
     flex-direction: column-reverse;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       flex-direction: row;
     }
   }

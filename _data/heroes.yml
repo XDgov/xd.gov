@@ -1,4 +1,11 @@
+- title: We’re Hiring
+  breadcrumb: Emerging Technology Fellowship
+  excerpt: We’re searching for purpose-driven technologists and innovators to help build a better government for everyone. Applications are open <strong>November 1st - December 15th</strong>!
+  permalink: /apply/
+  img_alt_text: An offset grid of photos featuring five members of the xD team. Small colorful circles and gray lines are featured in between the photos.
+  link_text: Join Us
 - title: Combating Bias in AI
+  breadcrumb: Recent Work
   excerpt: A major risk in building data-driven applications is susceptibility to biases in data. This project seeks to develop scalable solutions to help those using federal data to identify sources of biased training data.
   permalink: /projects/combating-bias-in-ai/
   img_alt_text: An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.

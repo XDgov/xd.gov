@@ -1,17 +1,11 @@
-- question: What are your recruitment cycles?
-  answer: We will be recruiting for different projects throughout our inaugural year.  We anticipate having regular recruiting time frames in the coming years.
-
 - question: What should I include in my application email?
-  answer: Don't worry too much about the content of the email. We’re only looking at what’s in your resumé and letter of interest.
+  answer: Don't worry too much about the content of the email. We’re only looking at what’s in your attached resumé. Please use the subject line "Emerging Technology Fellowship Application" in your email.
 
 - question: How should I format my resumé?
-  answer: Give us an honest read on what makes you a great candidate! Emphasize your experience. Don’t overstate it, but don’t undersell yourself either.  And, be sure to demonstrate **leadership in technology projects**, especially projects that have leveraged any of the topics listed in the "How will my resumé be evaluated?" question below in the FAQs. While we do not require a specific format, your resumé will be reviewed by federal HR specialists. So if you'd like to get a sense of how typical federal resumés are formatted, we encourage you to visit [USAJobs](https://www.usajobs.gov/help/faq/application/documents/resume/what-to-include/) to take a look.
-
-- question: What should be included in the statement of interest?
-  answer: Please elaborate on why you’re interested in becoming an Emerging Technology Fellow. If there’s a particular project you’re interested in, please indicate that as well.
+  answer: Give us an honest read on what makes you a great candidate! Don’t undersell yourself and try to use descriptive language about each of your listed roles (i.e. What did you do? What skills/programming languages did you use there? Did you manage a team? etc.).  And, be sure to demonstrate **leadership in technology projects**, especially projects that have leveraged any of the topics listed in the "How will my resumé be evaluated?" question below in the FAQs. While we do not require a specific format, your resumé will be reviewed by federal HR specialists. So if you'd like to get a sense of how typical federal resumés are formatted, we encourage you to visit [USAJobs](https://www.usajobs.gov/help/faq/application/documents/resume/what-to-include/) to take a look.
 
 - question: What does an ideal candidate look like?
-  answer: We know you’re more than a resumé or cover letter, so here are some other things we’re looking for. You have an entrepreneurial mindset, are open to trying new things, being wrong, and consistently improving. You are independent yet collaborative, you enjoy working with a variety of technical and non-technical stakeholders, you’re passionate about using your skills to solve real-world problems, and you excel at implementing new techniques from ML/AI/Data Science research into your work. You’re flexible, you like a challenge, and you’re motivated to find creative solutions while guiding/inspiring others along the way.
+  answer: We know you’re more than a resumé so here are some other things we’re looking for. You have an entrepreneurial mindset, are open to trying new things, being wrong, and consistently improving. You are independent yet collaborative, you enjoy working with a variety of technical and non-technical stakeholders, you’re passionate about using your skills to solve real-world problems, and you excel at implementing new techniques from ML/AI/Data Science research into your work. You’re flexible, you like a challenge, and you’re motivated to find creative solutions while guiding/inspiring others along the way.
 
 - question: How will my resumé be evaluated?
   answer: |
@@ -39,3 +33,6 @@
         platform and coding standards, architecture and design frameworks, and technical specifications
       - Manage complex technology projects and cybersecurity policy and oversight, deliver research
         papers, white papers, or policies to a diverse audience to meet organizational goals.
+
+- question: What are your recruitment cycles?
+  answer: We typically accept applications for the Fellowship once a year in Fall.

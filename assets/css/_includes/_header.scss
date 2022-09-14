@@ -6,7 +6,7 @@
 
 .site-logo {
 
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     display: initial;
     float: left;
     font-size: 0.9rem;
@@ -17,7 +17,7 @@
 
   .usa-logo__text {
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       line-height: 4.5rem;
     }
 
@@ -77,14 +77,14 @@
   .usa-navbar {
     border-bottom: none;
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       display: block;
     }
   }
 }
 
 .site-title-short {
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     display: none;
   }
 }
@@ -92,13 +92,13 @@
 .site-title {
   display: none;
 
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     display: inherit;
   }
 }
 
 .usa-nav-inner {
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     margin-right: 2rem
   }
 }
@@ -109,7 +109,7 @@
     color: #1b1b1b;
     font-weight: bold;
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       font-weight: bold;
     }
   }
@@ -120,7 +120,7 @@
     text-align: left;
     text-transform: uppercase;
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       display: inline-block;
       font-size: 0.9rem;
       margin-right: 1.5rem;

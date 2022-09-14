@@ -2,7 +2,7 @@
   <div class="grid-row">
     <div class="hero-left grid-col-7">
       <div class="hero-left-content">
-        <div class="section-breadcrumb">Recent Work</div>
+        <div class="section-breadcrumb">{{ hero.breadcrumb }}</div>
         <h1>{{ hero.title }}</h1>
         <p>
           {{ hero.excerpt }}
@@ -13,7 +13,7 @@
     </div>
     <div class="hero-right grid-col-5">
       <div class="hero-right-content">
-        <img src="{{ site.baseurl }}/assets/img/heroes/{{ hero.title | slugify }}-banner.jpg" alt="{{ hero.img_alt_text }}">
+        <img src="{{ site.baseurl }}/assets/img/heroes/{{ hero.title | slugify }}-banner.png" alt="{{ hero.img_alt_text }}">
       </div>
     </div>
   </div>

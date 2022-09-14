@@ -2,10 +2,6 @@
 # Front Matter
 ---
 
-$theme-image-path: '../img/uswds';
-
-@import "_uswds-2.1.0/scss/uswds";
-
 @import "_core/all";
 
 @import "_includes/all";
@@ -13,5 +9,9 @@ $theme-image-path: '../img/uswds';
 @import "_pages/all";
 
 .clearfix {
-  @include clearfix;
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
 }

@@ -3,11 +3,11 @@
   color: $color-white;
   margin-bottom: 75px;
 
-  @include at-media('tablet') {
+  @media only screen and(min-width: $tablet-size) {
     height: 520px;
   }
 
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     height: 565px;
   }
 
@@ -15,11 +15,11 @@
     font-weight: normal;
     margin: 0 0 1rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       font-size: 2.5rem;
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       font-size: 3rem;
     }
   }
@@ -27,11 +27,11 @@
   .hero-left {
     padding-top: 2rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding-top: 4rem;      
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       padding-top: 6rem;      
     }
 
@@ -43,13 +43,13 @@
       position: absolute;
       width: 160%;
 
-      @include at-media('tablet') {
+      @media only screen and(min-width: $tablet-size) {
         bottom: -55px;
         height: 110px;
         width: 140%;
       }
 
-      @include at-media('desktop') {
+      @media only screen and(min-width: $desktop-size) {
         bottom: -75px;
         height: 150px;
         width: 140%;
@@ -73,13 +73,13 @@
     padding: 1rem 0 4rem 1rem;
     width: 100%;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding: 2rem 0 2rem 2rem;      
     }
 
     p {
 
-      @include at-media('tablet') {
+      @media only screen and(min-width: $tablet-size) {
         font-size: 1.2rem;        
       }
     }
@@ -88,11 +88,11 @@
   .hero-right-content {
     padding: 2rem 1rem 4rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding: 4rem 2rem 6rem;        
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       padding: 2rem 2rem 4rem;        
     }
   }
@@ -125,7 +125,7 @@
     margin-top: -120px;
     padding: 1.5rem 1rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding: 2rem;
     }
 
@@ -147,7 +147,7 @@
     font-family: $font-serif;
     font-size: 0.9rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       font-size: 1rem;      
     }
     
@@ -163,7 +163,7 @@
       &:first-child {
         padding-right: 1rem;
 
-        @include at-media('tablet') {
+        @media only screen and(min-width: $tablet-size) {
           min-width: 12rem;          
         }
       }
@@ -219,7 +219,7 @@
     
     a {
 
-      @include at-media('desktop') {
+      @media only screen and(min-width: $desktop-size) {
         color: $color-white;
       }
     }

@@ -5,11 +5,11 @@
     font-weight: normal;
     margin: 0 0 1rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       font-size: 2.5rem;
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       font-size: 3rem;
     }
   }
@@ -17,7 +17,7 @@
   .hero-left {
     padding-top: 2rem;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding-top: 6rem;      
     }
 
@@ -29,7 +29,7 @@
       max-width: 1160px;
       width: 160%;
 
-      @include at-media('tablet') {
+      @media only screen and(min-width: $tablet-size) {
         bottom: -45px;
         height: 90px;
         width: 140%;
@@ -55,17 +55,17 @@
 
     padding: 1rem 2rem 1rem 1rem;
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       padding: 2rem;      
     }
 
     p {
 
-      @include at-media('tablet') {
+      @media only screen and(min-width: $tablet-size) {
         font-size: 1.1rem;        
       }
 
-      @include at-media('desktop') {
+      @media only screen and(min-width: $desktop-size) {
         font-size: 1.2rem;        
       }
     }
@@ -75,11 +75,11 @@
     background-color: $color-banner;
     padding: 6rem 0;
 
-    @include at-media('tablet') {
+    @media only screen and(min-width: $tablet-size) {
       padding: 6rem 0;        
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       padding: 2rem;        
     }
   }
@@ -124,7 +124,7 @@
   margin-bottom: 2rem;
   padding-bottom: 1rem;
 
-  @include at-media('desktop') {
+  @media only screen and(min-width: $desktop-size) {
     margin-bottom: 0;
   }
 
@@ -134,7 +134,7 @@
 
 
   &.featured-news-item {
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       border-bottom: 0;
       padding-bottom: 0;
     }
@@ -171,7 +171,7 @@
     &:not(.home-hero) {
       padding-top: 4rem;
 
-      @include at-media('desktop') {
+      @media only screen and(min-width: $desktop-size) {
         padding-top: 6rem;
       }
     }

@@ -36,7 +36,7 @@
       color: $color-white;
     }
 
-    @include at-media('desktop') {
+    @media only screen and(min-width: $desktop-size) {
       font-size: 0.9rem;
     }
   }
