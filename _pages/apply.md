@@ -123,8 +123,8 @@ seo_excerpt:
                 <p>
                   To apply, please email your resume or CV as well as a letter of interest to 
                   <a href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a>.  
-                  Applications are being accepted on a rolling basis until filled through 
-                  January 15, 2023. For questions, please email us at 
+                  <b>Applications are being accepted on a rolling basis until filled through 
+                  January 15, 2023</b>. For questions, please email us at 
                   <a href="mailto:xdinquiries@census.gov">xdinquiries@census.gov</a>.  
                 </p>
             </div>
