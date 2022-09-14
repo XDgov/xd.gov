@@ -18,7 +18,7 @@ seo_excerpt:
           technologists with expertise in emerging data technology trends to 
           drive data innovation at the U.S. Census Bureau and other federal agencies.
         </p>
-        <div class="grid-row">
+        <!--<div class="grid-row">
             <div class="grid-col-12">
                 <h3>Our Next Cohort</h3>
                 <p>
@@ -30,7 +30,7 @@ seo_excerpt:
                     more information to share.
                 </p>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
 
