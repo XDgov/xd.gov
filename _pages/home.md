@@ -4,9 +4,8 @@ layout: home
 title: Home
 ---
 
-{% assign site_banner = site.projects | where: 'featured', 'true' %}
-{% for project in site_banner limit:1 %}
-{% include components/homepage-banner.html project=project %}
+{% for hero in site.data.heroes limit:1 %}
+  {% include components/homepage-banner.html hero=hero %}
 {% endfor %}
 
 <section class="home-mission">

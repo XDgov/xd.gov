@@ -3,17 +3,17 @@
     <div class="hero-left grid-col-7">
       <div class="hero-left-content">
         <div class="section-breadcrumb">Recent Work</div>
-        <h1>{{ project.title }}</h1>
+        <h1>{{ hero.title }}</h1>
         <p>
-          {{ project.excerpt }}
+          {{ hero.excerpt }}
         </p>
-        <a class="square-link" href="{{ site.baseurl }}{{ project.permalink }}">View Project</a>
+        <a class="square-link" href="{{ site.baseurl }}{{ hero.permalink }}">{{ hero.link_text }}</a>
         <div class="gray-box"></div>
       </div>
     </div>
     <div class="hero-right grid-col-5">
       <div class="hero-right-content">
-        <img src="{{ site.baseurl }}/assets/img/projects/{{ project.title | slugify }}/{{ project.title | slugify }}-banner.jpg" alt="{{ project.img_alt_text }}">
+        <img src="{{ site.baseurl }}/assets/img/heroes/{{ hero.title | slugify }}-banner.jpg" alt="{{ hero.img_alt_text }}">
       </div>
     </div>
   </div>
