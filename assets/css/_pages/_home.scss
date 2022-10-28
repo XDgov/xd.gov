@@ -23,16 +23,15 @@
 
     .gray-box {
       background-color: $color-gray-cool-5;
-      bottom: -30px;
-      height: 60px;
+      bottom: -45px;
+      display: none;
+      height: 90px;
       position: absolute;
       max-width: 1160px;
-      width: 160%;
+      width: 140%;
 
       @media only screen and(min-width: $tablet-size) {
-        bottom: -45px;
-        height: 90px;
-        width: 140%;
+        display: block;
       }
     }
   }
@@ -52,8 +51,6 @@
     max-width: 600px;
     padding: 1rem 2rem 1rem 1rem;
     width: 100%;
-
-    padding: 1rem 2rem 1rem 1rem;
 
     @media only screen and(min-width: $desktop-size) {
       padding: 2rem;      
