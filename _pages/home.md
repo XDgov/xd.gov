@@ -1,5 +1,6 @@
 ---
 permalink: /
+image: /assets/img/pages/index/xd-og.png
 layout: home
 title: Home
 ---

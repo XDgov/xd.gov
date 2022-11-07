@@ -3,6 +3,7 @@ title: Machine Learning for Customer Insight
 subtitle: Better customer experience by utilizing machine learning.
 seo_excerpt: Better customer experience by utilizing machine learning.
 permalink: /projects/ml-for-customer-insight/
+image: /assets/img/projects/ml-for-customer-insight/ml-for-customer-insight-og.png
 partners:
   entities:
     - { url: 'https://10x.gsa.gov', name: 'General Services Administration - 10x' }

@@ -3,6 +3,7 @@ title: Surfacing Public Voices
 subtitle: Using alternative methods to solicit feedback about government-provided services.
 seo_excerpt: Using alternative methods to solicit feedback about government-provided services.
 permalink: /projects/surfacing-public-voices/
+image: /assets/img/projects/surfacing-public-voices/surfacing-public-voices-og.png
 partners:
   entities:
     - { url: 'https://10x.gsa.gov', name: 'General Services Administration - 10x' }

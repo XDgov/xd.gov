@@ -4,6 +4,7 @@ subtitle: Employing machine learning on satellite imagery to improve representat
 excerpt: This project seeks to reduce algorithmic bias and bias caused by human error in current workflows, as well as to improve operational efficiencies and representation in surveys.
 seo_excerpt: This project seeks to reduce algorithmic bias and bias caused by human error in current workflows, as well as to improve operational efficiencies and representation in surveys.
 permalink: /projects/automated-change-detection-in-geospatial-imagery/
+image: /assets/img/projects/automated-change-detection-in-geospatial-imagery/automated-change-detection-in-geospatial-imagery-og.png
 img_alt_text: An isometric grid of cubes is arranged to look like a city block. One of the cubes is taller and a different color than the rest.
 partners:
   entities:

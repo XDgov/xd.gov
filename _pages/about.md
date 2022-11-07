@@ -1,10 +1,11 @@
 ---
 permalink: /about/
+image: /assets/img/pages/index/xd-og.png
 layout: page
 title: About
 seo_excerpt:
-  xD’s mission is to improve government services through the research and
-  application of artificial intelligence solutions.
+  xD’s mission is oo advance the delivery of data-driven government services 
+  through new and transformative technologies.
 ---
 
 <section class="about-mission">

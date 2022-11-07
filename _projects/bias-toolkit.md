@@ -4,6 +4,7 @@ subtitle: Equipping experts with tools that help mitigate and correct sources of
 excerpt: Bias in federal data is not a new issue, but the importance of addressing it is compounded by the increasing application of machine learning (ML) models. This toolkit is designed to meet the unique needs of the public sector, highlighting the range of government processes that can benefit from a consideration of machine learning ethics.
 seo_excerpt: This project seeks to build tools designed to meet the unique needs of the public sector, highlighting the range of government processes that can benefit from a consideration of machine learning ethics.
 permalink: /projects/bias-toolkit/
+image: /assets/img/projects/bias-toolkit/bias-toolkit-og.png
 img_alt_text: An isometric computer monitor displays the xD logo with a keyboard in front of it.
 partners:
   entities:

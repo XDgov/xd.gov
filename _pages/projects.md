@@ -1,8 +1,9 @@
 ---
 permalink: /projects/
+image: /assets/img/pages/index/xd-og.png
 layout: page
 title: Projects
-seo_excerpt: View select projects from our team.
+seo_excerpt: View projects built by and with xD.
 ---
 <section class="projects-page active-projects">
   <div class="grid-container">

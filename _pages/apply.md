@@ -1,5 +1,6 @@
 ---
 permalink: /apply/
+image: /assets/img/pages/apply/apply-og.png
 layout: page
 title: Apply
 seo_excerpt:

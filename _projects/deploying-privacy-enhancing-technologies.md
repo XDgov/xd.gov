@@ -3,6 +3,7 @@ title: Deploying Privacy-Enhancing Technologies
 subtitle: Deploying privacy-enhancing technologies to understand the future of data collection & dissemination.
 seo_excerpt: Deploying privacy-enhancing technologies to understand the future of data collection & dissemination.
 permalink: /projects/deploying-privacy-enhancing-technologies/
+image: /assets/img/projects/deploying-privacy-enhancing-technologies/deploying-privacy-enhancing-technologies-og.png
 img_alt_text: A group of isometric cubes is connected by lines to illustrate the connection of nodes to one another.
 partners:
   entities:
