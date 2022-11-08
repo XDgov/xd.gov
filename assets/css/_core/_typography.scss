@@ -1,4 +1,5 @@
 $font-serif: Merriweather Web, serif;
+$font-body: Source Sans Pro, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 
 a {
   color: $color-black;
@@ -29,6 +30,13 @@ h4,
 h5,
 h6 {
   font-family: $font-serif;
+
+  &.section-breadcrumb {
+    font-size: 0.9rem;
+    font-family: $font-body;
+    font-weight: bold;
+    line-height: 1rem;
+  }
 }
 
 hr {
@@ -71,6 +79,7 @@ p {
   color: #000;
   display: inline-block;
   font-weight: bold;
+  line-height: 1rem;
   padding-left: 1.75rem;
   position: relative;
   text-transform: uppercase;

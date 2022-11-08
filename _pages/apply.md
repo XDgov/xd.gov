@@ -71,11 +71,32 @@ seo_excerpt:
       image_path="/assets/img/praise/feldman.jpeg" 
     %}
     <div class="grid-row">
-      <div class="section-breadcrumb">What Skills Are We Looking For?</div>
+      <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
     </div>
     <div class="grid-row">
       <p>
-        We’re seeking candidates with professional experiences in the following
+        Qualified candidates demonstrate experience exercising a high degree of 
+        creativity and seasoned judgment and apply agile, lean, open-source, and
+        human-centered design principles to develop new concepts, products, and
+        services in response to challenges faced by the Census Bureau and other
+        Federal agency partners; writing code in programming languages such as
+        Python, SQL, R, Java, JS, Go, Scala, C, C++, Julia, or MatLab; and 
+        managing technical projects as a project manager, technical lead, product 
+        manager, or team lead.
+      </p>
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            <strong>
+              If you have the specialized experience above, please ensure it is 
+              reflected in your resume as it will be used to determine your 
+              qualifications.
+            </strong>
+          </p>
+        </div>
+      </div>
+      <p>
+        Ideal candidates have professional experiences in the following
         categories:
       </p>
     </div>

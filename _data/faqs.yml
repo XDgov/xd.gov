@@ -9,30 +9,6 @@
 
 - question: How will my resumé be evaluated?
   answer: |
-    Specialized Experience:  For the GS-15, you must have one year of experience at a level of difficulty and responsibility equivalent to the GS-14 in the Federal Service. Experience for this position includes:
-      - Data science, data processing, data mining, data analysis, data analytics, or data cleaning
-      - Web scraping, software development, web application development, software development,
-        backend development, full stack development, agile development, test-driven development
-        (TDD), or API design and development
-      - Lead complex IT projects/programs, including application development efforts, systems
-        upgrades, cloud service deployments, and apply best practices from IT project management
-      - Perform project lifecycle planning for project/program implementation and create strategies for
-        risk mitigation and contingency planning as well as plan and schedule project deliverables, goals,
-        and milestones
-      - Programming languages, e.g., CPython (Python), SQL, R, Java, JS, Go, Scala, C, C++, Julia, or
-        MatLab
-      - Artificial intelligence (AI), machine learning, machine learning technologies, e.g. TensorFlow or
-        PyTorch, models such as multivariate, logistic and linear regression models, or natural language
-        processing (NLP)
-      - Secure multiparty computation (SMPC), privacy-enhancing technologies (PETs), or federated
-        learning
-      - Database technologies such as SQL, Postgres, MySQL, Oracle, MongoDB, and NoSQL
-
-      - Serve as liaison with stakeholders and senior management to lead software development
-        activities, including defining the IT requirements, high-level software architecture, setting
-        platform and coding standards, architecture and design frameworks, and technical specifications
-      - Manage complex technology projects and cybersecurity policy and oversight, deliver research
-        papers, white papers, or policies to a diverse audience to meet organizational goals.
-
+    Specialized Experience:  For the GS-15, you must have one year of experience at a level of difficulty and responsibility equivalent to the GS-14 in the Federal Service. Qualified candidates demonstrate experience exercising a high degree of creativity and seasoned judgment and apply agile, lean, open-source, and human-centered design principles to develop new concepts, products, and services in response to challenges faced by the Census Bureau and other Federal agency partners; writing code in programming languages such as Python, SQL, R, Java, JS, Go, Scala, C, C++, Julia, or MatLab; and managing technical projects as a project manager, technical lead, product manager, or team lead.
 - question: What are your recruitment cycles?
   answer: We typically accept applications for the Fellowship once a year in Fall.
