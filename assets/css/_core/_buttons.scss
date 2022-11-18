@@ -10,4 +10,15 @@
       color: #fff;
     }
   }
+  &.usa-button-white {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0.85rem 1.25rem;
+    text-transform: none;
+
+    &:hover {
+      background-color: #CCCCCC;
+      color: #000000;
+    }
+  }
 }
