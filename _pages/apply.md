@@ -21,10 +21,12 @@ seo_excerpt:
         </p>
         <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
+                <h4 class="usa-alert__heading">Application Period Closed</h4>
                 <p class="usa-alert__text">
-                    Applications are being accepted from <strong>November 1st, 
-                    2022 - December 15th, 2022</strong>. See details below.
+                    The application period for the Emerging Technology 
+                    Fellowship has closed. We plan on recruiting again in Fall
+                    of 2023. Thank you to all who applied and we’ll be in touch
+                    soon!
                 </p>
             </div>
         </div>

@@ -1,3 +1,17 @@
+- title: Deploying Privacy-Enhancing Technologies
+  breadcrumb: Project
+  excerpt: What if you could answer questions using data that you never actually see?
+  permalink: /projects/deploying-privacy-enhancing-technologies/
+  img_alt_text: A collection of four isometric cubes that are interconnected and serve as hubs to a smaller set of cubes.
+  link_text: Learn More
+
+- title: Combating Bias in AI
+  breadcrumb: Recent Work
+  excerpt: A major risk in building data-driven applications is susceptibility to biases in data. This project seeks to develop scalable solutions to help those using federal data to identify sources of biased training data.
+  permalink: /projects/combating-bias-in-ai/
+  img_alt_text: An isometric 3 by 5 grid is formed by square blocks. 4 blocks in the bottom-right are joined by a line and are in a different color demonstrating a focus, or bias, to the bottom-right of the grid.
+  link_text: View Project
+
 - title: We’re Hiring
   breadcrumb: Emerging Technology Fellowship
   excerpt: We’re searching for purpose-driven technologists and innovators to help build a better government for everyone. Applications are open <strong>November 1st - December 15th</strong>!

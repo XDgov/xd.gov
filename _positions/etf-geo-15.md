@@ -1,6 +1,6 @@
 ---
 layout: position
-title: Apply to the Fellowship
+title: Position Details
 grade: GS-15
 location: TBD Upon Selection
 pay_range_min: $112,890
@@ -30,7 +30,8 @@ travel: Minimal
   </div>
 </div>
 
-<p>
-  All U.S. citizens welcome to apply. Applications are being accepted <strong>November 1st, 2022 - December 15th, 2022</strong>.
+<p class="margin-bottom-0">
+  All U.S. citizens welcome to apply. The application period for the 2022 cohort
+  is now closed.
 </p>
 
