@@ -74,7 +74,7 @@ GEM
     tzinfo-data (1.2021.5)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-21
@@ -89,7 +89,10 @@ DEPENDENCIES
   kramdown-parser-gfm
   minima (~> 2.0)
   tzinfo-data
-  webrick
+  webrick (~> 1.8)
+
+RUBY VERSION
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   2.2.31
+   2.4.16
