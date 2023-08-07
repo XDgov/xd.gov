@@ -29,3 +29,7 @@ If you have errors with the above command, you may need to run Jekyll in a bundl
 ```bash
 bundle exec jekyll serve
 ```
+
+## Updating Ruby
+
+If you need to update the version of Ruby, be sure to specify the version both in the `Gemfile` and `.ruby-version` file. The later is used by Cloud.gov: [https://cloud.gov/pages/documentation/rvm-on-pages/](https://cloud.gov/pages/documentation/rvm-on-pages/).
