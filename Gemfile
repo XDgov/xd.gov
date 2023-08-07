@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '~> 3.2'
+ruby '~> 3.2.0'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -31,6 +31,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Ruby v3 and above no longer ship with webrick
-gem "webrick", "~> 1.8"
