@@ -1,0 +1,17 @@
+<div class="usa-accordion">
+  <h3 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button text-normal"
+      aria-expanded="false"
+      aria-controls="{{ faq.question | slugify }}"
+    >
+      <div class="homepage-process__button-text">
+        <strong>{{ forloop.index }}</strong>
+        <span class="margin-left-4">{{ faq.question }}</span>
+      </div>
+    </button>
+  </h3>
+  <div id="{{ faq.question | slugify }}" class="usa-accordion__content">
+    {{ faq.answer | markdownify }}
+  </div>
+</div>

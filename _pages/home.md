@@ -1,13 +1,14 @@
 ---
 permalink: /
+image: /assets/img/pages/index/xd-og.png
 layout: home
 title: Home
 ---
 
-{% assign site_banner = site.projects | where: 'featured', 'true' %}
-{% for project in site_banner limit:1 %}
-  {% include components/homepage-banner.html project=project %}
+{% for hero in site.data.heroes limit:1 %}
+  {% include components/homepage-banner.html hero=hero %}
 {% endfor %}
+
 <section class="home-mission">
   <div class="grid-container">
     <div class="section-breadcrumb">About xD</div>
@@ -18,11 +19,12 @@ title: Home
     <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
   </div>
 </section>
+
 <section class="home-projects">
   <div class="grid-container">
     <div class="section-breadcrumb">Select Projects</div>
     <div class="grid-row grid-gap-lg">
-      {% assign site_projects = site.projects | where: 'featured', 'false' %}
+      {% assign site_projects = site.projects | where: 'featured', 'false' | where: 'active', 'true' %}
       {% for project in site_projects limit:3 %}
         {% include components/project-card.html project=project %}
       {% endfor %}
@@ -30,6 +32,7 @@ title: Home
     <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All</a>
   </div>
 </section>
+
 <section class="home-news">
   <div class="grid-container">
     <div class="section-breadcrumb">Recent News</div>

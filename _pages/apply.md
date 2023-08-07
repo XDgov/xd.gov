@@ -1,84 +1,137 @@
 ---
 permalink: /apply/
+image: /assets/img/pages/apply/apply-og.png
 layout: page
 title: Apply
 seo_excerpt:
   We’re looking for purpose-driven technologists and innovators to be part
   of our growing emerging technologies team.
 ---
+
+<section class="apply-overview">
+    <div class="grid-container">
+        <div class="section-breadcrumb">Apply to xD</div>
+        <h1>Emerging Technology Fellowship</h1>
+        <p>
+          We’re looking for purpose-driven technologists and innovators to join 
+          this unique fellowship experience with xD. <strong>The Emerging 
+          Technology Fellowship (ETF)</strong> recruits the best and brightest 
+          technologists with expertise in emerging data technology trends to 
+          build a better government for everyone.
+        </p>
+        <div class="usa-alert usa-alert--info">
+            <div class="usa-alert__body">
+                <h4 class="usa-alert__heading">Application Period Closed</h4>
+                <p class="usa-alert__text">
+                    The application period for the Emerging Technology 
+                    Fellowship has closed. We plan on recruiting again in Fall
+                    of 2023. Thank you to all who applied and we’ll be in touch
+                    soon!
+                </p>
+            </div>
+        </div>
+        {% for position in site.positions %} 
+            {% include components/position.html position=position %}
+        {% endfor %}
+        <!--<div class="grid-row">
+            <div class="grid-col-12">
+                <h3>Our Next Cohort</h3>
+                <p>
+                    <strong>
+                        Applications for the Spring 2022 Cohort of the ETF are
+                        now closed.
+                    </strong>
+                    Future openings will be listed on this page when we have
+                    more information to share.
+                </p>
+            </div>
+        </div>-->
+    </div>
+</section>
+
 <section class="apply-overview">
   <div class="grid-container">
-    <div class="section-breadcrumb">Apply to xD</div>
-    <h2>
-      We’re looking for purpose-driven technologists and innovators to be part
-      of our growing emerging technologies team.
-    </h2>
-    <div class="grid-row grid-gap-lg">
-      <div class="tablet:grid-col-6">
-        <h3>Overview</h3>
-        <p>
-          Come join xD at the U.S. Census Bureau for a tour of civic service 
-          that enables you to bring your unique perspective and expertise to a 
-          diversity of high-impact transformative projects. <strong>Emerging
-          Technology Fellowship</strong> positions are non-permanent and offered
-          for up to four years of service. For more information, see our FAQs.
-        </p>
-      </div>
-      <div class="tablet:grid-col-6">
-        <h3>How to Apply</h3>
-        <p>
-          To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
-        </p>
-        <p>
-          For more information about the Emerging Technology Fellowship, please visit the official 
-          <a class="usa-link" href="https://www.census.gov/about/census-careers/opportunities/programs/etf.html" target="_blank">Census.gov page</a>. If you have additional questions, please reach out to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="apply-openings">
-  <div class="grid-container">
-    <div class="section-breadcrumb">Openings</div>
     <div class="grid-row">
-      {% for position in site.positions %}
-        {% include components/position.html position=position %}
-      {% endfor %}
+      <div class="section-breadcrumb">Who should apply to the Fellowship?</div>
+    </div>
+    <div class="grid-row">
+      <p>
+        We’re looking for teammates who are motivated by curiosity and have a 
+        desire to make lasting positive impact. Emerging Technology Fellows 
+        bring an entrepreneurial spirit and expertise in emerging technologies 
+        to solve some of the most pressing federal data challenges of the 21st 
+        century. If you love a challenge, have demonstrated leadership in your 
+        career, and you’re looking to apply your talents towards high-impact 
+        projects, you may be a great fit for the Emerging Technology Fellowship!
+      </p>
+    </div>
+    {% 
+      include components/praise.html 
+      content="Working at xD gives an opportunity to work on interesting data problems with interesting people from within one of the most quietly important agencies in the U.S. There is no shortage of issues in government that can be improved with better collection, management, and use of data, and xD gives exposure to a bunch of them." 
+      author="Aidan Feldman" 
+      author_title="2017 Fellow. Technologist, Dancer, Adjunct Assistant Professor of Public Service NYU|Wagner" 
+      image_path="/assets/img/praise/feldman.jpeg" 
+    %}
+    <div class="grid-row">
+      <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
+    </div>
+    <div class="grid-row">
+      <p>
+        Qualified candidates demonstrate experience exercising a high degree of 
+        creativity and seasoned judgment and apply agile, lean, open-source, and
+        human-centered design principles to develop new concepts, products, and
+        services in response to challenges faced by customers and stakeholders;
+        writing code in programming languages such as Python, SQL, R, Java, JS,
+        Go, Scala, C, C++, Julia, or MatLab; and managing technical projects as
+        a project manager, technical lead, product manager, or team lead.
+      </p>
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            <strong>
+              If you have the specialized experience above, please ensure it is 
+              reflected in your resume as it will be used to determine your 
+              qualifications.
+            </strong>
+          </p>
+        </div>
+      </div>
+      <p>
+        Ideal candidates have professional experiences in the following
+        categories:
+      </p>
+    </div>
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        <ul class="usa-icon-list usa-icon-list--primary">
+          {% include components/icon-list-item.html content="Data Science" %}
+          {% include components/icon-list-item.html content="Machine Learning" %}
+          {% include components/icon-list-item.html content="Natural Language Processing" %}
+          {% include components/icon-list-item.html content="Responsible AI " %}
+        </ul>
+      </div>
+      <div class="tablet:grid-col">
+        <ul class="usa-icon-list usa-icon-list--primary">
+          {% include components/icon-list-item.html content="Data Governance & AI Policy" %}
+          {% include components/icon-list-item.html content="Privacy-enhancing Technologies" %}
+          {% include components/icon-list-item.html content="Algorithmic Bias" %}
+          {% include components/icon-list-item.html content="Technical Project Management" %}
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="apply-overview apply-faq">
-  <div class="grid-container">
-    <div class="section-breadcrumb">Frequently Asked Questions</div>
-    <div class="grid-row">
-      <div class="grid-col-12">
-        <div class="faq">
-          <h3>What is an Emerging Technology Fellow?</h3>
-          <p>
-            The Emerging Technology Fellowship (ETF) recruits the best and 
-            brightest technologists with expertise in emerging data technology 
-            trends to drive data innovation at the U.S. Census Bureau and other 
-            federal agencies. This fellowship brings together experts in data 
-            science and artificial intelligence (AI), design, and product 
-            management with innovators across the federal government to solve 
-            pressing technology problems, save taxpayer money, and position the 
-            Census Bureau as a leader in federal data innovation.
-          </p>
+    <div class="grid-container">
+        <div class="section-breadcrumb">Frequently Asked Questions</div>
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <br/>
+                {% for faq in site.data.faqs %}
+                    {% include components/faq.html faq=faq %}
+                {% endfor %}
+            </div>
         </div>
-        <div class="faq">
-          <h3>How do I apply?</h3>
-          <p>
-            To apply for this position, please send your <strong>resume and cover letter</strong> to: <a class="usa-link long-link" href="mailto:HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov?subject=Emerging Technology Fellowship Application">HRD.Schedule.A.Expert.Intern.Fellows.Hiring@census.gov</a> with the subject line "Emerging Technology Fellowship Application."
-          </p>
-        </div>
-        <div class="faq">
-          <h3>How should my resume be formatted?</h3>
-          <p>
-            We recommend formatting resumes based on best practices listed on the <a class="usa-link" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" target="_blank">USAJOBS website</a>. Additional guidance has been published by the <a class="usa-link" href="https://handbook.tts.gov/resume/" target="_blank">Technology Transformation Service (TTS)</a>.
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
 </section>

@@ -1,0 +1,26 @@
+<div class="alignfull praise-container">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-2">
+        <img alt="Photo of {{ include.author }}" class="img-circle praise-img" src="{{ site.baseurl }}{{ include.image_path }}">
+      </div>
+      <div class="tablet:grid-col-10">
+        <div class="praise-content-container">
+          <blockquote class="praise-content">
+            <div class="quote-icon">
+              <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#format_quote"></use>
+              </svg>
+            </div>
+            <p>{{ include.content }}</p>
+          </blockquote>
+          <div class="praise-attribution">
+            <p class="attribution">
+              <span><strong>{{ include.author }}</strong></span>, <span><em>{{ include.author_title }}</em></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

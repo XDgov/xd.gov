@@ -1,5 +1,6 @@
 ---
 permalink: /privacy-policy/
+image: /assets/img/pages/index/xd-og.png
 layout: page
 title: Privacy Policy
 ---

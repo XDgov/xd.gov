@@ -1,0 +1,51 @@
+.praise-attribution {
+  padding-left: 50px;
+}
+
+.praise-container {
+  background: #3E375A;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+
+.praise-content-container {
+
+  blockquote {
+    margin: 0;
+  }
+
+  p {
+    color: $color-white;
+  }
+
+  .praise-content {
+    padding-left: 50px;
+    position: relative;
+
+    p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+  }
+
+  .quote-icon {
+    color: $color-white;
+    left: 0;
+    position: absolute;
+    top: -10px;
+
+    svg {
+      height: 40px;
+      transform: scaleX(-1);
+      width: 40px;
+    }
+  }
+}
+
+.praise-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+}

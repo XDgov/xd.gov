@@ -1,9 +1,8 @@
 # Site settings
 title: "xD - U.S. Census Bureau"
 description:
-  "xD is an emerging technologies group at the U.S. Census Bureau that
-  partners with federal agencies and universities to improve the delivery of
-  government services using artificial intelligence."
+  "xD is an emerging technologies group that’s advancing the delivery of 
+  data-driven services through new and transformative technologies."
 baseurl: ""
 permalink: pretty
 url: "https://www.xd.gov"
