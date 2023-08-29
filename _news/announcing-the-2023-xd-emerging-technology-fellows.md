@@ -1,6 +1,6 @@
 ---
 title: Announcing the 2023 xD Emerging Technology Fellows
-publish_date: 2023-08-17
+publish_date: 2023-08-29
 permalink: /news/announcing-2023-xd-emerging-technology-fellows/
 img_alt_text: 2023 Emerging Technology Fellows
 ---
