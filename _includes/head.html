@@ -11,47 +11,56 @@
 
 <!-- Meta tags
 ================================================== -->
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
-
-<!-- Creator -->
-<meta name="twitter:creator" content="xD - US Census Bureau">
-<!-- Title -->
 {% if page.title %}
   <title>{{ site.title }} | {{ page.title }}</title>
+{% else %}
+  <title>{{ site.title }}</title>
+{% endif %}
+
+{% if page.seo_excerpt %}
+  <meta name="description" content="{{ page.seo_excerpt | xml_escape }}">
+{% else %}
+  <meta name="description" content="{{ site.description | xml_escape }}">
+{% endif %}
+
+<!-- OG Tags -->
+{% if page.title %}
   <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
-  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
 {% else %}
   <title>{{ site.title }} | {{ site.description }}</title>
   <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
-  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
 {% endif %}
-
-<!-- Twitter Site -->
-<meta name="twitter:site" content="xD - US Census Bureau" />
-
-<!-- Image -->
 {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}"/>
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}"/>
-  {% if page.image_accessibility %}
-    <meta name="twitter:image:alt" content="{{ page.image_accessibility }}"/>
-  {% endif %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}" />
 {% endif %}
-
-<!-- Description -->
 {% if page.seo_excerpt %}
-  <meta name="description" content="{{ page.seo_excerpt | xml_escape }}">
   <meta property="og:description" content="{{ page.seo_excerpt | xml_escape }}" />
-  <meta property="twitter:description" content="{{ page.seo_excerpt | xml_escape }}" />
 {% else %}
-  <meta name="description" content="{{ site.description | xml_escape }}">
   <meta property="og:description" content="{{ site.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
 {% endif %}
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:type" content="website" />
+
+<!-- Twitter Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="xD - US Census Bureau">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
+{% else %}
+  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
+{% endif %}
+<meta name="twitter:site" content="xD - US Census Bureau" />
+{% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}" />
+  {% if page.image_accessibility %}
+    <meta name="twitter:image:alt" content="{{ page.image_accessibility }}" />
+  {% endif %}
+{% endif %}
+{% if page.seo_excerpt %}
+  <meta property="twitter:description" content="{{ page.seo_excerpt | xml_escape }}" />
+{% else %}
+  <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
+{% endif %}
 
 <!-- Author -->
 {% if page.author %}
