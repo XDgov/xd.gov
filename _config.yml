@@ -5,7 +5,6 @@ description:
   data-driven services through new and transformative technologies."
 baseurl: ""
 permalink: pretty
-url: "https://www.xd.gov"
 localhost: "localhost:4500"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
