@@ -48,8 +48,7 @@
 <!-- Image -->
 {% if page.image %}
   <link rel="image_src" href="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  <meta name="image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}" />
+  <meta name="image" property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
   <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
   {% if page.image_accessibility %}
     <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
