@@ -3,6 +3,8 @@ title: xD Launches the Emerging Technology Fellowship
 publish_date: 2021-10-01
 permalink: /news/emerging-tech-fellowship/
 img_alt_text: xD Emerging Technology Fellowship
+image: /assets/img/news/emerging-tech-fellowship.jpg 
+image_accessibility: xD Emerging Technology Fellowship
 ---
 <p>
   As part of its mission to advance the delivery of data-driven services

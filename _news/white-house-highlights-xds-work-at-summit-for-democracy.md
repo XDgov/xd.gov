@@ -3,6 +3,8 @@ title: White House Highlights xD’s Work at Summit for Democracy
 publish_date: 2022-01-04
 permalink: /news/white-house-highlights-xds-work-at-summit-for-democracy/
 img_alt_text: Summit for Democracy Logo
+image: /assets/img/news/white-house-highlights-xds-work-at-summit-for-democracy.jpg 
+image_accessibility: Summit for Democracy Logo
 ---
 <p>
   We’re excited that our project was highlighted by Eric Lander, the President’s

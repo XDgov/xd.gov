@@ -29,10 +29,10 @@
   }
 
   .profile-img {
-    max-width: 200px;
+    max-width: 150px;
     width: 100%;
     float: left;
-    margin-right: 10px;
+    margin-right: 2rem;
   }
 
   .hiring {
@@ -74,6 +74,16 @@
     font-family: $font-serif;
   }
 
+  .news-fellow {
+    border-bottom: 1px solid #000;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
   .news-image-container {
     margin-bottom: 2rem;
   }
@@ -92,3 +102,4 @@
     }
   }
 }
+

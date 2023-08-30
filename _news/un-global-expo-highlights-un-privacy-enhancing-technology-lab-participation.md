@@ -3,6 +3,8 @@ title: UN Global Expo Highlights UN Privacy-Enhancing Technology Lab Participati
 publish_date: 2022-01-26
 permalink: /news/un-global-expo-highlights-un-privacy-enhancing-technology-lab-participation/
 img_alt_text: Road to Expo 2020 - UN Big Data
+image: /assets/img/news/un-global-expo-highlights-un-privacy-enhancing-technology-lab-participation.jpg 
+image_accessibility: UN Global Expo Logo
 ---
 <p>
   Team xD is thrilled to announce the U.S. Census Bureau’s involvement in the 
