@@ -13,10 +13,6 @@ img_alt_text: 2023 Emerging Technology Fellows
 </p>
 
 <p>
-  These visionary technologists and innovators bring highly sought-after skills to the Census Bureau, including artificial intelligence (AI), machine learning, data science, data engineering, and project management with specializations in cryptography, privacy, theory of mind, algorithmic transparency, algorithmic bias mitigation, and cybersecurity.
-</p>
-
-<p>
 “We couldn’t be more excited about this amazing group – not only as impressive individuals but as a collective. I can’t wait to see all that they’ll do for the public good.” - Kate McCall-Kiley, xD Lead
 </p>
 
