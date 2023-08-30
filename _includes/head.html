@@ -28,11 +28,17 @@
   <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
 {% endif %}
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-
 <!-- Twitter Site -->
 <meta name="twitter:site" content="xD - US Census Bureau" />
+
+<!-- Image -->
+{% if page.image %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+  {% if page.image_accessibility %}
+    <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
+  {% endif %}
+{% endif %}
 
 <!-- Description -->
 {% if page.seo_excerpt %}
@@ -44,16 +50,8 @@
   <meta property="og:description" content="{{ site.description | xml_escape }}" />
   <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
 {% endif %}
-
-<!-- Image -->
-{% if page.image %}
-  <meta name="image" property="og:image" content="{{ site.baseurl }}{{ page.image }}">
-  <link rel="image_src" href="{{ site.baseurl }}{{ page.image }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  {% if page.image_accessibility %}
-    <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
-  {% endif %}
-{% endif %}
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:type" content="website" />
 
 <!-- Author -->
 {% if page.author %}
