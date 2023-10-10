@@ -1,7 +1,7 @@
 # Site settings
 title: "xD - U.S. Census Bureau"
 description:
-  "xD is an emerging technologies group that’s advancing the delivery of 
+  "xD is an emerging technologies group that’s advancing the delivery of
   data-driven services through new and transformative technologies."
 baseurl: ""
 permalink: pretty
@@ -13,12 +13,11 @@ github_repo: https://github.com/XDgov/xd.gov/blob/master
 
 related_posts: 3
 
-
 analytics:
   google:
-    code: 'UA-123456-1' # Change this to your GSA analytics code
+    code: "UA-123456-1" # Change this to your GSA analytics code
   dap:
-    agency: Commerce    # Change this to your agency
+    agency: Commerce # Change this to your agency
     subagency: Census # Change this to your agency
 
 collections:
@@ -32,65 +31,64 @@ collections:
     permalink: /projects/:permalink/
 
 defaults:
- -
-  scope:
-    type: "posts" # an empty string here means all files in the project
-  values:
-    layout: post
- -
-  scope:
-    path: "pages"
-  values:
-    layout: default
- -
-  scope:
-    path: "_projects"
-  values:
-    layout: project
- -
-  scope:
-    path: "_news"
-  values:
-    layout: news
+  - scope:
+      type: "posts" # an empty string here means all files in the project
+    values:
+      layout: post
+  - scope:
+      path: "pages"
+    values:
+      layout: default
+  - scope:
+      path: "_projects"
+    values:
+      layout: project
+  - scope:
+      path: "_news"
+    values:
+      layout: news
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  syntax_highlighter: coderay
+  coderay_line_numbers: ""
 
 exclude:
-- .about.yml
-- .cfignore
-- .codeclimate.yml
-- .gitignore
-- .gitmodules
-- .hound.yml
-- 404.html
-- api-endpoints
-- bin
-- build
-- circle.yml
-- config_blog.rb
-- CONTRIBUTING.md
-- docker-compose.yml
-- docker_entrypoint.rb
-- Dockerfile
-- examples/
-- favicon.ico
-- Gemfile*
-- ISSUE_TEMPLATE.md
-- killport
-- LICENSE.md
-- node_modules
-- package.json
-- pages/our-work.html
-- PULL_REQUEST_TEMPLATE.md
-- README.md
-- spec/
-- system-security-plan.yml
-- tests/
-- tests/schema/tags.yml
-- tmp/
-- vendor
+  - .about.yml
+  - .cfignore
+  - .codeclimate.yml
+  - .gitignore
+  - .gitmodules
+  - .hound.yml
+  - 404.html
+  - api-endpoints
+  - bin
+  - build
+  - circle.yml
+  - config_blog.rb
+  - CONTRIBUTING.md
+  - docker-compose.yml
+  - docker_entrypoint.rb
+  - Dockerfile
+  - examples/
+  - favicon.ico
+  - Gemfile*
+  - ISSUE_TEMPLATE.md
+  - killport
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - pages/our-work.html
+  - PULL_REQUEST_TEMPLATE.md
+  - README.md
+  - spec/
+  - system-security-plan.yml
+  - tests/
+  - tests/schema/tags.yml
+  - tmp/
+  - vendor
 
 include:
   - _pages
