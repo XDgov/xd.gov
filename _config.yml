@@ -48,12 +48,14 @@ defaults:
     values:
       layout: news
 
-# Build settings
+# Build and syntax highlighting settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  syntax_highlighter: coderay
-  coderay_line_numbers: ""
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: "syntax"
 
 exclude:
   - .about.yml
