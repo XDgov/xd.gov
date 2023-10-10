@@ -33,3 +33,10 @@ bundle exec jekyll serve
 ## Updating Ruby
 
 If you need to update the version of Ruby, be sure to specify the version both in the `Gemfile` and `.ruby-version` file. The later is used by Cloud.gov: [https://cloud.gov/pages/documentation/rvm-on-pages/](https://cloud.gov/pages/documentation/rvm-on-pages/).
+
+
+## Code Syntax Highlighting
+
+Syntax highlighting is handled by Kramdown and Rouge.
+[Jekyll Documentation](https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting)
+To update the syntax styling, add create a new style from these [examples](https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html), add it to the folder `assets/css/_syntax_highlighting`, and import it in `assets/css/main.scss`.
