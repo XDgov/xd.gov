@@ -1,6 +1,6 @@
 ---
 title: Creating a Client-Side Model Card Generator
-publish_date: 2023-10-11
+publish_date: 2023-10-12
 permalink: /blog/creating-a-client-side-model-card-generator
 ---
 <p>
@@ -52,7 +52,7 @@ const mdType = exampleElement.dataset.mdType;
 <h2>Creating a Downloadable Data Blob</h2>
 
 <p>
-  Once we have our form inputs validated and we’re able to process them via JavaScript, we can begin creating a markdown model card file. In order to create that file, I first initialized a JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob" target="_blank"><code>Blob</code></a>, which is an object of immutable data that can be of various formats. The file format, more specifically the <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME_type">"MIME type”</a>, can be specified in the Blob constructor where you also pass the data you want the blob to contain.
+  Once we have our form inputs validated and we’re able to process them via JavaScript, we can begin creating a markdown model card file. To create that file, I first initialized a JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob" target="_blank"><code>Blob</code></a>, which is an object of immutable data that can be of various formats. The file format, more specifically the <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME_type">"MIME type”</a>, can be specified in the Blob constructor where you also pass the data you want the blob to contain.
 </p>
 
 <h2>Putting Everything Together</h2>
@@ -91,6 +91,8 @@ window.URL.revokeObjectURL(url);
   Here we’ve looked at a simple project to validate and download a model-card markdown file. We looked at some of the JavaScript and HTML features used in this project, including HTML validation and data-attributes as well as creating a blob object containing our form data and a way to download it directly in the browser without needing to contact a server. You can see the code for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://federalist-612f0f11-afdf-4863-b2c7-7c0379bfd16a.sites.pages.cloud.gov/site/xdgov/bias-toolkit-frontend/resources/model-card-generator/" target="_blank">here</a>.
 </p>
 
+<h2>Get Involved</h2>
+
 <p>
-  This is a small example of some of the things we work on at xD. If you’re not a web developer we’re also working on several projects in the domains of machine learning and AI, data engineering, and privacy-enhancing technologies. If you found this interesting and want to know more, please reach out to us and consider <a href="https://www.xd.gov/apply/" target="_blank">applying to join the team</a>!
+  This is a small example of some of the things we work on at xD. In addition to web development we’re also working on several projects in the domains of machine learning and AI, data engineering, and privacy-enhancing technologies. If you found this interesting and want to know more, please reach out to us and consider <a href="https://www.xd.gov/apply/" target="_blank">applying to join the team</a>!
 </p>
