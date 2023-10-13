@@ -6,7 +6,7 @@ location: TBD Upon Selection
 pay_range_min: $112,890
 pay_range_max: $146,757
 subject_line: Emerging Technology Fellowship Application
-subtitle: 2023 Cohort
+subtitle: 2024 Cohort
 travel: Minimal
 ---
 
@@ -31,7 +31,5 @@ travel: Minimal
 </div>
 
 <p class="margin-bottom-0">
-  All U.S. citizens welcome to apply. The application period for the 2022 cohort
-  is now closed.
+  All U.S. citizens welcome to apply. The application period for the 2024 cohort will open soon!
 </p>
-

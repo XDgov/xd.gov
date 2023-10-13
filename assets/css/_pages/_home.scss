@@ -18,7 +18,7 @@
     padding-top: 2rem;
 
     @media only screen and(min-width: $tablet-size) {
-      padding-top: 6rem;      
+      padding-top: 6rem;
     }
 
     .gray-box {
@@ -53,17 +53,17 @@
     width: 100%;
 
     @media only screen and(min-width: $desktop-size) {
-      padding: 2rem;      
+      padding: 2rem;
     }
 
     p {
 
       @media only screen and(min-width: $tablet-size) {
-        font-size: 1.1rem;        
+        font-size: 1.1rem;
       }
 
       @media only screen and(min-width: $desktop-size) {
-        font-size: 1.2rem;        
+        font-size: 1.2rem;
       }
     }
   }
@@ -73,11 +73,11 @@
     padding: 6rem 0;
 
     @media only screen and(min-width: $tablet-size) {
-      padding: 6rem 0;        
+      padding: 6rem 0;
     }
 
     @media only screen and(min-width: $desktop-size) {
-      padding: 2rem;        
+      padding: 2rem;
     }
   }
 }
@@ -157,7 +157,7 @@
 .page-home {
 
   main {
-    
+
     &.main-content {
       padding-top: 0;
     }
@@ -172,5 +172,13 @@
         padding-top: 6rem;
       }
     }
+  }
+}
+
+.application-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
   }
 }

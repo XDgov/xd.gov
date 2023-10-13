@@ -13,24 +13,21 @@ seo_excerpt:
         <div class="section-breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
-          We’re looking for purpose-driven technologists and innovators to join 
-          this unique fellowship experience with xD. <strong>The Emerging 
-          Technology Fellowship (ETF)</strong> recruits the best and brightest 
-          technologists with expertise in emerging data technology trends to 
+          We’re looking for purpose-driven technologists and innovators to join
+          this unique fellowship experience with xD. <strong>The Emerging
+          Technology Fellowship (ETF)</strong> recruits the best and brightest
+          technologists with expertise in emerging data technology trends to
           build a better government for everyone.
         </p>
         <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Application Period Closed</h4>
+                <h4 class="usa-alert__heading">Coming Soon - Recruiting for the 2024 Cohort!</h4>
                 <p class="usa-alert__text">
-                    The application period for the Emerging Technology 
-                    Fellowship has closed. We plan on recruiting again in Fall
-                    of 2023. Thank you to all who applied and we’ll be in touch
-                    soon!
+                    The application period for the Emerging Technology Fellowship will open in the next few weeks! Check back with us soon.
                 </p>
             </div>
         </div>
-        {% for position in site.positions %} 
+        {% for position in site.positions %}
             {% include components/position.html position=position %}
         {% endfor %}
         <!--<div class="grid-row">
@@ -56,28 +53,28 @@ seo_excerpt:
     </div>
     <div class="grid-row">
       <p>
-        We’re looking for teammates who are motivated by curiosity and have a 
-        desire to make lasting positive impact. Emerging Technology Fellows 
-        bring an entrepreneurial spirit and expertise in emerging technologies 
-        to solve some of the most pressing federal data challenges of the 21st 
-        century. If you love a challenge, have demonstrated leadership in your 
-        career, and you’re looking to apply your talents towards high-impact 
+        We’re looking for teammates who are motivated by curiosity and have a
+        desire to make lasting positive impact. Emerging Technology Fellows
+        bring an entrepreneurial spirit and expertise in emerging technologies
+        to solve some of the most pressing federal data challenges of the 21st
+        century. If you love a challenge, have demonstrated leadership in your
+        career, and you’re looking to apply your talents towards high-impact
         projects, you may be a great fit for the Emerging Technology Fellowship!
       </p>
     </div>
-    {% 
-      include components/praise.html 
-      content="Working at xD gives an opportunity to work on interesting data problems with interesting people from within one of the most quietly important agencies in the U.S. There is no shortage of issues in government that can be improved with better collection, management, and use of data, and xD gives exposure to a bunch of them." 
-      author="Aidan Feldman" 
-      author_title="2017 Fellow. Technologist, Dancer, Adjunct Assistant Professor of Public Service NYU|Wagner" 
-      image_path="/assets/img/praise/feldman.jpeg" 
+    {%
+      include components/praise.html
+      content="Working at xD gives an opportunity to work on interesting data problems with interesting people from within one of the most quietly important agencies in the U.S. There is no shortage of issues in government that can be improved with better collection, management, and use of data, and xD gives exposure to a bunch of them."
+      author="Aidan Feldman"
+      author_title="2017 Fellow. Technologist, Dancer, Adjunct Assistant Professor of Public Service NYU|Wagner"
+      image_path="/assets/img/praise/feldman.jpeg"
     %}
     <div class="grid-row">
       <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
     </div>
     <div class="grid-row">
       <p>
-        Qualified candidates demonstrate experience exercising a high degree of 
+        Qualified candidates demonstrate experience exercising a high degree of
         creativity and seasoned judgment and apply agile, lean, open-source, and
         human-centered design principles to develop new concepts, products, and
         services in response to challenges faced by customers and stakeholders;
@@ -89,8 +86,8 @@ seo_excerpt:
         <div class="usa-alert__body">
           <p class="usa-alert__text">
             <strong>
-              If you have the specialized experience above, please ensure it is 
-              reflected in your resume as it will be used to determine your 
+              If you have the specialized experience above, please ensure it is
+              reflected in your resume as it will be used to determine your
               qualifications.
             </strong>
           </p>
