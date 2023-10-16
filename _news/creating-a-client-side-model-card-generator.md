@@ -1,11 +1,8 @@
 ---
 title: Creating a Client-Side Model Card Generator
-publish_date: 2023-10-12
+publish_date: 2023-10-16
 permalink: /blog/creating-a-client-side-model-card-generator
 ---
-<p>
-  Creating a Client-Side Model Card Generator
-</p>
 
 <p>
   Recently at xD we’ve been working on features related to model cards. If you’re not familiar with them, model cards are brief documents that describe various details of a machine learning model such as what data it was trained on and how it’s expected to be used. This particular feature is for models used within the Census Bureau, but the usage of model cards is a practice that’s being widely adopted by ML and AI practitioners. Organizations like <a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Huggingface</a> and <a href="https://modelcards.withgoogle.com/about" target="_blank">Google</a> are big proponents, for example.
@@ -58,12 +55,12 @@ const mdType = exampleElement.dataset.mdType;
 <h2>Putting Everything Together</h2>
 
 <p>
-  Once we’ve validated and collected our data and placed it in a blob instance, we’re ready for download! To do that we have to create a temporary anchor tag in the DOM and use a few static methods on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL" target="_blank"><code>window.URL</code></a> object. By creating an anchor tag we can simulate the user clicking on it to initialize the browser’s file download workflow. And by using <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL_static" target="_blank"><code>window.URL.createObjectURL</code></a> we can ensure that the blob object containing our form data is what the user will be downloading. The code roughly looks like this (for the sake of the example I left out the code for collecting and parsing the form data):
+  Once we’ve validated and collected our data and placed it in a blob instance, we’re ready for download! To do that we have to create a temporary anchor tag in the DOM and use a few static methods on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL" target="_blank"><code>window.URL</code></a> object. By creating an anchor tag we can simulate the user clicking on it to initialize the browser’s file download workflow. And by using <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL_static" target="_blank"><code>window.URL.createObjectURL</code></a> we can ensure that the blob object containing our form data is what the user will be downloading. The code roughly looks like this (for the sake of the example I left out the code for collecting and parsing the form data, but it is viewable via the Github link in the "Summary" section below):
 </p>
 
 ~~~ javascript
 const anchor = document.createElement("a");
-const formData = collectFormData(); // method for collecting data declared defined elsewhere
+const formData = collectFormData(); // method for collecting data defined elsewhere
 
 // create blob and temporary URL
 const downloadBlob = new Blob([formData], { type: "text/markdown" });
