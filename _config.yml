@@ -29,6 +29,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:permalink/
+  blog:
+    output: true
+    permalink: /news/:permalink/
 
 defaults:
   - scope:
