@@ -32,6 +32,7 @@ collections:
   blog:
     output: true
     permalink: /news/:permalink/
+collections_dir: collections
 
 defaults:
   - scope:
