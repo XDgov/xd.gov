@@ -31,7 +31,7 @@ collections:
     permalink: /projects/:permalink/
   blog:
     output: true
-    permalink: /news/:permalink/
+    permalink: /blog/:permalink/
 collections_dir: collections
 
 defaults:
