@@ -1,7 +1,7 @@
 ---
 title: Creating a Client-Side Model Card Generator
 publish_date: 2023-10-16
-permalink: /blog/creating-a-client-side-model-card-generator
+permalink: /blog/creating-a-client-side-model-card-generator/
 ---
 
 <p>
