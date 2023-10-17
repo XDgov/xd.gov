@@ -51,6 +51,10 @@ defaults:
       path: "_news"
     values:
       layout: news
+  - scope:
+      path: "_blog"
+    values:
+      layout: blog
 
 # Build and syntax highlighting settings
 markdown: kramdown

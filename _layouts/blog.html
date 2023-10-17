@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<section>
+  <article class="grid-container">
+    <div class="grid-row grid-gap-lg news-row">
+      <div class="tablet:grid-col-8 news-content-container">
+        <header>
+          <div class="section-breadcrumb">News</div>
+          <h1>{{ page.title }}</h1>
+          <p class="author">By {{ page.post_author }}</p>
+          <p class="news-date">{{ page.publish_date | date: '%B %d, %Y' }}</p>
+        </header>
+        <div class="news-content">
+          {{ content }}
+        </div>
+      </div>
+      <div class="news-image-container tablet:grid-col-4">
+        <img src="{{site.baseurl }}/assets/img/news/{{ page.title | slugify }}.jpg" alt="{{ page.title}}">
+      </div>
+    </div>
+  </article>
+</section>
+<section class="more-news">
+  {% assign site_news = site.news %}
+  <div class="grid-container">
+    <div class="section-breadcrumb">More News</div>
+    <div class="grid-row grid-gap-lg">
+      {% for news in site_news limit:4 %}
+        {% if news.url != page.url %}
+          {% if forloop.index < 3 or found %}
+            <div class="tablet:grid-col-6">
+              {% include components/news-item.html news=news %}
+            </div>
+          {% endif %}
+        {% else %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include components/hiring.html %}
