@@ -1,7 +1,10 @@
 ---
 title: Creating a Client-Side Model Card Generator
-publish_date: 2023-10-16
+publish_date: 2023-10-17
 permalink: /blog/creating-a-client-side-model-card-generator/
+img_alt_text: Example Model Card
+image: /assets/img/news/creating-a-client-side-model-card-generator.jpg
+image_accessibility: Example Model Card
 ---
 
 <p>
@@ -43,7 +46,7 @@ const mdType = exampleElement.dataset.mdType;
 ~~~
 
 <p>
-  You can see that the dataset object even helpfully converts the property names to camelCase!
+  You can see that the <code>dataset</code> object even helpfully converts the property names to camelCase!
 </p>
 
 <h2>Creating a Downloadable Data Blob</h2>
@@ -66,7 +69,7 @@ const formData = collectFormData(); // method for collecting data defined elsewh
 const downloadBlob = new Blob([formData], { type: "text/markdown" });
 const url = window.URL.createObjectURL(downloadBlob);
 
-// link blob and anchor tag, attached anchor to DOM
+// link blob URL to anchor tag and attach anchor to DOM
 anchor.href = url;
 anchor.download = "modelcard.md";
 anchor.style.display = "none";
@@ -85,7 +88,11 @@ window.URL.revokeObjectURL(url);
 <h2>Summary</h2>
 
 <p>
-  Here we’ve looked at a simple project to validate and download a model-card markdown file. We looked at some of the JavaScript and HTML features used in this project, including HTML validation and data-attributes as well as creating a blob object containing our form data and a way to download it directly in the browser without needing to contact a server. You can see the code for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://federalist-612f0f11-afdf-4863-b2c7-7c0379bfd16a.sites.pages.cloud.gov/site/xdgov/bias-toolkit-frontend/resources/model-card-generator/" target="_blank">here</a>.
+  Here we’ve looked at a simple project to validate and download a model-card markdown file. We looked at some of the JavaScript and HTML features used in this project, including HTML validation and data-attributes as well as creating a blob object containing our form data and a way to download it directly in the browser without needing to contact a server. An additional benefit of this feature is that it doesn't require any new third-party libraries or dependencies, which keeps the JavaScript bundle size small and limits the application's security vulnerabilities.
+</p>
+
+<p>
+  You can see the code in the pull-request for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://bias.xd.gov/resources/model-card-generator/" target="_blank">here</a>.
 </p>
 
 <h2>Get Involved</h2>
