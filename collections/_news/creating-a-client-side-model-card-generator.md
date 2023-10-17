@@ -5,6 +5,8 @@ permalink: /blog/creating-a-client-side-model-card-generator/
 img_alt_text: Example Model Card
 image: /assets/img/news/creating-a-client-side-model-card-generator.jpg
 image_accessibility: Example Model Card
+layout: blog
+post_author: Curtis Mitchell
 ---
 
 <p>
@@ -12,7 +14,7 @@ image_accessibility: Example Model Card
 </p>
 
 <p>
-  As part of this project, we wanted to create a simple feature that consisted of an online form in which users could fill out information about an ML model and then immediately download a model card in a markdown format. Being a lead web developer on the team, I was asked to take on this feature and it ended up being a great project that was small and self-contained but also fun and informative. In this post I’d like to highlight a few of the web development skills I learned and relearned while creating this feature.
+  As part of this project, we wanted to create a simple feature that consisted of an online form in which users could fill out information about an ML model and then immediately download a model card in a markdown format. Being a lead web developer on the team, I was asked to take on this feature and it ended up being a great project that was small and self-contained but also fun and informative. In this post I’d like to highlight a few of the web development tricks and skills I learned and rediscovered while creating this feature.
 </p>
 
 <h2>HTML Form Validation</h2>
@@ -71,7 +73,7 @@ const url = window.URL.createObjectURL(downloadBlob);
 
 // link blob URL to anchor tag and attach anchor to DOM
 anchor.href = url;
-anchor.download = "modelcard.md";
+anchor.download = "modelcard.md"; // name of the downloadable file
 anchor.style.display = "none";
 document.body.append(anchor);
 
