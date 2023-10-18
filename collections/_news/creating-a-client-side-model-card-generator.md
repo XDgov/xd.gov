@@ -1,6 +1,6 @@
 ---
 title: Creating a Client-Side Model Card Generator
-publish_date: 2023-10-17
+publish_date: 2023-10-18
 permalink: /blog/creating-a-client-side-model-card-generator/
 img_alt_text: Example Model Card
 image: /assets/img/news/creating-a-client-side-model-card-generator.jpg
