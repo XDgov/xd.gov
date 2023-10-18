@@ -30,7 +30,7 @@ post_author: Curtis Mitchell
 <h2>HTML Data Attributes</h2>
 
 <p>
-  In order to discern the different form sections and individual questions, I created several HTML data attributes that I could then reference in my JavaScript code. And the DOM API has a nice interface to grab these data attributes using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset" target="_blank"><code>dataset</code></a> property of an HTML element. For example, if I wanted to grab the data attributes of the following element:
+  In order to discern the different form sections and individual questions, I created several HTML data attributes that I could then reference in my JavaScript code. And the <a href="https://developer.mozilla.org/en-US/docs/Glossary/DOM" target="_blank">DOM API</a> has a nice interface to grab these data attributes using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset" target="_blank"><code>dataset</code></a> property of an HTML element. For example, if I wanted to grab the data attributes of the following element:
 </p>
 
 ~~~ html
