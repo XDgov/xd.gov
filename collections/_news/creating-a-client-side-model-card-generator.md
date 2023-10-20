@@ -10,11 +10,11 @@ post_author: Curtis Mitchell
 ---
 
 <p>
-  Recently at xD we’ve been working on features related to model cards. If you’re not familiar with them, model cards are brief documents that describe various details of a machine learning model such as what data it was trained on and how it’s expected to be used. This particular feature is for models used within the Census Bureau, but the usage of model cards is a practice that’s being widely adopted by ML and AI practitioners. Organizations like <a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Huggingface</a> and <a href="https://modelcards.withgoogle.com/about" target="_blank">Google</a> are big proponents, for example.
+  Recently at xD we’ve been working on <a href="https://bias.xd.gov/resources/model-card-generator/" target="_blank">model card generators</a>. If you’re not familiar with model cards, they are brief documents that describe various details of a machine learning model such as what data it was trained on and how it’s expected to be used, and their usage is being widely adopted by ML and AI practitioners. Organizations like <a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Huggingface</a> and <a href="https://modelcards.withgoogle.com/about" target="_blank">Google</a> are big proponents, for example. The newest feature we have developed and are highlighting here is a <a href="https://bias.xd.gov/resources/model-card-generator/tool/" target="_blank">web-based model card generator</a>.
 </p>
 
 <p>
-  As part of this project, we wanted to create a simple feature that consisted of an online form in which users could fill out information about an ML model and then immediately download a model card in a markdown format. Being a lead web developer on the team, I was asked to take on this feature and it ended up being a great project that was small and self-contained but also fun and informative. In this post I’d like to highlight a few of the web development tricks and skills I learned and rediscovered while creating this feature.
+  The goal for this feature was to create a form in which users could fill out information about an ML model and then immediately download a model card in a markdown format. Being a lead web developer on the team, I was asked to take on this feature and it ended up being a great project that was small and self-contained but also fun and informative. In this post I’d like to highlight a few of the web development tricks and skills I learned and rediscovered while creating this feature.
 </p>
 
 <h2>HTML Form Validation</h2>
@@ -94,7 +94,7 @@ window.URL.revokeObjectURL(url);
 </p>
 
 <p>
-  You can see the code in the pull-request for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://bias.xd.gov/resources/model-card-generator/" target="_blank">here</a>.
+  You can see the code in the pull-request for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://bias.xd.gov/resources/model-card-generator/tool/" target="_blank">here</a>.
 </p>
 
 <h2>Get Involved</h2>
