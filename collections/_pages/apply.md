@@ -13,36 +13,19 @@ seo_excerpt:
         <div class="section-breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
-          We’re looking for purpose-driven technologists and innovators to join
-          this unique fellowship experience with xD. <strong>The Emerging
-          Technology Fellowship (ETF)</strong> recruits the best and brightest
-          technologists with expertise in emerging data technology trends to
-          build a better government for everyone.
+          We’re looking for purpose-driven technologists and innovators to join this unique fellowship experience with xD at the Census Bureau. <strong>The Emerging Technology Fellowship (ETF)</strong> recruits the best and brightest technologists with expertise in emerging data technology trends to build a better government for everyone.
         </p>
         <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Coming Soon - Recruiting for the 2024 Cohort!</h4>
+                <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
                 <p class="usa-alert__text">
-                    The application period for the Emerging Technology Fellowship will open in the next few weeks! Check back with us soon.
+                    Applications are being accepted until <strong>November 30th, 2023</strong>. See details below.
                 </p>
             </div>
         </div>
         {% for position in site.positions %}
             {% include components/position.html position=position %}
         {% endfor %}
-        <!--<div class="grid-row">
-            <div class="grid-col-12">
-                <h3>Our Next Cohort</h3>
-                <p>
-                    <strong>
-                        Applications for the Spring 2022 Cohort of the ETF are
-                        now closed.
-                    </strong>
-                    Future openings will be listed on this page when we have
-                    more information to share.
-                </p>
-            </div>
-        </div>-->
     </div>
 </section>
 
@@ -53,13 +36,7 @@ seo_excerpt:
     </div>
     <div class="grid-row">
       <p>
-        We’re looking for teammates who are motivated by curiosity and have a
-        desire to make lasting positive impact. Emerging Technology Fellows
-        bring an entrepreneurial spirit and expertise in emerging technologies
-        to solve some of the most pressing federal data challenges of the 21st
-        century. If you love a challenge, have demonstrated leadership in your
-        career, and you’re looking to apply your talents towards high-impact
-        projects, you may be a great fit for the Emerging Technology Fellowship!
+        We’re looking for teammates who are motivated by curiosity and have a desire to make lasting positive impact. Emerging Technology Fellows bring an entrepreneurial spirit and expertise in emerging technologies to solve some of the most pressing federal data challenges of the 21st century. If you love a challenge, have demonstrated leadership in your career, and you’re looking to apply your talents towards high-impact projects, you may be a great fit for the Emerging Technology Fellowship!
       </p>
     </div>
     {%
@@ -74,21 +51,13 @@ seo_excerpt:
     </div>
     <div class="grid-row">
       <p>
-        Qualified candidates demonstrate experience exercising a high degree of
-        creativity and seasoned judgment and apply agile, lean, open-source, and
-        human-centered design principles to develop new concepts, products, and
-        services in response to challenges faced by customers and stakeholders;
-        writing code in programming languages such as Python, SQL, R, Java, JS,
-        Go, Scala, C, C++, Julia, or MatLab; and managing technical projects as
-        a project manager, technical lead, product manager, or team lead.
+        Qualified candidates demonstrate experience exercising a high degree of creativity and seasoned judgment and apply agile, lean, open-source, and human-centered design principles to develop new concepts, products, and services in response to challenges faced by the Census Bureau and other Federal agency partners; writing code in programming languages such as Python, SQL, R, Java, JavaScript, Go, Scala, C, C++, Julia, or MatLab; drafting policy for emerging technologies such as data science, privacy-enhancing technologies, and AI/machine learning; authoring publications and preesenting at conferences; and managing technical projects as a project manager, technical lead, product manager, or team lead.
       </p>
       <div class="usa-alert usa-alert--info">
         <div class="usa-alert__body">
           <p class="usa-alert__text">
             <strong>
-              If you have the specialized experience above, please ensure it is
-              reflected in your resume as it will be used to determine your
-              qualifications.
+              If you have the specialized experience above, please ensure it is reflected in your resume as it will be used to determine your qualifications.
             </strong>
           </p>
         </div>
@@ -101,18 +70,18 @@ seo_excerpt:
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         <ul class="usa-icon-list usa-icon-list--primary">
-          {% include components/icon-list-item.html content="Data Science" %}
-          {% include components/icon-list-item.html content="Machine Learning" %}
-          {% include components/icon-list-item.html content="Natural Language Processing" %}
-          {% include components/icon-list-item.html content="Responsible AI " %}
-        </ul>
-      </div>
-      <div class="tablet:grid-col">
-        <ul class="usa-icon-list usa-icon-list--primary">
           {% include components/icon-list-item.html content="Data Governance & AI Policy" %}
           {% include components/icon-list-item.html content="Privacy-enhancing Technologies" %}
           {% include components/icon-list-item.html content="Algorithmic Bias" %}
           {% include components/icon-list-item.html content="Technical Project Management" %}
+        </ul>
+      </div>
+      <div class="tablet:grid-col">
+        <ul class="usa-icon-list usa-icon-list--primary">
+          {% include components/icon-list-item.html content="Data Science" %}
+          {% include components/icon-list-item.html content="Machine Learning" %}
+          {% include components/icon-list-item.html content="Natural Language Processing" %}
+          {% include components/icon-list-item.html content="Responsible AI " %}
         </ul>
       </div>
     </div>
