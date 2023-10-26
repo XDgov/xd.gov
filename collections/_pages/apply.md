@@ -41,10 +41,10 @@ seo_excerpt:
     </div>
     {%
       include components/praise.html
-      content="Working at xD gives an opportunity to work on interesting data problems with interesting people from within one of the most quietly important agencies in the U.S. There is no shortage of issues in government that can be improved with better collection, management, and use of data, and xD gives exposure to a bunch of them."
-      author="Aidan Feldman"
-      author_title="2017 Fellow. Technologist, Dancer, Adjunct Assistant Professor of Public Service NYU|Wagner"
-      image_path="/assets/img/praise/feldman.jpeg"
+      content="Being an Emerging Technology Fellow with xD at the Census Bureau has been such an honor. I get to work with the best and brightest in America. I'm challenged to think outside of the box and discover creative solutions to drive improvement. The best part about being an xD Fellow would be the camaraderie amongst the cohort of fellows. Each fellow has helped broaden my perspective on how to solve such complex issues while being a safe space to ask questions when I don't know what to do next."
+      author="Diamond Nwankwo"
+      author_title="2023 Fellow. Technologist, Problem Solver, Adjunct Instructor of Data Analytics, Mom, Wife, Author"
+      image_path="/assets/img/praise/DiamondNwankwo.jpg"
     %}
     <div class="grid-row">
       <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
