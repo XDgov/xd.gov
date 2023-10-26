@@ -51,7 +51,7 @@ seo_excerpt:
     </div>
     <div class="grid-row">
       <p>
-        Qualified candidates demonstrate experience exercising a high degree of creativity and seasoned judgment and apply agile, lean, open-source, and human-centered design principles to develop new concepts, products, and services in response to challenges faced by the Census Bureau and other Federal agency partners; writing code in programming languages such as Python, SQL, R, Java, JavaScript, Go, Scala, C, C++, Julia, or MatLab; drafting policy for emerging technologies such as data science, privacy-enhancing technologies, and AI/machine learning; authoring publications and preesenting at conferences; and managing technical projects as a project manager, technical lead, product manager, or team lead.
+        Qualified candidates demonstrate experience exercising a high degree of creativity and seasoned judgment and apply agile, lean, open-source, and human-centered design principles to develop new concepts, products, and services in response to challenges faced by the Census Bureau and other Federal agency partners; writing code in programming languages such as Python, SQL, R, Java, JavaScript, Go, Scala, C, C++, Julia, or MatLab; drafting policy for emerging technologies such as data science, privacy-enhancing technologies, and AI/machine learning; authoring publications and presenting at conferences; and managing technical projects as a project manager, technical lead, product manager, or team lead.
       </p>
       <div class="usa-alert usa-alert--info">
         <div class="usa-alert__body">
