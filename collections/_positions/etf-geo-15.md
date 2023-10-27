@@ -3,8 +3,8 @@ layout: position
 title: Position Details
 grade: GS-15
 location: TBD Upon Selection
-pay_range_min: $112,890
-pay_range_max: $146,757
+pay_range_min: $117,890
+pay_range_max: $152,771
 subject_line: Emerging Technology Fellowship Application
 subtitle: 2024 Cohort
 travel: Minimal
@@ -31,5 +31,8 @@ travel: Minimal
 </div>
 
 <p class="margin-bottom-0">
-  All U.S. citizens welcome to apply. The application period for the 2024 cohort will open soon!
+  This is a full-time, non-supervisory, excepted service appointment for a minimum of two years (with the possibility to extend an additional two years).
+</p>
+<p class="margin-bottom-0">
+  All U.S. citizens welcome to apply. Applications now being accepted through November 30th, 2023!
 </p>
