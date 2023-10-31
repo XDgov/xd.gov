@@ -32,7 +32,5 @@ travel: Minimal
 
 <p class="margin-bottom-0">
   This is a full-time, non-supervisory, excepted service appointment for a minimum of two years (with the possibility to extend an additional two years).
-</p>
-<p class="margin-bottom-0">
   All U.S. citizens welcome to apply. Applications now being accepted through November 30th, 2023!
 </p>
