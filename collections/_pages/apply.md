@@ -19,7 +19,8 @@ seo_excerpt:
             <div class="usa-alert__body">
                 <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
                 <p class="usa-alert__text">
-                    Applications are being accepted until <strong>November 30th, 2023</strong>. See details below.
+                    Submissions will be accepted until <strong>11:59PM Eastern Time on November 30th, 2023</strong>.
+                    See details below.
                 </p>
             </div>
         </div>
