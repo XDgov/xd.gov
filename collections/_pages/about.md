@@ -46,7 +46,7 @@ seo_excerpt:
   <div class="grid-container">
     <div class="section-breadcrumb">How We Work</div>
     <p>
-      xD works in multi-discplinary teams of engineers, project managers, and
+      xD works in multi-disciplinary teams of engineers, project managers, and
       data scientists to support the research and application of artificial
       intelligence solutions to the delivery of government services. Each team
       works with federal stakeholders across government and often with the 
