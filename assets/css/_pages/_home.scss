@@ -49,11 +49,12 @@
   .hero-left-content {
     margin: 0 auto;
     max-width: 600px;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem 2rem calc(1rem + 30px) 1rem;
     width: 100%;
 
     @media only screen and(min-width: $desktop-size) {
       padding: 2rem;
+      padding-bottom: calc(2rem + 30px);
     }
 
     p {
