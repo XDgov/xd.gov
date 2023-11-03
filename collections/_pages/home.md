@@ -16,7 +16,7 @@ title: Home
       xD is an emerging technologies group that’s advancing the delivery of 
       data-driven services through new and transformative technologies.
     </h2>
-    <a class="square-link" href="{{ site.baseurl }}/about">Learn More</a>
+    <a class="square-link" href="{{ site.baseurl }}/about">Learn More<span class="visually-hidden"> about xD</span></a>
   </div>
 </section>
 
@@ -29,7 +29,7 @@ title: Home
         {% include components/project-card.html project=project %}
       {% endfor %}
     </div>
-    <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All</a>
+    <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All<span class="visually-hidden"> xD projects</span></a>
   </div>
 </section>
 
