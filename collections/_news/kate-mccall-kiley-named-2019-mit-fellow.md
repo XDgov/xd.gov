@@ -15,5 +15,5 @@ image_accessibility: Kate McCall-Kiley
 </p>
 
 <p class="news-cta">
-  <a class="square-link" href="https://www.media.mit.edu/groups/directors-fellows-program/overview/" target="_blank">Learn More</a>
+  <a class="square-link" href="https://www.media.mit.edu/groups/directors-fellows-program/overview/" target="_blank">Learn More<span class="visually-hidden"> about the Director's Fellows Program</span></a>
 </p>
