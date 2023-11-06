@@ -1,12 +1,6 @@
-.more-news {
-  padding-top: 4rem;
+@import "../_includes/news-item";
 
-  .section-breadcrumb {
-    margin-bottom: 2rem;
-  }
-}
-
-.news {
+body.news {
 
   main {
 
@@ -28,78 +22,94 @@
     }
   }
 
-  .profile-img {
-    max-width: 150px;
-    width: 100%;
-    float: left;
-    margin-right: 2rem;
-  }
+  section {
 
-  .hiring {
-    margin-top: 6rem;
+    &.story {
 
-    @media only screen and(min-width: $tablet-size) {
-      margin-top: 8rem;
-
-    }
-  }
-
-  .news-content-container {
-
-    @media only screen and(min-width: $tablet-size) {
-      margin-top: 4rem;
-    }
-
-    @media only screen and(min-width: $tablet-size) {
-      margin-top: 6rem;
-    }
-  }
-
-  .news-content {
-
-    p {
-      font-size: 1.2rem;
-
-      &.news-cta {
-        font-size: 1rem;
+      .profile-img {
+        max-width: 150px;
+        width: 100%;
+        float: left;
+        margin-right: 2rem;
       }
+    
+      .news-content-container {
+    
+        @media only screen and(min-width: $tablet-size) {
+          margin-top: 4rem;
+        }
+    
+        @media only screen and(min-width: $tablet-size) {
+          margin-top: 6rem;
+        }
+      }
+    
+      .news-content {
+    
+        p {
+          font-size: 1.2rem;
+    
+          &.news-cta {
+            font-size: 1rem;
+          }
+        }
+    
+        .square-link {
+          margin-top: 1rem;
+        }
+      }
+    
+      .news-date {
+        font-family: $font-serif;
+      }
+    
+      .news-fellow {
+        border-bottom: 1px solid #000;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    
+        p {
+          font-size: 1.1rem;
+        }
+      }
+    
+      .news-image-container {
+        margin-bottom: 2rem;
+      }
+  
+      .news-row {
+        flex-direction: column-reverse;
+    
+        @media only screen and(min-width: $tablet-size) {
+          flex-direction: row;
+        }
+      }    
+  
     }
 
-    .square-link {
-      margin-top: 1rem;
+    &.more-news {
+      padding-top: 4rem;
+    
+      .breadcrumb {
+        margin-bottom: 2rem;
+      }
+
+      .news-item {
+        @media only screen and(min-width: $tablet-size) {
+          border-bottom: 0;
+        }
+      }      
     }
-  }
 
-  .news-date {
-    font-family: $font-serif;
-  }
-
-  .news-fellow {
-    border-bottom: 1px solid #000;
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-
-    p {
-      font-size: 1.1rem;
-    }
-  }
-
-  .news-image-container {
-    margin-bottom: 2rem;
-  }
-
-  .news-item {
-    @media only screen and(min-width: $tablet-size) {
-      border-bottom: 0;
-    }
-  }
-
-  .news-row {
-    flex-direction: column-reverse;
-
-    @media only screen and(min-width: $tablet-size) {
-      flex-direction: row;
-    }
+    &.hiring {
+      margin-top: 6rem;
+  
+      @media only screen and(min-width: $tablet-size) {
+        margin-top: 8rem;
+  
+      }
+    }    
+    
   }
 }
 

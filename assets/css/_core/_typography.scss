@@ -31,7 +31,7 @@ h5,
 h6 {
   font-family: $font-serif;
 
-  &.section-breadcrumb {
+  &.breadcrumb {
     font-size: 0.9rem;
     font-family: $font-body;
     font-weight: bold;
@@ -58,7 +58,7 @@ p {
   font-size: 0.8rem !important;
 }
 
-.section-breadcrumb {
+.breadcrumb {
   font-size: 0.9rem;
   font-weight: bold;
   margin-bottom: 1.5rem;

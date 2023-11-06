@@ -8,9 +8,9 @@ seo_excerpt:
   of our growing emerging technologies team.
 ---
 
-<section class="apply-overview">
+<section class="intro">
     <div class="grid-container">
-        <div class="section-breadcrumb">Apply to xD</div>
+        <div class="breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
           We’re looking for purpose-driven technologists and innovators to join this unique fellowship experience with xD at the Census Bureau. <strong>The Emerging Technology Fellowship (ETF)</strong> recruits the best and brightest technologists with expertise in emerging data technology trends to build a better government for everyone.
@@ -30,10 +30,10 @@ seo_excerpt:
     </div>
 </section>
 
-<section class="apply-overview">
+<section class="fellowship-details">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="section-breadcrumb">Who should apply to the Fellowship?</div>
+      <div class="breadcrumb">Who should apply to the Fellowship?</div>
     </div>
     <div class="grid-row">
       <p>
@@ -48,7 +48,7 @@ seo_excerpt:
       image_path="/assets/img/praise/DiamondNwankwo.png"
     %}
     <div class="grid-row">
-      <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
+      <div class="breadcrumb">What Specialized Experience Are We Looking For?</div>
     </div>
     <div class="grid-row">
       <p>
@@ -89,9 +89,9 @@ seo_excerpt:
   </div>
 </section>
 
-<section class="apply-overview apply-faq">
+<section class="faq">
     <div class="grid-container">
-        <div class="section-breadcrumb">Frequently Asked Questions</div>
+        <div class="breadcrumb">Frequently Asked Questions</div>
         <div class="grid-row">
             <div class="grid-col-12">
                 <br/>
