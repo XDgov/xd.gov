@@ -30,13 +30,6 @@ h4,
 h5,
 h6 {
   font-family: $font-serif;
-
-  &.breadcrumb {
-    font-size: 0.9rem;
-    font-family: $font-body;
-    font-weight: bold;
-    line-height: 1rem;
-  }
 }
 
 hr {
@@ -113,4 +106,18 @@ p {
 li {
   line-height: 1.5rem;
   margin: 1rem;
+}
+
+.font-size-sm {
+  font-size: 0.9rem !important;
+}
+
+.visually-hidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
