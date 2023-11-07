@@ -6,34 +6,33 @@
     &:first-child {
       margin-top: 0;
     }
-  }
-}
 
-.apply-faq {
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6em;
+    }    
 
-  .grid-container {
-    border-top: 1px solid black;
-    padding-top: 2rem;
-  }
-}
+    &.intro {
+      .position-list-item {
 
-.apply-overview {
+        p.position-subtitle {
+          font-style: italic;
+          margin-top: 0;
+        }      
+        
+        h2 {
+          margin-bottom: 0;
+        }
+      }      
+    }
 
-  p {
-    font-size: 1.1rem;
-    line-height: 1.6em;
-  }
-}
+    &.faq {
 
-.position-subtitle {
-  font-size: 0.9rem;
-  font-style: italic;
-  margin-top: 0;
-}
-
-.position-list-item {
-  
-  h2 {
-    margin-bottom: 0;
+      .grid-container {
+        border-top: 1px solid black;
+        padding-top: 2rem;
+      }
+    }
+    
   }
 }

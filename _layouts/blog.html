@@ -6,7 +6,7 @@ layout: default
     <div class="grid-row grid-gap-lg news-row">
       <div class="tablet:grid-col-8 news-content-container">
         <header>
-          <div class="section-breadcrumb">Blog Post</div>
+          <div class="breadcrumb">Blog Post</div>
           <h1>{{ page.title }}</h1>
           <p class="post-author">By {{ page.post_author }}</p>
           <p class="news-date">{{ page.publish_date | date: '%B %d, %Y' }}</p>
@@ -24,7 +24,7 @@ layout: default
 <section class="more-news">
   {% assign site_news = site.news %}
   <div class="grid-container">
-    <div class="section-breadcrumb">More News</div>
+    <div class="breadcrumb">More News</div>
     <div class="grid-row grid-gap-lg">
       {% for news in site_news limit:4 %}
         {% if news.url != page.url %}

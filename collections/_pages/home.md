@@ -9,9 +9,9 @@ title: Home
   {% include components/homepage-banner.html hero=hero %}
 {% endfor %}
 
-<section class="home-mission">
+<section class="mission">
   <div class="grid-container">
-    <div class="section-breadcrumb">About xD</div>
+    <div class="breadcrumb">About xD</div>
     <h2>
       xD is an emerging technologies group that’s advancing the delivery of 
       data-driven services through new and transformative technologies.
@@ -20,9 +20,9 @@ title: Home
   </div>
 </section>
 
-<section class="home-projects">
+<section class="projects">
   <div class="grid-container">
-    <div class="section-breadcrumb">Select Projects</div>
+    <div class="breadcrumb">Select Projects</div>
     <div class="grid-row grid-gap-lg">
       {% assign site_projects = site.projects | where: 'featured', 'false' | where: 'active', 'true' %}
       {% for project in site_projects limit:3 %}
@@ -33,9 +33,9 @@ title: Home
   </div>
 </section>
 
-<section class="home-news">
+<section class="news">
   <div class="grid-container">
-    <div class="section-breadcrumb">Recent News</div>
+    <div class="breadcrumb">Recent News</div>
     <div class="grid-row grid-gap-lg home-news-items">
       {% assign site_news = site.news | sort: 'publish_date' | reverse %}
       {% for news in site_news limit:1 %}
