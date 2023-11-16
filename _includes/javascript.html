@@ -1,0 +1,35 @@
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+<script type="text/javascript">
+
+    window.addEventListener('load', () => {
+        var Airtable = require(['airtable'], (Airtable)=> {
+            const base = new Airtable({apiKey: 'pat4oCteLM0xFkfoZ.eeb62db13763abcd9c16572c6d10b248b07dab7a17d515375066302e34664c57'}).base('appwtw75tP9209veS');        
+            const moreNewsEl = document.getElementById('more_news');
+
+            base('News').select({
+                // Selecting the first 3 records in Grid view:
+                maxRecords: 3,
+                view: "Grid view"
+            }).eachPage(function page(records, fetchNextPage) {
+                // This function (`page`) will get called for each page of records.
+                let div = document.createElement('div');
+
+                records.forEach(function(record) {
+                    let p = document.createElement('p');
+                    pinnerText = record.get('Title');
+                    div.append(record.get('Title'), p)
+                    console.log('Retrieved', record.get('Title'));
+                });
+
+                // To fetch the next page of records, call `fetchNextPage`.
+                // If there are more records, `page` will get called again.
+                // If there are no more records, `done` will get called.
+                fetchNextPage();
+
+            }, function done(err) {
+                if (err) { console.error(err); return; }
+            });   
+        });
+    })
+</script> 
