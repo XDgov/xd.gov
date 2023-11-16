@@ -6,9 +6,9 @@
         const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
         const moreNewsEl = document.getElementById('more_news');
 
-        base('News').select({
+        base('xd.gov Content').select({
             // Selecting the first 3 records in Grid view:
-            maxRecords: 3,
+            maxRecords: 6,
             view: "Grid view"
         }).eachPage(function page(records, fetchNextPage) {
             // This function (`page`) will get called for each page of records.
@@ -16,9 +16,9 @@
 
             records.forEach(function(record) {
                 let p = document.createElement('p');
-                pinnerText = record.get('Title');
-                div.append(record.get('Title'), p)
-                console.log('Retrieved', record.get('Title'));
+                pinnerText = record.get('Name');
+                div.append(record.get('Name'), p)
+                console.log('Retrieved', record.get('Name'));
             });
 
             // To fetch the next page of records, call `fetchNextPage`.
