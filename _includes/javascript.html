@@ -5,6 +5,7 @@
     window.addEventListener('load', () => {
         const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
         const moreNewsEl = document.getElementById('more_news');
+        const xdContent = {};
 
         base('xd.gov Content').select({
             // Selecting the first 3 records in Grid view:
@@ -13,13 +14,26 @@
         }).eachPage(function page(records, fetchNextPage) {
             // This function (`page`) will get called for each page of records.
             let div = document.createElement('div');
+            // Grab only content with a content type field
+            const filteredRecords = records.filter(record => record.fields['Content Type'] !== undefined)
+            // Filter content types to set as xdContent keys
+            const xdFieldNames = new Set(filteredRecords.filter(record => record.fields['Content Type'] !== undefined).map(record => record.fields['Content Type'][0]));
+            xdFieldNames.forEach(name => xdContent[name] = []);
 
-            records.forEach(function(record) {
+            filteredRecords.forEach(function(record) {
+                let fieldType = record.fields['Content Type'];
                 let p = document.createElement('p');
-                pinnerText = record.get('Name');
-                div.append(record.get('Name'), p)
-                console.log('Retrieved', record.get('Name'));
+                let name = record.get('Name');
+                let blurb = record.get('Blurb');
+
+                xdContent[fieldType].push({name: name, blurb: blurb});
+                console.log('Retrieved', fieldType, name, blurb);
+
+                div.append(`${name}  ${blurb}`, p);
             });
+
+            moreNewsEl.appendChild(div);
+            console.log(xdContent)
 
             // To fetch the next page of records, call `fetchNextPage`.
             // If there are more records, `page` will get called again.
