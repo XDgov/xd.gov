@@ -1,47 +1,73 @@
-<script src="https://cdn.jsdelivr.net/npm/airtable@0.12.2/lib/airtable.umd.min.js"></script>
+{{page.title}}
 
-<script type="text/javascript">
+{% if page.title == "Home" or page.title == "Apply" %}
 
-    window.addEventListener('load', () => {
-        const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
-        const moreNewsEl = document.getElementById('more_news');
-        const xdContent = {};
+    <script src="https://cdn.jsdelivr.net/npm/airtable@0.12.2/lib/airtable.umd.min.js"></script>
 
-        base('xd.gov Content').select({
-            // Selecting the first 3 records in Grid view:
-            maxRecords: 6,
-            view: "Grid view"
-        }).eachPage(function page(records, fetchNextPage) {
-            // This function (`page`) will get called for each page of records.
-            let div = document.createElement('div');
-            // Grab only content with a content type field
-            const filteredRecords = records.filter(record => record.fields['Content Type'] !== undefined)
-            // Filter content types to set as xdContent keys
-            const xdFieldNames = new Set(filteredRecords.filter(record => record.fields['Content Type'] !== undefined).map(record => record.fields['Content Type'][0]));
-            xdFieldNames.forEach(name => xdContent[name] = []);
+    <script type="text/javascript">
 
-            filteredRecords.forEach(function(record) {
-                let fieldType = record.fields['Content Type'];
-                let p = document.createElement('p');
-                let name = record.get('Name');
-                let blurb = record.get('Blurb');
+        window.addEventListener('load', () => {
+            const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
+            const moreNewsEl = document.getElementById('more_news');
+            const teamBiosEl = document.getElementById('team_bios');
+            const xdContent = {};
 
-                xdContent[fieldType].push({name: name, blurb: blurb});
-                console.log('Retrieved', fieldType, name, blurb);
+            base('xd.gov Content').select({
+                // Selecting the first 3 records in Grid view:
+                maxRecords: 6,
+                view: "Grid view"
+            }).eachPage(function page(records, fetchNextPage) {
+                // This function (`page`) will get called for each page of records.
+                let div = document.createElement('div');
+                // Grab only content with a content type field
+                const filteredRecords = records.filter(record => record.fields['Content Type'] !== undefined);
+                // Filter content types to set as xdContent keys
+                const xdFieldNames = new Set(filteredRecords.filter(record => record.fields['Content Type'] !== undefined).map(record => record.fields['Content Type'][0]));
+                xdFieldNames.forEach(name => xdContent[name] = []);
 
-                div.append(`${name}  ${blurb}`, p);
+                filteredRecords.forEach(function(record) {
+                    let fieldType = record.fields['Content Type'];
+                    xdContent[fieldType].push(record.fields);
+                    console.log('Retrieved', fieldType, record.fields);
+                });
+
+                if (moreNewsEl) {
+                    // Create page elements and render to more_news element.
+                    xdContent['News'].forEach((record) => {
+                        let p = document.createElement('p');
+                        let h3 = document.createElement('h3');
+                        let name = record['Name'];
+                        let blurb = record['Blurb'];
+                        h3.append(`${name}`)
+                        p.append(`${blurb}`)
+                        div.append(h3, p);
+                    })
+                    moreNewsEl.appendChild(div);
+                } else if (teamBiosEl) {
+                    // Create page elements and render to team_bios element.
+                    xdContent['Bio for team page'].forEach((record) => {
+                        let p = document.createElement('p');
+                        let h3 = document.createElement('h3');
+                        let name = record['Name'];
+                        let blurb = record['Blurb'];
+                        h3.append(`${name}`)
+                        p.append(`${blurb}`)
+                        div.append(h3, p);
+                    })                    
+                    teamBiosEl.appendChild(div);
+                }
+
+                console.log(xdContent)
+
+                // To fetch the next page of records, call `fetchNextPage`.
+                // If there are more records, `page` will get called again.
+                // If there are no more records, `done` will get called.
+                fetchNextPage();
+
+            }, function done(err) {
+                if (err) { console.error(err); return; }
             });
-
-            moreNewsEl.appendChild(div);
-            console.log(xdContent)
-
-            // To fetch the next page of records, call `fetchNextPage`.
-            // If there are more records, `page` will get called again.
-            // If there are no more records, `done` will get called.
-            fetchNextPage();
-
-        }, function done(err) {
-            if (err) { console.error(err); return; }
         });
-    });
-</script>
+    </script>
+
+{% endif %}
