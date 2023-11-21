@@ -14,7 +14,7 @@
 
             base('xd.gov Content').select({
                 // Selecting the first 3 records in Grid view:
-                maxRecords: 6,
+                maxRecords: 20,
                 view: "Grid view"
             }).eachPage(function page(records, fetchNextPage) {
                 // This function (`page`) will get called for each page of records.
@@ -48,11 +48,18 @@
                     xdContent['Bio for team page'].forEach((record) => {
                         let p = document.createElement('p');
                         let h3 = document.createElement('h3');
+                        let img = document.createElement('img');
                         let name = record['Name'];
                         let blurb = record['Blurb'];
-                        h3.append(`${name}`)
-                        p.append(`${blurb}`)
-                        div.append(h3, p);
+                        let image = record['Images'];
+
+                        if ([name, blurb, image].every(item => item !== undefined)) {
+                            img.setAttribute('id', image[0].id);
+                            img.setAttribute('src', image[0].url);
+                            h3.append(`${name}`)
+                            p.append(`${blurb}`)
+                            div.append(img, h3, p);
+                        }
                     })                    
                     teamBiosEl.appendChild(div);
                 }
