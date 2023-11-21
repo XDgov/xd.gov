@@ -1,5 +1,5 @@
 primary:
-  - text: Our Mission
+  - text: About
     href: /about/
   - text: Projects
     href: /projects/
@@ -8,7 +8,7 @@ primary:
 
 
 secondary:
-  - text: Our Mission
+  - text: About
     href: /about/
   - text: Projects
     href: /projects/
