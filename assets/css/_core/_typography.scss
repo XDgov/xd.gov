@@ -17,6 +17,14 @@ a {
       text-decoration: underline;
     }
   }
+
+  &.headline-link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 body {
