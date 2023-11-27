@@ -20,7 +20,7 @@ seo_excerpt:
 
 <section class="priorities">
   <div class="grid-container">
-    <div class="breadcrumb">Current Focus Areas</div>
+    <div class="breadcrumb">Portfolios</div>
     <div class="grid-row">
       <div class="grid-col-6">
         <div class="about-priority">
