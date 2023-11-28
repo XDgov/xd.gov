@@ -3,7 +3,9 @@
     <div class="hero-left grid-col-7">
       <div class="hero-left-content">
         <div class="breadcrumb">{{ hero.breadcrumb }}</div>
-        <h1>{{ hero.title }}</h1>
+        <a class="headline-link" href="{{ site.baseurl }}{{ hero.permalink }}">
+          <h1>{{ hero.title }}</h1>
+        </a>
         <p>
           {{ hero.excerpt }}
         </p>
