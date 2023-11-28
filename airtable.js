@@ -115,6 +115,16 @@ const generateXdMarkup = (content) => {
 
 fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
     .then((data) => {
+
+        const cacheData = fs.readFileSync(cacheFilePath);
+
+        // Compare our cache with the newly fetched data.
+        // If the same, we don't need to continue.
+        if (deepCompare(JSON.parse(cacheData), data)) {
+            console.log('Data is a match to cache, aborting.');
+            return;
+        }
+
         const markup = generateXdMarkup(data);
 
         // Write to json airtable-cache file
