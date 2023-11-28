@@ -23,20 +23,6 @@ const deepCompare = (arg1, arg2) => {
     return false;
 }
 
-// function readFile(name) {
-//     return new Promise((resolve, reject) =>
-//         fs.readFile(name, function (err, data) {
-//             if (err) { reject(err); }
-//             resolve(data);
-//         });
-//     });
-// }
-
-// Promise.all(readFile('file1'), readFile('file2')).then(data => {
-//     var file1 = data[0];
-//     var file2 = data[1];
-//  });
-
 // Fetch our airtable content and generate some markup with it
 // Optionally (if newer), write to our cache file with new data
 const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
@@ -142,7 +128,7 @@ fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
                 console.log('An error has occurred ', error);
                 return;
             }
-            console.log('Data written successfully to disk');
+            console.log('News markup written successfully to disk');
         });
         
         // Write to json airtable-cache file
@@ -151,6 +137,6 @@ fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
                 console.log('An error has occurred ', error);
                 return;
             }
-            console.log('Data written successfully to disk');
+            console.log('Bios markup written successfully to disk');
         });        
     })
