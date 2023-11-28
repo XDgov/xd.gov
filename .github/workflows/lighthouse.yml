@@ -16,8 +16,6 @@ jobs:
           bundle install
           bundle exec jekyll build
       - name: run Lighthouse CI
-        with:
-          configPath: ".github/lighthouse/lighthouserc.js"
         run: |
           npm install -g @lhci/cli@0.12.x
-          lhci autorun
+          lhci autorun --config=../lighthouse/lighthouserc.js
