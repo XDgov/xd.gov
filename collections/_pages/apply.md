@@ -102,14 +102,3 @@ seo_excerpt:
         </div>
     </div>
 </section>
-
-<section class="meet-the-team">
-  <div class="grid-container">
-    <div class="breadcrumb">Meet the Team</div>
-    <div class="grid-row apply-team-bios">
-      <div id="team_bios">
-        <!-- JS rendered content from Airbase goes here -->
-      </div>
-    </div>     
-  </div>
-</section>

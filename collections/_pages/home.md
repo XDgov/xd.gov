@@ -48,17 +48,6 @@ title: Home
           {% include components/news-item.html news=news %}
         {% endfor %}
       </div>
-    </div> 
-  </div>
-</section>
-
-<section class="more-news">
-  <div class="grid-container">
-    <div class="breadcrumb">More News</div>
-    <div class="grid-row home-more-news">
-      <div id="more_news">
-        <!-- JS rendered content from Airbase goes here -->
-      </div>
-    </div>     
+    </div>
   </div>
 </section>
