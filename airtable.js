@@ -3,7 +3,25 @@ const Airtable = require('airtable');
 
 const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
 const xdContent = {};
-const jsonFilePath = './airtable-cache.json';
+const cacheFilePath = './airtable-cache.json';
+const newsFilePath = './collections/_import/news.md';
+const biosFilePath = './collections/_import/bios.md';
+
+// Utility function we'll use to compare our data
+const deepCompare = (arg1, arg2) => {
+    if (Object.prototype.toString.call(arg1) === Object.prototype.toString.call(arg2)){
+      if (Object.prototype.toString.call(arg1) === '[object Object]' || Object.prototype.toString.call(arg1) === '[object Array]' ){
+        if (Object.keys(arg1).length !== Object.keys(arg2).length ){
+          return false;
+        }
+        return (Object.keys(arg1).every(function(key){
+          return deepCompare(arg1[key],arg2[key]);
+        }));
+      }
+      return (arg1===arg2);
+    }
+    return false;
+}
 
 // function readFile(name) {
 //     return new Promise((resolve, reject) =>
@@ -19,6 +37,8 @@ const jsonFilePath = './airtable-cache.json';
 //     var file2 = data[1];
 //  });
 
+// Fetch our airtable content and generate some markup with it
+// Optionally (if newer), write to our cache file with new data
 const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 
     base('xd.gov Content').select({
@@ -27,7 +47,6 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
         view: "Grid view"
     }).eachPage(function page(records, fetchNextPage) {
         // This function (`page`) will get called for each page of records.
-        // let div = document.createElement('div');
         // Grab only content with a content type field
         const filteredRecords = records.filter(record => record.fields['Content Type'] !== undefined);
         // Filter content types to set as xdContent keys
@@ -38,44 +57,8 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
             let fieldType = record.fields['Content Type'];
             xdContent[fieldType].push(record.fields);
             // console.log('Retrieved', fieldType, record.fields);
-        });
-    
-        // if (moreNewsEl) {
-        //     // Create page elements and render to more_news element.
-        //     xdContent['News'].forEach((record) => {
-        //         let p = document.createElement('p');
-        //         let h3 = document.createElement('h3');
-        //         let name = record['Name'];
-        //         let blurb = record['Blurb'];
-        //         h3.append(`${name}`)
-        //         p.append(`${blurb}`)
-        //         div.append(h3, p);
-        //     })
-        //     moreNewsEl.appendChild(div);
-        // } else if (teamBiosEl) {
-        //     // Create page elements and render to team_bios element.
-        //     xdContent['Bio for team page'].forEach((record) => {
-        //         let p = document.createElement('p');
-        //         let h3 = document.createElement('h3');
-        //         let img = document.createElement('img');
-        //         let name = record['Name'];
-        //         let blurb = record['Blurb'];
-        //         let image = record['Images'];
-    
-        //         if ([name, blurb, image].every(item => item !== undefined)) {
-        //             img.setAttribute('id', image[0].id);
-        //             img.setAttribute('src', image[0].url);
-        //             h3.append(`${name}`)
-        //             p.append(`${blurb}`)
-        //             div.append(img, h3, p);
-        //         }
-        //     })                    
-        //     teamBiosEl.appendChild(div);
-        // }
-    
-        // console.log(xdContent);  
-    
-        // To fetch the next page of records, call `fetchNextPage`.
+        });               
+        
         // If there are more records, `page` will get called again.
         // If there are no more records, `done` will get called.
         fetchNextPage();
@@ -88,13 +71,76 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 
 });
 
-fetchAirtablePromise(jsonFilePath)
+const generateXdMarkup = (content) => {
+    let newsMarkDown = '';
+
+    // Create page elements 
+    content['News'].forEach((record) => {
+        let name = record['Name'];
+        let blurb = record['Blurb'];
+        newsMarkDown += 
+                    `
+                        <div>
+                            <h3>${name}</h3>
+                            <p>${blurb}</p>
+                        </div>
+                    `
+    })
+
+    let biosMarkdown = '';
+
+    // Create page elements
+    content['Bio for team page'].forEach((record) => {
+
+        let name = record['Name'];
+        let blurb = record['Blurb'];
+        let image = record['Images'];
+
+        if ([name, blurb, image].every(item => item !== undefined)) {
+            biosMarkdown += 
+                        `
+                            <div>
+                                <img id="${image[0].id}" src="${image[0].url}" />
+                                <h3>${name}</h3>
+                                <p>${blurb}</p>
+                            </div>
+                        `
+        }
+    })
+    
+    console.log(newsMarkDown, biosMarkdown);
+
+    return [newsMarkDown, biosMarkdown];
+}
+
+fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
     .then((data) => {
-        fs.writeFile(jsonFilePath, JSON.stringify(data, null, 2), (error) => {
+        const markup = generateXdMarkup(data);
+
+        // Write to json airtable-cache file
+        fs.writeFile(cacheFilePath, JSON.stringify(data, null, 2), (error) => {
             if (error) {
                 console.log('An error has occurred ', error);
                 return;
             }
             console.log('Data written successfully to disk');
-        });          
+        }); 
+        
+        // Write to json airtable-cache file
+        fs.writeFile(newsFilePath, markup[0], (error) => {
+            if (error) {
+                console.log('An error has occurred ', error);
+                return;
+            }
+            console.log('Data written successfully to disk');
+        });
+        
+        // Write to json airtable-cache file
+        fs.writeFile(biosFilePath, markup[1], (error) => {
+            if (error) {
+                console.log('An error has occurred ', error);
+                return;
+            }
+            console.log('Data written successfully to disk');
+        });        
     })
