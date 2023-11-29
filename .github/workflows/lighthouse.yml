@@ -9,9 +9,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+      - name: Use Ruby 3.1
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+          # don't need to specify Ruby version; action will use the version from .ruby-version
       - run: |
           bundle install
           bundle exec jekyll build
@@ -19,3 +21,5 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.12.x
           lhci autorun --config=./.github/lighthouse/lighthouserc.json
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
