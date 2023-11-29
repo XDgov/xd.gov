@@ -18,6 +18,8 @@ jobs:
       - name: run Airtable Import
         run: |
           node airtable.js
+        env:
+           AIRTABLE_API_KEY: ${{secrets.AIRTABLE_API_KEY}}
       - run: |
           bundle install
           bundle exec jekyll build
