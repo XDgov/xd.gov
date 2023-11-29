@@ -58,9 +58,9 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 });
 
 const generateXdMarkup = (content) => {
-    let newsMarkDown = '';
+    let newsMarkDown = '---\n' + 'layout: news\n' + 'title: News\n' + '---';
 
-    // Create page elements 
+    // Create News page elements 
     content['News'].forEach((record) => {
         let name = record['Name'];
         let blurb = record['Blurb'];
@@ -70,12 +70,12 @@ const generateXdMarkup = (content) => {
                             <h3>${name}</h3>
                             <p>${blurb}</p>
                         </div>
-                    `
+                    `;
     })
 
-    let biosMarkdown = '';
+    let biosMarkdown = '---\n' + 'layout: news\n' + 'title: Bios\n' + '---';
 
-    // Create page elements
+    // Create Bios page elements
     content['Bio for team page'].forEach((record) => {
 
         let name = record['Name'];

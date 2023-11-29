@@ -32,6 +32,8 @@ collections:
   blog:
     output: true
     permalink: /blog/:permalink/
+  import:
+    output: true  
 collections_dir: collections
 
 defaults:
