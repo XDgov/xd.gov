@@ -1,0 +1,20 @@
+name: Airtable Import
+on: [push]
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: run Airtable Import
+        run: |
+          node airtable.js
+      - run: |
+          bundle install
+          bundle exec jekyll build
