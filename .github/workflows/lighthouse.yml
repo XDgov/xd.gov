@@ -13,7 +13,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          # don't need to specify Ruby version; action will use the version from .ruby-version
       - run: |
           bundle install
           bundle exec jekyll build
