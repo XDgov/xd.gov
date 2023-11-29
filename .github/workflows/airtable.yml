@@ -1,7 +1,7 @@
 name: Airtable Import
 on: [push]
 jobs:
-  lighthouse:
+  airtable:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
