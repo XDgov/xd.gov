@@ -12,6 +12,9 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: npm install
+        run: |
+          npm install
       - name: run Airtable Import
         run: |
           node airtable.js
