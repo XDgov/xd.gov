@@ -1,5 +1,7 @@
 name: Lighthouse CI
-on: [push]
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
