@@ -64,13 +64,7 @@ const generateXdMarkup = (content) => {
     content['News'].forEach((record) => {
         let name = record['Name'];
         let blurb = record['Blurb'];
-        newsMarkDown += 
-                    `
-                        <div>
-                            <h3>${name}</h3>
-                            <p>${blurb}</p>
-                        </div>
-                    `;
+        newsMarkDown += `\n<div>\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`;
     })
 
     let biosMarkdown = '---\n' + 'layout: news\n' + 'title: Bios\n' + '---';
@@ -83,14 +77,7 @@ const generateXdMarkup = (content) => {
         let image = record['Images'];
 
         if ([name, blurb, image].every(item => item !== undefined)) {
-            biosMarkdown += 
-                        `
-                            <div>
-                                <img id="${image[0].id}" src="${image[0].url}" />
-                                <h3>${name}</h3>
-                                <p>${blurb}</p>
-                            </div>
-                        `
+            biosMarkdown += `\n<div>\n<img id="${image[0].id}" src="${image[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
         }
     })
     
