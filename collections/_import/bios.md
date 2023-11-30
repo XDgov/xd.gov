@@ -1,14 +1,14 @@
 ---
-layout: news
+layout: bios
 title: Bios
 ---
 <div>
-<img id="attptgXIhrtZAHqE8" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/82ET0nfhkEy7k0nbb-nD2w/v6iPQyKNFzgq0yKmd_5t6VvShhGA4o__ZkVSTq-joRg0PX9Ush7or4j774pVl6UFJ4nPS1sr_-5k_1br7DOw9tlukWXryJLEy9905qKHH1X-3vmFECA4QOofxSCj_qc8cgS0M1m2n4AVs8IfsuYjEA/mzoj4-9PldPo8U_fojG2EOq_m2t0HRSd9Liwp9HA54g" />
+<img id="attptgXIhrtZAHqE8" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/bqJmTXmxF0dn6gAqo3b4jA/xQsEqavJMGTsGcvLqnhQmwalCIFjeKkzGUyn03yO75G_K3GaVjcRXMBzU2f5ivxDh4gfwnQbc46pPweiVmTODj4R6ouwHWhNsk5PoD7Fz7QdmSqKJR79JRd92L8NeGDaPb8eyfcwVW7Nk5FCTCR3wg/VNUqLOWd5sFZtN9xaYie9t5TC0jXTAc2Zhd4f2GrPfo" />
 <h3>Samantha Weinstock</h3>
 <p>Sam is the Head of Operations and Partnerships</p>
 </div>
 <div>
-<img id="attzMv5LoQkfN8oSs" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/tdkNJ_xsRrJ0GBHljwMhEg/_DRddkzHuRj2QwQJOFfcTDX6k14bt3XKDj3uSli6xX-HPzuJ0Cbb20BLQr3GLF_8FfzJ3hxQltK2bm0pf_ucS9HdwVFcnSwhJKgnZysI8uhnQMrnxynHce59kEZ-p9XLwZrm_MeIHlFKxRlXhElhIsP1rPqPv5S2If7MADipUvc/hcUxlFUWvm3GelsgLAb9nmyYfjPT-kqC9Pl6svdQ6OU" />
+<img id="attzMv5LoQkfN8oSs" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/siSTqeYPAon-ihWZlBIYpA/65zuYmkelQ4FSySWSXXcz1Aqf6hDFnWNAZruFO61KZijI_QGFpvk1UklLv80PG_HHDPW5DaAjNzU1FZMsas8QlZ9aMALP-r14_EPbDGF5fmsnxTEjX7wM1zlhLfaisKdGpnUObe13kjDX1h42OXfo2-avn0m2YJYIFTQfrjVVyE/YTWs3CHupLPUc_Usie1f5m6IWopb3W_sH2qeBBuEMss" />
 <h3>Curtis Mitchell</h3>
 <p>Curtis Mitchell (he/him) is excited to be an
 Emerging Technology Fellow on the xD team.
@@ -23,7 +23,7 @@ drones and air taxis into the air traffic control
 system.</p>
 </div>
 <div>
-<img id="attoZc4P4TFYJW2aW" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/eLbH2cYXPpXoZBcr9WSGsQ/NKG6LW_z5fx-fPJjfETmBandhqGd-JldAsQv7k8GO0PPAVHPeDd6PdgWMj21lKA2qX0b9sCQtXjmzqA2k1Qfagpt2N4O4CHoopvyTmbYJqzCkMGWfmV6DL0rau9RhImIMDp3nK052riXKMKilaYBqE3d3KAcKDb20AvsmdPlNQg/dYEP74QZ1Ue_49qlmazNssn6QQNXgpNlTaWyy7G918o" />
+<img id="attoZc4P4TFYJW2aW" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/GEFnM44b3UZCBMdhPx4BXQ/gl4udHSMAvwL1ddOBEMnuC0jVt7P6s9NO_CUxWFYcoRbW4vM7uziC7L9tyCAZ_xCcXmJEO7eVcSqDxVw9eV_QACsyWCUOHGvEDDuYx3L7nRxI3r0zj6nEBuGEZ2tVpBuvmcWMrApeNoFvDPWBTZZNYDVaHlrBr1QoPdlKxdcg-A/l6xFZOZiitX94LCKOBgyLY3nr8fUBf2-CsAXsO9TZDY" />
 <h3>Anna Vasylytsya</h3>
 <p>Anna is excited to start as an Emerging Technology
 Fellow at the Census Bureau. She is excited about
@@ -41,7 +41,7 @@ Department of State and she is excited to return to
 public service.</p>
 </div>
 <div>
-<img id="attW7Ep5zdBwxFzzB" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/_uFtqYF0pRMgUg0z0yUHkQ/pdPBIxRWFr2KEsqPt4BbHhiTuJq093NUy5paqLcx3A7X--4cyhdaAFfZ6SANfgfrMBlRGMlBF8XeBOY1R3znuGn4NtCEE-Jd8yk1tba4bA6U97YojuhB5Li2jPArj0O_2sfCDi7Zp6Rax3-p9NR_FzAS676Lr_ThS1-L0ShSnJs/CvKabnPmLO_JvtCoCLXW3WxGIjgimC1gvrgm8yPGLhs" />
+<img id="attW7Ep5zdBwxFzzB" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/ehPm7WtmZxDB7C5xvuUjNA/LwsZEhLSwRP-UoBUWyQ82lUWO-N8QwlWx-aCfVxkTmgWW_49FANaiGC65BVeZQRsw-WRktQ6WNnANAxTiqFHhF-oyb1IDdgDnQprq2R1yhf_5atAUoX0OoB6KG9wjsDvvC3xSOfmvIYsQ-V4g7wL91xAXlxAj4J3Shhe5jdT5LI/--cPASem1nqe7wajmJiICfD6Zwz4MDSuqU2AxolHHJs" />
 <h3>Diamond Nwankwo</h3>
 <p>Diamond Nwankwo (she/her) has a proven data-based
 track record with 10 years of experience in data
@@ -55,7 +55,7 @@ extract, transform, load (ETL) pipeline development and
 reporting data quality.</p>
 </div>
 <div>
-<img id="attlQoVOY2bfunFKj" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/qCIELwafhhkgQj5jj3z0Uw/jvOmajM9x5F05fn84ezKLTK3o2XUpRFq0al6EoSxg9S_ciKRX77QSETFBuemxHZKf7czWxVZdO9d9oBbc84KbhVPKcb9heu81JLdqqn4GbakmJWtXtzu7qj-CCC8WHorEgmi8ml6WojWfmUmV84PmnvMQXKV9x_a3kVbW1EoE1s/pTHVM_rXPsdvh6hkLh4t8cNe25zXM-5c5vRR22p8-cc" />
+<img id="attlQoVOY2bfunFKj" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/qXrDSknXDR0NFMywjUWIhQ/6N9ScOYOZQCvn31h8KLi5RqEbbKBqzok-9r4oVsxHNmHnk8aRHJrhM2zNCucGSVOnSbrvxLWGt3iEtdgMmR_wwm_gX4t3mYb14yV1XbP87VZ_f27nad1U9Fj8VMU3NgbxZPb7fRfk7DUdWJ4Y9Xne8SRqcJKgfxaq8Tp-hgX1rk/ON0xcmdBMJFiQqoCbl86QhPs1jPiEoUlGdbky3XxEPY" />
 <h3>Ian Munoz</h3>
 <p>My name is Ian and I'm excited to be joining xD!
 
@@ -68,7 +68,7 @@ spent time working for fintech startups as a
 DevOps engineer.</p>
 </div>
 <div>
-<img id="attR760W90B7VP511" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/HNOzdbWmjKdXwCzSKRevKQ/QRzzTliMSwAWH0lBk70bhsKO9zzwyP2Btbc-Ib4JW8S4Wv8ihaE3DYEn8V_9Qf8tMEL4u61q0k-GZEwamOXQ6CwrMoMRmh9P2fFg9eTDylkAeO7CtyewL2bB8vJOwDSSYyIVPkEMxd2mg_0m0xblDAuXhdNyfXobd_vl4PzU44c/BXV1l0ifC0vTcB4sdmg6uRuQro1rBjspN4l6sQco-Zw" />
+<img id="attR760W90B7VP511" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/Js8RKA90fPQv2cBrtywi3g/tDNC3HpIl5RjYVV9pBI9ZSwq7PwKmjBLfNQ2i8L46_VPtUvG10P7SENv6l8sh3Qlpa716ICNtQRUoHMoTmRyMOBmkdAaMovSeiufAsq23BrlTsw-Oc4ki7B6g3WoM3RZVu5p452FgR6YnpBRYQzs4HEJLB8zleUYxxmwUW9FZpo/61px3FOUEha2Q2bPNjhcb26VA-JleliHxDkVnT5ZGG0" />
 <h3>Tomo Lazovich</h3>
 <p>Tomo Lazovich (they/them) is a senior research scientist at the
 Institute for Experiential AI at Northeastern University. Prior to
@@ -82,7 +82,7 @@ expertise in building technical solutions to complex problems
 from the ground up.</p>
 </div>
 <div>
-<img id="attROSxw6AXAkJppo" src="https://v5.airtableusercontent.com/v2/23/23/1701374400000/z1Fl95vY0mo12HmAGUH02Q/rykLAi0VCoSyC1CfbgcxkAt0ZrMs3xV2i-jXWnH-NjkEYQj4Za0DyXXxB1yVOPblgbdNAS6-KFylLl4zYAcAa9pUtax4eoMDMSxIovW-MvHIvGOu1Z7GBduF-mLmi1jhw5RExG3LwrdKRCD4WLkuSBuA2TdN8ZaJf9JcUVvoMHY/Te3Fbf5BXMkd4lpkKOa81x9n6LrqUGLPGA1-FSBa-G0" />
+<img id="attROSxw6AXAkJppo" src="https://v5.airtableusercontent.com/v2/23/23/1701381600000/hkZV7gNFJu01XGxitNyGiA/AD3Yl1KVdrm9dfB5ojnCQFhyMvJFiceWPlPRkaMWcSVFiKM2xSvHs_2D_LZVUar55okiaMWYaIfZKGr5EjUXg1aPH2fuoAvf3PrV_YWI5XuXTWIsM5_qmaLyttA7jXXMs6q9l3YcmuNhDHGktpDCRVXT4DZ48sMBxZqFCVBjTw8/Ju_R-jy_ggKiVj0oEY-DJr8F6CPfjMOaIuYN3y0yDTU" />
 <h3>Mike Walton</h3>
 <p>Mike Walton is a researcher, technologist and
 writer endlessly fascinated by the study of

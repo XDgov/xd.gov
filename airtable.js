@@ -1,7 +1,9 @@
 const fs = require('fs');
 const Airtable = require('airtable');
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
+// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
+const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
+
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
 const newsFilePath = './collections/_import/news.md';
@@ -42,7 +44,6 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
         filteredRecords.forEach(function(record) {
             let fieldType = record.fields['Content Type'];
             xdContent[fieldType].push(record.fields);
-            // console.log('Retrieved', fieldType, record.fields);
         });               
         
         // If there are more records, `page` will get called again.
@@ -67,7 +68,7 @@ const generateXdMarkup = (content) => {
         newsMarkDown += `\n<div>\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`;
     })
 
-    let biosMarkdown = '---\n' + 'layout: news\n' + 'title: Bios\n' + '---';
+    let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
 
     // Create Bios page elements
     content['Bio for team page'].forEach((record) => {
