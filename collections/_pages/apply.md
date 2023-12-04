@@ -19,7 +19,10 @@ seo_excerpt:
             <div class="usa-alert__body">
                 <h4 class="usa-alert__heading">Application Period Closed</h4>
                 <p class="usa-alert__text">
-                    The application period for the Emerging Technology  Fellowship has closed. We plan on recruiting again in the fall of 2024. Thank you to all who applied and we’ll be in touch soon!
+                    The application period for the Emerging Technology Fellowship has closed. We plan on recruiting again in the fall of 2024.
+                </p>
+                <p class="usa-alert__text">
+                    We are in the process of reviewing resumes and anticipate interviews taking place in January-February for the 2024 cohort. Thank you to all who applied and we’ll be in touch soon!
                 </p>
             </div>
         </div>
