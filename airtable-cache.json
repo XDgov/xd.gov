@@ -1,30 +1,30 @@
 {
   "Bio for team page": [
     {
-      "Blurb": "Sam is the Head of Operations and Partnerships",
+      "Blurb": "Sam is the Head of Operations and Partnerships\n",
       "Is there a title that should be included with this content?": "Samantha Weinstock, Head of Operations and Partnerships",
       "Images": [
         {
           "id": "attptgXIhrtZAHqE8",
           "width": 181,
           "height": 170,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/bqJmTXmxF0dn6gAqo3b4jA/xQsEqavJMGTsGcvLqnhQmwalCIFjeKkzGUyn03yO75G_K3GaVjcRXMBzU2f5ivxDh4gfwnQbc46pPweiVmTODj4R6ouwHWhNsk5PoD7Fz7QdmSqKJR79JRd92L8NeGDaPb8eyfcwVW7Nk5FCTCR3wg/VNUqLOWd5sFZtN9xaYie9t5TC0jXTAc2Zhd4f2GrPfo",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/Sr0r6Y_ty5-yTbKTqaRYeQ/9XHUwu2QbBOWZztHkWDz6UuE3GBpayKqIjMyQVWdkDzhFwXA8a1JZX3YdPdr9tPoE0ulXGMs86eomQwdkDWHVBvw8fqSJupyR8VVhudJ4CPV1aG7xIvspk6r63w3ScUJgU2VlXdg_-Y11obbU4Cn3Q/Rbu9tmcnSc5sXTWyYL9Hyukwj0sxWaPG1Y_Z5ypqPYI",
           "filename": "xd.png",
           "size": 17697,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/zJkyrV04uB1dhjpq6oVxaA/QnWNrWDrnwz4weyeBKoCJ6ZCbaIOAqxmR1yr7CGvNG_3HSwleGCNIHHe7x8Uh6Dm-jlj5IymnRJ23VFUS-MqZLWctmu5FiIwNqg8zn9E7RgfvXx7krOqqwoce5ExZ0CKPGZvUv6fTfXkfP1dDD21CA/a5MfJjKx__mBerHbBBeRWOyeq8UsZlvc3Q38u5e-EDk",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/e3kJkCECyVBJblmRSsIOng/j0WQrBrm895J5J9NCVkye0hL08Y4QAx-3Qlq9wdIo_OanCiuxJAbUhwhRs52Vj2Oia1IC2sHwGuamUv093IAY95OeTWpOB21VdqnxCV86VruxTe97ajbFdi4kR2AAETXns3IvDFKiS5KehHsr5dmwQ/xuwP6LQivnwhPXLJGfElYN0SGf_NVBFJGL_KjWqCzzk",
               "width": 38,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/FpOG-tF9c0DMxNPgOd3i5g/iVRP0hpoVncobtLTlQTKywmS44CY2f2FrNYzWFNOXxDVzwY6kk8cRSGZy3WYYMptovc7ilgAjgkkZ104JIyDj7mlTQfjrpA6ww5RtWwOSiZqyqzGcWZJJtIIQt-Ydx5NsqNGG-cz9I7P7-OgvXzkfQ/cTJUYLVYZTjJsaUj1Msi4xHmkYsjipi5JrkRxwrVZJE",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/6BIG6RcgCBRbuN7VKcKFxw/CaWtjFIzoZ3KzbhKojuTIkW3MT5OOXQ7IB5OI2YVKBXBrhc6t8W_0DzDf5LaV5WMsDNqCt06ekXBEjMIvWfRvR3teZtl38JocZEnAxOqkkhio2D1gIpaG8xTRH8byXAXO99qNk_Z80jViwWSfnqjmA/NbX-B66xUOSibBKKa-p-8C93xPGAdiQ779v7prrPDbQ",
               "width": 181,
               "height": 170
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/suAaVIRAGl26dJ_zN8Zw2g/UsTSH5tPGjhd2EfICJ6Yt3CuBsGqpJFt1iz9vghDOqlvjBBw4YrJYGyPLjSzWtzNxDngSNFttO0fQ5BMSNDf5aN_skaGOE3M8Q9rS5qiolMKJjiImrlo4W_CIp6fSPjIALeUHq-MJgzwYoG8C9LP8g/jn1MzkFRrV_dIbv-erlf4xfoiwkkdWZ6o4c2eM6_aps",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/KJM9D8C86-8sM0bDj5qNRA/X0EhczEHNepIPZGdjquNidA46UkAWP0pGU6aZRVjLdmfRXKpj49UR6owr6jcS_vnMxMmdCiRxxi-cMGKFEGCI-Gl7Xc2CM50x8kz1fs-g-D5HcZeBoW-67PUvhiUNnbFxC80-DJdZTwStLlYwMq-iA/j0oaK5QL9a8y4sEQx1H3NLBZudiyM9wAcW66aISsfEo",
               "width": 181,
               "height": 170
             }
@@ -37,30 +37,30 @@
       ]
     },
     {
-      "Blurb": "Curtis Mitchell (he/him) is excited to be an\nEmerging Technology Fellow on the xD team.\nHis career has gone through several transitions,\nincluding being a data analyst at an energy\nconsulting firm before working at several data\nanalysis and machine learning startups as a\nsoftware engineer. Before joining xD, he worked\nwith multiple teams at NASA’s Ames Research\nCenter on a research platform to integrate\ndrones and air taxis into the air traffic control\nsystem.",
+      "Blurb": "Curtis Mitchell (he/him) is excited to be an\nEmerging Technology Fellow on the xD team.\nHis career has gone through several transitions,\nincluding being a data analyst at an energy\nconsulting firm before working at several data\nanalysis and machine learning startups as a\nsoftware engineer. Before joining xD, he worked\nwith multiple teams at NASA’s Ames Research\nCenter on a research platform to integrate\ndrones and air taxis into the air traffic control\nsystem.\n",
       "Is there a title that should be included with this content?": "Curtis Mitchell",
       "Images": [
         {
           "id": "attzMv5LoQkfN8oSs",
           "width": 275,
           "height": 476,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/siSTqeYPAon-ihWZlBIYpA/65zuYmkelQ4FSySWSXXcz1Aqf6hDFnWNAZruFO61KZijI_QGFpvk1UklLv80PG_HHDPW5DaAjNzU1FZMsas8QlZ9aMALP-r14_EPbDGF5fmsnxTEjX7wM1zlhLfaisKdGpnUObe13kjDX1h42OXfo2-avn0m2YJYIFTQfrjVVyE/YTWs3CHupLPUc_Usie1f5m6IWopb3W_sH2qeBBuEMss",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/eywgSdwxbze8DGkjwJvH2w/nMRSjRB5ewUvkNuS8HFU46O6xu4foaPe6t1STL_Ytn23eR2zdopqVrYcdXgo928AnSyz0_e5x_aKg1EzDDa74ARbqY3O8g-yvQnWv01eSoVmCli3x7CgUH0izMELcvsu1IBrpRvvspLV8ltJB3WQRe1ACsn1Vbi_wLNfEB8VPPI/8TfYz3XkH7y4Ve2huqdka-VoYPbvo4urMHU51PLLahg",
           "filename": "Screenshot 2023-11-21 140701.png",
           "size": 71059,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/5W3J6L9g5xj1EOR-crA2jA/lcOxHvpwX-rkpa9uu1uPq3268STRqzLXDbVxumOv493sXQCOEWO0mgtqhtlQVLXIj9UPYMcnsVl3oAEx9GZyvbMY2mKHqZMlirAYBhsSm77OQs0vjhlhg5rSId8Jt6phVt3Nkn4AvwlBdVtYSHy2WQ/bvfAO8cEUT-slgx8LFoM1hSL7NW6XaH1xRA8XV_2mVY",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/TREyPEX5z2UaTgrUJMvrxg/HWJf8Nv2F8DrA__72MB0iHnNCeqjwVuTVMx8D83iWwl-xFjkICqL_ppssE3fewErG8n1beFbbKlIHY8OXTY_1vJjdNdMq2ZVwiflMr_w1udzHtB-Oh0Ht_DJEmvud32D3cpjlxM35iltZgfMnBquXA/QhUildaOrK3A2egOTdFge9pWgYTxnYNu__yQaN4VTaE",
               "width": 21,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/TraulG0qJRVOm6Z-EdMACA/54-hSQ6nV4V-2X3JEIzf_pZ4pQjeuz-IG6lpaPHezgQ3u17YGODJi8TBtO5lAH8HMl1Wa2ZTm7g4uDrqVDZoSKUXgeQNttBPtmYAiNX2LRMGULI06pgxb8aKvWZ-eKYmtsAFGIZ505RJhDGU9HDtTw/pX7qmW4fKtC5Jn62WEaKasxJP4mhjuhQ7iEV3Wbjg_s",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/rxaC4L3KcsDayuWVsHi8ng/dat1b8tTwswc6wdCwHPUI689dMlvb12uwRoQ9ODkS1v3gmYaE8Hm3-OszFpL8R9Hh82n9K9J3iB_0y0-Nb7iWMUWPQUNAJP9Bi9Xf9VSsB0gKOI4RqFQK7h_R-noW_I1bp-fbNNbOzWJRBvrDamTzA/vtBHulSFEWb29Yphe4kmVzpeH7CnOdPXxa_w6qy1hIo",
               "width": 275,
               "height": 476
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/n1u81_URfwMIc98d4P_VCA/65n1c1pwgUBEBn6J55wRqfBP-FmB4RsdbR3oW1xDXAu8gRFUNa7y95SVCEb96HG1Y01NXy-DtUXs1mpU5W5jMzqZltU2NVknVyD39KD5_TVKdHgDx0bwHfftTSe0ypxibtZNP2jOv4XODQXvqbd8fg/zFwdpWTgOcC7GRpIBnCT1d5ul1M836CeCjgrfXwSNRg",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/IAL6ZAL3NtXwR-FiPDqLqw/cdeCt-FCBcbaL38Iu6Ap2f2smyWAVPytl-3JSeMMbZ35WvDwkgyMZ3B_HPiLtdMlVVFOxeQVCs0FQyZq9eY24V0udsYWWGkkXyV62AiNVkFwa3HbAe9TTcGPWg8yy7ci2t6Uoeb6VCb6l9r5397DCQ/2tCD3BU_LpiHsduJYah3GvfxKs-ToTdG-92XuZCbbXI",
               "width": 275,
               "height": 476
             }
@@ -73,30 +73,30 @@
       ]
     },
     {
-      "Blurb": "Anna is excited to start as an Emerging Technology\nFellow at the Census Bureau. She is excited about\ndata-driven decision-making, being able to combine\nher passions for technology, policy, and data.\n\nPrior to Census, Anna was a senior data scientist at\nthe National Associations of REALTORS (NAR), one of\nthe largest trade associations in the U.S. At NAR, she\nproduced data analyses and delivered insights, built\ndashboards and worked on improving data quality on\na broad range of topics that impact realtors. Anna\nstarted her career as a federal contractor at the\nDepartment of State and she is excited to return to\npublic service.",
+      "Blurb": "Anna is excited to start as an Emerging Technology\nFellow at the Census Bureau. She is excited about\ndata-driven decision-making, being able to combine\nher passions for technology, policy, and data.\n\nPrior to Census, Anna was a senior data scientist at\nthe National Associations of REALTORS (NAR), one of\nthe largest trade associations in the U.S. At NAR, she\nproduced data analyses and delivered insights, built\ndashboards and worked on improving data quality on\na broad range of topics that impact realtors. Anna\nstarted her career as a federal contractor at the\nDepartment of State and she is excited to return to\npublic service.\n",
       "Is there a title that should be included with this content?": "Anna Vasylytsya",
       "Images": [
         {
           "id": "attoZc4P4TFYJW2aW",
           "width": 342,
           "height": 334,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/GEFnM44b3UZCBMdhPx4BXQ/gl4udHSMAvwL1ddOBEMnuC0jVt7P6s9NO_CUxWFYcoRbW4vM7uziC7L9tyCAZ_xCcXmJEO7eVcSqDxVw9eV_QACsyWCUOHGvEDDuYx3L7nRxI3r0zj6nEBuGEZ2tVpBuvmcWMrApeNoFvDPWBTZZNYDVaHlrBr1QoPdlKxdcg-A/l6xFZOZiitX94LCKOBgyLY3nr8fUBf2-CsAXsO9TZDY",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/2K4WnBcudApbV6FBQu5YnQ/omFuIpd-I0u__8yrxpzMWKsx-CK74uWqaT4tuAFptHETl6zvIuXddt1mDSfqdpw8stbs_s3PNXTztaY7HRckkJobUbzpvySC1igL1JHdp0rw6IlF3oAg4L4AFFunvOrR9wpBmWU2KsWYuW7YpOjJCfuSf0PnDdmdaI9gSSOnSeE/Jpjr5fkRXO3pikIYDfTbzuPhMQ010FWzMm8Sg9M3xsY",
           "filename": "Screenshot 2023-11-21 140842.png",
           "size": 124804,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/aGmJDck6O0L32u5361YM3Q/YE3mLXtsqfAIrDnUNvANU1K3O8Pz31GVPasohB1iBU46_47ZfHQbdq8LP2wicbspO8u4Foae0NpxQirz8w778FNR8ZcHR3PKAeEcEPeZz6m4v6g6ebmnAaZc-gSSnwvsLXOZ9oPJPnDA2hjSSX18Mw/QjfUVtH9atc2sE83eza-FHaHfeh1bg3w6hKUJG1TIgE",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/8EjfWIGbwVUzKhyj5T5LPQ/d3T2SyrAG2R3NBMCP7xA1dM_RyBUZjU21oUn3mZwFXcdV9ZlANoBuuykbhEopWnTh4HQGDk6u0vTjen9A66O5hTwUfXKlemZMPP-yGGd3o_FOr69GR4_G8353Mb6Rrn3Hzo_nkE2mV_vh40eUnIGzQ/LylVVTLja41NBt994HgFNPDS_J6fkGz5EljgR8ykjUY",
               "width": 37,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/OeyGOIb7oJ3Df3x1c90LGA/XumGg5JYasGXSdFg6bL2E1eMdGAb9IWrepTlu1457gHuTJI1Dt0XArKe0OYy1xIrUmxXfGyeswzYrCrhYIy-nc3-FMjjiKQYVaJnYlUpQK-Tuv1ADxTC15jO2NRuaLL_VxKFwO5maI7ixjOLBqJyqQ/rwL5PGVrADlhLKBAC2Rfsxw-PsehGLwNhMpa8akZLEM",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/ZD6rX5ssruS-2mCLG8pDTg/aVkwJllPDTL10OOw6aNs3011E3JM_bmiQQXhDEna7LPDDcwz1WxJ7AmBgPtfZ9tIxz7VP8yMSc42g2yEV5nS3IWvzIJoGmnmkDEjQ_98jZYflOoJLVWahfayB6slNwMQ3R3lV2nb2qV8WF2Hrz9YzQ/bFj-Zasoe5q4RXPVv7uPEujtThNfI9c3_z8x8lv_Joo",
               "width": 342,
               "height": 334
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/uLy1GCHEt3vGs4F1VfIT5Q/JZsFBItr6AATdbuoEs_xLYYS1ilchMPc6wCASvZx9GsfiKtSjQxAeQDqXheaaMpZul-Qai0Zkx3d32lCua38BiG3HpPmZ6QMIIUObzNBN7LEMUNcERBGjneIRPIiyKFNanpuL8vUZel6FXBwK7S1Fg/jJSX6LAH2MPCcrsQCdtpPgpVdE01WIC6zIv5TFBUohg",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/vUpGCoIPDGrQaxjVGlI0XA/821ryT8esjmRWAQsbqBMFYfOS4zeHfu5-SJKQH7BdBOlXP7ylO07ijbPoAuDBb6l1mHwn5epS4SyfloCYzbYwOo341a5RABjVMOVWKVqA-z699Cj4hoLdlF9JfzFtdcwegxr10HqhF0XU2Twp9VAIw/YWKN5eodCylZNX6H0Q7R-YbMpP1D1P3NHxRJJpi-SFo",
               "width": 342,
               "height": 334
             }
@@ -109,30 +109,30 @@
       ]
     },
     {
-      "Blurb": "Diamond Nwankwo (she/her) has a proven data-based\ntrack record with 10 years of experience in data\nengineering and quality assurance/control field within\naerospace manufacturing. Diamond worked as a senior\ndata engineer, where she was responsible for designing,\nbuilding and maintaining data pipelines and systems.\nPrior to that, she worked in solar renewable energy as a\ndata engineer where she was the lead on an irradiance\nextract, transform, load (ETL) pipeline development and\nreporting data quality.",
+      "Blurb": "Diamond Nwankwo (she/her) has a proven [data-based](http://xd.gov)\n[track record with 10 years of experience in data](http://xd.gov)\n[engineering and quality assurance/control field within](http://xd.gov)\n[aerospace manufacturing.](http://xd.gov) Diamond worked as a senior\ndata engineer, where she was responsible for designing,\nbuilding and maintaining data pipelines and systems.\nPrior to that, she worked in solar renewable energy as a\ndata engineer where she was the lead on an irradiance\nextract, transform, load (ETL) pipeline development and\nreporting data quality.\n",
       "Is there a title that should be included with this content?": "Diamond Nwankwo",
       "Images": [
         {
           "id": "attW7Ep5zdBwxFzzB",
           "width": 284,
           "height": 483,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/ehPm7WtmZxDB7C5xvuUjNA/LwsZEhLSwRP-UoBUWyQ82lUWO-N8QwlWx-aCfVxkTmgWW_49FANaiGC65BVeZQRsw-WRktQ6WNnANAxTiqFHhF-oyb1IDdgDnQprq2R1yhf_5atAUoX0OoB6KG9wjsDvvC3xSOfmvIYsQ-V4g7wL91xAXlxAj4J3Shhe5jdT5LI/--cPASem1nqe7wajmJiICfD6Zwz4MDSuqU2AxolHHJs",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/DJRJZnfHSsatPYn0iRJQwg/9ub7pCwkOnPuZpi2Iy48Sg2rtIGMt9P7uyRSj3WRWZikmEbiZk_YOFBtoL-B6YIJGoNx7anFjnm047QCEpia98KgammLmKztn7L08QlG6jegdy7z73kFd8PkFIfZxoECDUJiqNaIrMgJLwOvdwzv4w7AggdXe9EoVB1d-8jWe18/gjbTkIUCyinHDCx8808uyeRrhTCJuFW4lwwjIAzvxWM",
           "filename": "Screenshot 2023-11-21 140707.png",
           "size": 73819,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/LvHODOgcf2xC34IlIZwHFA/AS-UClYJ-qq-wYdBN23y_JxoDpdlvASrL5KPwJP3V2NlL2r6Rhkh8jzjmqtuwjUZUxxy9B3oVPSdZBNIt56Fd34pxKRAim-_mIgaDX1R8y8rz_r0EtymtZlKvAPs-yrEJbj0E4G_1usOGnKA8EFppQ/NY_DH0NCDE0llzS6LlKTrRX-XFO4Xwba9qvffood5-M",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/SyCg7ZjWW3chdZ-jGxddFg/Rz7FRl66MZRPdyqkfz09YM6AJrk9u17_IQghipQdW1weqpehMddvhSHFaClSUE5GeWYAL5jQ1ortnzFg2zI7bNOZq8CngVaoMQBDLM9s49EdjNBzaZ4SOQNYl7l5Pl0Evc47aFAEjoc_FvHrnBtLCQ/I0WdTglDjh-k6UTFnKyz4CTr4s7jGcOH3mrFcsMHTo0",
               "width": 21,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/kaqCM_fxeSdEvWvju_20lw/D6NA6bNMIXRFr-MQe1c-4mzszGLXAplC5FuzzZuaqcTRBDqb5ixIqQC9YVuv5PRziNrsbRc2EW2kbeqt0XqLlsUTl3hU1GV1EBsjj0zyeyv7C9RO22fgukSVOZRYTnu23Trmw-RTEqdnJ6VCE7_GBA/ecp4ENETfv6Pr2290ENuA4OtaZA_kwinRGfdGQtC4D4",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/fHNogXpN45fJfaKhRy4ovQ/DR3EkLvi6w8z7NzZpFEE-fDytNc8_P5YWAo77Wve3yV-qTIUjz5O1YzYbN_wW6TAaqN1UmIr6AYC0oYZb-f-EN_CjaVuMPp0tHss1-YssVDXKPxdczIa48O8h2oeqSiAhvB7xwJQ-01xeKdCqErjMA/a0-OBA-inFV4R3mRqHiaVKgzogwDYBMotkHmyRPFxAk",
               "width": 284,
               "height": 483
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/Zp072SIzjAgwe8ta3t49Xw/jLbNUeSvbe4ZnJ0DMTydOPkiK082OMG-iqwjxWnrLvRIiJZ7x6dPURH0qs10n5Xvl8AOel3r3EH1Tq3Pa4_xa9WBQ6KtF2DGRVTmJxKSm-DXcdZ-3wqvk8sDctUyvVZFt2KT-oaL4DAC2VLBaXuD3A/oSx2CWoqUXJq3f3U7Uzr-7e1zrch4qqZghhyu-sZaUY",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/ebQthrLfM-niAo5ASw90ow/TB8ygmrasCdH3Gpd3_eE_EW9DskVBBWKH00vD72cxwfDHssdFd4EjLG_mblsYP5DgdUQfRDfi9vDsA8QkOe9BC_H-QK8S1jM8zSj8F_ApYmy7hAPHbbRc_m484JX42XD6hSxb6D5wCoZZ5EkDcTX-w/_jRV8SVsHpJWxYAs0WkT4S_42qMaAWuI6fQmQTBXJkU",
               "width": 284,
               "height": 483
             }
@@ -145,30 +145,30 @@
       ]
     },
     {
-      "Blurb": "My name is Ian and I'm excited to be joining xD!\n\nI started my career in academic computing\nsupporting research at a National Science\nFoundation (NSF) funded environmental research\ncenter at University of Maryland. Later, I worked in\nbioinformatics at Oregon State University. I then\nspent time working for fintech startups as a\nDevOps engineer.",
+      "Blurb": "My name is Ian and I'm excited to be joining xD!\n\nI started my career in academic computing\nsupporting research at a National Science\nFoundation (NSF) funded environmental research\ncenter at University of Maryland. Later, I worked in\nbioinformatics at Oregon State University. I then\nspent time working for fintech startups as a\nDevOps engineer.\n",
       "Is there a title that should be included with this content?": "Ian Munoz",
       "Images": [
         {
           "id": "attlQoVOY2bfunFKj",
           "width": 421,
           "height": 481,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/qXrDSknXDR0NFMywjUWIhQ/6N9ScOYOZQCvn31h8KLi5RqEbbKBqzok-9r4oVsxHNmHnk8aRHJrhM2zNCucGSVOnSbrvxLWGt3iEtdgMmR_wwm_gX4t3mYb14yV1XbP87VZ_f27nad1U9Fj8VMU3NgbxZPb7fRfk7DUdWJ4Y9Xne8SRqcJKgfxaq8Tp-hgX1rk/ON0xcmdBMJFiQqoCbl86QhPs1jPiEoUlGdbky3XxEPY",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/Kftg4nWUl9IkTUFAAmd4-A/-uX4Wix1K1g0M6C6HSWnuT_hWJaS7OAA-5AGt-PhfS64ZJhD0hvTUZgDlYbG8yLoTElHBnv8ZDxPvX1QKzlSLSB1SMx07NIadNDfvcNZinYODDJPwxcaFTY9GJbBhSiuU0pvz8RLf0aNv1K-0aVf7-qYeCyShKFPU_C_PiasfGI/Fo4zNCwGsokIHuPTS6JZ2lMbz84yoqIHB4n7_auAtVQ",
           "filename": "Screenshot 2023-11-21 140713.png",
           "size": 262296,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/AP7SO3z0DJEGtqtik63kow/f5f_KzpU--Xj0J08Bf12LVBdbAQvtPWQQkwGcSzStrHMs3m4g4Y6-o2YXocx2KSwJCvOllUDPRw4deGmoqsDRBgpm3UP0M3iWS9kUTokIg6C2v6Ki0kY90sZGxIXkAkiSzWvpfSaRAzoYRn5G_0xLg/jlgv7kG6xQHxqEKBDpnz4CwC4oRpx01n-iVks4Cf3Co",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/d300TmJbjU7uhiz5zf-7pw/k2-uKvzKw3Fh1GIvp7ny_o4TY-e19eW_HsVHWQVk0S10hDYgBK_b-7IoZ8UQpOF8MXlUAuqf8WeB92Cdv0SHeBWscyStGCJoa_YIYTPA-CGWa-wSjUo591JsgAo9LQ_ho4SV3IukD0Vr_3D_SR-2bw/JK8JNKjjsuBsk9_YEOCXACKDfmk4XUpthtzQpNGEcGU",
               "width": 32,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/6z16O458iriu13rfbDUQnA/yCUQIqlYYcnfR069IAbvZXAmsm8wFMgmEbMNA8lJnOOsEjztfyWBL2me_LBN-XtbtkGOu-24Cqa7aPwT4QRx8c0EE54R21gQL3Rk7efcZRVWes1Pfhs-ZkWbccqXg5WZJQxM30QI0EieiGS4iOUpuQ/o6Tsl08CmrzKTTMfMs9n6ZrQ41NXIBfHmEXMAQoICMY",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/hEquGppIOYbkvBWU97UyWA/VzBZAAJSlV45Ox_dLseR_Tin3Xl4XoojZpCYxQBA4Pl275-Xr3zuTSffX5I5CTldRLr37BSC4DCgfS4sLXcsJkRAYrF_Wb7LcxCLvcsLu27zbIf6qmgr41Y8mo2fmeG204FZ_gu-vXQaOOTRYojgcQ/sVWeNUadAjqGjAtBe6d-YtfJux-DcPJSZxeiczN30dw",
               "width": 421,
               "height": 481
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/KCsjlsN6aKjeDrUjnjsyUQ/9z6GoUQOp3ka3BjU2ZcN_bPj4zVj1izc8mqdWjAwmPA9yDh4x0qpYmmNnuGAQpNqsgPWW-XFxMkJDO45VbZtmwg27yldaf7gOK5pw6muahu7OhA8G6BMAP6C_ZE-e4qbbASuMeOiaaIb7-IzcPI66Q/BCFon3zY4SRXbZ6vWs74aMtlJdncKWg_pYLuF1jZXs0",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/DeFsPby1MQ-GLiZn4udykg/0FWn04NF2K3izj6Cksh94tDTAfAAj-_INHyBWfNhSa2vqRT0dd-mJ9dIYoz77F4pP6h1nRVx7X3hO7rHgcUDjDOqCY-DifxT7WwEZzQeHdXkaz1pwvdI7_4V1mkWDl71QQqResWhi6BMVht2gzFKug/04m2A7R6JXVZdadFI1sq5iwo39G4pPZVTzVylDcNHJw",
               "width": 421,
               "height": 481
             }
@@ -181,30 +181,30 @@
       ]
     },
     {
-      "Blurb": "Tomo Lazovich (they/them) is a senior research scientist at the\nInstitute for Experiential AI at Northeastern University. Prior to\njoining the institute in 2023, they were a senior machine\nlearning researcher at Twitter, developing a suite of metrics to\nmeasure inequality in outcomes for the Machine Learning\nEthics, Transparency, and Accountability (META) team. Tomo\nhas a significant amount of experience as an interdisciplinary\nresearcher and machine learning practitioner, with defined\nexpertise in building technical solutions to complex problems\nfrom the ground up.",
+      "Blurb": "Tomo Lazovich (they/them) is a senior research scientist at the\nInstitute for Experiential AI at Northeastern University. Prior to\njoining the institute in 2023, they were a senior machine\nlearning researcher at Twitter, developing a suite of metrics to\nmeasure inequality in outcomes for the Machine Learning\nEthics, Transparency, and Accountability (META) team. Tomo\nhas a significant amount of experience as an interdisciplinary\nresearcher and machine learning practitioner, with defined\nexpertise in building technical solutions to complex problems\nfrom the ground up.\n",
       "Is there a title that should be included with this content?": "Tomo Lazovich",
       "Images": [
         {
           "id": "attR760W90B7VP511",
           "width": 398,
           "height": 398,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/Js8RKA90fPQv2cBrtywi3g/tDNC3HpIl5RjYVV9pBI9ZSwq7PwKmjBLfNQ2i8L46_VPtUvG10P7SENv6l8sh3Qlpa716ICNtQRUoHMoTmRyMOBmkdAaMovSeiufAsq23BrlTsw-Oc4ki7B6g3WoM3RZVu5p452FgR6YnpBRYQzs4HEJLB8zleUYxxmwUW9FZpo/61px3FOUEha2Q2bPNjhcb26VA-JleliHxDkVnT5ZGG0",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/R7GZRGkdTJv9FR9uwMIsmQ/UX2XUMqO3hhcKJnZVufJjnO7r_PinKV4GH6J7hxL4-3dyd-YjUGk8J27zX-o37b5H3KkONN8tYMz-hiWdxV9MocJyWjyo9R5A2BkOSAscwFXCvCX1QGtXkoqPTWpCFRgdShswArPsBmENQMH0XU5M_nXdARODz-DE2jHUDVdJ9U/Pz8z5QD50iaogXnK0OEISU3oDcWg4Qi14ujZXAN-1mo",
           "filename": "Screenshot 2023-11-21 140717.png",
           "size": 234486,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/AiHMFxW92Lie-4xnuz-Ctg/pKPCeDRiz1-lXbejvlsHxM2Et6ZDBkIka0xwx-Bg5IHI1kBAyuo897X4LVQXK4u4IN7BG-qy5_7P59Z-B1OHqqn1fosGnAj8CGX8fDIfvOetebfqgYrpyCmXD3T6-enb5cJfP2tSwDdePybjqwm7Pg/P0cOmCOX5AVW6WeVbkc5g3Va9uZxUgdLq-UID9B0Ua4",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/cIHA3QDAsnspsLyQjCehtg/jGkO3MI5bExVwontCtEG6aj_fIXSNQa_UALIFL5sREWKYe7cPsspYER9hy9aAtN2-a9NhjcR9iwwe55F5e0OBDOJR2bdMyfB4zNzlO9i2Wd7Q7uyRwQMTRtshGUN8VLW8Zq__Oki8xxrd_RwgMlo1w/bQHtoX4XUl2Yp7j1GY4LZsRP4jGUY-hsgTaGPhJ4Ar4",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/ZwKrnksY9Y-vYPUxsPqqpw/Pco01cNKJhiBSICyhpHCRV-f5Fn3-BgHC5WX31Yn7dbY5GI9q0jOceANAD_uXKeKTZ2pJ7mgmnRB9kW7iyoy_W3-UnRE76QXkGEd_1UXWiDzUy1H6WhQQAMJpnKAmhLpYv0qvaho44WQn-1zv-Wi3g/UtQ8zdRLqbLKLcO1zulVl02XIQpm1Y67Ra3PZkTuLRk",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/1_vOuVCjIkyIfKkeyffuqw/m7fFr9bRq0UPvvhyyTN5wpZSAZdKfe2XyOa4BdT6Wc63W8WZ5qAqvkfYnqV5L4xj3vI7aidu_mtFSmzGJ5Jmm9k2Gcg2DwNrODC8y6EyR-oExuNLwvZ_4T2IPMKcDC6Xx66w2qHEFDfHPh_qRUHbhg/r220g-NEHrE20l067w9lhmLeLdJBhwDAGYjurm-ECq8",
               "width": 398,
               "height": 398
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/ypP_f5gp1otXQHGgPEQnOA/s62lFrhrYAhFV0SyRKjZegIYQXD7CbsYJXOxvrw1SfsuxtKl0a-SitGtfGg7glnkVUx9WIymSywd9gXqbBpJTPGuMHApyTB9e-eF0Seab6s3ziXecD0e222_fRAd3_RAqN0ObW2Y2VITtfrsfgpQbA/eBDkAsjUsLDyYWHCUrfIYtpgbyTzz2OtYxZZrSgS9dc",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/sSjfuO-lNjMeUF5SbSCl4w/U1gbXdrpWOTQKSDSEwVhOL4DU3TfjiWYMvtJHYDfte4EvMkO3JdQMyMBGbDnni5SRsmMnzZxn3xcZv34kez2Z5iVU8gaHmepMfKc6MuYBHGGB7bBjSK3_SfUt_fd9raCaZk7Opw4VM3kHe2R5DRitg/kg51LqbRpgxu6qAs1gvjpZOc8A1rmvp7bygh1RusIoc",
               "width": 398,
               "height": 398
             }
@@ -217,30 +217,30 @@
       ]
     },
     {
-      "Blurb": "Mike Walton is a researcher, technologist and\nwriter endlessly fascinated by the study of\ncognition and intelligent systems. His research\naims to synthesize ideas from multi-agent\nreinforcement learning, game theory and\nparticipatory design to address socially impactful\ncooperation and coordination problems. Mike’s\nresearch has been supported by the Office of Naval\nResearch (ONR), Defense Advanced Research\nProjects Agency (DARPA) and The Naval\nInformation Warfare Center (NIWC) In-house\nLaboratory Independent Research Program.",
+      "Blurb": "Mike Walton is a researcher, technologist and\nwriter endlessly fascinated by the study of\ncognition and intelligent systems. His research\naims to synthesize ideas from multi-agent\nreinforcement learning, game theory and\nparticipatory design to address socially impactful\ncooperation and coordination problems. Mike’s\nresearch has been supported by the Office of Naval\nResearch (ONR), Defense Advanced Research\nProjects Agency (DARPA) and The Naval\nInformation Warfare Center (NIWC) In-house\nLaboratory Independent Research Program.\n",
       "Is there a title that should be included with this content?": "Mike Walton",
       "Images": [
         {
           "id": "attROSxw6AXAkJppo",
           "width": 432,
           "height": 436,
-          "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/hkZV7gNFJu01XGxitNyGiA/AD3Yl1KVdrm9dfB5ojnCQFhyMvJFiceWPlPRkaMWcSVFiKM2xSvHs_2D_LZVUar55okiaMWYaIfZKGr5EjUXg1aPH2fuoAvf3PrV_YWI5XuXTWIsM5_qmaLyttA7jXXMs6q9l3YcmuNhDHGktpDCRVXT4DZ48sMBxZqFCVBjTw8/Ju_R-jy_ggKiVj0oEY-DJr8F6CPfjMOaIuYN3y0yDTU",
+          "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/QpUS7PKhx7IJeeLK4Ulq9w/B2Gxih3j4S2Za7wW8W4FfHBkuIUhbh21HHV8d0fS1GMx07AfeKdFutTD9FxgMIcrfRqZrRSRcQfHhhZhBMwv2OBvE9sHfd-CZc860U6TfauPBOgKdT5OvfU-3DsKBILWKgOBZPXerbDPTlXqyY0zRmiJ1CDsOBnHbI-0aE28YWk/IK1wNFmI5YrzZqaJZtJb4P0TupA2bJx6BPz_z-2XNMA",
           "filename": "Screenshot 2023-11-21 140722.png",
           "size": 326917,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/0CQXbf7WFV85p6ukzey7wQ/caS4OX-V-Agz1eU8OP8s7wySfrHUi8VIkinhyKwJ0x84uyXzmEYrRDed4JQwQwGJoGD76jO09ytpr8HJKx6pjJGFPUPR-GkYq07DIg0pWXujnPOhlmTuLxnZL5Bsmk1scA9hwVSs_AM5fwZojDaTvg/tGPibNDoganvalYH2vrepb2f8HYBgLs4OM1CSNy5z3k",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/Pu-yoa__IytqPkgF77sxmg/MjM2oD-hD8xVEmGVeVp2t3UDJI9vxL14UOKVTen9RlUygkG1La_l24pniuW5Himc1xCLe4ovgzJbW-TlEnTnvRZpAXxISU9ijs7B1NeY_MhKuereIQmaY1-ABH1y2znvEsiCYp26CTfenVuf6pldSg/kZV2Q2x46gVGmvZv7i4NMPxbAaXb-Q9odNAqYsG2mTM",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/qyNIAd2dlIg5T_TGbE7vuQ/pg5PbzTisYNS5vjrIO8Wj8jXMqrsg629Dlhdg_fTXN7R1n--GHQYgyjng6OEADEd04qEHMdvzEmVaArUWewML5X2K8CKWOeyAfItpOv-O9esdkQK1NQShuQN1_r0teO7Bns44V88Vd6JtDccFeTgYg/tgmRxe4VZEDqCTCZ7moN01d_Qp_4lnsyYQSs34quQco",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/7tBcJPkb19FxNDFYckYSgg/XQYTQ7Ox7GP2Aza2nmIkmveeNiDiuAAORebACN5fkE5w-M6Iphw5nmVivX8KPVeuVtgSRmwyo6pKDzDMDr92o6lcLNt4SLbNLSRro6AWaZV5SFG5JnI39G5Qj_ROcAzmiobt-9saz9XCKtcQ0lB6Rw/ok0kZELV88lgt4zzVZcwBJfPGFOL25hV4p5iycDAk84",
               "width": 432,
               "height": 436
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v2/23/23/1701381600000/VB7AIKmgG8C6K2-5f3mtDQ/IyqItE4_EqRZ_l78TPD-YhkxQQQw64HDtDC5SBbvIH_O3wNkuL5E7yLoZiXy7PyaSVTNXWKT6Tw-jqJF-xWsyZMSODTj_lTYidunrZDi7a2OcMHmbkV5RkBpxgS7v-e_NV6Y3f70-eO3Lx9XFAiGSQ/NVUa7jMb7J4wWSEvXUBsg6Oe5JcYy2NTrDn1Lo8NQrg",
+              "url": "https://v5.airtableusercontent.com/v2/23/23/1702072800000/ZVEP4PT_caI9fMI-tGc1-w/byIdqw0AY3OFbOLlZcAUSBqRH85HUb1WxOBw1Kgknsw7zA51fLSKFC1Sc9psL94a-QxJR15x8dMexKzoZG0fP7bdEWyZV7QLL4Kki1T0yYHktpf1FOhGMUZiMDhCYbByMcgjdZOjs13NARcG_BUluw/ZmWWG_I-C9_9a-uecsePlBt503O1vSTpFpGuYUxwolc",
               "width": 432,
               "height": 436
             }
@@ -255,7 +255,7 @@
   ],
   "News": [
     {
-      "Blurb": "This is a test news article. This text comes from the \"blurb\" section of the AirTable content entry form.",
+      "Blurb": "This is a test news article. This text comes from the \"blurb\" section of the AirTable content entry form.\n",
       "Is there a title that should be included with this content?": "Test News Article",
       "Name": "A really neat headline",
       "Content Type": [
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "Blurb": "Another test news article.",
+      "Blurb": "Another test news article.\n",
       "Is there a title that should be included with this content?": "Sample News 123",
       "Name": "Something great",
       "Content Type": [
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "Blurb": "Yet another news article.",
+      "Blurb": "Yet another [news article.](http://xd.gov)\n",
       "Is there a title that should be included with this content?": "Testing 12345",
       "Name": "Another cool headline",
       "Content Type": [
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "Blurb": "Awesome sauce.",
+      "Blurb": "Awesome sauce. \n",
       "Is there a title that should be included with this content?": "Heyyyyyy",
       "Name": "Hey yet another headline",
       "Content Type": [
