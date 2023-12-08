@@ -77,7 +77,7 @@ const generateXdMarkup = (content) => {
         let image = record['Images'];
 
         if ([name, blurb, image].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${image[0].id}" src="${image[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
+            biosMarkdown += `\n<div>\n<img id="${image[0].id}" alt="Image of ${name}" src="${image[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
         }
     })
     
