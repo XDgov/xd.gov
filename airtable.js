@@ -58,7 +58,7 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 });
 
 const generateXdMarkup = (content) => {
-    let newsMarkDown = '---\n' + 'layout: news\n' + 'title: News\n' + '---';
+    let newsMarkDown = '---\n' + 'layout: news-landing\n' + 'title: News\n' + '---';
 
     // Create News page elements 
     content['News'].forEach((record) => {
