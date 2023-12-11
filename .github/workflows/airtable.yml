@@ -20,7 +20,8 @@ jobs:
           node airtable.js
         env:
            AIRTABLE_API_KEY: ${{secrets.AIRTABLE_API_KEY}}
-      - run: |
+      - name: bundle install and build Jekyll
+        run: |
           bundle install
           bundle exec jekyll build
       - name: Create Pull Request
