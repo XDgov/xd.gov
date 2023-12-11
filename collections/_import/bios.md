@@ -3,13 +3,13 @@ layout: bios
 title: Bios
 ---
 <div>
-<img id="attptgXIhrtZAHqE8" alt="Image of Samantha Weinstock" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/za52YqrOI6GTXkRo8ULeeA/yYx_hK8hCunk8H_T1bPl_poXSoiAM7M5Tf6fnX9ftV9rnCzDrtXTYEmfosDx_U_k1fUCAudDkK-2yxRB7GhiC12eiJ9yd8k8B8X984epQpaBA2KhTRsFnGbg2-MEODn_1qwCBFdwwJiRl-p2nnZveQ/dGpFalov1SwxDakP7R5EU4sDKZ_n42zWsyGIMVBfs9o" />
+<img id="attptgXIhrtZAHqE8" alt="Image of Samantha Weinstock" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/qYSa1DPMXEyE-_6DUfSZKA/cJ_tZDTztTBb1j92XlYkGdX-Vq52idwXN57maItu0sng7Q793z3xR_JdhhEVuwLq-1m0nIlaqiLTCUAQBAOqnDrSsIdI8LFz4hSn0vB1aBp66gF44y9sPC3PR5vZ199blCX-AR4RyXmSfsA1t6Qhrg/HR0yKLU36z6KotGArXZxU8lb5KzNKo6L7UfcDQx2e6M" />
 <h3>Samantha Weinstock</h3>
 <p>Sam is the Head of Operations and Partnerships
 </p>
 </div>
 <div>
-<img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/9wXRi6iqPNsVIGzHipxo-g/LP8ZX5wXxIH3PUoTpXVlPo_C2xhL5OriLXuqxhc-OIUAXAgxPGcVM22hzqF7Y7pfklX1SAf8haRnPJC0eSOIWzfzD5yq0JRo-J3z1AFb0JH9QVJ6flUSIkGM4mLw2c_DjJPyZUl1Fyu9ZkoS1xyKBpxRABQSpZSU0obU3ntjhNY/ifp3rbXL9M7fslI0Z_Szwnl0cQb_pNwRBW6aZHRoooQ" />
+<img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/OeHkVqKVKsnElfNzzFNrjQ/uKFEVXKVEh4lvKxZFBPOACsaLeBV47tIX25he7HfHw5mb42CVZfphRnSLxrW96fqN-vxwBwVuxDH-jhSf9e7w1979kIvyg0fvpMmlrmNcIVJ2nl1TDAzxXtsl1perPOG9zb5qgipwcFfx_Ei6avnBaslcRIRUUJT7sCc5l9-xk0/BoETTRCqGRG2Xl-bFLs5HqJ2l879eK4IZpuj-LxTBo4" />
 <h3>Curtis Mitchell</h3>
 <p>Curtis Mitchell (he/him) is excited to be an
 Emerging Technology Fellow on the xD team.
@@ -25,7 +25,7 @@ system.
 </p>
 </div>
 <div>
-<img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/HPW2ytyYWgG9lIutsC3_nw/wNQVXCtoaHwZDdG83azw30GlytU1Ef8bi3J_ExZj_0V9SfZivN6-3s_kFRavt2VGWzzmjnMepWOmfaFNsBOXvbcPs22-o8yOeN_fP1ps-ZUQVfb__xpTa7WODy6Xqzy5pX8Dn_vaJZAGNqLqfv0qlL4hbERlkonZoMDekcCvh3I/Sqgl7uNXz96UxinM3V1EG8Fm3OoDcbxB4WtvsavSvOs" />
+<img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/-iEWuUTfqRVodFWguR6jBA/D6-gBEkB2Epi3P-hsHAET8B-3DBOuGykL6P50ch8a-4IYJJ5wBD0Ioe4NVy0KnrdanW5pAhqMDUbDX1i1mXTA-AgG_ekCwc2-p2bsWtd4PfB620sa4t-YOooYk38SBjF6PDph2KuuPdUTvTFR5kMbDZT1GFQ8Bc70-2rS8R5yZM/-O5dmxYGFClT4BIGpAdWkXWb5TbWcZTevmeWAdsuLeE" />
 <h3>Anna Vasylytsya</h3>
 <p>Anna is excited to start as an Emerging Technology
 Fellow at the Census Bureau. She is excited about
@@ -44,7 +44,7 @@ public service.
 </p>
 </div>
 <div>
-<img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/1BszqqyqaJCp7CiROejyFA/16NGrMfv_1puymMvexVX0aF3eQ9ErqTXDKjpaPjF8azj8wzchzl4qAqWrOBa95yVlkDKZeJBm9Iz6_EggAcbyBdA46-xOCArtwgM63AZ4cDU84pSJPWMife-_-6qnCB09mKCHb1porAMc2MhmY9Kk2ZLuuHILja7Ux6NsWuZAR0/kABfAqLMRf-pyX1CnZnvQyzHuo3XIvHe56kZx4WHeoA" />
+<img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/artwyYLZd724ZYxxTBSU-Q/KVwRsB_ZcY7_l-iUHUNLsLf7w1IuWBl2Ld3xUAokTGZhqNCsoYVJ1kcEKpgZktCD9Mwaeb8cpHCnN5uTJ5Lvs5Twh7lEGl6FBlLcXlAiJ63iJ6c-Ot5don2nANYfWmLhU9iXnOek6z7YMgVeOKlvcj5XeCUEpCFcBE9mFQZRSCg/_tI0YQgv0-zmHUfm2BPpsCzA052K0sqBSvN2aQS-v5s" />
 <h3>Diamond Nwankwo</h3>
 <p>Diamond Nwankwo (she/her) has a proven [data-based](http://xd.gov)
 [track record with 10 years of experience in data](http://xd.gov)
@@ -59,7 +59,7 @@ reporting data quality.
 </p>
 </div>
 <div>
-<img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/i_3EkTB2bvvDhDg-8RHtkg/yN405oiRMdBbSOQ7R0B55eMqFFM7p2nmpjmwoRTcMNp4rDEolqbLg4KcaZAe1XHucjzMnjshCANJ4_DvZIlQUlvOvh-eLx-YadZjuM49x0q5N6ReHsGUTtwWQZjmR4tBglVC7-QVl4Fa0ca4j0NThk68sjjJemVHuXBcjAYQzBU/MV3KXpxH8LQ5Imyh2Y2mIxEan9awbrjeJ7TliAbiSSY" />
+<img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/S4CyRfUaOIjakWUmHVZMXA/3-Ijh0GasOjLHeqCoBNbqoLi2I3x803AjF8Md7TCmDg1Vs20FtUe2VJ1-GROKxf1Ww7ql5f3vznOwSbOmCikMjqSPRWMxafCGuSGkG8wMlX0kW7UoSx2sVkzndw0IdOe5p-yvmwi1l_-eaOih01Uk3Blwo7iQ07JiPMcnWitihI/hS_vBNubBwQX1APm8GIHtsYsCAzJfmSfzUN9KU32fH0" />
 <h3>Ian Munoz</h3>
 <p>My name is Ian and I'm excited to be joining xD!
 
@@ -73,7 +73,7 @@ DevOps engineer.
 </p>
 </div>
 <div>
-<img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/Fs8Kia6s-AzQWog23ylRxg/uBmL6rjY_cmd8_0IGC8hWK7yV5EgzFvdK6xPD_ubKvgV_Npai-yl0CnVUWEizyqBe0jWUES1VoqN0Sd-P6kHUTmSJNrsi6PlemtNynAfU4MCvklRuUpgRzgo4l5yOMTWr-YWq6p4XUIbjq_NRJLsUILnIk0sr1zfNw6OdXa47Io/XRyMU0fbGs1m5yDZexqtw3uORrQSg5VY8a0vee7P9oY" />
+<img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/PhPXl8h6jHgQIBiTeDHzSg/5W2dL-2wMDqieFuTHbUAjCqGd67FAmYanffXEgZUM2_FqrWMyR3zRQeBKTTQfGuhhpyLviSOVoPWkxZfrPDu-YEqPbWyhx7E_6lmnZfrWuRCgALywUcm6IrF8hUzEzvC9VWiNCaxfSHtrPXLbigLMnG8q-WkhlO7R4RM3kK9PUs/sfIM0NdvJMb1K1HF9JK6-PFkkyAKjRTsZUcDiGMlvMI" />
 <h3>Tomo Lazovich</h3>
 <p>Tomo Lazovich (they/them) is a senior research scientist at the
 Institute for Experiential AI at Northeastern University. Prior to
@@ -88,7 +88,7 @@ from the ground up.
 </p>
 </div>
 <div>
-<img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="https://v5.airtableusercontent.com/v2/23/23/1702080000000/cP3eb8suK2Li2rqCsrwvxQ/GIQZrncCMQp26CuO0xwpXbtOyGR9YxeBhbEQrfzsO9W9OeJ4E15DbBCLtbWg_CSKgrO1jxQULyBa4c0Ob05uoXK-2Gz9p9FIOkG_05jJGrbmkJg_dhFLzc5-ASXtDCh_3p4FZX87P-l5xmLOk1STClQg-1NxdLv26mz7JE9w8E4/Et08EPc2tmRzNXSIarkJOUrUh4Tw8rUUNmK1CT7ORX4" />
+<img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="https://v5.airtableusercontent.com/v2/23/23/1702317600000/kLYqNmAacyIp96NXdF2nZA/hyXnBkPaWrx_p05Zw0YRdjJ0FBxzSTU_YX3nSLBl0-KqirGAGEkbHJ1KZNh7j0iMoZRt3m1Bd3dp1HZIu2kNNFJNFlrt1Ky9MAMGpy9Qv4rtmGiCtXt3P-LYwFmqYuFdn8YENAsbXHuIuW-bUQR0xkqAJtclIhDulWO8p1CI_Pw/QpjwyEz8wipsLWf7Duwko7hWrgKzoKYjBW2tALK38hE" />
 <h3>Mike Walton</h3>
 <p>Mike Walton is a researcher, technologist and
 writer endlessly fascinated by the study of
