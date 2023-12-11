@@ -61,23 +61,16 @@ const generateXdMarkup = (content) => {
     let newsMarkDown = '---\n' + 'layout: news-landing\n' + 'title: News\n' + '---';
 
     // Create News page elements 
-    content['News'].forEach((record) => {
-        let name = record['Name'];
-        let blurb = record['Blurb'];
+    content['News'].forEach(({ Name: name, Blurb: blurb }) => {
         newsMarkDown += `\n<div>\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`;
-    })
+    })    
 
     let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
 
     // Create Bios page elements
-    content['Bio for team page'].forEach((record) => {
-
-        let name = record['Name'];
-        let blurb = record['Blurb'];
-        let image = record['Images'];
-
-        if ([name, blurb, image].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${image[0].id}" alt="Image of ${name}" src="${image[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
+    content['Bio for team page'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
+        if ([name, blurb, images].every(item => item !== undefined)) {
+            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
         }
     })
     
