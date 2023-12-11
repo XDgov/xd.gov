@@ -15,7 +15,7 @@ const deepCompare = (arg1, arg2) => {
         if (Object.keys(arg1).length !== Object.keys(arg2).length ){
           return false;
         }
-        return (Object.keys(arg1).every(function(key){
+        return (Object.keys(arg1).every((key) => {
           return deepCompare(arg1[key],arg2[key]);
         }));
       }
@@ -32,15 +32,15 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
         // Selecting the first 3 records in Grid view:
         maxRecords: 20,
         view: "Grid view"
-    }).eachPage(function page(records, fetchNextPage) {
-        // This function (`page`) will get called for each page of records.
+    }).eachPage((records, fetchNextPage) => {
+        // This function will get called for each page of records.
         // Grab only content with a content type field
         const filteredRecords = records.filter(record => record.fields['Content Type'] !== undefined);
         // Filter content types to set as xdContent keys
         const xdFieldNames = new Set(filteredRecords.filter(record => record.fields['Content Type'] !== undefined).map(record => record.fields['Content Type'][0]));
         xdFieldNames.forEach(name => xdContent[name] = []);
     
-        filteredRecords.forEach(function(record) {
+        filteredRecords.forEach((record) => {
             let fieldType = record.fields['Content Type'];
             xdContent[fieldType].push(record.fields);
         });               
