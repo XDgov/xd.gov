@@ -10,8 +10,8 @@ const biosFilePath = './collections/_import/bios.md';
 
 // Utility function we'll use to compare our data
 const deepCompare = (arg1, arg2) => {
-    if (Object.prototype.toString.call(arg1) === Object.prototype.toString.call(arg2)){
-      if (Object.prototype.toString.call(arg1) === '[object Object]' || Object.prototype.toString.call(arg1) === '[object Array]' ){
+    if (JSON.stringify(arg1) === JSON.stringify(arg2)){
+      if (JSON.stringify(arg1) === '[object Object]' || Array.isArray(arg1)){
         if (Object.keys(arg1).length !== Object.keys(arg2).length ){
           return false;
         }
