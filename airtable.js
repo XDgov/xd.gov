@@ -74,6 +74,7 @@ const generateXdMarkup = (content) => {
         }
     })
     
+    // Keep log for Action debugging
     console.log(newsMarkDown, biosMarkdown);
 
     return [newsMarkDown, biosMarkdown];
