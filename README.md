@@ -6,6 +6,8 @@ The xD site is a static site built with [Jekyll](https://jekyllrb.com/).
 
 ## Install dependencies
 
+### Ruby
+
 Install Ruby v3 or greater: [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)
 
 Once Ruby is installed, you can install dependencies contained in the Gemfile via:
@@ -15,6 +17,23 @@ bundle install
 ```
 
 Bundler is a package manager that comes preinstalled with modern versions of Ruby. You can read more about Bundler here: [https://bundler.io/](https://bundler.io/).
+
+### JavaScript / Node.js
+
+Install Node v18 or greater. We recommend using [nvm](https://github.com/nvm-sh/nvm) to manage Node versions.
+
+Install gulp and browserify to help with build tasks for USWDS (gulp) and enabling Node.js modules in the browser (browserify). We use npm to manage our JavaScript dependencies, which comes with Node.js:
+
+```bash
+npm install --global gulp-cli
+npm install --global browserify
+```
+
+After that install the local dependencies with:
+
+```bash
+npm install
+```
 
 ## Running code locally
 
