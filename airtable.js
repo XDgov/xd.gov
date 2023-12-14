@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Airtable = require('airtable');
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
+const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
