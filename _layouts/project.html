@@ -30,7 +30,11 @@ layout: default
     </div>
     <div class="hero-right grid-col-5">
       <div class="hero-right-content">
-        <img src="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner.jpg" alt="{{ page.img_alt_text }}">
+        <img
+          class="lazyload"
+          data-sizes="auto"
+          data-src="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner.jpg"
+          alt="{{ page.img_alt_text }}">
       </div>
     </div>
   </div>
