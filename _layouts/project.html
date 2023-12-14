@@ -16,7 +16,7 @@ layout: default
                   {% unless forloop.index == 1 %}
                    /
                   {% endunless %}
-                  <a href="{{ entity.url }}" target="_blank">{{ entity.name }}</a>
+                  <a href="{{ entity.url }}" target="_blank" rel="noopener noreferrer">{{ entity.name }}</a>
                 {% endfor %}
               </td>
             </tr>
