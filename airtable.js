@@ -39,18 +39,18 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
         // Filter content types to set as xdContent keys
         const xdFieldNames = new Set(filteredRecords.filter(record => record.fields['Content Type'] !== undefined).map(record => record.fields['Content Type'][0]));
         xdFieldNames.forEach(name => xdContent[name] = []);
-    
+
         filteredRecords.forEach((record) => {
             let fieldType = record.fields['Content Type'];
             xdContent[fieldType].push(record.fields);
-        });               
-        
+        });
+
         // If there are more records, `page` will get called again.
         // If there are no more records, `done` will get called.
         fetchNextPage();
 
         resolve(xdContent)
-    
+
     }, function done(err) {
         if (err) { console.error(err); reject(error); return; }
     });
@@ -60,10 +60,10 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 const generateXdMarkup = (content) => {
     let newsMarkDown = '---\n' + 'layout: news-landing\n' + 'title: News\n' + '---';
 
-    // Create News page elements 
+    // Create News page elements
     content['News'].forEach(({ Name: name, Blurb: blurb }) => {
         newsMarkDown += `\n<div>\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`;
-    })    
+    })
 
     let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
 
@@ -73,51 +73,51 @@ const generateXdMarkup = (content) => {
             biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
         }
     })
-    
+
     // Keep log for Action debugging
     console.log(newsMarkDown, biosMarkdown);
 
     return [newsMarkDown, biosMarkdown];
 }
 
-fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
-    .then((data) => {
+// fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
+//     .then((data) => {
 
-        const cacheData = fs.readFileSync(cacheFilePath);
+//         const cacheData = fs.readFileSync(cacheFilePath);
 
-        // Compare our cache with the newly fetched data.
-        // If the same, we don't need to continue.
-        if (deepCompare(JSON.parse(cacheData), data)) {
-            console.log('Data is a match to cache, aborting.');
-            return;
-        }
+//         // Compare our cache with the newly fetched data.
+//         // If the same, we don't need to continue.
+//         if (deepCompare(JSON.parse(cacheData), data)) {
+//             console.log('Data is a match to cache, aborting.');
+//             return;
+//         }
 
-        const markup = generateXdMarkup(data);
+//         const markup = generateXdMarkup(data);
 
-        // Write to json airtable-cache file
-        fs.writeFile(cacheFilePath, JSON.stringify(data, null, 2), (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Data written successfully to disk');
-        }); 
-        
-        // Write to json airtable-cache file
-        fs.writeFile(newsFilePath, markup[0], (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('News markup written successfully to disk');
-        });
-        
-        // Write to json airtable-cache file
-        fs.writeFile(biosFilePath, markup[1], (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Bios markup written successfully to disk');
-        });        
-    })
+//         // Write to json airtable-cache file
+//         fs.writeFile(cacheFilePath, JSON.stringify(data, null, 2), (error) => {
+//             if (error) {
+//                 console.log('An error has occurred ', error);
+//                 return;
+//             }
+//             console.log('Data written successfully to disk');
+//         });
+
+//         // Write to json airtable-cache file
+//         fs.writeFile(newsFilePath, markup[0], (error) => {
+//             if (error) {
+//                 console.log('An error has occurred ', error);
+//                 return;
+//             }
+//             console.log('News markup written successfully to disk');
+//         });
+
+//         // Write to json airtable-cache file
+//         fs.writeFile(biosFilePath, markup[1], (error) => {
+//             if (error) {
+//                 console.log('An error has occurred ', error);
+//                 return;
+//             }
+//             console.log('Bios markup written successfully to disk');
+//         });
+//     })
