@@ -1,0 +1,34 @@
+.page-bios {
+    .bios-content {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        grid-gap: 12px;
+
+        @media only screen and(min-width: $tablet-size) {
+            grid-template-columns: 1fr 1fr;
+ 
+        }        
+
+        @media only screen and(min-width: $desktop-size) {
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+        > div {
+            padding: 16px;
+            background: #f7f7f7;
+            display: flex;
+            flex-flow: column;
+
+            img {
+                max-height: 200px;
+                align-self: center;                
+            }
+
+            h3 {
+                margin-bottom: 0;
+            }
+        }        
+    }
+}

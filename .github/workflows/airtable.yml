@@ -1,0 +1,29 @@
+name: Airtable Import
+on: [push]
+jobs:
+  airtable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: npm install
+        run: |
+          npm install
+      - name: run Airtable Import
+        run: |
+          node airtable.js
+        env:
+           AIRTABLE_API_KEY: ${{secrets.AIRTABLE_API_KEY}}
+      - name: bundle install and build Jekyll
+        run: |
+          bundle install
+          bundle exec jekyll build
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5.0.2
+                 
