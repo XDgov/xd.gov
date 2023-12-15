@@ -30,11 +30,19 @@ layout: default
     </div>
     <div class="hero-right grid-col-5">
       <div class="hero-right-content">
-        <img
-          class="lazyload"
-          data-sizes="auto"
-          data-src="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner.jpg"
-          alt="{{ page.img_alt_text }}">
+        <picture>
+          <source srcset="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner.webp" type="image/webp">
+          <img
+            data-sizes="auto"
+            data-srcset="{{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner-s.jpg 300w,
+            {{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner-m.jpg 700w,
+            {{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner-l.jpg 1000w,
+            {{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner-xl.jpg 1500w,
+            {{ site.baseurl }}/assets/img/projects/{{ page.title | slugify }}/{{ page.title | slugify }}-banner-xxl.jpg 2500w
+            "
+            class="lazyload"
+            alt="{{ page.img_alt_text }}">
+        </picture>
       </div>
     </div>
   </div>
