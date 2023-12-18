@@ -1,7 +1,9 @@
 const fs = require('fs');
 const Airtable = require('airtable');
+const axios = require('axios');
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
+// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
+const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
@@ -9,7 +11,7 @@ const newsFilePath = './collections/_import/news.md';
 const biosFilePath = './collections/_import/bios.md';
 
 // Utility function we'll use to compare our data
-const deepCompare = (arg1, arg2) => {
+function deepCompare(arg1, arg2) {
     if (JSON.stringify(arg1) === JSON.stringify(arg2)) {
       if (typeof arg1 === 'object' || Array.isArray(arg1)) {
         if (Object.keys(arg1).length !== Object.keys(arg2).length ){
@@ -22,6 +24,55 @@ const deepCompare = (arg1, arg2) => {
       return (arg1===arg2);
     }
     return false;
+}
+
+// Function to download and save images
+async function downloadAndSaveImage(directory, name, imageUrl) {
+    try {
+        const response = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+        const imageBuffer = Buffer.from(response.data, 'binary');
+
+        // Create a directory with the user's name
+        const directoryPath = `./${directory}/${name}`;
+            if (!fs.existsSync(directoryPath)) {
+            await fs.mkdirSync(directoryPath, { recursive: true });
+        }
+
+        // Save the image to the new directory
+        const localImagePath = `${directoryPath}/${name}.jpg`;
+        await fs.writeFileSync(localImagePath, imageBuffer);
+
+        console.log(`Image for ${name} saved successfully at ${localImagePath}`);
+
+        return localImagePath;
+    } catch (error) {
+        console.error(`Error downloading image for ${name}: ${error.message}`);
+    }
+}
+  
+
+// Image ingestion to check for new images and save them to our repo
+const checkAndCleanImages = async (cacheData) => {
+    Array.from(Object.entries(cacheData)).forEach((contentArray) => {
+        const contentName = contentArray[0];
+        const contentData = contentArray[1];
+
+        contentData.forEach(async (item, index) => {
+            if (item['Images']) {
+                // Construct our new image path from the content type and item name
+                const name = item["Name"].toLowerCase().replaceAll(' ', '-');
+                const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
+
+                // If we haven't yet, copy image file to our repo and replace with new path
+                const newLocalImagePath = await downloadAndSaveImage(directory, name, item['Images'][0].url);
+
+                // Replace the image url with the local one, so our comparison lines up.
+                item['Images'][0].url = newLocalImagePath;
+
+                console.log(newLocalImagePath);
+            }
+        });    
+    });
 }
 
 // Fetch our airtable content and generate some markup with it
@@ -81,16 +132,19 @@ const generateXdMarkup = (content) => {
 }
 
 fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
-    .then((data) => {
+    .then(async (data) => {
 
-        const cacheData = fs.readFileSync(cacheFilePath);
+        const cacheData = JSON.parse(await fs.readFileSync(cacheFilePath));
+
+        // Before we compare this data to cache, we need to sanitize the image paths
+        await checkAndCleanImages(cacheData);
 
         // Compare our cache with the newly fetched data.
         // If the same, we don't need to continue.
-        if (deepCompare(JSON.parse(cacheData), data)) {
-            console.log('Data is a match to cache, aborting.');
-            return;
-        }
+        // if (deepCompare(cacheData, data)) {
+        //     console.log('Data is a match to cache, aborting.');
+        //     return;
+        // }
 
         const markup = generateXdMarkup(data);
 
@@ -119,5 +173,5 @@ fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
                 return;
             }
             console.log('Bios markup written successfully to disk');
-        });
+        }); 
     })
