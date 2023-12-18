@@ -1,6 +1,6 @@
 const fs = require('fs');
 const Airtable = require('airtable');
-const axios = require('axios');
+const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities')
 
 // const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
 const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
@@ -10,49 +10,8 @@ const cacheFilePath = './airtable-cache.json';
 const newsFilePath = './collections/_import/news.md';
 const biosFilePath = './collections/_import/bios.md';
 
-// Utility function we'll use to compare our data
-function deepCompare(arg1, arg2) {
-    if (JSON.stringify(arg1) === JSON.stringify(arg2)) {
-      if (typeof arg1 === 'object' || Array.isArray(arg1)) {
-        if (Object.keys(arg1).length !== Object.keys(arg2).length ){
-          return false;
-        }
-        return (Object.keys(arg1).every((key) => {
-          return deepCompare(arg1[key],arg2[key]);
-        }));
-      }
-      return (arg1===arg2);
-    }
-    return false;
-}
-
-// Function to download and save images
-async function downloadAndSaveImage(directory, name, imageUrl) {
-    try {
-        const response = await axios.get(imageUrl, { responseType: 'arraybuffer' });
-        const imageBuffer = Buffer.from(response.data, 'binary');
-
-        // Create a directory with the user's name
-        const directoryPath = `./${directory}/${name}`;
-            if (!fs.existsSync(directoryPath)) {
-            await fs.mkdirSync(directoryPath, { recursive: true });
-        }
-
-        // Save the image to the new directory
-        const localImagePath = `${directoryPath}/${name}.jpg`;
-        await fs.writeFileSync(localImagePath, imageBuffer);
-
-        console.log(`Image for ${name} saved successfully at ${localImagePath}`);
-
-        return localImagePath;
-    } catch (error) {
-        console.error(`Error downloading image for ${name}: ${error.message}`);
-    }
-}
-  
-
 // Image ingestion to check for new images and save them to our repo
-const checkAndCleanImages = async (cacheData) => {
+const checkAndCleanImages = (cacheData) => new Promise((resolve, reject) => {
     Array.from(Object.entries(cacheData)).forEach((contentArray) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
@@ -66,6 +25,10 @@ const checkAndCleanImages = async (cacheData) => {
                 // If we haven't yet, copy image file to our repo and replace with new path
                 const newLocalImagePath = await downloadAndSaveImage(directory, name, item['Images'][0].url);
 
+                if (typeof newLocalImagePath !== 'string') {
+                    reject(newLocalImagePath)
+                }
+
                 // Replace the image url with the local one, so our comparison lines up.
                 item['Images'][0].url = newLocalImagePath;
 
@@ -73,7 +36,9 @@ const checkAndCleanImages = async (cacheData) => {
             }
         });    
     });
-}
+
+    resolve(cacheData);
+});
 
 // Fetch our airtable content and generate some markup with it
 // Optionally (if newer), write to our cache file with new data
@@ -100,7 +65,7 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
         // If there are no more records, `done` will get called.
         fetchNextPage();
 
-        resolve(xdContent)
+        resolve(xdContent);
 
     }, function done(err) {
         if (err) { console.error(err); reject(error); return; }
@@ -131,47 +96,50 @@ const generateXdMarkup = (content) => {
     return [newsMarkDown, biosMarkdown];
 }
 
-fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath)
-    .then(async (data) => {
+(async () => {
+    const myData = await fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath);
+    const cacheData = JSON.parse(fs.readFileSync(cacheFilePath));
 
-        const cacheData = JSON.parse(await fs.readFileSync(cacheFilePath));
+    // Before we compare this data to cache, we need to sanitize the image paths
+    try {
+        await checkAndCleanImages(cacheData)
+    } catch (error) {
+        console.log('An error has occurred ', error);
+    }
 
-        // Before we compare this data to cache, we need to sanitize the image paths
-        await checkAndCleanImages(cacheData);
+    // Compare our cache with the newly fetched data.
+    // If the same, we don't need to continue.
+    // if (deepCompare(cacheData, data)) {
+    //     console.log('Data is a match to cache, aborting.');
+    //     return;
+    // }
 
-        // Compare our cache with the newly fetched data.
-        // If the same, we don't need to continue.
-        // if (deepCompare(cacheData, data)) {
-        //     console.log('Data is a match to cache, aborting.');
-        //     return;
-        // }
+    const markup = generateXdMarkup(myData);
 
-        const markup = generateXdMarkup(data);
+    // Write to json airtable-cache file
+    try {
+        await fs.promises.writeFile(cacheFilePath, JSON.stringify(myData, null, 2));
+        console.log('Data written successfully to disk');
+    } catch (error) {
+        console.log('An error has occurred ', error);
+        return;
+    }
 
-        // Write to json airtable-cache file
-        fs.writeFile(cacheFilePath, JSON.stringify(data, null, 2), (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Data written successfully to disk');
-        });
-
-        // Write to json airtable-cache file
-        fs.writeFile(newsFilePath, markup[0], (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('News markup written successfully to disk');
-        });
-
-        // Write to json airtable-cache file
-        fs.writeFile(biosFilePath, markup[1], (error) => {
-            if (error) {
-                console.log('An error has occurred ', error);
-                return;
-            }
-            console.log('Bios markup written successfully to disk');
-        }); 
-    })
+    // Write to news file
+    try {
+        await fs.promises.writeFile(newsFilePath, markup[0]);
+        console.log('News markup written successfully to disk');
+    } catch (error) {
+        console.log('An error has occurred ', error);
+        return;
+    }
+    
+    // Write to bios file
+    try {
+        await fs.promises.writeFile(biosFilePath, markup[1]);
+        console.log('Bios markup written successfully to disk');
+    } catch (error) {
+        console.log('An error has occurred ', error);
+        return;
+    }     
+})();
