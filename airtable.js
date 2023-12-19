@@ -11,34 +11,32 @@ const newsFilePath = './collections/_import/news.md';
 const biosFilePath = './collections/_import/bios.md';
 
 // Image ingestion to check for new images and save them to our repo
-const checkAndCleanImages = (cacheData) => new Promise((resolve, reject) => {
-    Array.from(Object.entries(cacheData)).forEach((contentArray) => {
+const checkAndCleanImages = (data) => {
+    const promisesArray = Array.from(Object.entries(data)).map(async (contentArray, index) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
+          
+        for (const item of contentData) {
+            const contentImages = item['Images']                
+            if (!contentImages) return;
 
-        contentData.forEach(async (item, index) => {
-            if (item['Images']) {
-                // Construct our new image path from the content type and item name
-                const name = item["Name"].toLowerCase().replaceAll(' ', '-');
-                const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
+            // Construct our new image path from the content type and item name
+            const name = item["Name"].toLowerCase().replaceAll(' ', '-');
+            const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
 
-                // If we haven't yet, copy image file to our repo and replace with new path
-                const newLocalImagePath = await downloadAndSaveImage(directory, name, item['Images'][0].url);
-
-                if (typeof newLocalImagePath !== 'string') {
-                    reject(newLocalImagePath)
-                }
-
-                // Replace the image url with the local one, so our comparison lines up.
-                item['Images'][0].url = newLocalImagePath;
-
-                console.log(newLocalImagePath);
-            }
-        });    
+            // If we haven't yet, copy image file to our repo and replace with new path
+            await downloadAndSaveImage(directory, name, contentImages[0].url)
+                .then((newLocalImagePath) => {
+                    if (typeof newLocalImagePath !== 'string') return;
+    
+                    // Replace the image url with the local one, so our comparison lines up.
+                    contentImages[0].url = newLocalImagePath;
+                })
+        }
     });
 
-    resolve(cacheData);
-});
+    return Promise.all(promisesArray);
+}
 
 // Fetch our airtable content and generate some markup with it
 // Optionally (if newer), write to our cache file with new data
@@ -97,12 +95,13 @@ const generateXdMarkup = (content) => {
 }
 
 (async () => {
-    const myData = await fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath);
+    const newAirtableData = await fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath);
     const cacheData = JSON.parse(fs.readFileSync(cacheFilePath));
 
     // Before we compare this data to cache, we need to sanitize the image paths
     try {
-        await checkAndCleanImages(cacheData)
+        await checkAndCleanImages(newAirtableData);
+        console.log('Check images complete')
     } catch (error) {
         console.log('An error has occurred ', error);
     }
@@ -114,11 +113,11 @@ const generateXdMarkup = (content) => {
     //     return;
     // }
 
-    const markup = generateXdMarkup(myData);
+    const markup = generateXdMarkup(newAirtableData);
 
     // Write to json airtable-cache file
     try {
-        await fs.promises.writeFile(cacheFilePath, JSON.stringify(myData, null, 2));
+        await fs.promises.writeFile(cacheFilePath, JSON.stringify(newAirtableData, null, 2));
         console.log('Data written successfully to disk');
     } catch (error) {
         console.log('An error has occurred ', error);
