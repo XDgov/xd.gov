@@ -15,34 +15,33 @@ const checkAndCleanImages = (newData, cacheData) => {
     const promisesArray = Array.from(Object.entries(newData)).map(async (contentArray, index) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
-        let cacheEquivalent = Array.from(Object.entries(cacheData))[index][1];
+
+        // Have cache on hand at each content level
+        const cacheEquivalent = Array.from(Object.entries(cacheData))[index][1];     
           
         for (const item of contentData) {
             const contentImages = item['Images'];
-            const cachedMatch = cacheEquivalent.find(entry => {
-                if (entry['Images']) {
-                    return entry['Images'][0].id === contentImages[0].id
-                }
-            })
-            const cacheImages = cachedMatch['Images'];
 
-            console.log(cachedMatch)
-
-            // Check if image already exists in this location (newLocalPath key exists)           
-            if (!contentImages || cacheImages[0].newLocalPath) {
-                return;
-            }
+            if (!contentImages) return;
 
             // Construct our new image path from the content type and item name
             const name = item["Name"].toLowerCase().replaceAll(' ', '-');
-            const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
+            const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`; 
 
-            // Copy image file to our repo and replace with new path
+            // Lookup the same image from our cache
+            const cachedImage = cacheEquivalent.find(cacheItem => cacheItem['Images'][0].id === contentImages[0].id)['Images'][0];
+
+            console.log(cachedImage, contentImages[0])
+
+            // Check if image already exists in this location (newLocalPath key exists)
+            if (cachedImage.newLocalPath) return;
+
+            // If new, copy image file to our repo then replace with new local path
             await downloadAndSaveImage(directory, name, contentImages[0].url)
                 .then((newLocalImagePath) => {
                     if (typeof newLocalImagePath !== 'string') return;
     
-                    // Replace the image url with the local one, so our comparison lines up.
+                    // Replace the image url with the local one, so our comparison lines up
                     contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
                 })
         }
