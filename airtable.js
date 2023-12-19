@@ -11,26 +11,39 @@ const newsFilePath = './collections/_import/news.md';
 const biosFilePath = './collections/_import/bios.md';
 
 // Image ingestion to check for new images and save them to our repo
-const checkAndCleanImages = (data) => {
-    const promisesArray = Array.from(Object.entries(data)).map(async (contentArray, index) => {
+const checkAndCleanImages = (newData, cacheData) => {
+    const promisesArray = Array.from(Object.entries(newData)).map(async (contentArray, index) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
+        let cacheEquivalent = Array.from(Object.entries(cacheData))[index][1];
           
         for (const item of contentData) {
-            const contentImages = item['Images']                
-            if (!contentImages) return;
+            const contentImages = item['Images'];
+            const cachedMatch = cacheEquivalent.find(entry => {
+                if (entry['Images']) {
+                    return entry['Images'][0].id === contentImages[0].id
+                }
+            })
+            const cacheImages = cachedMatch['Images'];
+
+            console.log(cachedMatch)
+
+            // Check if image already exists in this location (newLocalPath key exists)           
+            if (!contentImages || cacheImages[0].newLocalPath) {
+                return;
+            }
 
             // Construct our new image path from the content type and item name
             const name = item["Name"].toLowerCase().replaceAll(' ', '-');
             const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
 
-            // If we haven't yet, copy image file to our repo and replace with new path
+            // Copy image file to our repo and replace with new path
             await downloadAndSaveImage(directory, name, contentImages[0].url)
                 .then((newLocalImagePath) => {
                     if (typeof newLocalImagePath !== 'string') return;
     
                     // Replace the image url with the local one, so our comparison lines up.
-                    contentImages[0].url = newLocalImagePath;
+                    contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
                 })
         }
     });
@@ -100,7 +113,7 @@ const generateXdMarkup = (content) => {
 
     // Before we compare this data to cache, we need to sanitize the image paths
     try {
-        await checkAndCleanImages(newAirtableData);
+        await checkAndCleanImages(newAirtableData, cacheData);
         console.log('Check images complete')
     } catch (error) {
         console.log('An error has occurred ', error);
@@ -108,10 +121,10 @@ const generateXdMarkup = (content) => {
 
     // Compare our cache with the newly fetched data.
     // If the same, we don't need to continue.
-    // if (deepCompare(cacheData, data)) {
-    //     console.log('Data is a match to cache, aborting.');
-    //     return;
-    // }
+    if (deepCompare(cacheData, newAirtableData)) {
+        console.log('Data is a match to cache, aborting.');
+        return;
+    }
 
     const markup = generateXdMarkup(newAirtableData);
 
