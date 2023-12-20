@@ -2,8 +2,7 @@ const fs = require('fs');
 const Airtable = require('airtable');
 const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities')
 
-// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
-const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
+const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base('appuZMt69pZnTis2t');
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
@@ -31,17 +30,22 @@ const checkAndCleanImages = (newData, cacheData) => {
             // Lookup the same image from our cache
             const cachedImage = cacheEquivalent.find(cacheItem => cacheItem['Images'][0].id === contentImages[0].id)['Images'][0];
 
-            console.log(cachedImage, contentImages[0])
-
             // Check if image already exists in this location (newLocalPath key exists)
-            if (cachedImage.newLocalPath) return;
+            if (cachedImage.newLocalPath)  {
+
+                // Replace the image url with the local one, so our new/cache comparison lines up
+                contentImages[0].url = contentImages[0].newLocalPath = cachedImage.newLocalPath;
+                
+                // Exit since we don't need to download again
+                return;
+            }
 
             // If new, copy image file to our repo then replace with new local path
             await downloadAndSaveImage(directory, name, contentImages[0].url)
                 .then((newLocalImagePath) => {
                     if (typeof newLocalImagePath !== 'string') return;
     
-                    // Replace the image url with the local one, so our comparison lines up
+                    // Replace the image url with the local one, so our new/cache comparison lines up
                     contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
                 })
         }
@@ -96,7 +100,7 @@ const generateXdMarkup = (content) => {
     // Create Bios page elements
     content['Bio for team page'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
         if ([name, blurb, images].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].url}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
+            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
         }
     })
 
@@ -108,7 +112,7 @@ const generateXdMarkup = (content) => {
 
 (async () => {
     const newAirtableData = await fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath);
-    const cacheData = JSON.parse(fs.readFileSync(cacheFilePath));
+    const cacheData = JSON.parse(await fs.promises.readFile(cacheFilePath));
 
     // Before we compare this data to cache, we need to sanitize the image paths
     try {
