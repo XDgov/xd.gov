@@ -104,9 +104,3 @@ Information Warfare Center (NIWC) In-house
 Laboratory Independent Research Program.
 </p>
 </div>
-<div>
-<img id="attRwaAWNNqwxgJO1" alt="Image of John Doe" src="/assets/img/import/bio_for_team_page/john-doe/john-doe.jpg" />
-<h3>John Doe</h3>
-<p>Some cool guy
-</p>
-</div>
