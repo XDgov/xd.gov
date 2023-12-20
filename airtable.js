@@ -117,7 +117,7 @@ const generateXdMarkup = (content) => {
         await checkAndCleanImages(newAirtableData, cacheData);
         console.log('Check images complete')
     } catch (error) {
-        console.log('An error has occurred ', error);
+        console.error('An error has occurred ', error);
     }
 
     // Compare our cache with the newly fetched data.
@@ -134,7 +134,7 @@ const generateXdMarkup = (content) => {
         await fs.promises.writeFile(cacheFilePath, JSON.stringify(newAirtableData, null, 2));
         console.log('Data written successfully to disk');
     } catch (error) {
-        console.log('An error has occurred ', error);
+        console.error('An error has occurred ', error);
         return;
     }
 
@@ -143,7 +143,7 @@ const generateXdMarkup = (content) => {
         await fs.promises.writeFile(newsFilePath, markup[0]);
         console.log('News markup written successfully to disk');
     } catch (error) {
-        console.log('An error has occurred ', error);
+        console.error('An error has occurred ', error);
         return;
     }
     
@@ -152,7 +152,7 @@ const generateXdMarkup = (content) => {
         await fs.promises.writeFile(biosFilePath, markup[1]);
         console.log('Bios markup written successfully to disk');
     } catch (error) {
-        console.log('An error has occurred ', error);
+        console.error('An error has occurred ', error);
         return;
     }     
 })();
