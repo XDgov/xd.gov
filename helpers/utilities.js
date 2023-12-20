@@ -24,7 +24,7 @@ async function downloadAndSaveImage(directory, name, imageUrl) {
         const imageBuffer = Buffer.from(response.data, 'binary');
 
         // Create a directory with the user's name
-        const directoryPath = `./${directory}/${name}`;
+        const directoryPath = `/${directory}/${name}`;
             if (!fs.existsSync(directoryPath)) {
             await fs.mkdirSync(directoryPath, { recursive: true });
         }

@@ -3,13 +3,13 @@ layout: bios
 title: Bios
 ---
 <div>
-<img id="attptgXIhrtZAHqE8" alt="Image of Samantha Weinstock" src="./assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg" />
+<img id="attptgXIhrtZAHqE8" alt="Image of Samantha Weinstock" src="/assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg" />
 <h3>Samantha Weinstock</h3>
 <p>Sam is the Head of Operations and Partnerships
 </p>
 </div>
 <div>
-<img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="./assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg" />
+<img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="/assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg" />
 <h3>Curtis Mitchell</h3>
 <p>Curtis Mitchell (he/him) is excited to be an
 Emerging Technology Fellow on the xD team.
@@ -25,7 +25,7 @@ system.
 </p>
 </div>
 <div>
-<img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="./assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg" />
+<img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="/assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg" />
 <h3>Anna Vasylytsya</h3>
 <p>Anna is excited to start as an Emerging Technology
 Fellow at the Census Bureau. She is excited about
@@ -44,7 +44,7 @@ public service.
 </p>
 </div>
 <div>
-<img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="./assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg" />
+<img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="/assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg" />
 <h3>Diamond Nwankwo</h3>
 <p>Diamond Nwankwo (she/her) has a proven [data-based](http://xd.gov)
 [track record with 10 years of experience in data](http://xd.gov)
@@ -59,7 +59,7 @@ reporting data quality.
 </p>
 </div>
 <div>
-<img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="./assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg" />
+<img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="/assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg" />
 <h3>Ian Munoz</h3>
 <p>My name is Ian and I'm excited to be joining xD!
 
@@ -73,7 +73,7 @@ DevOps engineer.
 </p>
 </div>
 <div>
-<img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="./assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg" />
+<img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="/assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg" />
 <h3>Tomo Lazovich</h3>
 <p>Tomo Lazovich (they/them) is a senior research scientist at the
 Institute for Experiential AI at Northeastern University. Prior to
@@ -88,7 +88,7 @@ from the ground up.
 </p>
 </div>
 <div>
-<img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="./assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg" />
+<img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="/assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg" />
 <h3>Mike Walton</h3>
 <p>Mike Walton is a researcher, technologist and
 writer endlessly fascinated by the study of
@@ -105,7 +105,7 @@ Laboratory Independent Research Program.
 </p>
 </div>
 <div>
-<img id="attRwaAWNNqwxgJO1" alt="Image of John Doe" src="undefined" />
+<img id="attRwaAWNNqwxgJO1" alt="Image of John Doe" src="/assets/img/import/bio_for_team_page/john-doe/john-doe.jpg" />
 <h3>John Doe</h3>
 <p>Some cool guy
 </p>

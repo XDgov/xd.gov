@@ -35,19 +35,17 @@ const checkAndCleanImages = (newData, cacheData) => {
 
                 // Replace the image url with the local one, so our new/cache comparison lines up
                 contentImages[0].url = contentImages[0].newLocalPath = cachedImage.newLocalPath;
-                
-                // Exit since we don't need to download again
-                return;
+            
+            } else {
+                // If new, copy image file to our repo then replace with new local path
+                await downloadAndSaveImage(directory, name, contentImages[0].url)
+                    .then((newLocalImagePath) => {
+                        if (typeof newLocalImagePath !== 'string') return;
+        
+                        // Replace the image url with the local one, so our new/cache comparison lines up
+                        contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
+                    })                
             }
-
-            // If new, copy image file to our repo then replace with new local path
-            await downloadAndSaveImage(directory, name, contentImages[0].url)
-                .then((newLocalImagePath) => {
-                    if (typeof newLocalImagePath !== 'string') return;
-    
-                    // Replace the image url with the local one, so our new/cache comparison lines up
-                    contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
-                })
         }
     });
 

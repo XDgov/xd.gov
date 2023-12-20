@@ -8,7 +8,7 @@
           "id": "attptgXIhrtZAHqE8",
           "width": 181,
           "height": 170,
-          "url": "./assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg",
+          "url": "/assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg",
           "filename": "xd.png",
           "size": 17697,
           "type": "image/png",
@@ -29,7 +29,7 @@
               "height": 170
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg"
         }
       ],
       "Name": "Samantha Weinstock",
@@ -45,7 +45,7 @@
           "id": "attzMv5LoQkfN8oSs",
           "width": 275,
           "height": 476,
-          "url": "./assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg",
+          "url": "/assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg",
           "filename": "Screenshot 2023-11-21 140701.png",
           "size": 71059,
           "type": "image/png",
@@ -66,7 +66,7 @@
               "height": 476
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg"
         }
       ],
       "Name": "Curtis Mitchell",
@@ -82,7 +82,7 @@
           "id": "attoZc4P4TFYJW2aW",
           "width": 342,
           "height": 334,
-          "url": "./assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg",
+          "url": "/assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg",
           "filename": "Screenshot 2023-11-21 140842.png",
           "size": 124804,
           "type": "image/png",
@@ -103,7 +103,7 @@
               "height": 334
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg"
         }
       ],
       "Name": "Anna Vasylytsya",
@@ -119,7 +119,7 @@
           "id": "attW7Ep5zdBwxFzzB",
           "width": 284,
           "height": 483,
-          "url": "./assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg",
+          "url": "/assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg",
           "filename": "Screenshot 2023-11-21 140707.png",
           "size": 73819,
           "type": "image/png",
@@ -140,7 +140,7 @@
               "height": 483
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg"
         }
       ],
       "Name": "Diamond Nwankwo",
@@ -156,7 +156,7 @@
           "id": "attlQoVOY2bfunFKj",
           "width": 421,
           "height": 481,
-          "url": "./assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg",
+          "url": "/assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg",
           "filename": "Screenshot 2023-11-21 140713.png",
           "size": 262296,
           "type": "image/png",
@@ -177,7 +177,7 @@
               "height": 481
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg"
         }
       ],
       "Name": "Ian Munoz",
@@ -193,7 +193,7 @@
           "id": "attR760W90B7VP511",
           "width": 398,
           "height": 398,
-          "url": "./assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg",
+          "url": "/assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg",
           "filename": "Screenshot 2023-11-21 140717.png",
           "size": 234486,
           "type": "image/png",
@@ -214,7 +214,7 @@
               "height": 398
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg"
         }
       ],
       "Name": "Tomo Lazovich",
@@ -230,7 +230,7 @@
           "id": "attROSxw6AXAkJppo",
           "width": 432,
           "height": 436,
-          "url": "./assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg",
+          "url": "/assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg",
           "filename": "Screenshot 2023-11-21 140722.png",
           "size": 326917,
           "type": "image/png",
@@ -251,7 +251,7 @@
               "height": 436
             }
           },
-          "newLocalPath": "./assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg"
+          "newLocalPath": "/assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg"
         }
       ],
       "Name": "Mike Walton",
@@ -267,7 +267,7 @@
           "id": "attRwaAWNNqwxgJO1",
           "width": 1384,
           "height": 2048,
-          "url": "https://v5.airtableusercontent.com/v2/24/24/1703102400000/ZpEkTRg4FFxz0vMtP2s5Tg/Vc4JdpcRuzJTX0XO5Tn3Xb7846EirrOHml3aj0JWF2wkHbO4fcD1bX-5rt4bces0edmmiy84LaJfjSQIGIgBxFzofNaqNt1q60uiwux21797h9DA5VSI0Ed_gzGYc6IqArV2QpiLQKUT3JAsBiZHpg/j1c0cDO-XHNIkux8W2VG2Iea_rB7mYZxGrLSLP_-pnc",
+          "url": "/assets/img/import/bio_for_team_page/john-doe/john-doe.jpg",
           "filename": "einstein.jpg",
           "size": 358994,
           "type": "image/jpeg",
@@ -287,7 +287,8 @@
               "width": 1384,
               "height": 2048
             }
-          }
+          },
+          "newLocalPath": "/assets/img/import/bio_for_team_page/john-doe/john-doe.jpg"
         }
       ],
       "Name": "John Doe",
