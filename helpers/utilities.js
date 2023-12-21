@@ -1,5 +1,8 @@
 const axios = require('axios');
 const fs = require('fs');
+const path = require('path');
+
+const { readdir } = fs.promises;
 
 // Utility function we'll use to compare our data
 function deepCompare(arg1, arg2) {
@@ -42,4 +45,25 @@ async function downloadAndSaveImage(directory, name, imageUrl) {
     }
 }
 
-module.exports = { deepCompare, downloadAndSaveImage };
+// recursively return a list of files of a certain type contained in the fileTypes array
+async function getFileListOfTypes(dirName, fileTypes) {
+  let files = [];
+  const items = await readdir(dirName, { withFileTypes: true });
+
+  for (const item of items) {
+      if (item.isDirectory()) {
+          files = [
+              ...files.filter(file => fileTypes.includes(path.parse(file).ext.replace('.', ''))),
+              ...(await getFileListOfTypes(`${dirName}/${item.name}`, fileTypes)),
+          ];
+      } else {
+          if (fileTypes.includes(path.parse(`${dirName}/${item.name}`).ext.replace('.', ''))) {
+            files.push(`${dirName}/${item.name}`);
+          }
+      }
+  }
+
+  return files;
+};
+
+module.exports = { deepCompare, downloadAndSaveImage, getFileListOfTypes };
