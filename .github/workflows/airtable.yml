@@ -15,15 +15,16 @@ jobs:
       - name: npm install
         run: |
           npm install
+      - name: create .env file
+        run: |
+          echo "AIRTABLE_API_KEY=${{secrets.AIRTABLE_API_KEY}}" >> .env
+          echo "AIRTABLE_BASE_ID=${{secrets.AIRTABLE_BASE_ID}}" >> .env
       - name: run Airtable Import
         run: |
           node airtable.js
-        env:
-           AIRTABLE_API_KEY: ${{secrets.AIRTABLE_API_KEY}}
       - name: bundle install and build Jekyll
         run: |
           bundle install
           bundle exec jekyll build
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5.0.2
-                 
