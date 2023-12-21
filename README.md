@@ -35,7 +35,7 @@ After that install the local dependencies with:
 npm install
 ```
 
-## Running code locally
+## Running Code Locally
 
 After cloning the repo, from the project root run:
 
@@ -48,6 +48,17 @@ If you have errors with the above command, you may need to run Jekyll in a bundl
 ```bash
 bundle exec jekyll serve
 ```
+
+### Environment Variables
+
+If you need to run the Airtable script locally, create a .env file at the project root with the following format:
+
+```bash
+AIRTABLE_API_KEY="..."
+AIRTABLE_BASE_ID="..."
+```
+
+(contact @curt-mitch-census to get the exact values for these API tokens)
 
 ## Updating Ruby
 
