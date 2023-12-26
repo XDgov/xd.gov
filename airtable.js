@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Airtable = require('airtable');
-const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities')
+const marked = require('marked');
+const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
 
 // Load environment variables
 require('dotenv').config();
@@ -101,7 +102,7 @@ const generateXdMarkup = (content) => {
     // Create Bios page elements
     content['Bio for team page'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
         if ([name, blurb, images].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
+            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" /><h3>${name}</h3>\n${marked.parse(blurb)}</div>`;
         }
     })
 
