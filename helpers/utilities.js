@@ -25,13 +25,13 @@ async function downloadAndSaveImage(directory, name, imageUrl) {
 
         // Create a directory with the user's name
         const directoryPath = `/${directory}/${name}`;
-            if (!fs.existsSync(directoryPath)) {
-            await fs.mkdirSync(directoryPath, { recursive: true });
+            if (!fs.existsSync(`.${directoryPath}`)) {
+            await fs.mkdirSync(`.${directoryPath}`, { recursive: true });
         }
 
         // Save the image to the new directory
         const localImagePath = `${directoryPath}/${name}.jpg`;
-        await fs.writeFileSync(localImagePath, imageBuffer);
+        await fs.writeFileSync(`.${localImagePath}`, imageBuffer);
 
         console.log(`Image for ${name} saved successfully at ${localImagePath}`);
 
