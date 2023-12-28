@@ -6,8 +6,7 @@ const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
 // Load environment variables
 require('dotenv').config();
 
-// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
-const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
+const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
