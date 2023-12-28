@@ -1,269 +1,9 @@
 {
-  "Bio for team page": [
-    {
-      "Blurb": "Sam is the Head of Operations and Partnerships\n",
-      "Is there a title that should be included with this content?": "Samantha Weinstock, Head of Operations and Partnerships",
-      "Images": [
-        {
-          "id": "attptgXIhrtZAHqE8",
-          "width": 181,
-          "height": 170,
-          "url": "/assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg",
-          "filename": "xd.png",
-          "size": 17697,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/__PeCliHX6UGkJ2gDxbivg/Gtz4_Qdv4AgjDbq7MW-3o5FGcc7bzHOtjtnuIudD4_7t3yqFnUTXzFIBIwMZi99sqeNzljrYaxYbr97EzIxh_mZh5as9nKazmF_S4sYD6zPuItF8ucTNL0T0RwivQi8dEtAHx-gQVJRf4XusV2CTFg/9WqDSUVB8alEATjKKvAybBpDDFvNmsH1ECtm4xQZuNI",
-              "width": 38,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/n8EM1f5_zmKC815GxL_FMQ/32YlQCvGwhrtOeIgJDkW_NVYyNPD92h93Wjjt4Sm8MUhxp2fkKYzsIR1mwPk05UHDIZ6gizVBUVqO0CO8kcWIwcGublXNAuSNb5-afG-9DcIaw5G3ZVpmBYgonbmjCaH9jBrjrGkEkzWAvuY8cXPww/8bsUNESNWknfQ_6ZEe4N9_gU_KkAD-_NQjAgiQrJ-LE",
-              "width": 181,
-              "height": 170
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/o40oca9MpFwhXgTH3xcOHg/3XVVoYFoySQT0W1vSgIivF-o2Z8qvgTMFy09rEhwkUSW8DdSJQSXNkBQHeQa8bVLuuyKoNP3qGCFyEGt4nLEI6XCQwN02Y3GpQTN4yKI1OkrXCWxF1cqL-Xdd2KPZQ_Xqw3UdRyZNRZDpui0lwKcGQ/FsXlWjohTFOBvXEFYT_yClQspmvL7jHo-AC-YGLtKs0",
-              "width": 181,
-              "height": 170
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/samantha-weinstock/samantha-weinstock.jpg"
-        }
-      ],
-      "Name": "Samantha Weinstock",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "Curtis Mitchell (he/him) is excited to be an\nEmerging Technology Fellow on the xD team.\nHis career has gone through several transitions,\nincluding being a data analyst at an energy\nconsulting firm before working at several data\nanalysis and machine learning startups as a\nsoftware engineer. Before joining xD, he worked\nwith multiple teams at NASA’s Ames Research\nCenter on a research platform to integrate\ndrones and air taxis into the air traffic control\nsystem.\n",
-      "Is there a title that should be included with this content?": "Curtis Mitchell",
-      "Images": [
-        {
-          "id": "attzMv5LoQkfN8oSs",
-          "width": 275,
-          "height": 476,
-          "url": "/assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg",
-          "filename": "Screenshot 2023-11-21 140701.png",
-          "size": 71059,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/E68aOBINRLIHE8Vl6fmWZA/SRnbQdFExF2KTlQ-uAj3DF8CCDR51vjhod4cRHhBg-3JYh6HLkj5g900X9lxsQjdUUQgaJJWUmMnjvRs6mtwjq8O9c8sI5S2-PT1klFmetOo-RxdYp4H_LH3JiHvrqIX04eYmewpX9EJ_j-v4m8upw/fWbiz9uzBan3Ejtf-T1-vCpmKb7CcxO9dweMVNygbmA",
-              "width": 21,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/8lVO_l68JRiZV-1GxnMWDQ/yoyv_Hvv8TiGUvvQPrxA_MX_HMFsOrB0Ienr5dxn06rwzVTtSBAo7B8bHbAyONvhydrGQEfA-Meq_y9ZpFQoslMnvwbr2Y0KwAOo4iN2yur1moC8wAQpPwNix3OTLwoAdJ10717YzDEliAQ0jgC_fA/ovZ3RJzKxUxnDrlH7pHS8X6YoZWz9VoCbGjlk6JjDq8",
-              "width": 275,
-              "height": 476
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/VDLcuNG3Wm4HoJtdYdPy3w/rwOcR420LvpCVITXx2P8HKPSJcmFZsKvvHzH_Dgmd735gEwic5bemGk_zQTiGgTWlnaX4Sauyo6gDZVLFea4mpidyFZ6AaQ0YPzOgPhu5yene6wUzIhRyy0rci29qW9tSc7_7EYrjtGohFZpdSQYuQ/LW1YiVwVpqKzzT7hteCracbyU_b0hrbX-iHchESGfcM",
-              "width": 275,
-              "height": 476
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/curtis-mitchell/curtis-mitchell.jpg"
-        }
-      ],
-      "Name": "Curtis Mitchell",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "Anna is excited to start as an Emerging Technology\nFellow at the Census Bureau. She is excited about\ndata-driven decision-making, being able to combine\nher passions for technology, policy, and data.\n\nPrior to Census, Anna was a senior data scientist at\nthe National Associations of REALTORS (NAR), one of\nthe largest trade associations in the U.S. At NAR, she\nproduced data analyses and delivered insights, built\ndashboards and worked on improving data quality on\na broad range of topics that impact realtors. Anna\nstarted her career as a federal contractor at the\nDepartment of State and she is excited to return to\npublic service.\n",
-      "Is there a title that should be included with this content?": "Anna Vasylytsya",
-      "Images": [
-        {
-          "id": "attoZc4P4TFYJW2aW",
-          "width": 342,
-          "height": 334,
-          "url": "/assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg",
-          "filename": "Screenshot 2023-11-21 140842.png",
-          "size": 124804,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/pinlei5P2lcPYkxQfWQ9iA/P5kFch8GZqPBiBNud_c0S9iUFncCv3Jy7XI_KQOu5ShvXxTH4t9ZVal7LdjgOW-Ev0FLCafof0Z_iLj5a_ZHvWMrVbKCvsL58_pzXULsyuqyXPRymnKQwcu-Ycc82Y5upiCQZ89JfkisXSaqLNxR9w/0OW8N257KLnppFOeklwrazQ7PszjmLmXtVM-w17nJuU",
-              "width": 37,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/r88d-4ixbQSmSYmmFo6tOA/IT9gQCJUWMtf6B2ue20tRbFByo07DvShw4bcxigViM1RNySyyNB2Re8Dfeysy-pZZ_MP1A2v6FAXGUMyq03DB5ZYzl4jLv6j-UWbrsDD7PXMx10QrxwksF_riYIAM9vIE203oVhbCG8dxP_TrT8s6w/avqEaiefjgdGk3l6smETJ4yf2UonRwRA5gimuXuceyY",
-              "width": 342,
-              "height": 334
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/KiZsZeeqQkg7P1YssKlFjA/ltWpJnVBFAsyBRxOhXD_NdJJWq4uefJOY_idYIwFZzW6mWYS8z1AfERwVyyMXciw8HMdFxRTOIevEViLOmmulqzrvsSUYOXZnHE0sMv2QOSzfcF5dX97IPJWmrAuXLMlefxWZrfbZhKvQrEDNKtKbw/y4cFL-4gMnjZ1gNRHZUFUeVK0EQ8i9kn4qbL_m-oGco",
-              "width": 342,
-              "height": 334
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/anna-vasylytsya/anna-vasylytsya.jpg"
-        }
-      ],
-      "Name": "Anna Vasylytsya",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "Diamond Nwankwo (she/her) has a proven [data-based](http://xd.gov)\n[track record with 10 years of experience in data](http://xd.gov)\n[engineering and quality assurance/control field within](http://xd.gov)\n[aerospace manufacturing.](http://xd.gov) Diamond worked as a senior\ndata engineer, where she was responsible for designing,\nbuilding and maintaining data pipelines and systems.\nPrior to that, she worked in solar renewable energy as a\ndata engineer where she was the lead on an irradiance\nextract, transform, load (ETL) pipeline development and\nreporting data quality.\n",
-      "Is there a title that should be included with this content?": "Diamond Nwankwo",
-      "Images": [
-        {
-          "id": "attW7Ep5zdBwxFzzB",
-          "width": 284,
-          "height": 483,
-          "url": "/assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg",
-          "filename": "Screenshot 2023-11-21 140707.png",
-          "size": 73819,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/I0L9miZoepL0hu4Co5Wuig/y2KFYZ6dx8z9xbKeyWGHgFidY5FKxSGoVSzPKO0cV6R7Jgn3nUcyDoEUhchSyFv-SWuXgjprJPwKm4s8iyIk5NN9Z2Fot5abbg0DZy3iA2Zw1eeeD_iIkQ5-xnjs380220A3BRB5hrWCGNP6eFekOQ/tcAYNhnrKCqQu-Slecxcff7UjhK8jKqNwG3qo-PJ238",
-              "width": 21,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/CauD8jf4fTtzQemBInEARQ/gC0HCYl940MDXQ4zoGRLslH_23BjOmUPRROeP7sasBklcmZzpiSqf26tmITgUpP8VkiznmePB2-4r80d2Gu-21ipg8RWBd3BWMOVKaSn5jSqnqKHxHVMiT017dIyU8qfDjIad7rfTkuHsMH1FgNxcA/FpgFXrut6SCMYa1bTZhIMFmPe90l219n6kTqosQF3Uo",
-              "width": 284,
-              "height": 483
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/zR1R-weUReqJZhT6iag5tQ/GSwarlylUf3NKZh7-38rx04jAg3pDiZgr3OHs7xKk3GM7tc5IURuiSrS5zNkX2abYptPIB_t6d__tAc_AffuJBQl4_0u4LE-az7jXWEZcj_TDf55uNVQy1IEqFqoEUET0-FhU5nRO_QdZielqAisiA/b5qCuLTQ2Tz32PMMqWqxxShIzkDFAjCNBMbca6Jsl6w",
-              "width": 284,
-              "height": 483
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/diamond-nwankwo/diamond-nwankwo.jpg"
-        }
-      ],
-      "Name": "Diamond Nwankwo",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "My name is Ian and I'm excited to be joining xD!\n\nI started my career in academic computing\nsupporting research at a National Science\nFoundation (NSF) funded environmental research\ncenter at University of Maryland. Later, I worked in\nbioinformatics at Oregon State University. I then\nspent time working for fintech startups as a\nDevOps engineer.\n",
-      "Is there a title that should be included with this content?": "Ian Munoz",
-      "Images": [
-        {
-          "id": "attlQoVOY2bfunFKj",
-          "width": 421,
-          "height": 481,
-          "url": "/assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg",
-          "filename": "Screenshot 2023-11-21 140713.png",
-          "size": 262296,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/o6VjdpzsslgEMVK43zcWOw/tX4LFgBQahA3JPashyuTointm2UJmAD90Owfut9Gi2KsOd9EgYnCqLMGnhU6dUT8J_zaUJP4CZbrpr2-z0sELcULvHW20d-KxZSAcbzQV8m-WaICQlry_tgOV0TPb5a1XVauq6mo8M-k1YQya7Jr7w/-5ByAA6BiQ21JR6ZKihbiSZNY0LyDD_LTkYFzZwmHDE",
-              "width": 32,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/Se4i1e4OJbJfC8zDnDTTzw/E0b2GssoCfCKhIJGG1OZuVbvNzCq4voC3XB2SKSy26W8UsTrMLus1Ncgbokx8C7TydOuf_LdXapog3fdZwA6myHaO51LlVNwUjln4wmE-Zo2Efp3kqYNTbxfP7PWRo6Rnh8Zwl-oghk_kLhi2ZJvEw/yRFeQg5xUEHNU5Gc85vXEDypOd6r0MIL1e7tUkTuG8Y",
-              "width": 421,
-              "height": 481
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/jj5Z-1uLfDq_7k2137RAlg/s1wJsfiFBtRa1sEXW60F33gTD-9MFvDPjz_Wl26609lV1Ntp-cDsrmKtS4bYaSgIHKj1jZF4Lle47mrdw9H5C7zSdwdW2pC68QUhAaH_dG70p9NZ6tSUGvQAauFre27Tzw-gQRdxgZEskgrFr53etw/C-M3Lrfk8ioyZuoEIdshxAMKhvdjFJ7U1sSIK4aeijA",
-              "width": 421,
-              "height": 481
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/ian-munoz/ian-munoz.jpg"
-        }
-      ],
-      "Name": "Ian Munoz",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "Tomo Lazovich (they/them) is a senior research scientist at the\nInstitute for Experiential AI at Northeastern University. Prior to\njoining the institute in 2023, they were a senior machine\nlearning researcher at Twitter, developing a suite of metrics to\nmeasure inequality in outcomes for the Machine Learning\nEthics, Transparency, and Accountability (META) team. Tomo\nhas a significant amount of experience as an interdisciplinary\nresearcher and machine learning practitioner, with defined\nexpertise in building technical solutions to complex problems\nfrom the ground up.\n",
-      "Is there a title that should be included with this content?": "Tomo Lazovich",
-      "Images": [
-        {
-          "id": "attR760W90B7VP511",
-          "width": 398,
-          "height": 398,
-          "url": "/assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg",
-          "filename": "Screenshot 2023-11-21 140717.png",
-          "size": 234486,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/dHWaLPLSCoFqUdnYazkB0A/1jLgxQJFq25JzmBm8TQqfwO3IO3fWVclQWLWa8WY-MiS65MG9bKlFPtaAJPLTxSBVZ-msNDoLluCXXpX6pRXIzwA3A4MQ2RIcktvTCbCgurW6oJtqX5_6byWFPDAgI5k3yCuaIBLwmPWFEo2sd_Y2w/_nffjL2J4H7FM5Z3vFok4gJlrDJSyWstTWjWhUY_dbs",
-              "width": 36,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/2Hv6k4lsts0hvoXO5UQ_1Q/oH_2sd-Pg-av5Wmb_mnkyfw2CfvmouOyh1EGcUqg-ntF67Qwut4WIzWPgP7WqrUlDz2Z8gSNVqJVuToznlK69zrvbRpKhxPh5SIB3_pJdG5562G5f0HYUezuzBUOq6wpk01wjdJNPrkBlC8NBNWj8Q/KFvx9F-NMLbaxUGF_K4UbObme52Adx2kTGOFLzuRXeI",
-              "width": 398,
-              "height": 398
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/purCy64B0j7M7UIelVKZSw/bFYTQgyLFZAaLAybskFO8AeQ8WLycXcNXE7vnw6PTsVHzANL1TGNEThRGzXF3YaUetkaObWe-2MJ8gp8mG7pCu6C9EdjLbJSzX-DpneP_4EiRkFAhVbmOiUevUb4xZfDK4oBQRNZLBtQO8wdehgi9w/hJkKyHHhcdSmt_L4bvOB4U01i6eAnDfXa1xXq5d31Jw",
-              "width": 398,
-              "height": 398
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/tomo-lazovich/tomo-lazovich.jpg"
-        }
-      ],
-      "Name": "Tomo Lazovich",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    },
-    {
-      "Blurb": "Mike Walton is a researcher, technologist and\nwriter endlessly fascinated by the study of\ncognition and intelligent systems. His research\naims to synthesize ideas from multi-agent\nreinforcement learning, game theory and\nparticipatory design to address socially impactful\ncooperation and coordination problems. Mike’s\nresearch has been supported by the Office of Naval\nResearch (ONR), Defense Advanced Research\nProjects Agency (DARPA) and The Naval\nInformation Warfare Center (NIWC) In-house\nLaboratory Independent Research Program.\n",
-      "Is there a title that should be included with this content?": "Mike Walton",
-      "Images": [
-        {
-          "id": "attROSxw6AXAkJppo",
-          "width": 432,
-          "height": 436,
-          "url": "/assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg",
-          "filename": "Screenshot 2023-11-21 140722.png",
-          "size": 326917,
-          "type": "image/png",
-          "thumbnails": {
-            "small": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/vky_mOSjBUKtCd9FTjkGNA/hHTmI1JpJYwMnNy2tmW7QxVh4M9JsjrGpT7ySZzWUoSueTmzLp6_YwRjcg5EaTg6W2BDNiLB0YHM7AvFPBPHK7c5LV1xhsCjiwOT0BDCoqKcTGGkJNLtFYchb8oUmllEKx6AkcLcb21pJEsGJZtPzQ/cLdhHltQ19lwEn3l0ox9G6ak37u4MPaJtcW78tV3PhM",
-              "width": 36,
-              "height": 36
-            },
-            "large": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/QbyiuLxIGLxkNtIMlwwd9A/Qx5ugPNR1K8RY11y4t_a24aUKAC7drAuFncG5y09Gx47zLjB_bCUpgG7Yi0mULv0y5GdYNodeqiSuytWw4w5roVMXerjFshoYZjTE5qWwVrGuiljMyoAoBQms4tR81rXFprRa7bb71lMLUZyZDcMJw/6HYLoTZcpYOqpVh19l1L7X29n-JGynfZcIPCt2y4Ics",
-              "width": 432,
-              "height": 436
-            },
-            "full": {
-              "url": "https://v5.airtableusercontent.com/v2/24/24/1703116800000/TGx_PNDRey2u_8ymdr2WuA/1kerJN5ZNjuc5eYxnIYCd8W0sKVM8WUk1sYCmR38mto1kxJX_AGCPYyIMrNOhem9rq8H8r-2lzSr6EiVtDK-ZWhBaBOJHx0BZtcvQbQvXaigL6oUX9U_zzDdE00W9jlMYNlw8mEqYRuZF985DHK1jA/BCrPtgpHBVas7oBoLbe6lUcgnXYfbxYVxWx0xsfmiaw",
-              "width": 432,
-              "height": 436
-            }
-          },
-          "newLocalPath": "/assets/img/import/bio_for_team_page/mike-walton/mike-walton.jpg"
-        }
-      ],
-      "Name": "Mike Walton",
-      "Content Type": [
-        "Bio for team page"
-      ]
-    }
-  ],
   "News": [
     {
       "Blurb": "This is a test news article. This text comes from the \"blurb\" section of the AirTable content entry form.\n",
-      "Is there a title that should be included with this content?": "Test News Article",
+      "ID": 5,
+      "Title": "Test News Article",
       "Name": "A really neat headline",
       "Content Type": [
         "News"
@@ -271,7 +11,8 @@
     },
     {
       "Blurb": "Another test news article.\n",
-      "Is there a title that should be included with this content?": "Sample News 123",
+      "ID": 7,
+      "Title": "Sample News 123",
       "Name": "Something great",
       "Content Type": [
         "News"
@@ -279,7 +20,8 @@
     },
     {
       "Blurb": "Yet another [news article.](http://xd.gov)\n",
-      "Is there a title that should be included with this content?": "Testing 12345",
+      "ID": 8,
+      "Title": "Testing 12345",
       "Name": "Another cool headline",
       "Content Type": [
         "News"
@@ -287,10 +29,398 @@
     },
     {
       "Blurb": "Awesome sauce. \n",
-      "Is there a title that should be included with this content?": "Heyyyyyy",
+      "ID": 14,
+      "Title": "Heyyyyyy",
       "Name": "Hey yet another headline",
       "Content Type": [
         "News"
+      ]
+    }
+  ],
+  "Bio": [
+    {
+      "Related Projects": [
+        "recmgaWZQyms4wZ1Q"
+      ],
+      "Blurb": "Samantha Weinstock is the head of operations and partnerships for xD and provides research help and project management for select xD projects. Sam brings extensive nonprofit and academic experience to the team. Prior to xD, Sam was the Executive Director of a research nonprofit, Center of Complex Interventions, where she set the strategic vision for the organization, ran day-to-day operations, and worked closely with the CCI research team on various research projects. Before CCI, Sam was the Director of Administration at YarnLabs Inc, a fiscal sponsor for non-profits. She also previously managed research at MIT and worked as a researcher at Harvard Law School and the Berkman Klein Center for Internet & Society. Before entering the academic and non-profit space, Sam worked at Google. She has a master’s degree in Modern European History from the University of Cambridge and a B.A. in History from Grinnell College. When not running operations for xD, Sam can usually be found biking up New England’s finest gravel mountain roads.\n",
+      "ID": 4,
+      "Title": "Head of Operations and Partnerships",
+      "Images": [
+        {
+          "id": "attaBflCfwPLDBs1y",
+          "width": 2000,
+          "height": 1333,
+          "url": "/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg",
+          "filename": "samantha-weinstock-headshot.jpg",
+          "size": 271440,
+          "type": "image/jpeg",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/mgT3acY99E8XSz8090iXYQ/NhHFyt97zyz4JP7XgKDQUMGStNXUoo5irU2fFvjavTU834kBjEpUaII70WDs3RVEx2gjAs51sCn92CNoMRC_JQrUBRHb4VTEULlHtjieuRFxVheLUGuL9RKsC7EL6tQ3HPecguZHakAaGQKHf_1jaA/X-e7e4ihBBeYX769NRFdgjdIzCf1omrvLKaIepUuFsM",
+              "width": 54,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/2pXRy4K8AGcfperCdyWLaA/2tFWyyJBa4UXJEyTKWgS_ldzjONfoC2eiRf7R9J0TU-F11iMvdk4HhBzkSGFzdO6kn-PZYz7B-gXT7rPikvb_phxKJI-sFf8aFeRXfVH0fWiF7Bo3Tu-wbXbVcVs6Pz9mZd247g741wVP1t04_EIRw/iorlPZ4GxUGXc-lGJ8BtS7ejGL33uASfhPJ9uMCXasY",
+              "width": 768,
+              "height": 512
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/hue7ZOOpNw3C_OphngympQ/E8TWttnx873BX3c54NeQqo3LSgrIj1SKH3iTc4bqTGD0fhoS3catpfjHHa0zXeKCTXOrz22UugogRYre8Z9J73DAZO6Z-TiMikOgPDgeOGsW87PGoHZOXAgPGlKOs2rHrAb_xobBhh2lb953QZTNSA/rX6FslChRHvoxFLbPFkpDW9qqvHSA-SDGrpW8KU9VXk",
+              "width": 2000,
+              "height": 1333
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg",
+          "imageId": 4
+        }
+      ],
+      "Name": "Samantha Weinstock",
+      "Content Type": [
+        "Bio"
+      ],
+      "Portfolio (from Related Projects)": [
+        "Incubating/Early Stage"
+      ]
+    },
+    {
+      "Blurb": "Curtis Mitchell (he/him) is excited to be an Emerging Technology Fellow on the xD team. His career has gone through several transitions, including being a data analyst at an energy consulting firm before working at several data analysis and machine learning startups as a software engineer. Before joining xD, he worked with multiple teams at NASA’s Ames Research Center on a research platform to integrate drones and air taxis into the air traffic control system.\n",
+      "ID": 6,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attzMv5LoQkfN8oSs",
+          "width": 275,
+          "height": 476,
+          "url": "/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg",
+          "filename": "curtis-mitchell-headshot.png",
+          "size": 71059,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/blItvH_FhHeOChLLt9zLNw/k7Ji6DmlAR0tt54jOJSOL-xOryucRYsO1SxQfXXqVhNNF2VuWttSjHR2Ce2xyp1rtsk1vUyupItr1vhnIuf_TGTO_2QrsnwkrqeZ1Mlm8l3HdBtb8tbRmwWnjj6Rpbt9FedKzyF4-iBvUDnMx32SBA/UsgHTh_p_EFD1tgWIMPjFyF4smSH7t1-LIs2PrAkQ1U",
+              "width": 21,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/_a4FWCL8BXbdsDWZ5ovSUg/wM3Y9WXogVgmk8OM-guya9v63foXwmZTYr-g0O5QIv1NPzKJt0p6f5QKbnq3oRcTKGpKywEfpcVE6t6gfXgCqc4XGdzH_UQhGRfuutHoANfyDtMlrXzSBvW5RPAo3A9xJKODQBNv04zuYC3uO31fwg/VZagWGtaW_0t9x6fNaNqnCiCNZZGcqS1ZQtv8KJ2jTE",
+              "width": 275,
+              "height": 476
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/ptngN8II0j4LXsyretCoLw/mGOb4DRqQPixJ9bz5hSmEq0HFoBUhWI8RPLos3pba1DMliUfzyQQV1eEhtLe3jfEbRdFcH7XPqwcgY9xwy_GBvtRhiY5bGvSqr1W9ypA-a5qOARyn1oLr-Tm46LTV-xpvB-jCsw6He95vTtPGGFjGw/boMoIOJYYEpU0QLvjFYO4VIX3du2RzcR8jgI8nnmcEc",
+              "width": 275,
+              "height": 476
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg",
+          "imageId": 6
+        }
+      ],
+      "Name": "Curtis Mitchell",
+      "Content Type": [
+        "Bio"
+      ]
+    },
+    {
+      "Blurb": "Anna is excited to start as an Emerging Technology Fellow at the Census Bureau. She is excited about data-driven decision-making, being able to combine her passions for technology, policy, and data.\nPrior to Census, Anna was a senior data scientist at the National Associations of REALTORS (NAR), one of the largest trade associations in the U.S. At NAR, she produced data analyses and delivered insights, built dashboards and worked on improving data quality on a broad range of topics that impact realtors. Anna started her career as a federal contractor at the Department of State and she is excited to return to public service.\n",
+      "ID": 9,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attoZc4P4TFYJW2aW",
+          "width": 342,
+          "height": 334,
+          "url": "/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg",
+          "filename": "anna-vasylytsya-headshot.png",
+          "size": 124804,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/XsL03Y3p7MwtjeeSKj8eVg/lHLc3f4cisubqdGVVrI0wJFlpIYcJNC7D2ohCJB-ffFAnW_u_mZ56r2Q1h7GUOu4DsX_adxNXf3168jOwu2lAprbVopWNuS-HelJrDRWcKtQmCChG_cR85S83d4Zs5mVdZMqj4kJ2gLaVbzmpbRKFw/gi_Yb-GjZF12A-aHqRYgiZ98dOnmW4AlYTO1O2-oM9I",
+              "width": 37,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/uAgldipXE8cCiNMXH2ncjg/riEbNGrjIYd5m1jAaZHz4vcFCKDsrbwCV6ycAKqoDJU_bxu2wjRKesFSzpHNJF0hfQxtrRyttHzf6xcGWoOvGFMa3w-yXTzfSm82BrAeZFkGRs-JjO8n8O5BpKdGxm2TsSfy0fn756w8RriGJn_u3w/M8FzWYOnhzmIN94Zn7mR0NohdoDvLAzwzgLahVh9bCw",
+              "width": 342,
+              "height": 334
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/BOU3aZ7dh7YLKyHqgZvBXg/GSPDk6hi8n9CXFvYs7N__021WHgUOEUwqWTTxYCfViupuLPGzLirY2W1orgnslzdyoxd-VoR0IbAeQOnacJKhTAqh-zJ93t78_CNkVVUG539W4Uvo6R01E2y4IQg-w1acVtxa617rSoivG8q8WQXWA/AcDM64-qr8BKWkBtcyWIUPKNZGCQFScUq4lg8yXpvuM",
+              "width": 342,
+              "height": 334
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg",
+          "imageId": 9
+        }
+      ],
+      "Name": "Anna Vasylytsya",
+      "Content Type": [
+        "Bio"
+      ]
+    },
+    {
+      "Blurb": "Diamond Nwankwo (she/her) has a proven data-based track record with 10 years of experience in data engineering and quality assurance/control field within aerospace manufacturing. \n\nDiamond worked as a [senior data engineer](http://xd.gov), where she was responsible for designing, building and maintaining data pipelines and systems. Prior to that, she worked in solar renewable energy as a data engineer where she was the lead on an irradiance extract, transform, load (ETL) pipeline development and reporting data quality.\n\n`ajdwadbawlkdb`\n",
+      "ID": 10,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attW7Ep5zdBwxFzzB",
+          "width": 284,
+          "height": 483,
+          "url": "/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg",
+          "filename": "diamond-nwankwo-headshot.png",
+          "size": 73819,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/F0p3zavx8fXMexNLppiNEQ/wZt2lDbnuVEQnqggkfMMltt-j9eIqsWg8akH9s2nODoPr_sRKZCRhDQb94Xvs9KaHNbNzSkmVyu5VkA0HSTWrtQpz0WKQaVEbgPLK0Ey7AdKVTifS97w2IG9IKNQcsWQJ9dBmcXkOksL7UyzG8YTlw/wKfK37x_Kkq5rtoeyGA9ZI8aLxE0YanYP4KsJuq1hdY",
+              "width": 21,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/qZufQzW4ll5Dz-zDHSM5fA/6BOmUp0kHtD8BguPNVz6e4W4vkLMtvF8OdBp3eRo7qvnT7YEbaPTPc_V1RuPiiINjzc9msEN0AUAi8409UtLcHO2ySEPyAhEJo1t80Y8oUPmUSfq8w48r9HvnYrpbDEAdkIuQ9z9mBqvSHtBi46Mbg/UJjAv5mKc7O2sHE_JJAocgVu0cZG2a7WlqxVTfMMtmE",
+              "width": 284,
+              "height": 483
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/sYTYZNncEvZe6d12HIxASA/o6eWRS90IPbPw1NPBBehbZiFv7CnhOhcGKv773Z61-ITXnzplU6Qeq55JAsOwXcWr7Yx696hbdsRNqYsDLiRyIJ3DMXc4-r25hG8D1EUX8333Bdgq3JUctS3QUED40oL6muzwgpud6cQlJU9zvXm2w/0Y9DurhSlwc5fIUpkbKSpfuir8xkdjpZKaP63ApJsDo",
+              "width": 284,
+              "height": 483
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg",
+          "imageId": 10
+        }
+      ],
+      "Name": "Diamond Nwankwo",
+      "Content Type": [
+        "Bio"
+      ]
+    },
+    {
+      "Blurb": "My name is Ian and I'm excited to be joining xD! I started my career in academic computing supporting research at a National Science Foundation (NSF) funded environmental research center at University of Maryland. Later, I worked in bioinformatics at Oregon State University. I then spent time working for fintech startups as a DevOps engineer.\n",
+      "ID": 11,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attlQoVOY2bfunFKj",
+          "width": 421,
+          "height": 481,
+          "url": "/assets/img/import/bio/ian-munoz/ian-munoz.jpg",
+          "filename": "ian-munoz-headshot.jpg",
+          "size": 262296,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/4j-RSE0Z65YfhbKJINGrbg/vP70NsECx1DNTZUrUBPyDjG-fRDp106TW-CRZl6Yo51JoRxsYMg7uwBv1dh6tRmZPs6Ky9ETgvQvQy92kwfIbdlbdxjvWR8Pq-x6LEoMskPrACkkFFM5vNAcNvtHMFq1OziYDg_fvdDsc9PeQuJbNw/mK05qWwOMI3UrM2AgcLM_pGwEhmAPetBFOewZg9DjGQ",
+              "width": 32,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/kdY850Soqmirh4uXRGNYiA/QZCjr1CoxHkOeJ5_EU_1WN3NKcth9gvTQMOJV35ZlaZNdE-OHWFa5TRzBMbtHcdJodyFiqW39Or8qNoBZAOSOzMTKsXttefmIYTWMJTB-PJLgG3EBklQbeXfTqIbY75XFAP7LFCNNuhUW1dTLo5_Hw/Ha2gOPSV4xxVflxTly3XY9SEOVaRRWSN2aTwfyF2Zyo",
+              "width": 421,
+              "height": 481
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/v7zzoKHMXcwAqAKBTS1sRA/89UfeWGvLE84JwEbm_J8NnlvAPtCHNEJcyEL7hbTKlFqq_5zFgBhyxmJhCCJlq4xcXgf-CWSOU0g5qmjAdCmqPmOYuwTCA3SRFPH-nTzMi2Alt9vPx3iiI0a2N-ulsq300SEuDi6Evqi9FoG3_cGRg/buN1wvDuv0csCj34v-gD8CJmtTor3RKGY-x4VGHjIww",
+              "width": 421,
+              "height": 481
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/ian-munoz/ian-munoz.jpg",
+          "imageId": 11
+        }
+      ],
+      "Name": "Ian Munoz",
+      "Content Type": [
+        "Bio"
+      ]
+    },
+    {
+      "Blurb": "Tomo Lazovich (they/them) is a senior research scientist at the Institute for Experiential AI at Northeastern University. Prior to joining the institute in 2023, they were a senior machine learning researcher at Twitter, developing a suite of metrics to measure inequality in outcomes for the Machine Learning Ethics, Transparency, and Accountability (META) team. Tomo has a significant amount of experience as an interdisciplinary researcher and machine learning practitioner, with defined expertise in building technical solutions to complex problems from the ground up.\n",
+      "ID": 12,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attR760W90B7VP511",
+          "width": 398,
+          "height": 398,
+          "url": "/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg",
+          "filename": "tomo-lazovich-headshot.png",
+          "size": 234486,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/yYD7siGKPVjouGgqwJDofQ/OBkD-JK5-9F5PmIs0RKa5Tg0gibUWpOj9DcVxwiR-MV48uV6oviIH9LnlKqsci4f_lWfxBCpuSDwzI-Bnqj8oNYDXzgE5sK02HsATXFaW-6jvWiZ03g4XRuXcpTPk4kfSXi3Qrycsa_QJUKCv3Wpdg/IyXDYJ9gF31G8AC8YFL9QBnISC8Qh4z5S_Q6s1CcEFA",
+              "width": 36,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/Rw9JgCikwA_nTmi9QtuORg/osi3q27SGm0o6nforJbY4dp688fX_118Qpkhofo7ZrVB-ALn99Mok9sHlI_s_zFqGckQCf-BR4R0PhDZ1-ywd7Nba9rkdxiZkLAPxgzaF_eViBfUSD8as2U7S1n5-t4bg1inUoe7bFcl-kshCdua4Q/43HaLy2I2-iuwWChYDS-FcbV_Dkg68bVyTg57shOpHs",
+              "width": 398,
+              "height": 398
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/6eyti1gbuQEYn26BQo0FfQ/oZxaqJJXXmlL7j4rvVzTAUO8Hjdv4cOyInraUloF00MbBvNJHtNNNr0CV9ujQHdvSY4g_0GdaWfKXEIBIKVHz97ysKRCexus0IGGammQ2QCVa_Wb74go-lJZg8MIFbbpf9CqaLMfRRA76-YL4nYi1g/1jq3gVjkXnv7ANZMar3Wc1TrsRLrWxbt0n7n8XVKSCw",
+              "width": 398,
+              "height": 398
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg",
+          "imageId": 12
+        }
+      ],
+      "Name": "Tomo Lazovich",
+      "Content Type": [
+        "Bio"
+      ]
+    },
+    {
+      "Blurb": "Mike Walton is a researcher, technologist and writer endlessly fascinated by the study of cognition and intelligent systems. His research aims to synthesize ideas from multi-agent reinforcement learning, game theory and participatory design to address socially impactful cooperation and coordination problems. Mike’s research has been supported by the Office of Naval Research (ONR), Defense Advanced Research Projects Agency (DARPA) and The Naval Information Warfare Center (NIWC) In-house Laboratory Independent Research Program.\n",
+      "ID": 13,
+      "Title": "Emerging Technology Fellow",
+      "Images": [
+        {
+          "id": "attROSxw6AXAkJppo",
+          "width": 432,
+          "height": 436,
+          "url": "/assets/img/import/bio/mike-walton/mike-walton.jpg",
+          "filename": "mike-walton-headshot.png",
+          "size": 326917,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/TxSWsfcMhHvFK-X-viIfdg/B9582pQ_rcAj0LBS9GQ0ym_sIYaLNJTPHxyJVdc3M1VVIQn2_Tan8poXPpZLMZR9nuILpvpq2vL2KQZuMJtHj-ZibtjzcHFLrPqxefoSI-GHHzy0y4iLsF32HDmoteoS7aeB3TmHgsRVWLOJAkcSdw/n8q8Aswy_dXkJ7HJw6jM3k9ASMYy250SyLjJ273J1nU",
+              "width": 36,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/ApW-m9AOuWqqO8q6aofOrA/wrOg9S_8hb2l0sge8ou34kfmwhtdOIZjgNh5c3hgFl9CtkQR6wn7bolAj-LVz5dTTbGPBTjh_99kYeIJWVkcuTwgLdtuIdAoYKbbpFH1J364ZTl8I87JE6kjYJjKPEy7cLCt9i0vCYCjMv3sEWvbLQ/gVIQomkCjwVvkoWR5SOERqvzG7a61RPuErnebPek6rU",
+              "width": 432,
+              "height": 436
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/ADnGYcB5jq2oLQkmRwg15g/Mf32r1TB7D9kmqx9NfOWv3bCoF6Cx7Z6ezN4YqM9IPsqALIxY5aKoWyL2dhUUB6FjakjEj1JncPi1Qo8WeFoT6CYAF6bVEHDpZHx1e6lq5b9NHKWHWM5U8RRA9bMCiQlLmamnIVwahZvrzpCircFFg/9VnsEwnbXHoPvu6NVq3c4o_nxPl5llKG9Sh5KFzTpCc",
+              "width": 432,
+              "height": 436
+            }
+          },
+          "newLocalPath": "/assets/img/import/bio/mike-walton/mike-walton.jpg",
+          "imageId": 13
+        }
+      ],
+      "Name": "Mike Walton",
+      "Content Type": [
+        "Bio"
+      ]
+    }
+  ],
+  "Publication": [
+    {
+      "Related Projects": [
+        "recmgaWZQyms4wZ1Q"
+      ],
+      "Blurb": "Our team recently completed our phase one report for the data driven services for Tribal Nations project. Through our investigation we found that this is first and foremost a trust problem. The report outlines a proposal for how a data project could provide an avenue for relationship building between the US federal government and Tribal Nations. Although the project will not move to the next phase of the 10x program, our team hopes to connect our partners and facilitate next steps for this important work. \n",
+      "ID": 15,
+      "Title": "10x Phase One Project Data Driven Services for Tribal Nations Report",
+      "Name": "Samantha Weinstock, Diamond Nwankwo",
+      "Content Type": [
+        "Publication"
+      ],
+      "Portfolio (from Related Projects)": [
+        "Incubating/Early Stage"
+      ],
+      "Attachments": [
+        {
+          "id": "attNn21fp0jAEBoAo",
+          "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/LXRESq28WsH6uySEKHSFlA/Nk10TBUE7PLDNSa7BTbNx_J3vnPaU2B4SpKmK51u5_UyFePWR7FQ3x4lkz4g3fEzyW1JpjOB75RlgkLohZOQzzWub7eO2A3_tWV61LiHMCrG31y48DWxb_V97g5l6nb7PQKX8zfQEID8upMK33lSNPT08rHtQjyPWDo-iZ7YDkE0oYbeOaQAAiKmGn5dhKCumg9ZNoVccQRVCdCqPc61sQ/he_AHlU5PhjPqs0-B7qgHowJ7Kmt5UPw20xtUXwNBTc",
+          "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
+          "size": 346576,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/ajyLPyuBYGmauQc4WxXkJA/bRV-c41FuH8Jl6DkO0IXWhhv5eKMrz0yfkcoUdz8HAOM2MDCY7rXWZxMOOG1PBaf1IgrYswbdpLwvCXJ22_2IDz_KBPa_IZYmZdm9vghIEUmqbkvZpQ2RWxcAapZvGcxXBdAoXmuAGC3QHM7A9o9HQ/w0L3mh6_nNCAk3emz3CXDIblQ3CDMkd7KO9vISv5110",
+              "width": 28,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/YUfRV_A9uZWZhSM1Mc3Ewg/4FIQlMc6rjRou5xKpPduEWd8vy-iC-rgslDXB4mC1DJ8HdhJX-VRi4BDmRuw0tSJbiSI0WvdbeiP77yhRyCRcyy6pautk3YMp9rMyYlQG_DRVaAGTqVJaPxc3TYkF4BOGgyrqTKk6gUOhk6JVmjpWw/lnRxknOlQAxtCnBafWAQzWWmGrfzSWD6EWD7GQlawTY",
+              "width": 512,
+              "height": 663
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Project ": [
+    {
+      "Related Projects": [
+        "recmgaWZQyms4wZ1Q"
+      ],
+      "Blurb": "This project is in phase one of the 10x program. The team includes several xD team members as well as collaborators from other parts of the Census Bureau and other agencies. \n\nThe original project prompt identified a need for a data sharing tool for government agencies and tribal nations to improve transparency and access to transportation data. Our team set out to understand the specific data problems tribal nations face to determine the requirements for such a data tool. Through our interviews with tribal leaders and government employees that work with tribal nations, and our investigation of existing programs involving tribal data, our team learned about many different data challenges that are not limited to data sharing or transportation data. As we explored these data challenges further and considered additional perspectives an overarching theme of distrust between tribal governments and federal government agencies emerged.  \n \nWe recommend that the project move forward and that the next phase is structured as a collaboration with a small group of tribal nations to promote trust building. We propose that the project focuses on identifying one data challenge that, if addressed, would provide significant value to tribal nations. However, we believe there are several conditions that must be met for this work to be successful:  \n- The project team should first **approach this challenge as an opportunity to collaborate** with tribal nations and to learn about their data needs and current data collection practices.  \n- 10x should consider **extending the time frame for phase 2 (perhaps combining timeframes for phase 2 and 3) to allow enough time for relationship building.** \n- Rather than attempting to work with multiple tribes to create a data tool or conduct a data collection survey, **the project should be approached as a case study** that focuses on the data needs of 1-3 tribes.  \n\nRead our report and presentation for more details about our proposed project. \n",
+      "ID": 16,
+      "Title": "10x Phase One Project Data Driven Services for Tribal Nations Report",
+      "Name": "Samantha Weinstock, Diamond Nwankwo",
+      "Content Type": [
+        "Project "
+      ],
+      "Portfolio (from Related Projects)": [
+        "Incubating/Early Stage"
+      ],
+      "Attachments": [
+        {
+          "id": "attNOFJqLm7Vs8cZF",
+          "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/B-PskpS7bOXZMbHsQmQrAQ/-_uN6uGrEaiPPANdr0FBakOW_XR3BQ3YcvR3v31fGw53quYYvjHDX3d0SVk69x4AY7JsYqipWXC1EJ960JXoS5l5_GvBYCXjOD8ltst3nZSb4taa1GI06rxkAl4GevEYm1Ge4p1G08YweIaXCAAfNhYLiXQ1MaUga7Xo6W4jmXwIj4qEWKNcpIiB1tOkyC-DFDXSc-mqiWYvnMTsyK2H-w/SLHaAIex2lcC6Yd7my80xyaS-81fm-o_Icccbr7kixM",
+          "filename": "10x Data Driven Services for Tribal Nations Presentation.pdf",
+          "size": 395981,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/7ynRoQbQDd74v6fAjDU6XQ/5cxk8wbmXHl-ISa5EfKGH8SUTmBXq0_Ai7vnJHKfCZsqg0cEJWxKQoWkEeMD7ScCLQv3AAOC9rIGqIPVH5sWf-6E3600W1TJyYmlTzFrTE9wxK7k_fzPjHN35iGMinlV_e-8JLf5C1W_jN7XL7jB3A/ekP9D72KdpRIOrrk3FvwHo3MvAvMqnJTJTH-1VvAeS8",
+              "width": 64,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/_llYXyuROwIM1GDxyobf2A/HkLRjz5lj8rM1i_dkDfjdf9D5AJn3GUpXCCQ3Qx6X05Qhq_0XXsS7CR4Q29VmACyb3ygyZNCTJbgvF_eOy04ZCiMMDoMXpvxLjGVLJ1FkvVIfGt9z0YYq9ypog_rAUFqF-wF9E9VGAABppJ0Lre64w/8XZYi84jTDeMAUsANg2otZSD9MgZnq-OKTUFeFa9slM",
+              "width": 910,
+              "height": 512
+            }
+          }
+        },
+        {
+          "id": "attgOVogkwXHAyGBM",
+          "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/rLDQdic7wZdrNr4ggBJhWQ/VceI5G4w0ufeCmYgB6RJnsWjv_9QGRGmDNbxyGuQAhJ6cl14PMvmdLmqTeOyLt2g1FwNDjRPZ4HQz3OMzCyU-5fAxlDiR4Rt1r0ySW49GWvZtRjFq0h735fl7cWw8hjF3UHUB7lkPTUhN7LX5zAJ2C_IcDslWKDcHbZeGiJknD4HmtDfT4HWS5FnFWF9cdDFXgcgxls976d6UoQ0Auw9Hw/C73Sesq6z0p4O2SYbMyP0gDSQdbMrGa82YlJpJe5AmI",
+          "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
+          "size": 346576,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/INBy-sf6wyCI5n7M-qNWtg/v7m5qIzGSgNoYIv929Qf1VYH7iU4DChK5InjkldfeII5dVDRS2vtrH5LDss4k3pZFiImDVuOxxSwXQv1neu652O3QlYoukecpUcS5g2_dzSVWleEVNuJ0y-DOi0mx3BMedluELpylmJZklEXuufJXA/Y931uJEnX7i99L-MqpemwCQAkNxzQ9-4urxxmNlr4BE",
+              "width": 28,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v2/24/24/1703800800000/llqADG-w3xska_gyTjgn9Q/wqGiKwL9a59miVK5qYYDgN0bVypqLCdSW4z_BCeQj-5Snp3H96FAPSohHTrKeWkqqaInjtHZqg7C2KNcXxua4_17-rYqquntUehuk7xD2vSkoAa6CN6d75hMgsvw15PyvLwTVNMK090sQb5BVZrnog/UMz8FrZ61qjsjsJkZnXw_pMS4HbuaBbku4BGa_6BFZg",
+              "width": 512,
+              "height": 663
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Blogpost": [
+    {
+      "Blurb": "XD recently closed its application for the 2024 emerging technology fellowship – thank you to all who applied! We received a record-breaking number of applications and are looking forward to learning about all our talented applicants! \nAs we prepare to welcome new team members, we asked our 2023 fellows to share their experiences so far on the xD team.  \n \n",
+      "ID": 17,
+      "Title": "xD Emerging Technology Fellowship: Our 2023 fellows reflect on their first six months at xD ",
+      "Name": "Samantha Weinstock",
+      "Content Type": [
+        "Blogpost"
       ]
     }
   ]

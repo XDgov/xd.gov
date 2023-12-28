@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Airtable = require('airtable');
-const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities')
+const marked = require('marked');
+const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
 
 // Load environment variables
 require('dotenv').config();
@@ -17,38 +18,42 @@ const checkAndCleanImages = (newData, cacheData) => {
     const promisesArray = Array.from(Object.entries(newData)).map(async (contentArray, index) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
-
-        // Have cache on hand at each content level
-        const cacheEquivalent = Array.from(Object.entries(cacheData))[index][1];     
+        let count = 0;
           
         for (const item of contentData) {
-            const contentImages = item['Images'];
+            const contentImages = item['Images'];            
 
-            if (!contentImages) return;
+            if (!contentImages) continue;
+
+            // Have cache on hand at each content level
+            const cacheEquivalent = Array.from(Object.entries(cacheData))[index][1][count];
 
             // Construct our new image path from the content type and item name
             const name = item["Name"].toLowerCase().replaceAll(' ', '-');
             const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`; 
-
+    
             // Lookup the same image from our cache
-            const cachedImage = cacheEquivalent.find(cacheItem => cacheItem['Images'][0].id === contentImages[0].id)['Images'][0];
+            const cachedImage = cacheEquivalent['Images'].find(image => {
+                return image.imageId === item.ID || image.id === contentImages[0].id;
+            });
 
             // Check if image already exists in this location (newLocalPath key exists)
             if (cachedImage.newLocalPath)  {
-
                 // Replace the image url with the local one, so our new/cache comparison lines up
                 contentImages[0].url = contentImages[0].newLocalPath = cachedImage.newLocalPath;
-            
             } else {
                 // If new, copy image file to our repo then replace with new local path
                 await downloadAndSaveImage(directory, name, contentImages[0].url)
                     .then((newLocalImagePath) => {
+                        
                         if (typeof newLocalImagePath !== 'string') return;
         
                         // Replace the image url with the local one, so our new/cache comparison lines up
                         contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
-                    })                
+                    })
             }
+            contentImages[0].imageId = item.ID;
+            count++;
         }
     });
 
@@ -99,9 +104,9 @@ const generateXdMarkup = (content) => {
     let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
 
     // Create Bios page elements
-    content['Bio for team page'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
+    content['Bio'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
         if ([name, blurb, images].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" />\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`
+            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" /><h3>${name}</h3>\n${marked.parse(blurb)}</div>`;
         }
     })
 
