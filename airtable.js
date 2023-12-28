@@ -35,7 +35,7 @@ const checkAndCleanImages = (newData, cacheData) => {
     
             // Lookup the same image from our cache
             const cachedImage = cacheEquivalent['Images'].find(image => {
-                return image.imageId === item.id || image[0].id === contentImages[0].id['Images'][0];
+                return image.imageId === item.ID || image.id === contentImages[0].id;
             });
 
             // Check if image already exists in this location (newLocalPath key exists)
@@ -46,13 +46,14 @@ const checkAndCleanImages = (newData, cacheData) => {
                 // If new, copy image file to our repo then replace with new local path
                 await downloadAndSaveImage(directory, name, contentImages[0].url)
                     .then((newLocalImagePath) => {
+                        
                         if (typeof newLocalImagePath !== 'string') return;
         
                         // Replace the image url with the local one, so our new/cache comparison lines up
                         contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
-                        contentImages[0].imageId = item.id;
                     })
             }
+            contentImages[0].imageId = item.ID;
             count++;
         }
     });
