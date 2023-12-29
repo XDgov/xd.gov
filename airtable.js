@@ -20,9 +20,9 @@ const checkAndCleanImages = (newData, cacheData) => {
         const contentName = contentArray[0];
         const contentData = contentArray[1];
         let count = 0;
-          
+
         for (const item of contentData) {
-            const contentImages = item['Images'];            
+            const contentImages = item['Images'];
 
             if (!contentImages) continue;
 
@@ -31,8 +31,8 @@ const checkAndCleanImages = (newData, cacheData) => {
 
             // Construct our new image path from the content type and item name
             const name = item["Name"].toLowerCase().replaceAll(' ', '-');
-            const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`; 
-    
+            const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
+
             // Lookup the same image from our cache
             const cachedImage = cacheEquivalent['Images'].find(image => {
                 return image.imageId === item.ID || image.id === contentImages[0].id;
@@ -46,9 +46,9 @@ const checkAndCleanImages = (newData, cacheData) => {
                 // If new, copy image file to our repo then replace with new local path
                 await downloadAndSaveImage(directory, name, contentImages[0].url)
                     .then((newLocalImagePath) => {
-                        
+
                         if (typeof newLocalImagePath !== 'string') return;
-        
+
                         // Replace the image url with the local one, so our new/cache comparison lines up
                         contentImages[0].url = contentImages[0].newLocalPath = newLocalImagePath;
                     })
@@ -103,12 +103,12 @@ const generateXdMarkdown = (content) => {
 
         // Create a landing page for News and Bios only
         if (contentType === 'News') {
-            markdown += `---\n layout: news-landing\n title: News\n---`            
+            markdown += `---\n layout: news-landing\n title: News\n---`
         } else if (contentType === 'Bio') {
             markdown += `---\n layout: bios-landing\n title: Bios\n---`
         }
 
-        // Loop through content types and generate unique markdown for each 
+        // Loop through content types and generate unique markdown for each
         content[contentType].forEach((obj) => {
             const { Name, Title, Images, Attachments, Blurb, Portfolio } = obj;
             let itemMarkdown = ``
@@ -122,23 +122,23 @@ const generateXdMarkdown = (content) => {
                             <h3>${Name}</h3>\n
                             ${marked.parse(Blurb)}
                         </div>
-                    `;    
+                    `;
                     break;
-                
+
                 case 'Bio':
                     if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
 
                     itemMarkdown += `
                         \n<div>\n
-                            <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
+                            <img id="${Images[0].id}" alt="Image of ${Name}" src="{{ site.baseurl }}${Images[0].newLocalPath}" />\n
                             <h3>${Name}</h3>\n
                             <h4>${Title}</h4>\n
                             ${marked.parse(Blurb)}
                         </div>
-                    `;    
-                    break;                 
-                    
-                case 'Project':    
+                    `;
+                    break;
+
+                case 'Project':
                     if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
 
                     itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
@@ -156,8 +156,8 @@ const generateXdMarkdown = (content) => {
                             <p>Materials: ${Attachments}</p>
                         </div>\n
                         --End--
-                    `;                     
-                    break;    
+                    `;
+                    break;
             }
 
             markdown += itemMarkdown;
@@ -213,7 +213,7 @@ const generateXdMarkdown = (content) => {
         console.error('An error has occurred ', error);
         return;
     }
-    
+
     // Write to bios file
     try {
         await fs.promises.writeFile(biosFilePath, markdown['Bio']);
@@ -221,7 +221,7 @@ const generateXdMarkdown = (content) => {
     } catch (error) {
         console.error('An error has occurred ', error);
         return;
-    }     
+    }
 
     // TODO: Create Project pages individually
     // First separate project markdown by separator...

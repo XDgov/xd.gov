@@ -5,7 +5,7 @@
                         
 <div>
 
-                            <img id="attaBflCfwPLDBs1y" alt="Image of Samantha Weinstock" src="/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg" />
+                            <img id="attaBflCfwPLDBs1y" alt="Image of Samantha Weinstock" src="{{ site.baseurl }}/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg" />
 
                             <h3>Samantha Weinstock</h3>
 
@@ -18,7 +18,7 @@
                         
 <div>
 
-                            <img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg" />
+                            <img id="attzMv5LoQkfN8oSs" alt="Image of Curtis Mitchell" src="{{ site.baseurl }}/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg" />
 
                             <h3>Curtis Mitchell</h3>
 
@@ -31,7 +31,7 @@
                         
 <div>
 
-                            <img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg" />
+                            <img id="attoZc4P4TFYJW2aW" alt="Image of Anna Vasylytsya" src="{{ site.baseurl }}/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg" />
 
                             <h3>Anna Vasylytsya</h3>
 
@@ -45,7 +45,7 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
                         
 <div>
 
-                            <img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg" />
+                            <img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="{{ site.baseurl }}/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg" />
 
                             <h3>Diamond Nwankwo</h3>
 
@@ -59,7 +59,7 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
                         
 <div>
 
-                            <img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="/assets/img/import/bio/ian-munoz/ian-munoz.jpg" />
+                            <img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="{{ site.baseurl }}/assets/img/import/bio/ian-munoz/ian-munoz.jpg" />
 
                             <h3>Ian Munoz</h3>
 
@@ -72,7 +72,7 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
                         
 <div>
 
-                            <img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg" />
+                            <img id="attR760W90B7VP511" alt="Image of Tomo Lazovich" src="{{ site.baseurl }}/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg" />
 
                             <h3>Tomo Lazovich</h3>
 
@@ -85,7 +85,7 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
                         
 <div>
 
-                            <img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="/assets/img/import/bio/mike-walton/mike-walton.jpg" />
+                            <img id="attROSxw6AXAkJppo" alt="Image of Mike Walton" src="{{ site.baseurl }}/assets/img/import/bio/mike-walton/mike-walton.jpg" />
 
                             <h3>Mike Walton</h3>
 
