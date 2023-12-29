@@ -18,8 +18,7 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
 <div>
 <img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg" /><h3>Diamond Nwankwo</h3>
 <p>Diamond Nwankwo (she/her) has a proven data-based track record with 10 years of experience in data engineering and quality assurance/control field within aerospace manufacturing. </p>
-<p>Diamond worked as a <a href="http://xd.gov">senior data engineer</a>, where she was responsible for designing, building and maintaining data pipelines and systems. Prior to that, she worked in solar renewable energy as a data engineer where she was the lead on an irradiance extract, transform, load (ETL) pipeline development and reporting data quality.</p>
-<p><code>ajdwadbawlkdb</code></p>
+<p>Diamond worked as a senior data engineer, where she was responsible for designing, building and maintaining data pipelines and systems. Prior to that, she worked in solar renewable energy as a data engineer where she was the lead on an irradiance extract, transform, load (ETL) pipeline development and reporting data quality.</p>
 </div>
 <div>
 <img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="/assets/img/import/bio/ian-munoz/ian-munoz.jpg" /><h3>Ian Munoz</h3>
