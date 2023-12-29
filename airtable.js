@@ -6,7 +6,8 @@ const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
 // Load environment variables
 require('dotenv').config();
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
+// const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
+const base = new Airtable({apiKey: 'patGd6p6kCeNSORjV.1d29b4f5276b20b82a16edd890e8f747a047a4164a984a49c81e1469605cfaff'}).base('appuZMt69pZnTis2t');
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
@@ -98,15 +99,27 @@ const generateXdMarkup = (content) => {
 
     // Create News page elements
     content['News'].forEach(({ Name: name, Blurb: blurb }) => {
-        newsMarkDown += `\n<div>\n<h3>${name}</h3>\n<p>${blurb}</p>\n</div>`;
+        newsMarkDown += `
+            \n<div>\n
+                <h3>${name}</h3>\n
+                ${marked.parse(blurb)}
+            </div>
+        `;
     })
 
     let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
 
     // Create Bios page elements
-    content['Bio'].forEach(({ Name: name, Blurb: blurb, Images: images }) => {
-        if ([name, blurb, images].every(item => item !== undefined)) {
-            biosMarkdown += `\n<div>\n<img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" /><h3>${name}</h3>\n${marked.parse(blurb)}</div>`;
+    content['Bio'].forEach(({ Name: name, Blurb: blurb, Images: images, Title: title }) => {
+        if ([name, blurb, images, title].every(item => item !== undefined)) {
+            biosMarkdown += `
+                \n<div>\n
+                    <img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" />\n
+                    <h3>${name}</h3>\n
+                    <h4>${title}</h4>\n
+                    ${marked.parse(blurb)}
+                </div>
+            `;
         }
     })
 
