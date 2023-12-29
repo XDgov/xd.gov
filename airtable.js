@@ -63,7 +63,7 @@ const checkAndCleanImages = (newData, cacheData) => {
 
 // Fetch our airtable content and generate some markup with it
 // Optionally (if newer), write to our cache file with new data
-const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
+const fetchAirtablePromise = () => new Promise((resolve, reject) => {
 
     base('xd.gov Content').select({
         // Selecting the first 3 records in Grid view:
@@ -94,43 +94,67 @@ const fetchAirtablePromise = (path) => new Promise((resolve, reject) => {
 
 });
 
-const generateXdMarkup = (content) => {
-    let newsMarkDown = '---\n' + 'layout: news-landing\n' + 'title: News\n' + '---';
+const generateXdMarkdown = (content) => {
+    const fullMarkdownArray = [];
 
-    // Create News page elements
-    content['News'].forEach(({ Name: name, Blurb: blurb }) => {
-        newsMarkDown += `
-            \n<div>\n
-                <h3>${name}</h3>\n
-                ${marked.parse(blurb)}
-            </div>
-        `;
-    })
+    for (const contentType in content) {
+        const contentMarkdownArray = [];
 
-    let biosMarkdown = '---\n' + 'layout: bios\n' + 'title: Bios\n' + '---';
+        let markdown = `---\n layout: ${contentType === 'Bio' ? 'bios' : contentType.toLowerCase()}-landing\n title: ${contentType}\n---`
 
-    // Create Bios page elements
-    content['Bio'].forEach(({ Name: name, Blurb: blurb, Images: images, Title: title }) => {
-        if ([name, blurb, images, title].every(item => item !== undefined)) {
-            biosMarkdown += `
-                \n<div>\n
-                    <img id="${images[0].id}" alt="Image of ${name}" src="${images[0].newLocalPath}" />\n
-                    <h3>${name}</h3>\n
-                    <h4>${title}</h4>\n
-                    ${marked.parse(blurb)}
-                </div>
-            `;
-        }
-    })
+        // Create News page elements
+        content[contentType].forEach((obj) => {
+            let itemMarkdown = ``
+
+            switch (contentType) {
+                case 'News':
+                    itemMarkdown += `
+                        \n<div>\n
+                            <h3>${obj.Name}</h3>\n
+                            ${marked.parse(obj.Blurb)}
+                        </div>
+                    `;    
+                    break;
+                
+                case 'Bio':
+                    itemMarkdown += `
+                        \n<div>\n
+                            <img id="${obj.Images[0].id}" alt="Image of ${obj.Name}" src="${obj.Images[0].newLocalPath}" />\n
+                            <h3>${obj.Name}</h3>\n
+                            <h4>${obj.Title}</h4>\n
+                            ${marked.parse(obj.Blurb)}
+                        </div>
+                    `;    
+                    break;                    
+    
+                // // Create Project pages individually
+                // content['Project'].forEach(({ Name: name, Blurb: blurb, Images: images, Title: title, Attachments: attachments }) => {
+                //     newsMarkDown += `
+                //         \n<div>\n
+                //             <h3>${name}</h3>\n
+                //             ${marked.parse(blurb)}
+                //         </div>
+                //     `;
+                // })     
+            }          
+
+            markdown += itemMarkdown;
+        })
+
+        contentMarkdownArray.push(markdown)
+
+        fullMarkdownArray.push({ [contentType] : contentMarkdownArray })
+
+    }
 
     // Keep log for Action debugging
-    console.log(newsMarkDown, biosMarkdown);
+    console.log(fullMarkdownArray);
 
-    return [newsMarkDown, biosMarkdown];
+    return fullMarkdownArray;
 }
 
 (async () => {
-    const newAirtableData = await fetchAirtablePromise(cacheFilePath, newsFilePath, biosFilePath);
+    const newAirtableData = await fetchAirtablePromise();
     const cacheData = JSON.parse(await fs.promises.readFile(cacheFilePath));
 
     // Before we compare this data to cache, we need to sanitize the image paths
@@ -148,7 +172,7 @@ const generateXdMarkup = (content) => {
         return;
     }
 
-    const markup = generateXdMarkup(newAirtableData);
+    const markdown = generateXdMarkdown(newAirtableData);
 
     // Write to json airtable-cache file
     try {
@@ -161,8 +185,8 @@ const generateXdMarkup = (content) => {
 
     // Write to news file
     try {
-        await fs.promises.writeFile(newsFilePath, markup[0]);
-        console.log('News markup written successfully to disk');
+        await fs.promises.writeFile(newsFilePath, markdown[0]['News']);
+        console.log('News markdown written successfully to disk');
     } catch (error) {
         console.error('An error has occurred ', error);
         return;
@@ -170,8 +194,8 @@ const generateXdMarkup = (content) => {
     
     // Write to bios file
     try {
-        await fs.promises.writeFile(biosFilePath, markup[1]);
-        console.log('Bios markup written successfully to disk');
+        await fs.promises.writeFile(biosFilePath, markdown[1]['Bio']);
+        console.log('Bios markdown written successfully to disk');
     } catch (error) {
         console.error('An error has occurred ', error);
         return;
