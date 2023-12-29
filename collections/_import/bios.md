@@ -1,6 +1,6 @@
 ---
  layout: bios-landing
- title: Bio
+ title: Bios
 ---
                         
 <div>

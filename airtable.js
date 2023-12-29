@@ -95,62 +95,84 @@ const fetchAirtablePromise = () => new Promise((resolve, reject) => {
 });
 
 const generateXdMarkdown = (content) => {
-    const fullMarkdownArray = [];
+    const fullMarkdownObj = {};
 
     for (const contentType in content) {
         const contentMarkdownArray = [];
+        let markdown = '';
 
-        let markdown = `---\n layout: ${contentType === 'Bio' ? 'bios' : contentType.toLowerCase()}-landing\n title: ${contentType}\n---`
+        // Create a landing page for News and Bios only
+        if (contentType === 'News') {
+            markdown += `---\n layout: news-landing\n title: News\n---`            
+        } else if (contentType === 'Bio') {
+            markdown += `---\n layout: bios-landing\n title: Bios\n---`
+        }
 
-        // Create News page elements
+        // Loop through content types and generate unique markdown for each 
         content[contentType].forEach((obj) => {
+            const { Name, Title, Images, Attachments, Blurb, Portfolio } = obj;
             let itemMarkdown = ``
 
             switch (contentType) {
                 case 'News':
+                    if ([Name, Blurb].some(item => item === undefined)) return;
+
                     itemMarkdown += `
                         \n<div>\n
-                            <h3>${obj.Name}</h3>\n
-                            ${marked.parse(obj.Blurb)}
+                            <h3>${Name}</h3>\n
+                            ${marked.parse(Blurb)}
                         </div>
                     `;    
                     break;
                 
                 case 'Bio':
+                    if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
+
                     itemMarkdown += `
                         \n<div>\n
-                            <img id="${obj.Images[0].id}" alt="Image of ${obj.Name}" src="${obj.Images[0].newLocalPath}" />\n
-                            <h3>${obj.Name}</h3>\n
-                            <h4>${obj.Title}</h4>\n
-                            ${marked.parse(obj.Blurb)}
+                            <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
+                            <h3>${Name}</h3>\n
+                            <h4>${Title}</h4>\n
+                            ${marked.parse(Blurb)}
                         </div>
                     `;    
-                    break;                    
-    
-                // // Create Project pages individually
-                // content['Project'].forEach(({ Name: name, Blurb: blurb, Images: images, Title: title, Attachments: attachments }) => {
-                //     newsMarkDown += `
-                //         \n<div>\n
-                //             <h3>${name}</h3>\n
-                //             ${marked.parse(blurb)}
-                //         </div>
-                //     `;
-                // })     
-            }          
+                    break;                 
+                    
+                case 'Project':    
+                    if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
+
+                    itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
+
+                    // TODO: Create unique project file path from title and store it
+
+                    itemMarkdown += `
+                        \n<div>\n
+                            <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
+                            <h1>${Title}</h1>\n
+                            <h4>Author(s): ${Name}</h4>\n
+                            <h4>Project Status: ${Portfolio}</h4>\n
+                            <div class="breadcrumb"></div>\n
+                            ${marked.parse(Blurb)}\n
+                            <p>Materials: ${Attachments}</p>
+                        </div>\n
+                        --End--
+                    `;                     
+                    break;    
+            }
 
             markdown += itemMarkdown;
         })
 
         contentMarkdownArray.push(markdown)
 
-        fullMarkdownArray.push({ [contentType] : contentMarkdownArray })
+        fullMarkdownObj[contentType] = contentMarkdownArray;
 
     }
 
     // Keep log for Action debugging
-    console.log(fullMarkdownArray);
+    console.log(fullMarkdownObj);
 
-    return fullMarkdownArray;
+    return fullMarkdownObj;
 }
 
 (async () => {
@@ -185,7 +207,7 @@ const generateXdMarkdown = (content) => {
 
     // Write to news file
     try {
-        await fs.promises.writeFile(newsFilePath, markdown[0]['News']);
+        await fs.promises.writeFile(newsFilePath, markdown['News']);
         console.log('News markdown written successfully to disk');
     } catch (error) {
         console.error('An error has occurred ', error);
@@ -194,10 +216,21 @@ const generateXdMarkdown = (content) => {
     
     // Write to bios file
     try {
-        await fs.promises.writeFile(biosFilePath, markdown[1]['Bio']);
+        await fs.promises.writeFile(biosFilePath, markdown['Bio']);
         console.log('Bios markdown written successfully to disk');
     } catch (error) {
         console.error('An error has occurred ', error);
         return;
     }     
+
+    // TODO: Create Project pages individually
+    // First separate project markdown by separator...
+    markdown['Project'] = markdown['Project'][0].split('--End--');
+
+    // Then Write project pages to disk per entry
+    markdown['Project'].forEach((project) => {
+        // Must reference stored file path (see: TODO in generateXdMarkdown() )
+        // [Code goes here]
+    })
+
 })();
