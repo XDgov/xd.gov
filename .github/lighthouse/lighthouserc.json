@@ -1,8 +1,7 @@
 {
   "ci": {
     "collect": {
-      "startServerCommand": "bundle exec jekyll serve",
-      "url": ["http://localhost:4000/"]
+      "staticDistDir": "./_site"
     },
     "upload": {
       "target": "temporary-public-storage"
