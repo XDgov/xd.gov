@@ -19,7 +19,6 @@ jobs:
       - run: |
           bundle install
           bundle exec jekyll build
-          bundle exec jekyll serve
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.12.x
