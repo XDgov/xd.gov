@@ -1,5 +1,3 @@
-// note that some settings in the lighthouserc.js are permanent since they apply to the deployed site but not the dev instance. For example, the gem 'jekyll-sitemap' creates a robots.txt file for SEO when the site is deployed, but the local build does not have this file.
-
 module.exports = {
   "ci": {
     "collect": {
