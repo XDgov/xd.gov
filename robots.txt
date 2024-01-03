@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://xd.gov
-Sitemap: https://xd.gov/sitemap.xml
