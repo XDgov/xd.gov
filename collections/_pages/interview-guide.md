@@ -23,7 +23,7 @@ title: Interview Guide
                 <ul class="usa-icon-list maxw-full">
                     <li class="usa-icon-list__item">
                         <div class="usa-icon-list__icon">
-                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
+                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
                         </div>
                         <div class="usa-icon-list__content">
                             All of our interviews are conducted over video calls with <a class="usa-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" target="_blank">Microsoft Teams</a>. We recommend downloading the Microsoft Teams application or testing the in-browser version of Teams to ensure everything is working prior to the interview. This helps everyone save time!
@@ -31,7 +31,7 @@ title: Interview Guide
                     </li>
                     <li class="usa-icon-list__item">
                         <div class="usa-icon-list__icon">
-                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
+                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
                         </div>
                         <div class="usa-icon-list__content">
                             In your technical interview, we are most excited to hear about independent work, such as self-directed research/academic or commercial projects, theses or papers, competition submissions, and other independent project work. Most helpful are projects more expansive than a course homework assignment (unless it is something you are especially proud of), that have been used to solve a real-world problem, and that have a strong creative component or involve a clever, novel solution.
@@ -39,7 +39,7 @@ title: Interview Guide
                     </li>
                     <li class="usa-icon-list__item">
                         <div class="usa-icon-list__icon">
-                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
+                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
                         </div>
                         <div class="usa-icon-list__content">
                             In your behavioral interview, we are most excited to hear more about you! This interview requires no preparation in advance and is a space for us to learn how we’d work together should you join our team.
@@ -47,7 +47,7 @@ title: Interview Guide
                     </li>
                     <li class="usa-icon-list__item">
                         <div class="usa-icon-list__icon">
-                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
+                            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_box_outline_blank"></use></svg>
                         </div>
                         <div class="usa-icon-list__content">
                             We are giving all candidates the option to share your relevant BitBucket, GitHub, GitLab, or a comparable version control platform account with us in advance. This helps us understand the type of open-source work you’ve produced in the past, if any.
