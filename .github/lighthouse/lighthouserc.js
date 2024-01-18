@@ -1,5 +1,8 @@
-{
+module.exports = {
   "ci": {
+    "collect": {
+      "staticDistDir": "./_site"
+    },
     "upload": {
       "target": "temporary-public-storage"
     },
@@ -15,7 +18,6 @@
         "image-size-responsive": "off",
         "link-text": "off",
         "maskable-icon": "off",
-        "robots-txt": "off",
         "service-worker": "off",
         "splash-screen": "off",
         "themed-omnibox": "off",
