@@ -1,5 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /interview-guide$
 
 Host: https://xd.gov
 Sitemap: https://xd.gov/sitemap.xml
