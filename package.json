@@ -1,4 +1,32 @@
 {
+  "name": "xD.gov",
+  "version": "",
+  "description": "Web Application for the xD team website",
+  "scripts": {
+    "initialize": "npm i && bundle && npm run uswds-compile && npm run federalist",
+    "federalist": "npx gulp updateUswds",
+    "jekyll-install": "gem install bundler && bundle install",
+    "uswds-compile": "npx gulp compile",
+    "serve": "bundle exec jekyll serve --livereload --host=localhost",
+    "start": "npm install && npm run jekyll-install && npm run federalist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XDgov/xd.gov.git"
+  },
+  "keywords": [
+    "pets",
+    "nist",
+    "census",
+    "xd"
+  ],
+  "author": "@curt-mitch-census",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/XDgov/xd.gov/issues"
+  },
+  "homepage": "https://github.com/XDgov/xd.gov#readme",
   "dependencies": {
     "@uswds/compile": "^1.1.0",
     "@uswds/uswds": "3.7.1",
@@ -6,5 +34,8 @@
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "marked": "^11.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
