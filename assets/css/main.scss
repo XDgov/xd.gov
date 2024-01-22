@@ -2,12 +2,12 @@
 # Front Matter
 ---
 
-@import "_core/all";
+@forward "_core/all";
 
-@import "_includes/all";
-@import "_layouts/all";
-@import "_pages/all";
-@import "_syntax_highlighting/manni";
+@forward "_includes/all";
+@forward "_layouts/all";
+@forward "_pages/all";
+@forward "_syntax_highlighting/manni";
 
 .clearfix {
   &::after {

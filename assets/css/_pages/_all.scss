@@ -1,6 +1,6 @@
-@import "about";
-@import "apply";
-@import "home";
-@import "privacy";
-@import "projects";
-@import "bios";
+@forward "about";
+@forward "apply";
+@forward "home";
+@forward "privacy";
+@forward "projects";
+@forward "bios";

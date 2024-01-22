@@ -1,5 +1,5 @@
-@import "default";
-@import "news";
-@import "blog";
-@import "position";
-@import "project";
+@forward "default";
+@forward "news";
+@forward "blog";
+@forward "position";
+@forward "project";

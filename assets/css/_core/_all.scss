@@ -1,5 +1,5 @@
-@import "variables";
-@import "buttons";
-@import "grid";
-@import "img";
-@import "typography";
+@forward "variables";
+@forward "buttons";
+@forward "grid";
+@forward "img";
+@forward "typography";
