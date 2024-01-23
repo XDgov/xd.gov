@@ -200,7 +200,7 @@ p {
   }
 
   &::after {
-    background: $color-brand-teal url("../img/uswds/angle-arrow-down-white.svg");
+    background: $color-brand-teal url("../../extra-assets/img/angle-arrow-down-white.svg");
     background-position: center center;
     background-size: 0.85rem;
     background-repeat: no-repeat;
@@ -261,6 +261,12 @@ li {
    display: inline-block;
    margin: 0 0.75rem;
  }
+
+.usa-footer {
+  .grid-row > .col-12 {
+    width: 50%;
+   }
+}
 
  .usa-footer_nav {
 
@@ -332,7 +338,7 @@ li {
      }
 
      &::before {
-       background-image: url('../img/xd-logo.png');
+       background-image: url('../../extra-assets/img/xd-logo.png');
        background-repeat: no-repeat;
        background-size: 100% auto;
        display: inline-block;
@@ -445,7 +451,7 @@ li {
 
  .usa-nav__close {
    background-color: #f0f0f0;
-   background-image: url('../img/xd-logo.png'), linear-gradient(transparent, transparent);
+   background-image: url('../../extra-assets/img/xd-logo.png'), linear-gradient(transparent, transparent);
    background-position: 50%;
    background-repeat: no-repeat;
    background-size: 1rem;
