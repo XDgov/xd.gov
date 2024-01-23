@@ -111,4 +111,4 @@ gems:
   - jekyll-seo-tag
 
 sass:
-  sass_dir: assets/css/
+  sass_dir: sass
