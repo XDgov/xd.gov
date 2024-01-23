@@ -16,12 +16,9 @@
     "url": "git+https://github.com/XDgov/xd.gov.git"
   },
   "keywords": [
-    "pets",
-    "nist",
     "census",
     "xd"
   ],
-  "author": "@curt-mitch-census",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/XDgov/xd.gov/issues"
