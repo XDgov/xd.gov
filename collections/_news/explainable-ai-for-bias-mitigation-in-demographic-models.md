@@ -1,5 +1,5 @@
 ---
-title: xD Team Members Publish Paper on Detecting and Mitigating Bias in Demographic Models
+title: xD Team Members Publish Working Paper on Detecting and Mitigating Bias in Demographic Models
 publish_date: 2024-01-26
 permalink: /news/explainable-ai-for-bias-mitigation-in-demographic-models/
 img_alt_text: Feature relevance for RF classifier for language income model
