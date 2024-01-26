@@ -10,7 +10,7 @@ image_accessibility: Feature relevance for RF classifier for language income mod
   We're excited to highlight a research project from xD done in collaboration with the Social, Economic, and Housing Statistics Division (SEHSD) of the Census Bureau to highlight the use of Explainable AI (XAI) in identifying and mitigating bias. In this paper, we highlight the use of XAI to identify bias within demographic models and the datasets used for these models. Two use case examples are presented for applying post-hoc explainability to traditional classification models to highlight the bias in the predictions. We conclude with a robust discussion on how XAI can be used by policy makers and practitioners to mitigate bias by taking a data-driven explainable approach to policy decision making.
 </p>
 <p>
-  The abstract and paper is hosted on the Census Resource Library under the title
+  The paper is hosted on the Census Resource Library under the title
   <a href="https://www.census.gov/library/working-papers/2024/demo/SEHSD-WP2024-02.html">
   Explainable Artificial Intelligence for Bias Identification and Mitigation in Demographic Models</a>.
 </p>
