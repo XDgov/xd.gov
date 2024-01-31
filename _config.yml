@@ -34,6 +34,9 @@ collections:
     permalink: /blog/:permalink/
   import:
     output: true
+  team:
+    output: true
+    permalink: /team/
 collections_dir: collections
 
 defaults:

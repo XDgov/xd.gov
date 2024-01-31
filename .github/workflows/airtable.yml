@@ -19,7 +19,7 @@ jobs:
           npm install
       - name: create .env file
         run: |
-          echo "AIRTABLE_API_KEY=${{secrets.AIRTABLE_API_KEY}}" >> .env
+          echo "AIRTABLE_ACCESS_TOKEN=${{secrets.AIRTABLE_ACCESS_TOKEN}}" >> .env
           echo "AIRTABLE_BASE_ID=${{secrets.AIRTABLE_BASE_ID}}" >> .env
       - name: run Airtable Import
         run: |

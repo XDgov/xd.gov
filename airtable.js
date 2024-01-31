@@ -6,12 +6,12 @@ const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
 // Load environment variables
 require('dotenv').config();
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
+const base = new Airtable({apiKey: process.env.AIRTABLE_ACCESS_TOKEN}).base(process.env.AIRTABLE_BASE_ID);
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
 const newsFilePath = './collections/_import/news.md';
-const biosFilePath = './collections/_import/bios.md';
+const teamFilePath = './collections/_team/team.md';
 
 // Image ingestion to check for new images and save them to our repo
 const checkAndCleanImages = (newData, cacheData) => {
@@ -215,8 +215,8 @@ const generateXdMarkdown = (content) => {
 
     // Write to bios file
     try {
-        await fs.promises.writeFile(biosFilePath, markdown['Bio']);
-        console.log('Bios markdown written successfully to disk');
+        await fs.promises.writeFile(teamFilePath, markdown['Bio']);
+        console.log('Team bios markdown written successfully to disk');
     } catch (error) {
         console.error('An error has occurred ', error);
         return;
