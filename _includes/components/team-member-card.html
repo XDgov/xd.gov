@@ -1,0 +1,25 @@
+<div class="col-12 tablet:grid-col-4 project-cards">
+  <div class="team-member-card">
+    <!-- <a href="{{ site.baseurl }}{{ project.permalink }}">
+      <img src="{{ site.baseurl }}/assets/img/projects/{{ project.title | slugify }}/{{ project.title | slugify }}-card.jpg" alt="{{ project.img_alt_text }}">
+    </a>
+    <div class="project-card-content">
+      <h3>
+        <a href="{{ site.baseurl }}{{ project.permalink }}">{{ project.title }}</a>
+      </h3>
+      <p>{{ project.subtitle }}</p>
+      <a class="square-link" href="{{ site.baseurl }}{{ project.permalink }}">Learn More<span class="visually-hidden"> about {{ project.title }}</span></a>
+    </div> -->
+    <img id="{{ member.image_id }}" alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
+    <h4 class="team-member-heading">{{ member.name }}</h4>
+    <h4 class="team-member-heading">{{ member.job_title }}</h4>
+    {% if member.portfolio %}
+      <h4>Project Status: {{member.portfolio}}</h4>
+    {% endif %}
+    <!-- <div class="breadcrumb"></div> -->
+    <div class="member-card-content">
+      {{ member.blurb }}
+    </div>
+    <!-- <p>Materials: ${Attachments}</p> -->
+  </div>
+</div>

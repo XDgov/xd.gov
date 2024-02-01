@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<section class="story">
+  <article class="grid-container">
+    <div class="grid-row grid-gap-lg news-row">
+      <div class="news-content-container">
+        <header>
+          <div class="breadcrumb">Team Bios</div>
+          <h1>{{ member.name }}</h1>
+        </header>
+        <div class="bios-content">
+          {{ member.content }}
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+<section class="more-news">
+  {% assign site_news = site.news %}
+  <div class="grid-container">
+    <div class="breadcrumb">More News</div>
+    <div class="grid-row grid-gap-lg">
+      {% for news in site_news limit:4 %}
+        {% if news.url != page.url %}
+          {% if forloop.index < 3 or found %}
+            <div class="tablet:grid-col-6">
+              {% include components/news-item.html news=news %}
+            </div>
+          {% endif %}
+        {% else %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- {% include components/hiring.html %} -->
