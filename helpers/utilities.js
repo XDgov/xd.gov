@@ -42,4 +42,33 @@ async function downloadAndSaveImage(directory, name, imageUrl) {
     }
 }
 
-module.exports = { deepCompare, downloadAndSaveImage };
+async function writeMarkdownFile(directory, name, content) {
+  console.log('writeMarkdownFile ', name);
+  const fileName = dashCaseString(name);
+  const contentBuffer = Buffer.from(content);
+
+  try {
+    // Create a file with the user's name
+    const filePath = `${directory}/${fileName}.md`;
+
+    console.log(`write to .${filePath}`);
+    // Save the file to the directory
+    fs.writeFileSync(`.${filePath}`, contentBuffer);
+
+    console.log(`Bio for ${name} saved successfully at ${filePath}`);
+
+    return filePath;
+  } catch (error) {
+      console.error(`Error writing markdown file for ${name}: ${error.message}`);
+      return error;
+  }
+}
+
+function dashCaseString(str) {
+  return str && str.match(
+/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+    .map(s => s.toLowerCase())
+    .join('-');
+}
+
+module.exports = { deepCompare, downloadAndSaveImage, writeMarkdownFile, dashCaseString };

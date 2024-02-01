@@ -1,17 +1,22 @@
 const fs = require('fs');
 const Airtable = require('airtable');
 const marked = require('marked');
-const { deepCompare, downloadAndSaveImage } = require('./helpers/utilities');
+const { deepCompare, downloadAndSaveImage, writeMarkdownFile, dashCaseString } = require('./helpers/utilities');
+
 
 // Load environment variables
 require('dotenv').config();
+marked.use({
+    breaks: true,
+    gfm: true,
+})
 
 const base = new Airtable({apiKey: process.env.AIRTABLE_ACCESS_TOKEN}).base(process.env.AIRTABLE_BASE_ID);
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
 const newsFilePath = './collections/_import/news.md';
-const teamFilePath = './collections/_team/team.md';
+
 
 // Image ingestion to check for new images and save them to our repo
 const checkAndCleanImages = (newData, cacheData) => {
@@ -36,6 +41,8 @@ const checkAndCleanImages = (newData, cacheData) => {
             const cachedImage = cacheEquivalent['Images'].find(image => {
                 return image.imageId === item.ID || image.id === contentImages[0].id;
             });
+            console.log('cachedImage');
+            console.log(cachedImage);
 
             // Check if image already exists in this location (newLocalPath key exists)
             if (cachedImage.newLocalPath)  {
@@ -108,55 +115,58 @@ const generateXdMarkdown = (content) => {
         }
 
         // Loop through content types and generate unique markdown for each
-        content[contentType].forEach((obj) => {
+        content[contentType].map(async (obj) => {
             const { Name, Title, Images, Attachments, Blurb, Portfolio } = obj;
             let itemMarkdown = ``
 
             switch (contentType) {
-                case 'News':
-                    if ([Name, Blurb].some(item => item === undefined)) return;
+                // case 'News':
+                //     if ([Name, Blurb].some(item => item === undefined)) return;
 
-                    itemMarkdown += `
-                        \n<div>\n
-                            <h3>${Name}</h3>\n
-                            ${marked.parse(Blurb)}
-                        </div>
-                    `;
-                    break;
+                //     itemMarkdown += `
+                //         \n<div>\n
+                //             <h3>${Name}</h3>\n
+                //             ${marked.parse(Blurb)}
+                //         </div>
+                //     `;
+                //     break;
 
                 case 'Bio':
                     if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
+                    const directory = '/collections/_team_members';
+                    const bioMarkdownAttrs = `---
+name: ${Name}
+title: ${Name}
+permalink: /team/${dashCaseString(Name)}/
+image_id: ${Images[0].id}
+image_path: ${Images[0].newLocalPath}
+job_title: ${Title}
+blurb: ${marked.parse(Blurb)}
+---`;
 
-                    itemMarkdown += `
-                        \n<div>\n
-                            <img id="${Images[0].id}" alt="Image of ${Name}" src="{{ site.baseurl }}${Images[0].newLocalPath}" />\n
-                            <h3>${Name}</h3>\n
-                            <h4>${Title}</h4>\n
-                            ${marked.parse(Blurb)}
-                        </div>
-                    `;
+                    await writeMarkdownFile(directory, Name, bioMarkdownAttrs);
                     break;
 
-                case 'Project':
-                    if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
+                // case 'Project':
+                //     if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
 
-                    itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
+                //     itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
 
-                    // TODO: Create unique project file path from title and store it
+                //     // TODO: Create unique project file path from title and store it
 
-                    itemMarkdown += `
-                        \n<div>\n
-                            <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
-                            <h1>${Title}</h1>\n
-                            <h4>Author(s): ${Name}</h4>\n
-                            <h4>Project Status: ${Portfolio}</h4>\n
-                            <div class="breadcrumb"></div>\n
-                            ${marked.parse(Blurb)}\n
-                            <p>Materials: ${Attachments}</p>
-                        </div>\n
-                        --End--
-                    `;
-                    break;
+                //     itemMarkdown += `
+                //         \n<div>\n
+                //             <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
+                //             <h1>${Title}</h1>\n
+                //             <h4>Author(s): ${Name}</h4>\n
+                //             <h4>Project Status: ${Portfolio}</h4>\n
+                //             <div class="breadcrumb"></div>\n
+                //             ${marked.parse(Blurb)}\n
+                //             <p>Materials: ${Attachments}</p>
+                //         </div>\n
+                //         --End--
+                //     `;
+                //     break;
             }
 
             markdown += itemMarkdown;
@@ -214,13 +224,13 @@ const generateXdMarkdown = (content) => {
     }
 
     // Write to bios file
-    try {
-        await fs.promises.writeFile(teamFilePath, markdown['Bio']);
-        console.log('Team bios markdown written successfully to disk');
-    } catch (error) {
-        console.error('An error has occurred ', error);
-        return;
-    }
+    // try {
+    //     await fs.promises.writeFile(teamFilePath, markdown['Bio']);
+    //     console.log('Team bios markdown written successfully to disk');
+    // } catch (error) {
+    //     console.error('An error has occurred ', error);
+    //     return;
+    // }
 
     // TODO: Create Project pages individually
     // First separate project markdown by separator...
