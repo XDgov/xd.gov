@@ -20,6 +20,7 @@ analytics:
     agency: Commerce # Change this to your agency
     subagency: Census # Change this to your agency
 
+collections_dir: collections
 collections:
   news:
     output: true
@@ -34,10 +35,9 @@ collections:
     permalink: /blog/:permalink/
   import:
     output: true
-  team:
+  team_members:
     output: true
-    permalink: /team/
-collections_dir: collections
+    # permalink: /team/:permalink/
 
 defaults:
   - scope:
@@ -60,6 +60,10 @@ defaults:
       path: "_blog"
     values:
       layout: blog
+  - scope:
+      path: "_team_members"
+    values:
+      layout: team-member
 
 # Build and syntax highlighting settings
 markdown: kramdown
