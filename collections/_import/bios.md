@@ -3,7 +3,7 @@ layout: bios
 title: Bios
 ---
 <div>
-<img id="attaBflCfwPLDBs1y" alt="Image of Samantha Weinstock" src="/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg" /><h3>Samantha Weinstock</h3>
+<img id="attJt6jgFKLRtY9cO" alt="Image of Samantha Weinstock" src="/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg" /><h3>Samantha Weinstock</h3>
 <p>Samantha Weinstock is the head of operations and partnerships for xD and provides research help and project management for select xD projects. Sam brings extensive nonprofit and academic experience to the team. Prior to xD, Sam was the Executive Director of a research nonprofit, Center of Complex Interventions, where she set the strategic vision for the organization, ran day-to-day operations, and worked closely with the CCI research team on various research projects. Before CCI, Sam was the Director of Administration at YarnLabs Inc, a fiscal sponsor for non-profits. She also previously managed research at MIT and worked as a researcher at Harvard Law School and the Berkman Klein Center for Internet &amp; Society. Before entering the academic and non-profit space, Sam worked at Google. She has a master’s degree in Modern European History from the University of Cambridge and a B.A. in History from Grinnell College. When not running operations for xD, Sam can usually be found biking up New England’s finest gravel mountain roads.</p>
 </div>
 <div>
@@ -17,9 +17,8 @@ Prior to Census, Anna was a senior data scientist at the National Associations o
 </div>
 <div>
 <img id="attW7Ep5zdBwxFzzB" alt="Image of Diamond Nwankwo" src="/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg" /><h3>Diamond Nwankwo</h3>
-<p>Diamond Nwankwo (she/her) has a proven data-based track record with 10 years of experience in data engineering and quality assurance/control field within aerospace manufacturing. </p>
-<p>Diamond worked as a <a href="http://xd.gov">senior data engineer</a>, where she was responsible for designing, building and maintaining data pipelines and systems. Prior to that, she worked in solar renewable energy as a data engineer where she was the lead on an irradiance extract, transform, load (ETL) pipeline development and reporting data quality.</p>
-<p><code>ajdwadbawlkdb</code></p>
+<p>Diamond Nwankwo (she/her) has a proven data-based track record with 10 years of experience in data engineering and quality assurance/control field within aerospace manufacturing. 
+Diamond worked as a senior data engineer, where she was responsible for designing, building and maintaining data pipelines and systems. Prior to that, she worked in solar renewable energy as a data engineer where she was the lead on an irradiance extract, transform, load (ETL) pipeline development and reporting data quality.</p>
 </div>
 <div>
 <img id="attlQoVOY2bfunFKj" alt="Image of Ian Munoz" src="/assets/img/import/bio/ian-munoz/ian-munoz.jpg" /><h3>Ian Munoz</h3>
