@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "the xD team across the US",
+    "repeat": {"row": ["xd"]},
+    "resolve": {
+      "scale": {
+        "color": "independent"
+      }
+    },
+    "spec": {
+      "width": 800,
+      "height": 500,
+      "data": {
+        "url": "../../assets/data/maps/team-states.csv"
+      },
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "../../assets/data/maps/us-10m.json",
+              "format": {
+                "type": "topojson",
+                "feature": "states"
+              }
+            },
+            "key": "id"
+          },
+          "as": "geo"
+        }
+      ],
+      "projection": {"type": "albersUsa"},
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#757575",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": {"repeat": "row"},
+          "type": "nominal",
+          "legend": null,
+          "scale": {"range": ["#D3D3D3", "#6D619E"]}
+        }
+      }
+    }
+  }
