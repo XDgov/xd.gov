@@ -26,7 +26,7 @@ seo_excerpt: xD team members
 </section>
 
 <script>
-  const spec = "../../assets/data/maps/team-map.json";
+  const spec = "{{ site.baseurl }}/assets/data/maps/team-map.json";
   const actions = {renderer: "svg", actions: false};
   vegaEmbed("#team-map", spec, actions)
     // result.view provides access to the Vega View API
