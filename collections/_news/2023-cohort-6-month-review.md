@@ -11,7 +11,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </p>
 
 <p>
-  Over the past six months, xD fellows have worked on a range of technology projects with different partners across the federal government. As we prepare to welcome new team members, we asked our 2023 fellows to share a few thoughts about their experiences so far on the xD team – what they’ve learned, their favorite thing about the xD team, and what they aim to accomplish in 2024.  Here are their reflections on the past few months:
+  xD recently closed its application period for the 2024 emerging technology fellowship – thank you to all who applied! Over the past six months, xD fellows have worked on a range of technology projects with different partners across the federal government. As we prepare to welcome new team members, we asked our 2023 fellows to share a few thoughts about their experiences so far on the xD team – what they’ve learned, their favorite thing about the xD team, and what they aim to accomplish in 2024.  Here are their reflections on the past few months:
 </p>
 
 <div class="news-fellow">
@@ -19,11 +19,11 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div class="title">Diamond</div>
   <div>
     <span class="title">Current Projects:</span>
-    <p>I’m working on Database Modernization project that is focused on moving on-premises servers into the cloud. This is a multi-year project that will assist with the Census goal with adoption for open-source technology. </p>
+    <p>I’m working on the Database Modernization project that is focused on moving on-premises servers into the cloud. This is a multi-year project that will assist the Census Bureau with open-source technology adoption. Additionally, I am participating in this year’s Data Science Training Program with a Machine Learning Specialization. My goal with being in this program is to help me grow in foundational and application-specific skills for model creation and assessments.</p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
-    <p>The biggest learning I had from my project so far is being open to change. Over time the focus of my project has shifted to higher priority data migrations. So being flexible and continuously seeking the root problem that we are solving. </p>
+    <p>The biggest learning I had from my project so far is being open to change. Over time, the focus of my project has shifted to higher priority data migrations. So being flexible and continuously seeking the root problem that we are solving has been key. </p>
   </div>
   <div>
     <span class="title">Favorite thing about xD:</span>
@@ -32,8 +32,8 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Grow in my practical understanding in artificial intelligence and machine learning and product management.</p></li>
-      <li><p>Complete IRE-EDL data migration MVP by September 2024</p></li>
+      <li><p>Successfully develop a machine learning model that will add value across the Bureau</p></li>
+      <li><p>Complete the development of the MVP for the IRE-EDL data migration</p></li>
     </ul>
   </div>
 </div>
@@ -43,7 +43,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div class="title">Tomo</div>
   <div>
     <span class="title">Current Projects:</span>
-    <p>My work right now focuses on how to use privacy enhancing technologies to connect sensitive datasets that have different owners in a secure way. The long-term goal of that work is really to enable third-party audits of machine learning models so that engineers and practitioners who build these models can detect disparities or biases in their work both reliably and quickly.</p>
+    <p>My work right now focuses on how to use privacy-enhancing technologies (PETs) to connect sensitive datasets that have different owners in a secure way. The long-term goal of that work is to enable third-party audits of machine learning models so that engineers and practitioners who build these models can detect disparities or biases in their work both reliably and quickly.</p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
@@ -68,7 +68,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div class="title">Mike</div>
   <div>
     <span class="title">Current Projects:</span>
-    <p>I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy.</p>
+    <p>I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy. </p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
@@ -81,7 +81,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Publish work on model cards and ML audits using privacy enhancing technologies.</p></li>
+      <li><p>Publish work on model cards and ML audits using privacy enhancing technologies</p></li>
       <li><p>Onboard the next emerging technology fellowship cohort! </p></li>
     </ul>
   </div>
@@ -96,17 +96,16 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
-    <p>...</p>
+    <p>I’m learning more about surveys and data at the Census Bureau. I didn’t know that the Bureau conducts more than 130 surveys each year. I’m also learning about Title 13 which protects the confidentiality of data and survey respondents.</p>
   </div>
   <div>
     <span class="title">Favorite thing about xD:</span>
-    <p>...</p>
+    <p>In addition to great colleagues, I love the forward-thinking and experimentation-oriented culture of the team. </p>
   </div>
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Build MVP for the Census-Bureau of Economic Analysis SMPC project</p></li>
-      <li><p>Facilitate an external speaker presentation about data visualization research </p></li>
+      <li><p>Facilitate an MVP for the Census-Bureau of Economic Analysis SMPC project </p></li>
       <li><p>Present at one of Census’ affinity groups </p></li>
     </ul>
   </div>
@@ -116,7 +115,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div class="title">Curtis</div>
   <div>
     <span class="title">Current Projects:</span>
-    <p>I’m working on privacy enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating tools and proofs-of-concept for Census Bureau teams such as a model card generator. I’ve also been helping to maintain and update our team website.</p>
+    <p>I’m working on privacy-enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating tools and proofs-of-concept for Census Bureau teams such as a model card generator. I’ve also been helping to maintain and update our team website.</p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
@@ -129,13 +128,13 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Publish a paper and give a conference presentation about our ongoing privacy enhancing technology projects. </p></li>
-      <li><p>Add new sections and features to xd.gov to increase our web presence and better publicize our work.  </p></li>
+      <li><p>Publish a paper and give a conference presentation about our ongoing privacy enhancing technology projects</p></li>
+      <li><p>Add new sections and features to xd.gov to increase our web presence and better publicize our work</p></li>
       <li><p>Hire and onboard new fellows! </p></li>
     </ul>
   </div>
 </div>
-
+<!--
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/ian-munoz.jpg" alt="Ian Munoz">
   <div class="title">Ian</div>
@@ -157,5 +156,5 @@ image_accessibility: 2023 xD Emerging Technology Fellows
       <li><p>...</p></li>
     </ul>
   </div>
-</div>
+</div> -->
 
