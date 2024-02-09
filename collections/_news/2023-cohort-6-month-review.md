@@ -115,7 +115,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div class="title">Curtis</div>
   <div>
     <span class="title">Current Projects:</span>
-    <p>I’m working on privacy-enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating tools and proofs-of-concept for Census Bureau teams such as a model card generator. I’ve also been helping to maintain and update our team website.</p>
+    <p>I’m working on privacy-enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating proofs-of-concept and tools for Census Bureau teams such as a model card generator. I’ve also been helping to maintain and update our team website.</p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
