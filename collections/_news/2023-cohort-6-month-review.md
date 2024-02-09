@@ -16,7 +16,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/diamond-nwankwo-2.jpg" alt="Diamond Nwankwo">
-  <div class="title">Diamond</div>
+  <h2>Diamond</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>I’m working on the Database Modernization project that is focused on moving on-premises servers into the cloud. This is a multi-year project that will assist the Census Bureau with open-source technology adoption. Additionally, I am participating in this year’s Data Science Training Program with a Machine Learning Specialization. My goal with being in this program is to help me grow in foundational and application-specific skills for model creation and assessments.</p>
@@ -40,7 +40,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/tomo-lazovich-2.jpg" alt="Tomo Lazovich">
-  <div class="title">Tomo</div>
+  <h2>Tomo</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>My work right now focuses on how to use privacy-enhancing technologies (PETs) to connect sensitive datasets that have different owners in a secure way. The long-term goal of that work is to enable third-party audits of machine learning models so that engineers and practitioners who build these models can detect disparities or biases in their work both reliably and quickly.</p>
@@ -65,7 +65,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/mike-walton-2.jpg" alt="Mike Walton">
-  <div class="title">Mike</div>
+  <h2>Mike</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy. </p>
@@ -89,7 +89,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/anna-vasylytsya-2.jpg" alt="Anna Vasylytsya">
-  <div class="title">Anna</div>
+  <h2>Anna</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>I am currently working on a pilot project to establish a secure multi-party computation between Census and the Bureau of Economic Analysis. </p>
@@ -112,7 +112,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/curtis-mitchell-2.jpg" alt="Curtis Mitchell">
-  <div class="title">Curtis</div>
+  <h2>Curtis</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>I’m working on privacy-enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating proofs-of-concept and tools for Census Bureau teams such as a model card generator. I’ve also been helping to maintain and update our team website.</p>
@@ -137,7 +137,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 <!--
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/ian-munoz.jpg" alt="Ian Munoz">
-  <div class="title">Ian</div>
+  <h2>Ian</h2>
   <div>
     <span class="title">Current Projects:</span>
     <p>...</p>
