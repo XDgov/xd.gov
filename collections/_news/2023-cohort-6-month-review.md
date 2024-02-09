@@ -15,7 +15,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </p>
 
 <div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/diamond-nwankwo.jpg" alt="Diamond Nwankwo">
+  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/diamond-nwankwo-2.jpg" alt="Diamond Nwankwo">
   <div class="title">Diamond</div>
   <div>
     <span class="title">Current Projects:</span>
@@ -39,7 +39,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </div>
 
 <div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/tomo-lazovich.jpg" alt="Tomo Lazovich">
+  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/tomo-lazovich-2.jpg" alt="Tomo Lazovich">
   <div class="title">Tomo</div>
   <div>
     <span class="title">Current Projects:</span>
@@ -64,7 +64,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </div>
 
 <div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/mike-walton.jpg" alt="Mike Walton">
+  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/mike-walton-2.jpg" alt="Mike Walton">
   <div class="title">Mike</div>
   <div>
     <span class="title">Current Projects:</span>
@@ -88,7 +88,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
 </div>
 
 <div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/anna-vasylytsya.jpg" alt="Anna Vasylytsya">
+  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/anna-vasylytsya-2.jpg" alt="Anna Vasylytsya">
   <div class="title">Anna</div>
   <div>
     <span class="title">Current Projects:</span>
@@ -111,7 +111,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   </div>
 </div>
 <div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/curtis-mitchell.jpg" alt="Curtis Mitchell">
+  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/curtis-mitchell-2.jpg" alt="Curtis Mitchell">
   <div class="title">Curtis</div>
   <div>
     <span class="title">Current Projects:</span>
