@@ -68,7 +68,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <h2>Mike</h2>
   <div>
     <span class="title">Current Projects:</span>
-    <p>I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy. </p>
+    <p>I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy-enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy. </p>
   </div>
   <div>
     <span class="title">Learnings from 2023:</span>
@@ -81,7 +81,7 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Publish work on model cards and ML audits using privacy enhancing technologies</p></li>
+      <li><p>Publish work on model cards and ML audits using privacy-enhancing technologies</p></li>
       <li><p>Onboard the next emerging technology fellowship cohort! </p></li>
     </ul>
   </div>
@@ -128,33 +128,9 @@ image_accessibility: 2023 xD Emerging Technology Fellows
   <div>
     <span class="title">Goals for 2024:</span>
     <ul class="usa-list">
-      <li><p>Publish a paper and give a conference presentation about our ongoing privacy enhancing technology projects</p></li>
+      <li><p>Publish a paper and give a conference presentation about our ongoing privacy-enhancing technology projects</p></li>
       <li><p>Add new sections and features to xd.gov to increase our web presence and better publicize our work</p></li>
       <li><p>Hire and onboard new fellows! </p></li>
     </ul>
   </div>
 </div>
-<!--
-<div class="news-fellow">
-  <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/ian-munoz.jpg" alt="Ian Munoz">
-  <h2>Ian</h2>
-  <div>
-    <span class="title">Current Projects:</span>
-    <p>...</p>
-  </div>
-  <div>
-    <span class="title">Learnings from 2023:</span>
-    <p>...</p>
-  </div>
-  <div>
-    <span class="title">Favorite thing about xD:</span>
-    <p>...</p>
-  </div>
-  <div>
-    <span class="title">Goals for 2024:</span>
-    <ul class="usa-list">
-      <li><p>...</p></li>
-    </ul>
-  </div>
-</div> -->
-
