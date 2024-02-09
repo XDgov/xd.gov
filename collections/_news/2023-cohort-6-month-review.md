@@ -6,9 +6,6 @@ img_alt_text: 2023 Emerging Technology Fellows
 image: /assets/img/news/announcing-the-2023-xd-emerging-technology-fellows.jpg
 image_accessibility: 2023 xD Emerging Technology Fellows
 ---
-<p>
-  xD recently closed its application period for the 2024 emerging technology fellowship – thank you to all who applied! We received a record-breaking number of applications and are looking forward to learning about all of these talented candidates!
-</p>
 
 <p>
   xD recently closed its application period for the 2024 emerging technology fellowship – thank you to all who applied! Over the past six months, xD fellows have worked on a range of technology projects with different partners across the federal government. As we prepare to welcome new team members, we asked our 2023 fellows to share a few thoughts about their experiences so far on the xD team – what they’ve learned, their favorite thing about the xD team, and what they aim to accomplish in 2024.  Here are their reflections on the past few months:
