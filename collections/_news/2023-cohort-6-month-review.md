@@ -3,7 +3,7 @@ title: Our 2023 Fellows Reflect on Their First Six Months at xD
 publish_date: 2024-02-09
 permalink: /news/2023-cohort-6-month-review/
 img_alt_text: 2023 Emerging Technology Fellows
-image: /assets/img/news/announcing-the-2023-xd-emerging-technology-fellows.jpg
+image: /assets/img/news/our-2023-fellows-reflect-on-their-first-six-months-at-xd.jpg
 image_accessibility: 2023 xD Emerging Technology Fellows
 ---
 
