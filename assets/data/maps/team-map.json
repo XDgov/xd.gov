@@ -8,17 +8,17 @@
       }
     },
     "spec": {
-      "width": 800,
-      "height": 500,
+      "width": "container",
+      "height": "container",
       "data": {
-        "url": "../../assets/data/maps/team-states.csv"
+        "url": "/assets/data/maps/team-states.csv"
       },
       "transform": [
         {
           "lookup": "id",
           "from": {
             "data": {
-              "url": "../../assets/data/maps/us-10m.json",
+              "url": "/assets/data/maps/counties-10m.json",
               "format": {
                 "type": "topojson",
                 "feature": "states"
@@ -29,7 +29,9 @@
           "as": "geo"
         }
       ],
-      "projection": {"type": "albersUsa"},
+      "projection": {
+        "type": "albersUsa"
+      },
       "mark": {
         "type": "geoshape",
         "stroke": "#757575",
