@@ -5,6 +5,15 @@
   width: auto;
   height: 30rem;
   margin: 1rem;
+
+  .state {
+    fill: #CCCCCC;
+    stroke: #FFFFFF;
+  }
+  .team-state {
+    fill: #6D619E;
+    stroke: #FFFFFF;
+  }
 }
 
 .team-member-card {
