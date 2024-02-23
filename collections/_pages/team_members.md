@@ -31,59 +31,55 @@ seo_excerpt: xD team members
 <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
 <script src="/helpers/albersUsaPr.js"></script>
 <script src="/helpers/states.js"></script>
-  <script>
-    var feature = topojson.feature(states, states.objects.states_20m_2017);
-    var projection = d3.geoAlbersUsaPr(),
-        path = d3.geoPath().projection(projection);
+<script>
+  const feature = topojson.feature(states, states.objects.states_20m_2017);
+  const projection = d3.geoAlbersUsaPr();
+  const path = d3.geoPath().projection(projection);
+  const container = d3.select("#team-map");
+  const aspect_ratio = 0.582;
+  let width;
+  let height;
+  const svg = container.append("svg");
+  const stateIds = ["CA", "MD", "MA", "MO", "NY", "PA", "VA", "WA"]
 
-    var container = d3.select("#team-map");
-    var aspect_ratio = 0.582,
-        width,
-        height;
+  const paths_states = svg.selectAll(".state")
+      .data(feature.features)
+    .enter().append("path")
+      .attr("class", "state")
+      .attr('class', function(d) {
+          return stateIds.includes(d.properties["STUSPS"]) ? "team-state" : "state";
+      });
 
-    var svg = container.append("svg");
-    var stateIds = ["CA", "MD", "MA", "MO", "NY", "PA", "VA", "WA"]
+  draw();
 
-    var paths_states = svg.selectAll(".state")
-        .data(feature.features)
-      .enter().append("path")
-        .attr("class", "state")
-        .attr('class', function(d) {
-            return stateIds.includes(d.properties["STUSPS"]) ? "team-state" : "state";
-        });
+  window.addEventListener("resize", draw);
 
+  function draw(){
+    width = container.node().getBoundingClientRect().width;
+    height = width * aspect_ratio > window.innerHeight ? window.innerHeight : width * aspect_ratio;
+    svg
+        .attr("width", width)
+        .attr("height", height);
+    fitSize([width, height], feature);
+    paths_states.attr("d", path);
 
+    d3.select
+  }
 
-    draw();
+  function fitSize(size, object){
+    const width = size[0];
+    const height = size[1];
 
-    window.addEventListener("resize", draw);
+    projection
+        .scale(1)
+        .translate([0, 0]);
 
-    function draw(){
-      width = container.node().getBoundingClientRect().width;
-      height = width * aspect_ratio > window.innerHeight ? window.innerHeight : width * aspect_ratio;
-      svg
-          .attr("width", width)
-          .attr("height", height);
-      fitSize([width, height], feature);
-      paths_states.attr("d", path);
+    const b = path.bounds(object);
+    const s = 1 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
+    const t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
 
-      d3.select
-    }
-
-    function fitSize(size, object){
-      var width = size[0],
-          height = size[1];
-
-      projection
-          .scale(1)
-          .translate([0, 0]);
-
-      var b = path.bounds(object),
-          s = 1 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
-          t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
-
-      projection
-          .scale(s)
-          .translate(t);
-    }
-  </script>
+    projection
+        .scale(s)
+        .translate(t);
+  }
+</script>

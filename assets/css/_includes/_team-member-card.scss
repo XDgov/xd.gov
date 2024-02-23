@@ -1,10 +1,12 @@
 #team-map {
   display: block;
   margin: auto;
+  margin-top: 1rem;
   text-align: center;
   width: auto;
   height: 30rem;
-  margin: 1rem;
+  max-width: 50rem;
+  max-height: 30rem;
 
   .state {
     fill: #CCCCCC;
