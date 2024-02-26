@@ -29,8 +29,8 @@ seo_excerpt: xD team members
 <script src="https://d3js.org/d3-array.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo.v1.min.js"></script>
 <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
-<script src="/helpers/albersUsaPr.js"></script>
-<script src="/helpers/states.js"></script>
+<script src="{{ site.baseurl }}/helpers/albersUsaPr.js"></script>
+<script src="{{ site.baseurl }}/helpers/states.js"></script>
 <script>
   const feature = topojson.feature(states, states.objects.states_20m_2017);
   const projection = d3.geoAlbersUsaPr();
