@@ -41,8 +41,6 @@ const checkAndCleanImages = (newData, cacheData) => {
             const cachedImage = cacheEquivalent['Images'].find(image => {
                 return image.imageId === item.ID || image.id === contentImages[0].id;
             });
-            console.log('cachedImage');
-            console.log(cachedImage);
 
             // Check if image already exists in this location (newLocalPath key exists)
             if (cachedImage.newLocalPath)  {
@@ -223,14 +221,7 @@ blurb: ${marked.parse(Blurb)}
         return;
     }
 
-    // Write to bios file
-    // try {
-    //     await fs.promises.writeFile(teamFilePath, markdown['Bio']);
-    //     console.log('Team bios markdown written successfully to disk');
-    // } catch (error) {
-    //     console.error('An error has occurred ', error);
-    //     return;
-    // }
+    // TODO: Create Bio pages individually
 
     // TODO: Create Project pages individually
     // First separate project markdown by separator...
