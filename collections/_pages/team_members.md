@@ -5,25 +5,36 @@ layout: page
 title: xD Team
 seo_excerpt: xD team members
 ---
-<section class="mission">
+<div class="page-bios">
   <div class="grid-container">
-    <div class="breadcrumb">Our Team</div>
-    <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in 8 states across the country.</div>
+    <div class="grid-row">
+      <div class="tablet:grid-col-5">
+        <section class="mission">
+          <div class="grid-container">
+            <div class="breadcrumb">Our Team</div>
+            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in eight states across the country.</div>
+          </div>
+        </section>
+      </div>
+      <div class="tablet:grid-col-7">
+        <section>
+          <div id="team-map"></div>
+        </section>
+      </div>
   </div>
-  <div id="team-map"></div>
-</section>
 
-<section class="projects-page active-projects">
-  <div class="grid-container">
-    <div class="breadcrumb">Meet the Team</div>
-    <div class="grid-row grid-gap-lg">
-      {% assign team_members = site.team_members %}
-      {% for member in team_members %}
-        {% include components/team-member-card.html member=member %}
-      {% endfor %}
+  <section class="bios-content">
+    <div class="grid-container">
+      <div class="breadcrumb">Meet the Team</div>
+      <div class="grid-row grid-gap-lg">
+        {% assign team_members = site.team_members %}
+        {% for member in team_members %}
+          {% include components/team-member-card.html member=member %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
 <script src="https://d3js.org/d3-array.v1.min.js"></script>
