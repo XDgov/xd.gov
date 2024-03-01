@@ -1,22 +1,3 @@
-#team-map {
-  display: block;
-  margin: auto;
-  margin-top: 1rem;
-  text-align: center;
-  width: auto;
-  max-width: 30rem;
-  max-height: 20rem;
-
-  .state {
-    fill: #CCCCCC;
-    stroke: $color-white;
-  }
-  .team-state {
-    fill: #6D619E;
-    stroke: $color-white;
-  }
-}
-
 .team-member-card {
   border: 1px solid #EEEEEE;
   border-radius: 3px;
