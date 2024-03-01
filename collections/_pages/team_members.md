@@ -16,7 +16,7 @@ seo_excerpt: xD team members
           </div>
         </section>
       </div>
-      <div class="tablet:grid-col-7">
+      <div class="tablet:grid-col-7 margin-1 margin-left-neg-1 tablet:margin-0">
         <section>
           <div id="team-map"></div>
         </section>
