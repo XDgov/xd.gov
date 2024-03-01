@@ -129,7 +129,7 @@
       ]
     },
     {
-      "Blurb": "Anna (she/her) is excited to start as an Emerging Technology Fellow at the Census Bureau. She is excited about data-driven decision-making, being able to combine her passions for technology, policy, and data.\nPrior to Census, Anna was a senior data scientist at the National Associations of REALTORS (NAR), one of the largest trade associations in the U.S. At NAR, she produced data analyses and delivered insights, built dashboards and worked on improving data quality on a broad range of topics that impact realtors. Anna started her career as a federal contractor at the Department of State and she is excited to return to public service.\n",
+      "Blurb": "Anna Vasylytsya (she/her) is excited to start as an Emerging Technology Fellow at the Census Bureau. She is excited about data-driven decision-making, being able to combine her passions for technology, policy, and data.\nPrior to Census, Anna was a senior data scientist at the National Associations of REALTORS (NAR), one of the largest trade associations in the U.S. At NAR, she produced data analyses and delivered insights, built dashboards and worked on improving data quality on a broad range of topics that impact realtors. Anna started her career as a federal contractor at the Department of State and she is excited to return to public service.\n",
       "ID": 9,
       "Title": "Emerging Technology Fellow - 2023 Cohort",
       "Images": [
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "Blurb": "Diamond (she/her) is excited to be an Emerging Technology Fellow. She has multifaceted data-based track record at the intersection of data engineering, process improvement, and quality assurance/control. Prior to working at xD, she worked as a Senior Data Engineer where she focused on architecting, improving, and maintaining robust data pipelines and systems while ensuring data quality and accuracy in reporting. Before transitioning into data engineering, she worked as a Quality and Process Improvement Engineer in Aerospace Manufacturing. In this role, she spearheaded SMART Manufacturing and Lean Six Sigma initiatives. Additionally, successfully led the transition and certification from AS 9100 Rev C to Rev D as a Lead Auditor.\n",
+      "Blurb": "Diamond Nwankwo (she/her) is excited to be an Emerging Technology Fellow. She has a multifaceted data-based track record at the intersection of data engineering, process improvement, and quality assurance/control. Prior to working at xD, she worked as a Senior Data Engineer where she focused on architecting, improving, and maintaining robust data pipelines and systems while ensuring data quality and accuracy in reporting. Before transitioning into data engineering, she worked as a Quality and Process Improvement Engineer in Aerospace Manufacturing. In this role, she spearheaded SMART Manufacturing and Lean Six Sigma initiatives. Additionally, she has successfully led the transition and certification from AS 9100 Rev C to Rev D as a Lead Auditor.\n",
       "ID": 10,
       "Title": "Emerging Technology Fellow - 2023 Cohort",
       "Images": [
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "Blurb": "My name is Ian (he/him) and I'm excited to be joining xD! I started my career in academic computing supporting research at a National Science Foundation (NSF) funded environmental research center at University of Maryland. Later, I worked in bioinformatics at Oregon State University. I then spent time working for fintech startups as a DevOps engineer.\n",
+      "Blurb": "Ian Munoz (he/him) is excited to be a part of the xD team. He started his career in academic computing supporting research at a National Science Foundation (NSF) funded environmental research center at University of Maryland. Later, he worked in bioinformatics at Oregon State University and then spent time working for fintech startups as a DevOps engineer.\n",
       "ID": 11,
       "Title": "Tech Lead",
       "Images": [
@@ -381,16 +381,9 @@
       ]
     },
     {
+      "Blurb": "Ally Burleson-Gibson (she/her) manages the Emerging Technology Fellowship with xD and builds partnerships to bring highly skilled technologists into government. Just before xD, Ally led a team of project managers on the Operational Readiness and Integration team for the 2020 Census, and before that worked with the public to teach them how to find and use Census Bureau data through a variety of tools on census.gov, and then later engaged stakeholders and captured their feedback to help inform the development of data.census.gov. Ally also worked in state government and non-profits, typically in community social work settings with newly arrived immigrants and refugees and facilitating their access to services, with emphasis on health care for children with special needs. When not trying to re-imagine the best path to finding amazing candidates to work with us, Ally loves walking her dog and having fun with her two adolescent kids, who are always on the go!\n",
       "ID": 19,
       "Title": "Emerging Tech Fellowship Manager",
-      "Related Tasks": [
-        "recfDbx9eqvyVheRd"
-      ],
-      "Name": "Ally Burleson-Gibson",
-      "Content Type": [
-        "Bio"
-      ],
-      "Blurb": "Ally Burleson-Gibson (she/her) manages the Emerging Technology Fellowship with xD and builds partnerships to bring highly skilled technologists into government. Just before xD, Ally led a team of project managers on the Operational Readiness and Integration team for the 2020 Census, and before that worked with the public to teach them how to find and use Census Bureau data through a variety of tools on census.gov, and then later engaged stakeholders and captured their feedback to help inform the development of data.census.gov. Ally also worked in state government and non-profits, typically in community social work settings with newly arrived immigrants and refugees and facilitating their access to services, with emphasis on health care for children with special needs. When not trying to re-imagine the best path to finding amazing candidates to work with us, Ally loves walking her dog and having fun with her two adolescent kids, who are always on the go!\n",
       "Images": [
         {
           "id": "attUgtNaqlodQQUZ7",
@@ -420,6 +413,13 @@
           "newLocalPath": "/assets/img/import/bio/ally-burleson-gibson/ally-burleson-gibson.jpg",
           "imageId": 19
         }
+      ],
+      "Related Tasks": [
+        "recfDbx9eqvyVheRd"
+      ],
+      "Name": "Ally Burleson-Gibson",
+      "Content Type": [
+        "Bio"
       ]
     }
   ],
