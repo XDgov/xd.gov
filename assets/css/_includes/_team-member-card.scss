@@ -1,4 +1,4 @@
-.project-card {
+.team-member-card {
   border: 1px solid $color-border;
   border-radius: 3px;
   box-shadow: 3px 10px 13px 0px rgba(0,0,0,0.15);
@@ -7,26 +7,18 @@
   position: relative;
 
   img {
+    display: block;
+    margin: auto;
     height: auto;
     width: 100%;
   }
 }
 
-.project-card-content {
+.member-card-content {
   padding: 0.5rem 1rem 0 1rem;
 }
 
-.project-card-img {
-  border-radius: 3px 3px 0 0 ;
-}
-
-.project-card-partner {
-  color: #000;
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.project-cards {
-  margin-bottom: 2rem;
+.team-member-heading {
+  padding: 0rem 1rem;
+  margin-bottom: 0;
 }

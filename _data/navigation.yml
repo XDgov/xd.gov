@@ -3,6 +3,8 @@ primary:
     href: /about/
   - text: Projects
     href: /projects/
+  - text: Team
+    href: /team/
   - text: Fellowship
     href: /apply/
 
@@ -12,6 +14,8 @@ secondary:
     href: /about/
   - text: Projects
     href: /projects/
+  - text: Team
+    href: /team/
   - text: Apply
     href: /apply/
 
