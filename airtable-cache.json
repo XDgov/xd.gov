@@ -39,7 +39,7 @@
   ],
   "Bio": [
     {
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "Samantha Weinstock (she/her) runs operations and manages partnerships for xD and provides research help and project management for xD projects. Sam brings extensive nonprofit and academic experience to the team. Prior to xD, Sam was the Executive Director of a research nonprofit, Center of Complex Interventions, where she set the strategic vision for the organization, ran day-to-day operations, and worked closely with the CCI research team on various research projects. Before CCI, Sam was the Director of Administration at YarnLabs Inc, a fiscal sponsor for non-profits. She also previously managed research at MIT and worked as a researcher at Harvard Law School and the Berkman Klein Center for Internet & Society. Before entering the academic and non-profit space, Sam worked at Google. \n",
@@ -56,17 +56,17 @@
           "type": "image/jpeg",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/tA1fDAu8cfU0uiGyvfZzBg/cJMn898ebfhvZJDiTdW8xjuWAD3r0PQKofXY7XtFZtxQfVzZ-SorCRwoEU9zknwx8utpACmmPTp1ntkWJ2fkjCiqwbZQBQzbvHnEtgp2bK0_iU1LlJOkP2E4MGX2GcpF7Fj74_kCuUawVGte7KzzkA/ly8VMenjtGKVPmZ5UY3smz_VHQ_76S9cRQ9IJpJ8LqQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/MB-NzBPGbCwYJRzo-EcGbw/XspdGggXxBcBAKNBFt0MID7EHdLEO1Noa4afHABhmS-_zThkkn8hlmGBajBgBgkyARzVn2UvvWA3FIC9ULJ_4wGmy_Q-H3GNerAIHADTRA6rfd5lPnU5gaOI_r7JQUI6h_txNCfN2s6_6osH8OjYWA/W00VoN95ZHhFaIz8QcEhA8il_dR9F9SYmt2tED5wRNY",
               "width": 39,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/DFdiEg7uJ68uIRgGrnHYoA/onFNIJqFbukz42s3LXRQ1VTssVyNYGzjMdA2WsIvrAmQRoSL4L-uZyQXR0lbzFsQ7gtqBsKKhnFimSgnJWbuyd-yUpqVfERDVJQ65MGBGES7aj9TWXIVIcD_ZAZfj0w-iqx3wPa7y_O5RoUwXKyYTw/3hdD1wgvsGyVXzAthiVMpMk1u2UaJx2rt8XLniXEViU",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/bQomTdYXNpsx41LL4TzRLQ/iMR8FU2jzDlb4AW9UhACEI1rqCCkwWgI5lhjCGUWIQRErd9eUZmagJ-d4lP7rlGrNHxlOppCxPFpQdZPuPviuTRxWD62do1VZfr8ofiUcFOwK7K8PfmsJXqsM2kKSm20yqxxoRE1UIvUSte_feg00g/Kj4vMuHltysVIVWMUiTisHcXajbj-ewjr3T-0c5hI1I",
               "width": 560,
               "height": 512
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/MKdk6Ln8hjDO7IIGcLouYA/XgH0lsPw-gfBkixPucE1Uh0L2RapoDs_d9tvakKX-QvoeOIMrT73_YBSsnAdDxqSK4Lp88ql6IaW0g3iNtndX0_FDMIjKXLrBbThjo4Bkhcqmt-5rPcnq8Rz8iOGBOrfyfv0T0Om8ZQKzouMwPDbHQ/wxcaXMXYazlp8vZVjqRVb7q8uMtkkJ7oSPWvg6OX9rw",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/-U3wme5Lsl06wyUhK7rKhg/KCMdIYNmbYORGCOVcZo0gpbN-sk4RcBkdwSU29KVYkRqyj3tB7QakHUxz6d-bQpb19xmmDCGqmSBOouExCZv7Vwq0_5qcRYAgWke9k73WFhTwPPJfFAk6fsOML9YNBfQjxtiJ7nioBU14jW2pmRHLA/g5Ib36eyWIO0w_Q3w51NZwgLBLu3OEvWsArgImGABxI",
               "width": 1442,
               "height": 1318
             }
@@ -87,6 +87,10 @@
       ]
     },
     {
+      "Projects": [
+        "recA5QdbdLkKEBCgX",
+        "recgRl4g5yEw2Kucx"
+      ],
       "Blurb": "Curtis Mitchell (he/him) is excited to be an Emerging Technology Fellow on the xD team. His career has gone through several transitions, including being a data analyst at an energy consulting firm before working at several data analysis and machine learning startups as a software engineer, as well as contributing to various privacy-enhancing technology and machine learning open-source projects. Before joining xD, he worked at NASA’s Ames Research Center on a research platform to integrate drones and air taxis into the air traffic control system. When he's not behind a keyboard, Curtis enjoys learning foreign languages, recreating his favorite foods from his upbringing in Texas, and exploring the outdoors of Northern California.\n",
       "ID": 6,
       "Title": "Emerging Technology Fellow - 2023 Cohort",
@@ -101,17 +105,17 @@
           "type": "image/webp",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/EIEAgKuZA9VtuE37PVM1EQ/C3HKvihfHbfcn2nIqh-9zDdgkYIzeOL3IOvfD9KIIh5ZPpS6_96iMf1VAsdHIN9PzPs53Vfs6kyZ-xiDNGjF2JuyoMG2wq8caq0s0IEEDhG92zn9SdAZP_VIXn3G0HfzKOQCIUL2qHPLpWQlYMrlcQ/qpm00Ev6vPjbnM3qU3FZ3VhL4HaimXufRbr07iRQlXQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/M44aen9dyfL7UcS-pNQW2A/--3jeHmtZbuhyifvPFiKxHB_dVBJtkxPgfdqvwdvULhl9NsUqtu5_RJxQv1zFgXhxfXxxAe-vq-YyOfrCeOgZbaWgKzFRHUkf-YlPdOgTXK4sZ04y2hcxCWOXFbt6Qh2qqOE1bTHGjFyYWG2TcldWQ/08bJL1nLmigDRTOAZZsW8xp06XT6Dp--qNvh8gAsZhY",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/BCOWEEpiLJal_2yyZF_lSg/E-rIsj0y46bVUaytYzRZ5yzbQ8hoj4fcU1TYxBQQJkbFz6GPb_BzbrWlHNTHWgtzPy-QhmgTQMD4Pcyg8JGDVKnXP38qSFUPzHtsdJNPbgop5_n6l0H5a6jeiZWH9mwY8A-0U-YEXWVgEnCT244Iaw/05NP6i45wE4RVYoQ7p5nwqVWrtaOfQE313NocwSikLQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/MKASGbCmqEMNPcT6PtvNMQ/Kh5ztuHEgv7JVLpqjk8ncsPP3-iDhx5Nn-ckxzXcid3henp1IuwFdenHY7Isi07lIxe2j40mTbjZptxHOtwUHH3ncZDtxrHUgQwx0sI25lAAZr2KBRK61afVDqgIYoRKQ-K70zNj6y5wTeESl8LSvg/Go5-6pA9ypd_Fb6AWBpA08M02yrqEyQsVMP4EZ815ug",
               "width": 384,
               "height": 384
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/MbQvcLWKfkyTME-SnOPz5Q/HxGp_g33OEp0-x6c3VYxKRPlq4sV3gPd6BgzxDW-zdZXy_trApWjDlwlQBS6dyCzAYptPtshqnb-bahc0qZJhHaQkm1pKHa874pRblWr4MUeuzxwNbNzNe3Dvdl4SscrMQVeEOCcK_yEl7vUBir1Bg/2WUrFlyuHtKUL4-cYuDyMSDG7Q8Hc4AiYozWcFI3Cm4",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/ksRaTSzIC3L8WYAqmnUXcw/MP8pRc5qhTgfiIF_VkszACOq1qQYcQ5ukTef4PAIUxp7EWykvV1EyNvCgCoV5203oLkZfW4YI-Ffr1vIM7ZSaQ_WHsaL7qQv6UkXjofpscHbcHQdnCic2IUMiJxul4bfQNaUzOKerTiXfjTDHVryfA/HNAT3fptsu5rBlFrFDHqpiVtsX2FDLIpvM25GDGRDc4",
               "width": 384,
               "height": 384
             }
@@ -126,6 +130,14 @@
       "Name": "Curtis Mitchell",
       "Content Type": [
         "Bio"
+      ],
+      "Portfolio": [
+        "Privacy Enhancing Technologies (PETs)",
+        "Privacy Enhancing Technologies (PETs)"
+      ],
+      "Project Team (from Utilization) (from Related Projects)": [
+        "James Mccoy",
+        "Curtis Mitchell, Mike Walton"
       ]
     },
     {
@@ -143,17 +155,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/E7LBxmQS8wqXKsQ-xzbp1Q/VG68VTGg7AZRSyXF37-B5Dpt2LJjIxd2JNiiBl0Xx2cAGvDb52TMs1Z9ImiSpohgRsCKPXz_SYM3IDMd4yqQHepkwJ2sDYZo_Z5fvLu1xbofPvg0kwt1YIspND1xxtHaaKu9P1AHOxHDMTZWpO9Z0A/Hg6l6YL1xFqfyBi5qecD0IjA0gbabBvmzEnp3m7iWRM",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/QkmjdKopLkZKuYm92xoWKg/wjwc9C7wQBplCclthrcm4U2J5Waz-9x61hpuN94LaMf9fbDV4t6th_uTD5qoJ2pMFHhvSS8sijA5Gj4Yrn2ySF4C_7aMLz6mhV_eHo8TH32PMPXL_n84a8Jb3hnJ5KKbBBkAGp4IeeSCkm6XNUE1hw/qC65RuckgGyLPQovShE9B2jPqw24x0kkxqVivDCnbYA",
               "width": 37,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/IESY97iaskW6sCBfQ7Aibg/3OxZnXCaZhsbEeeioRuGryhPhomUg7hKkTJDb1DKewTTbNnL_mV5gcDrQdtoM_hpXXty36eRCHj64KRfjy4lVQldbCOgwWF-oJvIK2WKW-wPvH5bgd3sQxYMe-65P6i8UcESJPNWlgtDRNnmUZlGtg/AOts5jAJm2XOvtRfm_eFr8BCV-ZGFWw1i-cZdf49li4",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/vd-8UZHMdBQSZ3T8swep8Q/M2go2shCRcECXZVDehNkHjMyALSvVK-r0Bl4290K9RM8QYgGfyiM8jOq2xKLqBzEL8R8-GnksJI_bjEWoIgpgpBGl_fGbLor-EZLe8ZGCJvmEhRxAk6zO90faIeFvIM35QsmL996BgMJ-bf_VYVBdw/bfFmy6Qj6v4_1OBAAU_QNBxcIS2X1hSWSvsbjkD6GhM",
               "width": 342,
               "height": 334
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/1ykeDRmZ6szQM7YbtRdUFw/ir8wOSZ0Rpr7-OFuke-l9dOeroRbDzalGpyUKFeOV_Bo7ztNhq-xlS4iLoGHOiF0LRa74uiUWH5GnNOBZcSNtZgNRiGHKQ82yTnU62YEOQjOWpntA-xH94nqn9v_G9jPha--TvT74f-x73M0pnBc7Q/lmBUx_k1aIsqhiwYs7emT6kjOvhLPu7mMPJgUDibr4s",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/BRKa0MvTwssT6nU73iE9OA/ZXnY0Y4mPRhm099AeUJmC5SYoNQJvp532KbdL-JfvMEDWKR0NswyVc2J6_ARdNUONAG8_xW6yrp9CBb5YHFmsEcHpdSQAOCaZk6bqyI1YOf6xMIoDTvLJH4VAmkcoOVzEukrMh0g12GaFdm3z-OPPw/U3sIm53YylArtXCqbmveC2dYiPBKUmmsouIdHCO9GpI",
               "width": 342,
               "height": 334
             }
@@ -185,17 +197,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/slz1oyaW7_-_FNVjyi0KcQ/xuHR6gGV4tr785jp7ZbCqjGToh_fb6Sy9uzCE7NwjqVCyWg5S4xkvgWoJxxYdUH7GIPdqfSE7pVmkT68CikLRlZooVsI5GckoGYOCQ8yuV_dFfK-77r2wWOwgdWJ3pydUMG5HR5fL4ioban73Cl5Jg/1nVlOUJOU23RMXd7ebPDLjAYmzIZGRBe7LtTH-nv6_4",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/Ef7bOYCwmZx677e3CWUFBQ/c3GpPZ-OD5RYNjYjtN2krShfP0O-BTAbLl08wKW29ZYTnVeRD8T2YJHldlhghJqIp8FFNc_PIIY2GvKqUXZ2dhmTwEL9OkPBDyIK2O5wX6NbU2CcLaiZNz29-ucWmH_FtwDgeYzBpOHCRsHvEM9zlw/BwOkzPreorkYiFSBpyoAKpaFUstbaVOkd1gLT5xQqCE",
               "width": 40,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/EWGLNgACYYJ92zegc4CufQ/8vpf0Hb70mAE21QmNj5lAzdO4i9D0lTRdEPEDAg7abaEytwFfet9geHZs9fMIZamw9ePAg8uRD6nHWA9u917doeJ6AGC1nEIhqzWvj8b2fldmxJ7fK34PBC9Ulwq19ENdopIJoLsESZXPUgUanSrDg/-R2RripEKkoumd8-nVPYWogxTbUTcPxV48Ls8F-A5nw",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/_j1nFlfNMYMmx1T_0Oc7Xw/C5ml1Pr66RctKjBZahHVFXlTVc9Hz5YXXLYGITxQDGnZboRAWPxQ3SybJSI4XDkSmy6nIA4z9uVhhVfm_UyG7tbqizAEXWnZrdokL6VRIeWhGeylXQ9fOLXBOt8i0UZzl8ZU-7e8MEReXXPiCVZPfA/J7PqScIJUJaejuYXNM-vUv6r-GmghlTJhRJQqMuIbPQ",
               "width": 565,
               "height": 512
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/aq1Tnu7cnAdtzBjC6e0wNg/mAYUHkY9005EaaH3M5WVL1bRrWpBnjv4Xo9BzKG1DWKh8_uQzRMmEvChJyh4ldiKZil-O7ItKylKrmmiumJWFt60ssejASSeOpRc6op36iZ5BFcEPaM4ES9tUhJaWt4ng-L4p5zIOD9wCVfqy39Oqw/Ig59_XMQVNotxBXOsMPmOmM9u718E-ObCBKaF2PrHY0",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/HTmKGxIAsdjvc9to5HbY9w/QMjn1BWYjyvGRymANFhqNnFsZ4RXsb7YvniPd1umlbSW93vu6LE7vslyJFfZJIL7H70fWkzbgwsNnuNKnxRvWXYqSK513Fk-DKegaynEPrQZ82989aaU4eIgB6hOWXBQKlF3h6PRPhPBos31KeyGfA/ceCBqhQ8_2f816otlCxEU6fy7kttr3frY3l8sHvWUjc",
               "width": 2065,
               "height": 1870
             }
@@ -227,17 +239,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/hgl8y9p6uhTvEyLVQIyL4A/TppDYbjnu5UXWSCwrLwEhUbrrro9yrVjaTa_trJqb_djz842JvcNiOUPb74t4UhypQVGEle26yz58GhOPuAmteLgf6bwisloLmzXfpvzFLQY20JCO4jOvkX74y6bGGSRFcwxF5lNOyUQcCIJVUUJrw/w4WbQGzabCbo3kB1Hv8FW5Ulof0GmL-X5nmZWRSFmX4",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/smE3Tx7EOyXaDYLhZ8e60w/U4wryOH5-xwEyG3-VFrzQ5gDKCnTYWZIBrerfznmRzazBMk12weZet3RFSS2bJNRyEIsE_AJurfyxrka6NWgsv5F3ypHVu6y3leY4_T_KzBszptlYxyXCLLf7KrKeDim1bT3lQ0DqwFr_CBbvnxOjg/zfgzQLCMrurO0r66Mo5oO23G8HLQ6lUu0Y8GalTsTjI",
               "width": 32,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/4oO_g29RYJ-gTubjloAL_w/0YaLKobLWklSckGQwmMXxDLWhYf2LBHDHDBO4NoQMskjr5uh4HRX_SrDOEDOMYBIDT8kOI_EeWEunUzTn5rO0GZCs3f77GPhOSVsIMkjeu454WeYxv3KaWjGmVNmRUrlI5xy64aFMGkQjdrddh1UnQ/8tPKoHMJDLd7JIETiHU2cDWW2RL_zwuY58RjLZePJI0",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/9Id4D3XfPRcOmeppnMcunQ/nKD7oI9V4iSIZ9YCjZ_Md259O-Ezdq9JPA8DcQJYNa2dS-9ugbU1nzEpX6bbEuiOEH6oTDQ-FNiLYo0EjmkamRd-Jrs8zhG982eI9vYZJAqEwqUP4IYVKKTxrhrqV22xmul3lnABlLj9lIB95W9QNA/ej_6ejNOmkCYrscf-5ar-Z_vWldzS-3WiBt2OQntdzg",
               "width": 421,
               "height": 481
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/_b9OIWDsNzZ2vvDQ1qvvFw/irpHoFHIdq7p9rmRYlXufAAC7aFzOTU0DvvC09DCq-64w9GeKG6E0vC3I5ripO2l2kkuIXXuUcPAekI9vBFJCUmC-Fr-DHpLK5dsBf3Xml1JQeRQaIGnDgeY6LgNeWJYn09g0aLmnlYpSGDzEmAaGQ/hJUglD_DBLpyJ2tqUd3GGtd3pYB5AbC9btDO8M0lCU8",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/hbxhUJuvRKSVWew1mYr5sg/5optMCKIzTwrkcaft0d0CB4v0TBglz8VtQNflZbiMJz03UCst5mTSitPKQWJDjZVMhugUrgdqH6yJXxkRBofLDdrVgwiVcvQtGVRMYoLLacdBFvEft5jV0UnX_vIg87CHWCnpRiLlXfRjxLQE0lgKQ/jmZgIWQz__i7lL8MrjSsBJbZgedWKinUsphNxxDjj-4",
               "width": 421,
               "height": 481
             }
@@ -269,17 +281,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/BZdwIk2GrI_kP_9lS14kjQ/fd75cFeeHoPD8laHrv3eAfPPlb97aLXRY9ALpRHpdcO4z5OPPAE08PLcBKd3tgkoaH7-N8yafOZYrLlbODl4NLHLIwEHHIqHp3sCtIGXksekJKRHVNPH6KAcL_Ya6-gPE5dwCQRc3rJpKhwDSyHukA/zjTd58favGv0pVlNVbygyYu5_UPh81F7EzAYS4QX2Rs",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/_ZGnEDMTRM_xVq9QREalvQ/kEkt1-sO9MYHoK-3hROVD8il-_r9VRpqSlczhOO2feml2mI6ulO1E9zkLpXeUwy44UZLDDT1Zx_4F5aaJkHDOlvfBI9d6uKlH3ZfI3z1-ZPmz_lWvzgRzdEFGFjD1ttucf7USZXRmYR4XPs8nfiuIg/zFiNScS52VbY3XU16nftS_J7qmUKqwA8HYmkC8exo3A",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/WKYuhhdxAc_ipZwAyO-uGg/uz9v9DPQldWHjdpVZZEk9_3h8ixQlZti9hmchTy7i7EFgVii5HCBiux0OJwUyxOLojAwIAug_U_DicPT8ji4GYF9L1dshGf7oNIkeStekNEKZ4clmVN1ZEpjarjaTR17svEdzQjwqR1ndODpk_nKmA/904yG80fiBrG7zzhtt5EINuuMV9pT1mB1_unAuBfD4U",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/isc3R-lYxuBite_1aklOag/xTlGjEmrQPOR2oENOnSacn9cM0tb_7BtQi_DnTbwCl2WS8v8sfZr2sy7jOsOF-WOfNIySqUWqfQz8fI7cpCiTiVTHJ5Jin5cUeX2dGYY88vJ9zf-vHn1i8gmI-e1FICRqp0LGXmJsrkH1vEZVgYpDQ/HKHal0_bk3goKFwlVxRuWC8GH6zHkayPUU16_2-wrT0",
               "width": 398,
               "height": 398
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/VMWvsmjCtGCGYhxBO1cD6Q/ntDhw3nEW1rcdjluSZh-ycH-vql9BWU-HGdLgyspzEp6_Lu5a4qkCqke8tEgJ199f2lA46ZuH7klsxgk7QzH9x6K9XqWkraMi94efc99RREWLCs3buLDjytF6EQ3dulYc01ygXaKjw7mwEJrLkXFWA/B-wanYXF0XRTwmlM0MmHsRosMe0NFFWWDTD7zaosNhk",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/3Jc3Kpoyc9tdIpcoPL8fow/MyYlIlTtn9BkKgC0h8RS-hLNBhw-ihK0Lsuou1Wt_5x0IxnC89ZPz1irIC34W8ZXsGhvw83OCeHFmp5ISWggf9Wu5NfxZYGgh2Jwdmbjujb8zH3YGMoYjCnNML1a9joC8SC6aUi58NP5leNe3MFzBg/2-cSDFKB2JzIqopG-o_5Yqlkzf9ICUcj-n3ZlXgBpcw",
               "width": 398,
               "height": 398
             }
@@ -311,17 +323,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/F3F5uJMsn6CQP--ZJLhsIA/mZflMDObxix-UXPGMMlyhc7yYBlnjX1Py1GBja2OelfTcaC8mMsvKbTPfpJKEyl8u4ieh3eFEyDKBZFY8LG8yfGjQtfj4Jn7-GTX8VWNVgroGoWAgtGkWSgvcrhAZyjPnmnvAFfDJyr0tDhaPZdN5A/7mkm46Cb2bPKukJ3GvI5wUm7GWHLACZrgQm4LmTd4ik",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/F0mh64lo9A-qJOf2C2TbiQ/BC-6xpbSLDYIqgjxuKNKnM3sWEIg1qnJyaqyxJyxkFWoShaYH2-aahzuUl1_9bx2bWMYOxpo3GNznw_buui6iZq05djzrUIIfQccsmuJAJgW28VDE81ZhlXvY-xUNPQwugrwy3AKampKhyF1rOb9YQ/8BjMBj8HP2rm2UF81KKg7uNIfKpO8W4pvuMBLKpaXm0",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/fso_mJeuFmUkHitmmXTAAA/X1gKnjauwBnRoBynXshYH-O3iGmoIHvHP2rmu5kpT5vtj_zUyRCEjaybw6tzDfrKjPWq0t66pY7uMtA_P96uvt-QeGeDNZO7BWjmJH_y_5twVgbpz-SVYwd3uSA1cxHC_eOPNzvDquNQzYHFduh59g/k2qwvmPz9KQQqvQVM8e5PuH_b4Vj_gbeP45VwGik4VA",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/wtXNdN5Ecp9DwGkXJWEvlg/nAPHhpBUILKla_DBTk0oQiR03sq6Q7M2-4mj8VDbxUe33LuwjweMOmiZNe3x7sYMewUCyRnjkLiFylUg1j24df7irdSnN_nHpG9OeFGV7h0aDacpgvpOElk3I3WJRjtlzYLCgZzl_qtPdFS0K1XSeg/r4cLCRTcG-0EitylfmImaXEt9WI5MJ1cqUmNxur9EnA",
               "width": 432,
               "height": 436
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/CMlEjTEMMc3nYPuoboNG9g/ymA_aVkCF87UVZI89nqYx32vz0H1PZHCBm_eCrs-om7Ly0CTI8JSGLBVh8kGWePTWjvqI78zGzqR96yNI3nmXNAeY3J4T0yIsl_JiwNnPndz_2w6Plw8LZuo05Ug_dpOZH2lDW8h8gvAgTDegbr1Ww/ws9_RXnAJQ18p3b4sZn0V45ORLOf20bwXIOnFz2B8sQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/D5w6HWI7h4FQC3oJ7oCXRw/aJDu39GPtClzxurmwbqOax3C44NM4yQycaYALC_VkwWJJYrjiBnkKvX1Gb4vo-HbwY_B9Wq9zUkyYUo-Fh3TCcLwOM-Kr8aisw7_uSCRyAlHMtrk241LJB3iv9KCXacyk7eXKkdhYSHv7tKW8zm5gg/Ci6L6MqfNfB-cAFljPIMpwHmG634TKkBQiezrs-3zaM",
               "width": 432,
               "height": 436
             }
@@ -353,17 +365,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/oBV3ijpDJr0ZAVwXDhxdfA/Xe1PeMGAHid1-z_VElwGbqUwpqagOWxALwfwq26X6JuMdVtVDX_9AwP6irfQJOrwUkBhQyKinj65edaVfG1rtNdJxb0wpT0ys-e6M1pr_P1uqVIYZnfaD3MHPH69NUU4mvCVlYncqU8BBjDMssY_Ow/PJ6jBKQ38b6ivN3QjhvMX9wWvzAlDPjIuKMl6tg7Zsw",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/boMOXly8O_sceZx_rqvbow/nG0UDYT5cdZPttId3EXnEZtV5H__ZnFcx_5B7JEEzwCyS6n1585j1Kf5bC8fiD61u-bg86XCkXJ2I_gCkR3yTtXbXb3XL_Q8J4mo4rmc9197A3tBIZn1NcrwcZQFz0UvFfMEjwFYivkxqyBc-NYTrQ/LJO416SkvblvFbHynNjP1SHHu6G6wRDtDoKXL3yemLw",
               "width": 33,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/XO79BBt-4Yl0jz4wM5E56g/p7ic-y6n2qCTLmD7Jb3dhnCynrQcABRF520e-rSSkZiavarIarx4rrol8ff-u5e6r5tbw3Yk1-rnphbsOC1JsuZw4eFid9sUfRpO4z2Wb347NgU9LolcBMyVqgp1t-VmQ9nrmAb07pOzIU_Byw5GIg/mbm8Jn26e-Z4SRAaFKhqW5x2qMWmFysvgI_PufGoxAU",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/FRMviroBhLwG0C3AEc9GZw/O8FnDaI9LZMmSp9EFVm-GhsgWOIoBBetuIW5dRYcVLRPM_cBC732dRC8G3-z4_OvVyNBoPof2T0R7qlfv940TnH9W4wPTJitm9HRyG_K4OS6LeNiTJdq-gxWwe_FqCTiTHjsS_3ZOyNRHI5UUaWg9Q/BDKdK8H2T0Ien4WjcMqAUATN0wigX87XgAWZh7jmeJg",
               "width": 512,
               "height": 563
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/YZTMCl5-RSz-LO8lvfvpTQ/lJmtOcomPg3yJHT56BC8vqi9AEmB3jGqvxB27MvS5pAK00hH3bvT5p0NRVykixN7id1zt7zraKjRDlxNcaImTBB81uiaZzzeHo-vKr40yHD3c-GQbzbJTyJ8D-tCTsyrtEzpwWAkYxdklwMEZvqa9w/LhqF1oQbElxQqDSvdRjiEE_4u1jRPPYob_5I8roxEns",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/4QFKVX8jGThGAUjAGLOXog/okMmO97r7X1NQMDG5yNNNQP-S8AmDtAx594sF6OeKemBRuKWeSYeeY5uKA45haPSnSzfiBkh1GWAqYD8EKnAKSJ4gmEVByT9bCPV2vz1mseDLj0ZVhqWjJ7aOreOWkvOqm8ZoBmebJ_KwtgplvrNpQ/CgOFwmJ4vfGoS6GhzKi23WQvsf0sOl17udcN6ZeoDxg",
               "width": 1062,
               "height": 1168
             }
@@ -395,17 +407,17 @@
           "type": "image/jpeg",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/1GbtvahZpl5MzNMWJTM7ig/Srg5LAmVAdZqyOEi6XVhZZzea7OSPLiTrjjYiK88SlsCdZkQ9_FR-EIrctyX24AK4aC8aUJjJtCk7w9081tuP2FvXsxBfFB7NoyVIPxstuDWgMrv8BNaN1xBydl6E4OJE3AIku81hwAOrWIq3i9djQ/rvoWqG8bDvlWzz-wP9qrbjSszBDA8DGaEfR3KGKGIas",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/_LdOiZlKkaHrTFgfDazF2A/XuFyThzm8kKFyd_ZdSraZoqI2h9ovZODuCetJdmY7Stb4e9SGIT62aqBGe1jYSv1rDTi-9qjwVtuTGgXIZMr6XOO40wmUEm8ZvNXpbwBHw8WHK9XhRf_XSRIegHytg0PfXLvQ8v6aU-1hEC-o8tD6g/VyDUEcfyPIKd8YsmWInxQJYCKIH9uQbKCLDUnUPH9hM",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/UVeV5e5mgGuQrUpBjLCvNg/8vv4F3y2CcJwQrZENeoOGKqYx5I9gMx1SItGAPodio6bKeOlIpOGvGfnqLrLZFLnHB42o2PW8fNjj2bgQSl_UhaV_jFQk9WI3lQ0UuXQFNeBOwWmXialNNZrd8bky4JJ37HSvyp_ci1HE1VFD7GSkg/MKCHcGfF7HFED0EMXI4N2bK64bA11htadG1Fp1n84xQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/BRy0Ae8P0li1sJazEmrlGA/dH0_LOEYVj8SD9vbxWBCwjxf4WZ6Ynkgl7EZYMWIeW5_Pb4pojAg2SYiqVOTg0P5NrT6EYQGNGoHl2EHdqNQiUCrbLvJIvFRdQ0ztSK3eJY3qNjaZRW_gYv6e4LOJxtS31fZi3dc3tBnJs41XP9zSw/oi7CLrTuJZ5sIBMeXjJSSMQN1JjYKIzS_GD6aZSJ55A",
               "width": 505,
               "height": 505
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/Ds2pexh-oGA8YFbC_g8dxA/ivoz2tVF6BiySsxP5-IHGy7q-qgdPuGNPNN37NS0EBlo2HdqkgJbxQUEVQO7xLKv0X5NyosT6YJ8gk1ZB49dUjr29UN_7xdvzzmqGy3MgTMtRF3ukUUh7jVzh0-DLV_z7BdB_2WxNgoll8kDRbF4SQ/xEKZklP28hyLM6PAPt5yUiHeWD-BmVEzaS1FpqkyNsk",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/Nscfka1tXA6v9bc2LxvVnw/FVVVRLThvUXO4WW6f9Z4QEpiICzEcLQSY6Eq28rDr0yBz718Zg5vpGvXOxk8U0S15tT6Hgg8eEr1_UIoCLxndcrEVh4rynOlcobP-1LLr-vw_vKMzHGZ_P2DYoXSVPGkhRfWdIbLjFR9kQlRX2uXIQ/e3pjENmTkVR_fijoHLUuDzbZzOc8Mhq2u5g7uiWdo5o",
               "width": 505,
               "height": 505
             }
@@ -428,25 +440,25 @@
       "Attachments": [
         {
           "id": "attNn21fp0jAEBoAo",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/NkksiJuDkokU66OWqfTFiw/1lDen30zBZMG8PW5Gjot_idfUtULlB6MfogSsE3sM05tv-tKhg_iXCk62bj47Wxd9LtXSZlb4NhmpiR9pK8XEHMQ2W1XjlgMM7D9bdus6kWSEjnDzVi-4HWWJD5bWeDxDa052Hv9Qd8UcF4o8zuFCb4Hn47cZO7wHdRQknM8pCJ_-uPmqkfjeboxJ-28QhGr7PUKBxsgaObyybbBeGfNAQ/X6G30qWgLZrQeF5_F0lG7x84rRc0fKtVPVunTF-NKH4",
+          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/hRx_egVacucQn0VY80Nrnw/M59QBwCVHEgARshEYntxwSIpokbXwmJg27_K55IgUm4PNziK7iuCG8zZxRPLEQ9U3_eMK2tm80g5rPOD5ZLGTrmxZgw0xYE22zdmTYykRPG7MSsUQjIMlgGfCTRQiSjLwrI4P1GuYi_bY8xsnBozqfcg1HTS6pNLef0cVHHuAoMy-1847gb2qdbHPUJg-mU6efC8-3lKAKWWt9Cs0rl-ag/9QDI1ZcYIRabQT6tNclDKo-hm7tcURGazQC5SYOFxlY",
           "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
           "size": 346576,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/a6ZLoexeGvONmv7cbz0VVw/wcDrb41BWvJ8WOqNn2wYZGppd5_P-xrehkD3pgJcc9dVmSnS_VLGE_Fb3qenPU1mlzTY-fBmhm8pJXmXv8V1kplBYK4fw4Wp_ioGH-MNJkw-lMzUAEuno18lzaN2YTUgZ8xeSkMYaoYWkAjxjnBQEA/uYv5WajwWSMioU1SfEzwP3pqPR6nqS1XXlUW51wesjM",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/WYW0RZQcmQ4En3aE0m52sQ/PyDFpJi-7WRdPuocSckwIRSn1Q1viEjYq2kE_G60K8ffp5gzvM4USnUzVSYbFQu8-nFNMC5TbWnHoSt5Y5njzJAvuboH9FEbmqt1HKqAodgwfr_jdYGk40i4aFEtvlx3KDHFnzuyjjoOVP5QzgzpAA/CjuvWaQELDf56UXtCmGMO6QfkPtNyLzIC22Dm4VTaSk",
               "width": 28,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/7dsQuB2iMwsEDQGdE7TaDA/3QkMmaO9XhLbb-9sr4IcIaKVyK3FNw5KQpPo76EZFPDZgvtPk1-lH1D6nlufHqAxbRwx0yCHrmn19ovisZ_1BxjBr0UMseMUZ2NAwOWI31vdobkQ2fm09RUmVO3X8W_-RgIzX6GSkT7SoTW9x7bltw/emrp2Pbci9G_m9-BcWU3p2_sDA1FC7iF_l7FCzWGwXg",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/dQ6fT5PRf2Uhzup4vou7Bg/IBg7fvbUVNQSnuvgn3bVPSK2Jq2y7ca-z51dbRt--7VD0s7OLAlE4Q4bjfD1jZSUDu0i7mfFDPc9JrxgqUOnhTPZzW7_3uNgnnllynGga6tY54IjKKt-3LO4yCzdoS6CsW0LmpGpNb5UiJdpSuUzKQ/kUliaQ9XJ1peC04jYEt84q8ouEgYxsw7WSILZelJoT8",
               "width": 512,
               "height": 663
             }
           }
         }
       ],
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "Our team recently completed our phase one report for the data driven services for Tribal Nations project. Through our investigation we found that this is first and foremost a trust problem. The report outlines a proposal for how a data project could provide an avenue for relationship building between the US federal government and Tribal Nations. Although the project will not move to the next phase of the 10x program, our team hopes to connect our partners and facilitate next steps for this important work. \n",
@@ -466,18 +478,18 @@
       "Attachments": [
         {
           "id": "attNOFJqLm7Vs8cZF",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/mDARtxQPhe8YTnuKOfsu6g/iH0YHjycQ05aMQfYF8Zql0xk-CLdHfLeWEnVEcUTa7xGnLSE72UtzAibQKTTQEzgMPZCAox4WVEigG_F1ketHFJR0OsOt0qREJq2uD5aL2YrtznSpIsauMmLzqcGP3RUzqqC-YGvL4ovVkS5M-XCiXCuJS8wr_SoEtOp9h0gMmkvvGWxtKnPnIM5y0WusGHwHdt7-1FOrJfNq3rCekmVvQ/WQexd2jvbrUSqRVrJzQ06vOfeGJtIMsaPn_uLM0SwPY",
+          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/pB1u0K4gyDeEckd2B7rGUw/4Recu8-tletGvAlhNMQbc8MC6EVPAkpAyUeSdpt4HCPaDw3fbRY60N-6WYdSRtpScShLHimg-v7z7cHoaWzLfxmvad_jmnuf1oAK0UAdpNUjEO5lVhr-RUDneq5wRfcKaVoXYsRvCHX6In8pPUg7LSzqGb-DjizlG7tlXeA9TXolLXC_958zqJC0PC5xj0lmCJIYkyuv6NecBF4jKpqjUQ/PswxPBdjeozR3HbrnVbZUacDr-CIOpCVsfYIgc80ZMc",
           "filename": "10x Data Driven Services for Tribal Nations Presentation.pdf",
           "size": 395981,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/JUDIQuoDyHNC5lo0rTxcZQ/62i-1u76cZDNDB8tRKuHYP83hM5RCE_K0jZTdLBYj65_B5SOe8HCXM-emJ_FLEQyP6nWiGQg6CtTixY3Dz4nLv9YNZZ1mVYzmsiQ95PfoW_yhdlNFC5I5zSSswwemCCUrEsxNt703b2zjXykopa-tg/8USjn13Mpy3mgMZpkDqsm6rfZJf2YSyUY3QGXYN3uB4",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/WvqsEy0GcK2r70tCizRW7w/e5QSBb1i8Ow4jA8n_mxw0WhMPZWjLkXkrWfHb_D594g5biM9HhgnVZfhMVq7mZAz6-HubRiLqETIlhghWw7njLIuJUzWVAxOHZD--Y7GPjMMJHeb-LJnUgM5Fr3nrYzPl14H6Ya87JDfv91t0rlSAQ/0LbKwhvOv-J8emGaGFUm2kwATsh-6eO722Ony4xHsI8",
               "width": 64,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/-dSeVQjl03qXquTj3XZfMg/pvDEt6j6gczxeCeM9lkF7zHbLlzaODtHB4XtaguidaBhMu9CbFYOM1giLM8Sr6cIn7J0aXNeZpMWqSbg3dLGC50c5Fb9CwjLXamL-DSbKOXUjdgSPiGLXLb4-4bil4u_DmFQwjsSt9KNvptNPw094Q/IRG-79MaGl9ErG5i1HIb6ttY454PnCxi8w8Enj2J9Og",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/R1DJ9Obi2Q2eW8qfv3FJOw/QYO6-nwhWrN_T7nQbqm-DxNOXuQHfabau65dx8aIaiP9r0GXenipTNC_zmjSIS3fUyOMM4lmoc1FNMENxjSAPPYcEOPFKVLVgoaNLqoinwcE7bxsBROz7dE67HIfOdfgo5cAb_-Y1gvIRxPw-CeDug/BE9KlekQbyteRNLZWqA9kJAG5mM3edMlqacT4JT5QnY",
               "width": 910,
               "height": 512
             }
@@ -485,25 +497,25 @@
         },
         {
           "id": "attgOVogkwXHAyGBM",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/YBd175kbirDwPSUwNWQaZg/ORwuvc2HnuNxB5zEC_5gpByNzaRqwRK3eJq4IJvhf303JwrHx4GWS4PUEKLAD0_3QfFkQt5J2loag_y7Klzw1MblhJa3rSIjYwqbyUq7bsC4L1C6IaGsYPZTyMKQHfqdwa6dqcUhnThd_0n6zHklGkX341Lj1ucI4K1PBPBhKKzfrJ0Z1ATG5gKawnwoMQdU5BmlPsk7yeLbytL6wdKJnw/QPh_bgG2muUOmRzrvHJWo3r7yxyxBlYCf7gA5DnoFt4",
+          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/_KEnnbezXOUJGyqwckw9zQ/u3Whf-4mqy-8GLqaapXomJenGmio096BGr0Rncwmr_It-OdN0KdZKf7-WuOoWSMQp4ZKDdEDlS42Gw_LBd7goltjGKhVvcd87nDtBC6y-J2enXc-dXihg6WBwDrEaQGBo87kNwCd3ZFMKi2sqXtYGZT7KWuWjJgHHQxb2cp7KVynvsrd_5VOy58YLyUj_H_LxCVla1iXaslJ6uFKDhBz3Q/lmpXd_2Zze-r4Q-iO6djOOq-1oHw1AJ_vmV2XnDSjlc",
           "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
           "size": 346576,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/6RzQ8Wz7QTpcsHfAA_0qdw/7Can7F5P_q_e2bLvbAWo2oVIaYIaWQF6b1V7Ivj7FFHW6HIZ0ReIMknqWSVGLmRRaTWUhkunThirbPvEOyfDYADFWejhlQ5MeLuRwhnb-cEt_nvohhrZpw8ZIyMhC_MN2_BPNMdubdKBNJSvLM7_ZA/QUKO_wTwWZdgVY6h8qFVsuo9Nmfr3dBuIQw8SRiO7Zw",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/BsxE8zyDzCPgYVy1fNjtBw/YyHdL7auQSlU7lmHuq9_I96N_vBJ_aWY92OqnIIYTr3ikG8FFbT-ntWkdRo6nt3BG_hhma3g0mQ9iYI_rS4X1yotxn7qaBmSj32pDahQN3anR0K8Efl31OmO6r4C_X1l8rZMXGIRqZSxgix9v1ZiBw/-CYZRp-QBdjAvgXpKWZL1xmoqTWkiyFjqYqJBU4XNeQ",
               "width": 28,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/S3WlJ_pXDaeRxGc6gsF_hQ/IyPrd_XGuo7tKyD5IuVmGeJtGMu1hN-5yq_OtVqXKOmAHJhgWvt-YeZV2RLMstA8UVNE_AR3qWsKThuAFL5H2HVnk1KQGkJWQ94gn0fEdB00-hpsEVkWy2LEFtq7nCc_U_5PIMPpAKzBH1PVfNnRdQ/qj8MAGYhc3K1bzsX9RO2EDSyKpfnRL1xRWEjhEjAElY",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/3mpx6PgZXCcrWO7XTBGSGg/PXmM2OdqjaZPyE2i1sghDFJlv1Zk2GwQpZx4A0eXRpahzp-ZCB3gW9dQ_5yNl6Z4cW05I2EtHWSWfi229Pi8qYRYJ99Fcxts46Ednyqcc43nvTzNXx3NkLnKyydGockuikNJUoUElNjwPQJbPaMGDw/ZzcH0bkYeg31nAiseAsTymUtlxZma4BsWLtGid2oQQE",
               "width": 512,
               "height": 663
             }
           }
         }
       ],
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "This project is in phase one of the 10x program. The team includes several xD team members as well as collaborators from other parts of the Census Bureau and other agencies. \n\nThe original project prompt identified a need for a data sharing tool for government agencies and tribal nations to improve transparency and access to transportation data. Our team set out to understand the specific data problems tribal nations face to determine the requirements for such a data tool. Through our interviews with tribal leaders and government employees that work with tribal nations, and our investigation of existing programs involving tribal data, our team learned about many different data challenges that are not limited to data sharing or transportation data. As we explored these data challenges further and considered additional perspectives an overarching theme of distrust between tribal governments and federal government agencies emerged.  \n \nWe recommend that the project move forward and that the next phase is structured as a collaboration with a small group of tribal nations to promote trust building. We propose that the project focuses on identifying one data challenge that, if addressed, would provide significant value to tribal nations. However, we believe there are several conditions that must be met for this work to be successful:  \n- The project team should first **approach this challenge as an opportunity to collaborate** with tribal nations and to learn about their data needs and current data collection practices.  \n- 10x should consider **extending the time frame for phase 2 (perhaps combining timeframes for phase 2 and 3) to allow enough time for relationship building.** \n- Rather than attempting to work with multiple tribes to create a data tool or conduct a data collection survey, **the project should be approached as a case study** that focuses on the data needs of 1-3 tribes.  \n\nRead our report and presentation for more details about our proposed project. \n",
@@ -520,17 +532,17 @@
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/9-YWMLeHetxlDBTIQtEXRw/tUd70viUO2ALS02L6ofGFfzkR63eOjYjO3OxF3hnMgLwsh2H1pbOCOFJDbo_4b6KPI0JlBTrvbk-RrOlGThZHMYDWgioLz3jGj3yuYE6n_g-UPRuW1r1AwD6Gzh5-zP3DGGambqBmJlPdcGg3JnkNg/1nqG_A92BliSUJSZkSgJBPf4ttgSdKw7oe2UkE6EJsA",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/LcDbl_Vq0-knUCqpFIiSBg/bNfqvnE4srceiJ_yj_BagrKpf9iGFncYANUdUPZXXQNhTlFcX4g8qGSV5jBO6_BhIK1YfqhCMJwl3WaS09Bcvb6GviIJlrLdPydlyjqt_jaZhLlj8W87r4vVIH1KMrAEFC703EjLyhXbri1xutdo7Q/0f-dWhCwhIbtbDvFlaKxh0pfnhFdiFGAGXtHds1t7yo",
               "width": 31,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/dN5HTQSnFIVOciaQVw9T0A/a__HyM8580TMWg2MzV2em8_qj6E-GSrgphRvdJvawmxBhkBpfb14PyKQ4NyLkH1glhnO9tg5O9cYnXxeM0VBcTqrfrDxRVG3THkN18RsWsFLVteeB8_gMfH0HTU13KdKnQQ2-vMgsYneHef2iM0q3Q/jsA_k-dUXvJwm_vb0InXlTyxuJvon-hgl1OkQjWgT78",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/yySJ6ePICCxcg0W6AQqXyg/zN7GYQC3njyoPpktwA5pzfYTST_cmNSC13WrMPPQcqg4sIfaic7dL6cqiG_MrRkE5skIoMrhqZrKB31TwiWmkq8mB-LhEie8pzpdcaVLWq2v05S_CiPTgAvdbo-JlX7Dql_jCq7Qn2oBh7xOwXhLCg/BgR_LkGxxBGIIIQs_k8NSHoYOmpYEYCEi3Hkc9CSRZc",
               "width": 71,
               "height": 82
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/wm9I0E6cy08jJ8kJO8rqlw/OmaeACdwZ2o3Yre8i6AHn90pDLU-NlOkbhMrnxnC86yJhoY-Tjb8vsBkn4WbLTLK78UNErEZhpseBHDZeIHaYxpqG0OFYxzheYL9zmSNp4OeUVweDLO2c1SVpIQy5Dm-xf_vyHFqR_o2IuNYCKMnFQ/ORO8ZkHFPWIN2ZmP1SqH112kk2zjw3sb5V_B5MZHkbk",
+              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709611200000/s6PccrtSEbiBgQW1gDuX8w/uAydGeiUOoELdiAD6k6hJlUWDIpp0jANIi0nOwvSty5gHMHEj5-mTh3g8UROYSDPfaQfKNhMRrrwEtMeUR7_E-EeMauhWq1z2rm5Gx25F-2wv2hIgdYjeVspaciF9bnvvo-yx0pHKKw7pA71vg_4gQ/Y7zlb3Fv6UigcQ9NGgsk5MRNNOFCH8S5wmDCPzCjufY",
               "width": 71,
               "height": 82
             }
