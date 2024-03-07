@@ -98,6 +98,27 @@ const fetchAirtablePromise = () => new Promise((resolve, reject) => {
 
 });
 
+const findSkillset = (skillsetId) => new Promise((resolve, reject) => {
+    base('xd.gov Content').find(skillsetId, (err, record) => {
+        if (err) { console.error(err); return; }
+        return resolve(record.fields.Name);
+    });
+});
+
+const writeBioMarkdown = ({ Name, Images, Title, Projects, Blurb, skillsetList}) => {
+    return `---
+name: ${Name}
+title: ${Name}
+permalink: /team/${dashCaseString(Name)}/
+image_id: ${Images[0].id}
+image_path: ${Images[0].newLocalPath}
+job_title: ${Title}
+portfolio: ${Projects}
+blurb: ${marked.parse(Blurb)}
+skillsets: ${JSON.stringify(skillsetList)}
+---`;
+}
+
 const generateXdMarkdown = (content) => {
     const fullMarkdownObj = {};
 
@@ -114,7 +135,7 @@ const generateXdMarkdown = (content) => {
 
         // Loop through content types and generate unique markdown for each
         content[contentType].map(async (obj) => {
-            const { Name, Title, Images, Attachments, Blurb, Portfolio } = obj;
+            const { Name, Title, Images, Attachments, Blurb, Projects, Skillsets } = obj;
             let itemMarkdown = ``
 
             switch (contentType) {
@@ -132,15 +153,17 @@ const generateXdMarkdown = (content) => {
                 case 'Bio':
                     if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
                     const directory = '/collections/_team_members';
-                    const bioMarkdownAttrs = `---
-name: ${Name}
-title: ${Name}
-permalink: /team/${dashCaseString(Name)}/
-image_id: ${Images[0].id}
-image_path: ${Images[0].newLocalPath}
-job_title: ${Title}
-blurb: ${marked.parse(Blurb)}
----`;
+                    const skillsetList = [];
+                    const content = { Name, Images, Title, Projects, Blurb, skillsetList };
+                    let bioMarkdownAttrs = '';
+
+                    if (Skillsets !== undefined) {
+                        await Promise.all(Skillsets.map(async (skillsetId) => {
+                            const skillsetName = await findSkillset(skillsetId);
+                            content.skillsetList.push(skillsetName);
+                        }));
+                    }
+                    bioMarkdownAttrs = writeBioMarkdown(content);
 
                     await writeMarkdownFile(directory, Name, bioMarkdownAttrs);
                     break;
@@ -177,7 +200,7 @@ blurb: ${marked.parse(Blurb)}
     }
 
     // Keep log for Action debugging
-    console.log(fullMarkdownObj);
+    // console.log(fullMarkdownObj);
 
     return fullMarkdownObj;
 }
