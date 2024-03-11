@@ -34,7 +34,11 @@ const checkAndCleanImages = (newData, cacheData) => {
             const cacheEquivalent = Array.from(Object.entries(cacheData))[index][1][count];
 
             // Construct our new image path from the content type and item name
-            const name = item["Name"].toLowerCase().replaceAll(' ', '-');
+            const names = item["Author(s)"];
+            let name;
+            if (names.length === 1) {
+                name = names[0].name.toLowerCase().replaceAll(' ', '-');
+            }
             const directory = `assets/img/import/${contentName.toLowerCase().replaceAll(' ', '_')}`;
 
             // Lookup the same image from our cache
@@ -105,7 +109,7 @@ const findSkillset = (skillsetId) => new Promise((resolve, reject) => {
     });
 });
 
-const writeBioMarkdown = ({ Name, Images, Title, Projects, Blurb, skillsetList}) => {
+const writeBioMarkdown = ({ Name, Images, Title, Projects, Blurb, Skillsets}) => {
     return `---
 name: ${Name}
 title: ${Name}
@@ -115,7 +119,7 @@ image_path: ${Images[0].newLocalPath}
 job_title: ${Title}
 portfolio: ${Projects}
 blurb: ${marked.parse(Blurb)}
-skillsets: ${JSON.stringify(skillsetList)}
+skillsets: ${Skillsets?.join(",") || ''}
 ---`;
 }
 
@@ -135,7 +139,8 @@ const generateXdMarkdown = (content) => {
 
         // Loop through content types and generate unique markdown for each
         content[contentType].map(async (obj) => {
-            const { Name, Title, Images, Attachments, Blurb, Projects, Skillsets } = obj;
+            const { Title, Images, Attachments, Blurb, Projects } = obj;
+            const Skillsets = obj['What is your area of expertise?'];
             let itemMarkdown = ``
 
             switch (contentType) {
@@ -151,18 +156,20 @@ const generateXdMarkdown = (content) => {
                 //     break;
 
                 case 'Bio':
-                    if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
+                    const Name = obj['Author(s)'][0].name; // Bio should have one author
                     const directory = '/collections/_team_members';
-                    const skillsetList = [];
-                    const content = { Name, Images, Title, Projects, Blurb, skillsetList };
+                    const skillsetList = []; // TODO: change to project list
+                    const content = { Name, Images, Title, Projects, Blurb, Skillsets };
                     let bioMarkdownAttrs = '';
 
-                    if (Skillsets !== undefined) {
-                        await Promise.all(Skillsets.map(async (skillsetId) => {
-                            const skillsetName = await findSkillset(skillsetId);
-                            content.skillsetList.push(skillsetName);
-                        }));
-                    }
+                    if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
+
+                    // if (Skillsets !== undefined) {
+                    //     await Promise.all(Skillsets.map(async (skillsetId) => {
+                    //         const skillsetName = await findSkillset(skillsetId);
+                    //         // content.skillsetList.push(skillsetName);
+                    //     }));
+                    // }
                     bioMarkdownAttrs = writeBioMarkdown(content);
 
                     await writeMarkdownFile(directory, Name, bioMarkdownAttrs);
