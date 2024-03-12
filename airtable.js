@@ -109,7 +109,7 @@ const findProject = (projectId) => new Promise((resolve, reject) => {
     });
 });
 
-const writeBioMarkdown = ({ Name, Images, Title, Blurb, Skillsets, ProjectsList}) => {
+const writeBioMarkdown = ({ Name, Images, Title, Blurb, CohortYear, Skillsets, ProjectsList}) => {
     return `---
 name: ${Name}
 title: ${Name}
@@ -117,6 +117,7 @@ permalink: /team/${dashCaseString(Name)}/
 image_id: ${Images[0].id}
 image_path: ${Images[0].newLocalPath}
 job_title: ${Title}
+cohort_year: ${CohortYear || ''}
 portfolio: ${ProjectsList?.join(",") || ''}
 blurb: ${marked.parse(Blurb)}
 skillsets: ${Skillsets?.join(",") || ''}
@@ -140,6 +141,7 @@ const generateXdMarkdown = (content) => {
         // Loop through content types and generate unique markdown for each
         content[contentType].map(async (obj) => {
             const { Title, Images, Attachments, Blurb, Projects } = obj;
+            const CohortYear = obj['What is your ETF cohort year?'];
             const Skillsets = obj['What is your area of expertise?'];
             let itemMarkdown = ``
 
@@ -159,11 +161,11 @@ const generateXdMarkdown = (content) => {
                     const Name = obj['Author(s)'][0].name; // Bio should have one author
                     const directory = '/collections/_team_members';
                     const ProjectsList = [];
-                    const content = { Name, Images, Title, Blurb, Skillsets, ProjectsList };
+                    const content = { Name, Images, Title, Blurb, CohortYear, Skillsets, ProjectsList };
                     let bioMarkdownAttrs = '';
 
                     if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
-                    console.log('Projects', Projects);
+
                     if (Skillsets !== undefined) {
                         await Promise.all(Projects.map(async (projectId) => {
                             const skillsetName = await findProject(projectId);

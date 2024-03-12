@@ -10,6 +10,9 @@ layout: default
             <div class="breadcrumb">Team Members</div>
             <h1>{{ page.name }}</h1>
             <h2>{{ page.job_title }}</h2>
+            {% if page.cohort_year %}
+            <h2>{{ page.cohort_year }}</h2>
+            {% endif %}
             <ul class="skills-container">
               {% assign skillsets = page.skillsets | split: "," %}
               {% for skill in skillsets %}
@@ -24,9 +27,6 @@ layout: default
           </div>
         </div>
         <img class="profile-img tablet:grid-col-3 tablet:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
-        <div class="member-card-content">
-          {{ member.blurb }}
-        </div>
         {% if page.portfolio %}
           {% assign projects = page.portfolio | split: "," %}
           <h3>Current Projects:</h3>
