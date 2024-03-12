@@ -11,7 +11,7 @@ marked.use({
     gfm: true,
 })
 
-const base = new Airtable({apiKey: process.env.AIRTABLE_ACCESS_TOKEN}).base(process.env.AIRTABLE_BASE_ID);
+const websiteContentBase = new Airtable({apiKey: process.env.AIRTABLE_ACCESS_TOKEN}).base(process.env.AIRTABLE_BASE_ID);
 
 const xdContent = {};
 const cacheFilePath = './airtable-cache.json';
@@ -73,7 +73,7 @@ const checkAndCleanImages = (newData, cacheData) => {
 // Optionally (if newer), write to our cache file with new data
 const fetchAirtablePromise = () => new Promise((resolve, reject) => {
 
-    base('xd.gov Content').select({
+    websiteContentBase('xd.gov Content').select({
         // Selecting the first 3 records in Grid view:
         maxRecords: 20,
         view: "Grid view"
@@ -97,19 +97,19 @@ const fetchAirtablePromise = () => new Promise((resolve, reject) => {
         resolve(xdContent);
 
     }, function done(err) {
-        if (err) { console.error(err); reject(error); return; }
+        if (err) { console.error(err); reject(err); return; }
     });
 
 });
 
-const findSkillset = (skillsetId) => new Promise((resolve, reject) => {
-    base('xd.gov Content').find(skillsetId, (err, record) => {
+const findProject = (projectId) => new Promise((resolve, reject) => {
+    websiteContentBase('All Projects').find(projectId, (err, record) => {
         if (err) { console.error(err); return; }
-        return resolve(record.fields.Name);
+        return resolve(record.fields['Project Name']);
     });
 });
 
-const writeBioMarkdown = ({ Name, Images, Title, Projects, Blurb, Skillsets}) => {
+const writeBioMarkdown = ({ Name, Images, Title, Blurb, Skillsets, ProjectsList}) => {
     return `---
 name: ${Name}
 title: ${Name}
@@ -117,7 +117,7 @@ permalink: /team/${dashCaseString(Name)}/
 image_id: ${Images[0].id}
 image_path: ${Images[0].newLocalPath}
 job_title: ${Title}
-portfolio: ${Projects}
+portfolio: ${ProjectsList?.join(",") || ''}
 blurb: ${marked.parse(Blurb)}
 skillsets: ${Skillsets?.join(",") || ''}
 ---`;
@@ -158,43 +158,44 @@ const generateXdMarkdown = (content) => {
                 case 'Bio':
                     const Name = obj['Author(s)'][0].name; // Bio should have one author
                     const directory = '/collections/_team_members';
-                    const skillsetList = []; // TODO: change to project list
-                    const content = { Name, Images, Title, Projects, Blurb, Skillsets };
+                    const ProjectsList = [];
+                    const content = { Name, Images, Title, Blurb, Skillsets, ProjectsList };
                     let bioMarkdownAttrs = '';
 
                     if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
-
-                    // if (Skillsets !== undefined) {
-                    //     await Promise.all(Skillsets.map(async (skillsetId) => {
-                    //         const skillsetName = await findSkillset(skillsetId);
-                    //         // content.skillsetList.push(skillsetName);
-                    //     }));
-                    // }
+                    console.log('Projects', Projects);
+                    if (Skillsets !== undefined) {
+                        await Promise.all(Projects.map(async (projectId) => {
+                            const skillsetName = await findProject(projectId);
+                            content.ProjectsList.push(skillsetName);
+                        }));
+                    }
                     bioMarkdownAttrs = writeBioMarkdown(content);
 
                     await writeMarkdownFile(directory, Name, bioMarkdownAttrs);
                     break;
 
-                // case 'Project':
-                //     if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
+                case 'Project':
+                    // console.log('Project', obj);
+                    // if ([Name, Title, Images, Blurb, Portfolio, Attachments].some(item => item === undefined)) return;
 
-                //     itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
+                    // itemMarkdown += `---\n layout: project\n title: ${Title} Project\n---`
 
-                //     // TODO: Create unique project file path from title and store it
+                    // // TODO: Create unique project file path from title and store it
 
-                //     itemMarkdown += `
-                //         \n<div>\n
-                //             <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
-                //             <h1>${Title}</h1>\n
-                //             <h4>Author(s): ${Name}</h4>\n
-                //             <h4>Project Status: ${Portfolio}</h4>\n
-                //             <div class="breadcrumb"></div>\n
-                //             ${marked.parse(Blurb)}\n
-                //             <p>Materials: ${Attachments}</p>
-                //         </div>\n
-                //         --End--
-                //     `;
-                //     break;
+                    // itemMarkdown += `
+                    //     \n<div>\n
+                    //         <img id="${Images[0].id}" alt="Image of ${Name}" src="${Images[0].newLocalPath}" />\n
+                    //         <h1>${Title}</h1>\n
+                    //         <h4>Author(s): ${Name}</h4>\n
+                    //         <h4>Project Status: ${Portfolio}</h4>\n
+                    //         <div class="breadcrumb"></div>\n
+                    //         ${marked.parse(Blurb)}\n
+                    //         <p>Materials: ${Attachments}</p>
+                    //     </div>\n
+                    //     --End--
+                    // `;
+                    break;
             }
 
             markdown += itemMarkdown;

@@ -1,17 +1,45 @@
 ---
 layout: default
 ---
-<section class="story">
+<section class="team-member">
   <article class="grid-container">
     <div class="grid-row grid-gap-lg news-row">
-      <div class="news-content-container">
-        <header>
-          <div class="breadcrumb">Team Bios</div>
-          <h1>{{ member.name }}</h1>
-        </header>
-        <div class="bios-content">
-          {{ member.content }}
+      <div class="grid-row">
+        <div class="profile-description-container tablet:grid-col-6">
+          <header>
+            <div class="breadcrumb">Team Members</div>
+            <h1>{{ page.name }}</h1>
+            <h2>{{ page.job_title }}</h2>
+            <ul class="skills-container">
+              {% assign skillsets = page.skillsets | split: "," %}
+              {% for skill in skillsets %}
+                <li>
+                  <span class="usa-tag usa-tag--big">{{ skill }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </header>
+          <div class="bio-content">
+            {{ page.blurb }}
+          </div>
         </div>
+        <img class="profile-img tablet:grid-col-3 tablet:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
+        <div class="member-card-content">
+          {{ member.blurb }}
+        </div>
+        {% if page.portfolio %}
+          {% assign projects = page.portfolio | split: "," %}
+          <h3>Current Projects:</h3>
+          <div class="project-container">
+            <ul class="skills-container">
+              {% for project in projects %}
+                <li>
+                  <span class="">{{ project }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
       </div>
     </div>
   </article>
