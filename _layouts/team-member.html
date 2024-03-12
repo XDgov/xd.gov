@@ -11,7 +11,7 @@ layout: default
             <h1>{{ page.name }}</h1>
             <h2>{{ page.job_title }}</h2>
             {% if page.cohort_year %}
-            <h2>{{ page.cohort_year }}</h2>
+            <h3>{{ page.cohort_year }} Cohort</h3>
             {% endif %}
             <ul class="skills-container">
               {% assign skillsets = page.skillsets | split: "," %}
