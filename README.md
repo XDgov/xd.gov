@@ -51,3 +51,9 @@ If you need to update the version of Ruby, be sure to specify the version both i
 Syntax highlighting is handled by Kramdown and Rouge.
 [Jekyll Documentation](https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting)
 To update the syntax styling, add create a new style from these [examples](https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html), add it to the folder `assets/css/_syntax_highlighting`, and import it in `assets/css/main.scss`.
+
+## Analytics
+
+The file `_includes/head.html` contains script tags for the following analytics tools:
+[Digital Analytics Program](https://digital.gov/guides/dap/)
+[Google Analytics](https://marketingplatform.google.com/about/analytics/)
