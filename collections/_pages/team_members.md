@@ -3,7 +3,7 @@ permalink: /team/
 image: /assets/img/pages/index/xd-og.png
 layout: page
 title: xD Team
-seo_excerpt: xD team members
+seo_excerpt: meet the members of the xD team
 ---
 <div class="page-bios">
   <div class="grid-container">
