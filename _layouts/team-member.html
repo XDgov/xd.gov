@@ -29,7 +29,7 @@ layout: default
         <img class="profile-img tablet:grid-col-3 tablet:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
         {% if page.portfolio %}
           {% assign projects = page.portfolio | split: "," %}
-          <h3>Current Projects:</h3>
+          <h3 class="project-header">Current Projects:</h3>
           <div class="project-container">
             <ul class="skills-container">
               {% for project in projects %}
