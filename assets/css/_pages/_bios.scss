@@ -23,5 +23,10 @@
 
     .member-link {
         text-decoration: none;
+        &:hover {
+            .member-name {
+                text-decoration: underline;
+            }
+          }
     }
 }
