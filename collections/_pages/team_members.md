@@ -26,7 +26,7 @@ seo_excerpt: meet the members of the xD team
   <section class="bios-content">
     <div class="grid-container">
       <div class="breadcrumb">Meet the Team</div>
-      <div class="grid-row grid-gap-lg">
+      <div class="grid-row grid-gap-6">
         {% assign team_members = site.team_members %}
         {% for member in team_members %}
           {% include components/team-member-card.html member=member %}

@@ -7,16 +7,61 @@
       }
 
       a {
-        font-weight: bold;
-        text-decoration: underline;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
       }
-
-      .title {
-        font-weight: bold;
-      }
-
       .paper-title {
         font-style: italic;
+      }
+    }
+
+    .member-title, .member-cohort {
+      font-weight: normal;
+    }
+
+    .member-title {
+      font-size: 1.2em;
+    }
+
+    // color palette inspo: http://colrd.com/palette/40498/
+    .skills-container {
+      .ai-governance {
+        background-color: darken(#B2A6F5, 15);
+      }
+      .cloud-management {
+        background-color: darken(#5A98FA, 15);
+      }
+      .computer-vision {
+        background-color: darken(#4032E6, 15);
+      }
+      .data-science {
+        background-color: darken(#8E39EF, 15);
+      }
+      .data-engineering {
+        background-color: darken(#C73E87, 15);
+      }
+      .privacy-enhancing-technologies {
+        background-color: darken(#DB5758, 15);
+      }
+      .fullstack-engineering {
+        background-color: darken(#E5734C, 15);
+      }
+      .human-centered-design {
+        background-color: darken(#EC9F4A, 15);
+      }
+      .machine-learning {
+        background-color: darken(#F1B64D, 15);
+      }
+      .tech-policy {
+        background-color: darken(#FDE775, 15);
+      }
+      .technical-project-management {
+        background-color: darken(#EFE86F, 15);
+      }
+      .cybersecurity {
+        background-color: darken(#B5D267, 15);
       }
     }
 
@@ -30,15 +75,6 @@
 
     .project-header {
       width: 100%;
-    }
-
-    .hiring {
-      margin-top: 6rem;
-
-      @media only screen and(min-width: $tablet-size) {
-        margin-top: 8rem;
-
-      }
     }
 
     .bio-content-container {
@@ -65,6 +101,10 @@
       .square-link {
         margin-top: 1rem;
       }
+    }
+
+    .contact-info {
+      font-size: 1.2rem;
     }
 
     .post-author, .news-date {
@@ -96,6 +136,15 @@
 
       @media only screen and(min-width: $tablet-size) {
         flex-direction: row;
+      }
+    }
+
+    .hiring {
+      margin-top: 6rem;
+
+      @media only screen and(min-width: $tablet-size) {
+        margin-top: 8rem;
+
       }
     }
   }

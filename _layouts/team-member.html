@@ -7,17 +7,20 @@ layout: default
       <div class="grid-row">
         <div class="profile-description-container tablet:grid-col-6">
           <header>
-            <div class="breadcrumb">Team Members</div>
-            <h1>{{ page.name }}</h1>
-            <h2>{{ page.job_title }}</h2>
+            <div class="breadcrumb">
+              <a href="{{ site.baseurl }}/team">Team Members</a>
+            </div>
+            <h1 class="member-name">{{ page.name }}</h1>
             {% if page.cohort_year %}
-            <h3>{{ page.cohort_year }} Cohort</h3>
+              <h2 class="member-title">{{ page.job_title }} - {{ page.cohort_year }} Cohort</h2>
+            {% else %}
+              <h2 class="member-title">{{ page.job_title }}</h2>
             {% endif %}
             <ul class="skills-container">
               {% assign skillsets = page.skillsets | split: "," %}
               {% for skill in skillsets %}
                 <li>
-                  <span class="usa-tag usa-tag--big">{{ skill }}</span>
+                  <span class="usa-tag usa-tag--big {{ skill | slugify }}">{{ skill }}</span>
                 </li>
               {% endfor %}
             </ul>
@@ -42,6 +45,7 @@ layout: default
         {% endif %}
       </div>
     </div>
+    <p class="contact-info">To get in touch with {{ page.name | split: " " | first }}, please send a message to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.</p>
   </article>
 </section>
 <section class="more-news">

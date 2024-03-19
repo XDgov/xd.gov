@@ -4,9 +4,9 @@
       <img id="{{ member.image_id }}" alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
       <h4 class="team-member-heading member-name">{{ member.name }}</h4>
       {% if member.cohort_year %}
-      <h4 class="team-member-heading">{{ member.job_title }} - {{ member.cohort_year }}</h4>
+      <h4 class="team-member-heading member-title">{{ member.job_title }} - {{ member.cohort_year }}</h4>
       {% else %}
-      <h4 class="team-member-heading">{{ member.job_title }}</h4>
+      <h4 class="team-member-heading member-title">{{ member.job_title }}</h4>
       {% endif %}
     </div>
   </a>
