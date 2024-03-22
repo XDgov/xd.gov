@@ -5,7 +5,7 @@ layout: default
   <article class="grid-container">
     <div class="grid-row grid-gap-lg news-row">
       <div class="grid-row">
-        <div class="profile-description-container tablet:grid-col-6">
+        <div class="profile-description-container tablet:grid-col-10 desktop:grid-col-6">
           <header>
             <div class="breadcrumb">
               <a href="{{ site.baseurl }}/team">Team Members</a>
@@ -29,7 +29,7 @@ layout: default
             {{ page.blurb }}
           </div>
         </div>
-        <img class="profile-img tablet:grid-col-3 tablet:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
+        <img class="profile-img tablet:grid-col-auto tablet:margin-left-9 desktop:grid-col-3 desktop:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
         {% if page.portfolio %}
           {% assign projects = page.portfolio | split: "," %}
           <h3 class="project-header">Current Projects:</h3>
