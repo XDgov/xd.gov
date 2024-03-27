@@ -3,7 +3,7 @@
   border-radius: 3px;
   box-shadow: 3px 10px 13px 0px rgba(0,0,0,0.15);
   height: 100%;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
   position: relative;
 
   .member-title {
@@ -15,6 +15,58 @@
     margin: auto;
     height: auto;
     width: 100%;
+  }
+
+  .bio-content {
+    margin: 1rem;
+  }
+
+  .skills-container {
+    .skills-tag {
+      font-size: .75rem;
+      color: $color-white;
+      .skill-text {
+        padding: .5rem;
+        border-radius: 5px;
+      }
+    }
+    // color palette inspo is http://colorsafe.co/ purple palette
+    .ai-governance {
+      background-color: #9B59B6;
+    }
+    .cloud-management {
+      background-color: #7462E0;
+    }
+    .computer-vision {
+      background-color: #886288;
+    }
+    .data-science {
+      background-color: #DB0A5E;
+    }
+    .data-engineering {
+      background-color: #8859B6;
+    }
+    .privacy-enhancing-technologies {
+      background-color: #B200FD;
+    }
+    .fullstack-engineering {
+      background-color: #7659B6;
+    }
+    .human-centered-design {
+      background-color: #A74165;
+    }
+    .machine-learning {
+      background-color: #B500B5;
+    }
+    .tech-policy {
+      background-color: #5E50B5;
+    }
+    .technical-project-management {
+      background-color: #5A4586;
+    }
+    .cybersecurity {
+      background-color: #483D8B;
+    }
   }
 }
 
