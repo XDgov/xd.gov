@@ -16,14 +16,6 @@ layout: default
             {% else %}
               <h2 class="member-title">{{ page.job_title }}</h2>
             {% endif %}
-            <ul class="skills-container">
-              {% assign skillsets = page.skillsets | split: "," %}
-              {% for skill in skillsets %}
-                <li>
-                  <span class="usa-tag usa-tag--big {{ skill | slugify }}">{{ skill }}</span>
-                </li>
-              {% endfor %}
-            </ul>
           </header>
           <div class="bio-content">
             {{ page.blurb }}
