@@ -1,0 +1,110 @@
+.team-member {
+
+    main {
+
+      &.main-content {
+        padding-top: 2rem;
+      }
+
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .paper-title {
+        font-style: italic;
+      }
+    }
+
+    .member-title, .member-cohort {
+      font-weight: normal;
+    }
+
+    .member-title {
+      font-size: 1.2em;
+    }
+
+    .profile-img {
+      max-width: 25rem;
+      width: 100%;
+      display: block;
+      margin-bottom: auto;
+      margin-top: auto;
+    }
+
+    .project-header {
+      width: 100%;
+    }
+
+    .bio-content-container {
+
+      @media only screen and(min-width: $tablet-size) {
+        margin-top: 2rem;
+      }
+
+      @media only screen and(min-width: $tablet-size) {
+        margin-top: 3rem;
+      }
+    }
+
+    .bio-content {
+
+      p {
+        font-size: 1.2rem;
+
+        &.news-cta {
+          font-size: 1rem;
+        }
+      }
+
+      .square-link {
+        margin-top: 1rem;
+      }
+    }
+
+    .contact-info {
+      font-size: 1.2rem;
+    }
+
+    .post-author, .news-date {
+      font-family: $font-serif;
+    }
+
+    .news-fellow {
+      border-bottom: 1px solid #000;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .news-image-container {
+      margin-bottom: 2rem;
+    }
+
+    .news-item {
+      @media only screen and(min-width: $tablet-size) {
+        border-bottom: 0;
+      }
+    }
+
+    .news-row {
+      flex-direction: column-reverse;
+
+      @media only screen and(min-width: $tablet-size) {
+        flex-direction: row;
+      }
+    }
+
+    .hiring {
+      margin-top: 6rem;
+
+      @media only screen and(min-width: $tablet-size) {
+        margin-top: 8rem;
+
+      }
+    }
+  }

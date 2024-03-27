@@ -1,5 +1,7 @@
+const d3 = require('d3');
+
 // ref: https://gist.github.com/HarryStevens/0e440b73fbd88df7c6538417481c9065
-d3.geoAlbersUsaPr = function() {
+const geoAlbersUsaPr = function() {
     const epsilon = 1e-6;
 
     const lower48 = d3.geoAlbers();
@@ -154,3 +156,5 @@ d3.geoAlbersUsaPr = function() {
 
     return albersUsa.scale(1070);
   }
+
+module.exports = geoAlbersUsaPr;

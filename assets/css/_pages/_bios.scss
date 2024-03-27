@@ -17,3 +17,16 @@
         }
     }
 }
+
+.team-member-cards {
+    margin-bottom: 2rem;
+
+    .member-link {
+        text-decoration: none;
+        &:hover {
+            .member-name {
+                text-decoration: underline;
+            }
+          }
+    }
+}
