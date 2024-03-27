@@ -8,6 +8,17 @@
       {% else %}
       <h4 class="team-member-heading member-title">{{ member.job_title }}</h4>
       {% endif %}
+      <div class="bio-content">
+        {{ member.short_blurb }}
+      </div>
+      <ul class="skills-container usa-list--unstyled">
+        {% assign skillsets = member.skillsets | split: "," %}
+        {% for skill in skillsets %}
+          <li class="skills-tag">
+            <span class="skill-text {{ skill | slugify }}">{{ skill }}</span>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </a>
 </div>
