@@ -4,7 +4,6 @@
       "Blurb": "This is a test news article. This text comes from the \"blurb\" section of the AirTable content entry form.\n",
       "ID": 5,
       "Title": "Test News Article",
-      "Name": "A really neat headline",
       "Content Type": [
         "News"
       ]
@@ -13,7 +12,6 @@
       "Blurb": "Another test news article.\n",
       "ID": 7,
       "Title": "Sample News 123",
-      "Name": "Something great",
       "Content Type": [
         "News"
       ]
@@ -22,7 +20,6 @@
       "Blurb": "Yet another [news article.](http://xd.gov)\n",
       "ID": 8,
       "Title": "Testing 12345",
-      "Name": "Another cool headline",
       "Content Type": [
         "News"
       ]
@@ -31,7 +28,6 @@
       "Blurb": "Awesome sauce. \n",
       "ID": 14,
       "Title": "Heyyyyyy",
-      "Name": "Hey yet another headline",
       "Content Type": [
         "News"
       ]
@@ -39,46 +35,51 @@
   ],
   "Bio": [
     {
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "Samantha Weinstock (she/her) runs operations and manages partnerships for xD and provides research help and project management for xD projects. Sam brings extensive nonprofit and academic experience to the team. Prior to xD, Sam was the Executive Director of a research nonprofit, Center of Complex Interventions, where she set the strategic vision for the organization, ran day-to-day operations, and worked closely with the CCI research team on various research projects. Before CCI, Sam was the Director of Administration at YarnLabs Inc, a fiscal sponsor for non-profits. She also previously managed research at MIT and worked as a researcher at Harvard Law School and the Berkman Klein Center for Internet & Society. Before entering the academic and non-profit space, Sam worked at Google. \n",
       "ID": 4,
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
       "Title": "Head of Operations and Partnerships",
       "Images": [
         {
           "id": "attJt6jgFKLRtY9cO",
           "width": 1442,
           "height": 1318,
-          "url": "/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/WK_YojllkZLYIrgW9DSk1w/qspXUzaaphNTjR-ebU_5gRKEm1HYlQIa8E-7XWYg8ZWT0vpNUNZ8JvIiFDkqCkkNI0rRyWK4fM0lSXTlhSGjzWQXV09hntRYF_Vmx9A2GnjFgWqvvSBJkP2X1lerNFO7WB45psvpV7n0Ms4LIcqIkCN3Z95ru6V3HdhK7uaeA9s/SRfsQMAYFRVN1Hu-0zuG1qIsiZfqA4L4vgmTDtOdsgQ",
           "filename": "samantha-weinstock-headshot.jpg",
           "size": 498806,
           "type": "image/jpeg",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/tA1fDAu8cfU0uiGyvfZzBg/cJMn898ebfhvZJDiTdW8xjuWAD3r0PQKofXY7XtFZtxQfVzZ-SorCRwoEU9zknwx8utpACmmPTp1ntkWJ2fkjCiqwbZQBQzbvHnEtgp2bK0_iU1LlJOkP2E4MGX2GcpF7Fj74_kCuUawVGte7KzzkA/ly8VMenjtGKVPmZ5UY3smz_VHQ_76S9cRQ9IJpJ8LqQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/92Xa5zRxZc41fwVuXZjuog/lGrcAHrB5iR8ShMgm39HFlIYluKO3mLo09bGeVX3XvEYnObAMhEwreyWT5I4sv3kpb9ihIeGkY2cMucTuGUuYrVqoNaX_cPHb-woszoFzoY7ibZUmE_Iml_qJZ8--qFF2-3hOPecgzQZmPE1ZqV9QQ/Oh66dQZhQf-jDw47h-PEpvdfDebKtVpDFu5m2yJ_WFc",
               "width": 39,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/DFdiEg7uJ68uIRgGrnHYoA/onFNIJqFbukz42s3LXRQ1VTssVyNYGzjMdA2WsIvrAmQRoSL4L-uZyQXR0lbzFsQ7gtqBsKKhnFimSgnJWbuyd-yUpqVfERDVJQ65MGBGES7aj9TWXIVIcD_ZAZfj0w-iqx3wPa7y_O5RoUwXKyYTw/3hdD1wgvsGyVXzAthiVMpMk1u2UaJx2rt8XLniXEViU",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/EpCNiCgqEPXkfY_Brsm1HA/PiN2c842F9M2a3xG658pDyaJNcYKIJpZbMq6ASmJ7C_LZDwnh0Mfv4BaVQb2DCA0FKQK0Bh3B1i-92RTZV8_57ZNizsv09lhn8IzP0GMYxaAMGB38TymlT7OEIweAxaKumdyfWvHQK5GStRdvH7pog/o3MVaiZs45sJdxJnytuWI1KM2WY1Z0N5Rw2jaxDOz38",
               "width": 560,
               "height": 512
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/MKdk6Ln8hjDO7IIGcLouYA/XgH0lsPw-gfBkixPucE1Uh0L2RapoDs_d9tvakKX-QvoeOIMrT73_YBSsnAdDxqSK4Lp88ql6IaW0g3iNtndX0_FDMIjKXLrBbThjo4Bkhcqmt-5rPcnq8Rz8iOGBOrfyfv0T0Om8ZQKzouMwPDbHQ/wxcaXMXYazlp8vZVjqRVb7q8uMtkkJ7oSPWvg6OX9rw",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/g1iLs99dscGsWbxq5lHSKw/OrIDprz7pa8UDfReBr3UlLvAqwjQ_YQruV0unwjLd9XZTtNipqIARXWu_gvWpTfgNiglsXFGnEz0c1izQgl6tXNIgz3c2peQyUNrol-oz4mPwVQPPoLvbdoSfu-BWOiTQ_F0mSvc201Pa3_rllFmww/lQZJHx19WVjCEdpej3tzrqA5t-g0payMG6Gq0NtubeQ",
               "width": 1442,
               "height": 1318
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/samantha-weinstock/samantha-weinstock.jpg",
-          "imageId": 4
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Samantha Weinstock",
+      "Author(s)": [
+        {
+          "id": "usrSYrPapySwVCuuP",
+          "email": "samantha.l.weinstock@census.gov",
+          "name": "Samantha Weinstock"
+        }
+      ],
       "Content Type": [
         "Bio"
       ],
@@ -87,85 +88,115 @@
       ]
     },
     {
-      "Blurb": "Curtis Mitchell (he/him) is excited to be an Emerging Technology Fellow on the xD team. His career has gone through several transitions, including being a data analyst at an energy consulting firm before working at several data analysis and machine learning startups as a software engineer, as well as contributing to various privacy-enhancing technology and machine learning open-source projects. Before joining xD, he worked at NASA’s Ames Research Center on a research platform to integrate drones and air taxis into the air traffic control system. When he's not behind a keyboard, Curtis enjoys learning foreign languages, recreating his favorite foods from his upbringing in Texas, and exploring the outdoors of Northern California.\n",
+      "Projects": [
+        "recA5QdbdLkKEBCgX",
+        "recgRl4g5yEw2Kucx"
+      ],
+      "Blurb": "Curtis Mitchell (he/him) is excited to be an Emerging Technology Fellow on the xD team. His career has gone through several transitions, including being a data analyst at an energy consulting firm before working at several data analysis and machine learning startups as a software engineer, as well as contributing to various privacy-enhancing technology and machine learning open-source projects. Before joining xD, he worked at NASA’s Ames Research Center on a research platform to integrate drones and air taxis into the air traffic control system. When he's not behind a keyboard, Curtis enjoys learning new languages, recreating his favorite foods from his upbringing in Texas, and exploring the outdoors of Northern California.\n",
       "ID": 6,
-      "Title": "Emerging Technology Fellow - 2023 Cohort",
+      "What is your area of expertise?": [
+        "Cloud Management",
+        "Privacy-Enhancing Technologies",
+        "Fullstack Engineering",
+        "Machine Learning"
+      ],
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
+      "What is your ETF cohort year?": "2023",
+      "Title": "Emerging Technology Fellow",
       "Images": [
         {
           "id": "attlVfSWFOzhOwYsK",
           "width": 384,
           "height": 384,
-          "url": "/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/pVPumIqe7fIX-d176yNAkQ/2L6CbOaeTXWKig1fv-E5rjjj2uttpL_joqt2Pko0FVN2Heoxk-PoTX2xmbfzvtSxL1TnZUQPhKdKz57AIfJ7TjLaYuGpXPxoxeuITuLTLwjI0EpqW7pOIeTz0rHX5p6dP_8llf8NXu5Z0vIgnnz3prcVNjR2cjosjdLhoGSZlg0W3gcyI6GOdSrAQGUODB9W/81S1EXpzqhnKeSO20BIogc67Or-jX9ZWXl5u9k5NizI",
           "filename": "curtis_mitchell_profile_image_square.webp",
           "size": 28120,
           "type": "image/webp",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/EIEAgKuZA9VtuE37PVM1EQ/C3HKvihfHbfcn2nIqh-9zDdgkYIzeOL3IOvfD9KIIh5ZPpS6_96iMf1VAsdHIN9PzPs53Vfs6kyZ-xiDNGjF2JuyoMG2wq8caq0s0IEEDhG92zn9SdAZP_VIXn3G0HfzKOQCIUL2qHPLpWQlYMrlcQ/qpm00Ev6vPjbnM3qU3FZ3VhL4HaimXufRbr07iRQlXQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/i2wq-ONXUQKoSLYcH5QFcQ/WsyRSIFZtR4pTakIGd6Vn-aOLDeiCwRUIHhJw7ncffCH38juhXA2rP1bYkZ-piwbTGXR2fDmjrFIa1aRMnoKzSCFbr52xjDdGKPj2xtbWDVMqB3dhqjApKTzQJvlAYdlxij5z6MG_RHLQciMTK010w/RFGW3SCKbnpbCEv7hD-ZbeaSixAcCAohSKql9VtG46Y",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/BCOWEEpiLJal_2yyZF_lSg/E-rIsj0y46bVUaytYzRZ5yzbQ8hoj4fcU1TYxBQQJkbFz6GPb_BzbrWlHNTHWgtzPy-QhmgTQMD4Pcyg8JGDVKnXP38qSFUPzHtsdJNPbgop5_n6l0H5a6jeiZWH9mwY8A-0U-YEXWVgEnCT244Iaw/05NP6i45wE4RVYoQ7p5nwqVWrtaOfQE313NocwSikLQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/UJFd8-zz0H3EUJH1Moo1Yw/_Qi6wU4m30H3HZylfgTeBmqiSSWf0Xj4nCD8UmuDxGN1vwXIHVPuFMd9QVVVvj81GnkQN_AW5nUTjUdZPSSELIhGSCV2BBzNHkXo6dQbvOCVN3x4Ib-zoaAmDFrdd-vttwapDuoqIvkiZaqPs2wLqA/83VZnRCZutz8L0BMHHH72aCl44ghJy_xM4nkB1OFTLU",
               "width": 384,
               "height": 384
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/MbQvcLWKfkyTME-SnOPz5Q/HxGp_g33OEp0-x6c3VYxKRPlq4sV3gPd6BgzxDW-zdZXy_trApWjDlwlQBS6dyCzAYptPtshqnb-bahc0qZJhHaQkm1pKHa874pRblWr4MUeuzxwNbNzNe3Dvdl4SscrMQVeEOCcK_yEl7vUBir1Bg/2WUrFlyuHtKUL4-cYuDyMSDG7Q8Hc4AiYozWcFI3Cm4",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/Q1pqxRP8qpCzUcHFKvkU1Q/g1qLSXNjFpP6_hAt8me0OTHQZheD6ZidcMpmqetmijZRrJbvn1o_okBEsS93V0wYGt4ZLbYH-35ZvofPCdLku22c_mHluV5XjBQNbeh6jBSYPEZn7kf9BSbrtfEjxESkgrUj6G86FD6C_AHDvkEEqA/Sw9RE71WdeZbxlhdjVnZGVY9fk2IzbO6EwMOYIKbicU",
               "width": 384,
               "height": 384
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg",
-          "imageId": 6
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Curtis Mitchell",
+      "Author(s)": [
+        {
+          "id": "usre9y5z5ohWmUeAH",
+          "email": "curtis.l.mitchell@census.gov",
+          "name": "Curtis Mitchell"
+        }
+      ],
       "Content Type": [
         "Bio"
+      ],
+      "Portfolio": [
+        "Privacy Enhancing Technologies (PETs)",
+        "Privacy Enhancing Technologies (PETs)"
+      ],
+      "Project Team (from Utilization) (from Related Projects)": [
+        "James Mccoy",
+        "Curtis Mitchell, Mike Walton"
       ]
     },
     {
       "Blurb": "Anna Vasylytsya (she/her) is excited to start as an Emerging Technology Fellow at the Census Bureau. She is excited about data-driven decision-making, being able to combine her passions for technology, policy, and data. Prior to Census, Anna was a senior data scientist at the National Associations of REALTORS (NAR), one of the largest trade associations in the U.S. At NAR, she produced data analyses and delivered insights, built dashboards and worked on improving data quality on a broad range of topics that impact realtors. Anna started her career as a federal contractor at the Department of State and she is excited to return to public service.\n",
       "ID": 9,
-      "Title": "Emerging Technology Fellow - 2023 Cohort",
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
+      "What is your ETF cohort year?": "2023",
+      "Title": "Emerging Technology Fellow",
       "Images": [
         {
           "id": "attoZc4P4TFYJW2aW",
           "width": 342,
           "height": 334,
-          "url": "/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/tv8qH1Tkl-46OWqdC-4izA/uUJikraNvBPdt_6fuG9IyrnwzslTftmj7xF9BZDsxnLHW2Gm7aKrJqOkZbIHK2qGi1hmh0zMUhtPl_jrvvDIUo3XbdAKMnuAEOgE1Af8QZpt1GSamX6VRFxyV0ewG2CAG2DB9skKHgTKP3RFwK7es2SLzGzOxBA2UOMPQZFTYRc/ZOwp8RNx2sCuK_DXZslaMhwwp-gkNZkkDPwK6V2fv9Y",
           "filename": "anna-vasylytsya-headshot.png",
           "size": 124804,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/E7LBxmQS8wqXKsQ-xzbp1Q/VG68VTGg7AZRSyXF37-B5Dpt2LJjIxd2JNiiBl0Xx2cAGvDb52TMs1Z9ImiSpohgRsCKPXz_SYM3IDMd4yqQHepkwJ2sDYZo_Z5fvLu1xbofPvg0kwt1YIspND1xxtHaaKu9P1AHOxHDMTZWpO9Z0A/Hg6l6YL1xFqfyBi5qecD0IjA0gbabBvmzEnp3m7iWRM",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/0kfj7-1IG2XyeMu-sT35-w/xUaWZit5ldMO80AqdQrJSaIayKhtiHZVOPLd6AJF4Ee0rbAKHX6kLrph9Ga-1LhuKmM4kXo_-B2ZgYTC63cHN_IqvY_V2QOeepiRSwG-1mEC57R2594uS_-nl-Bzg-3NVg6RU7MAuywV7-45HPokdA/oh08QQHxSh-I5MOTIBZ0gotMHYztanrFRuzqbNoRIcE",
               "width": 37,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/IESY97iaskW6sCBfQ7Aibg/3OxZnXCaZhsbEeeioRuGryhPhomUg7hKkTJDb1DKewTTbNnL_mV5gcDrQdtoM_hpXXty36eRCHj64KRfjy4lVQldbCOgwWF-oJvIK2WKW-wPvH5bgd3sQxYMe-65P6i8UcESJPNWlgtDRNnmUZlGtg/AOts5jAJm2XOvtRfm_eFr8BCV-ZGFWw1i-cZdf49li4",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/OTOdIurhuJE1Jps0pfLE4w/rH4poIipteK_BYvB6p-JwA7MD-7_z960fvZN50lqgtU6Li3qFZib_LfozAsKZTJLgzCE11dzePtGP1B8HZKwDURNEyS6UixwDCOGVB6OPl98FTI9CuB9Zo3G_fd7OBfZs06HDIKszmtdXSEyIxHGPQ/ztnaVi9V_5Q533Ziruolc3RUQPQNvVRH2TeV6XgLQXU",
               "width": 342,
               "height": 334
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/1ykeDRmZ6szQM7YbtRdUFw/ir8wOSZ0Rpr7-OFuke-l9dOeroRbDzalGpyUKFeOV_Bo7ztNhq-xlS4iLoGHOiF0LRa74uiUWH5GnNOBZcSNtZgNRiGHKQ82yTnU62YEOQjOWpntA-xH94nqn9v_G9jPha--TvT74f-x73M0pnBc7Q/lmBUx_k1aIsqhiwYs7emT6kjOvhLPu7mMPJgUDibr4s",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/T7VOmzgTE4tFzVnJriFtbA/FyNA3F72H_YvjKJeuV2sSxr4iT84lO4_JpEhNgB-0oyInjxDWDRSQpOs2wjRvn3hQRuBfJbbVXT0rHQSiSl3t51WfCB9PH1KxSp0I5imUsN5w2SHlqZgzKnnldlRSj1ttMljqiMCR3T397KBDfasbQ/Ckm8jH9GHm94NKGEmeS5GmXIHrWxOzp0RrquHgEEeOg",
               "width": 342,
               "height": 334
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg",
-          "imageId": 9
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Anna Vasylytsya",
+      "Author(s)": [
+        {
+          "id": "usriRWKPAfWK6UkPY",
+          "email": "anna.vasylytsya@census.gov",
+          "name": "Anna Vasylytsya"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -173,41 +204,47 @@
     {
       "Blurb": "Diamond Nwankwo (she/her) is excited to be an Emerging Technology Fellow. She has a multifaceted data-based track record at the intersection of data engineering, process improvement, and quality assurance/control. Prior to working at xD, she worked as a Senior Data Engineer where she focused on architecting, improving, and maintaining robust data pipelines and systems while ensuring data quality and accuracy in reporting. Before transitioning into data engineering, she worked as a Quality and Process Improvement Engineer in Aerospace Manufacturing. In this role, she spearheaded SMART Manufacturing and Lean Six Sigma initiatives. Additionally, she has successfully led the transition and certification from AS 9100 Rev C to Rev D as a Lead Auditor.\n",
       "ID": 10,
-      "Title": "Emerging Technology Fellow - 2023 Cohort",
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
+      "What is your ETF cohort year?": "2023",
+      "Title": "Emerging Technology Fellow",
       "Images": [
         {
           "id": "attquY60OgMxdz6nJ",
           "width": 2065,
           "height": 1870,
-          "url": "/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/KNmwJ8dTvg4uAJ9pi-I04w/tcmaLHWbgGK0LhTopUtG8q5UpP0XZWrQl6tRoKBc-z1v0dIkysgAyysHno7jWEvM9icDaFs-mBAXg-HcSbFE0LTHn34P8-mIXLzjMizrBDPhwfoWVQn84EceWLWmIdzVygQ5DhO85qK_Xc01wIVE20GdQjShDGgK61d_pwfh2vs/Q_ljfcRGd6EC6luLl-RF9i0eGTmWz_a8ZPFFX0J9JS4",
           "filename": "MicrosoftTeams-image (2).png",
           "size": 1403089,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/slz1oyaW7_-_FNVjyi0KcQ/xuHR6gGV4tr785jp7ZbCqjGToh_fb6Sy9uzCE7NwjqVCyWg5S4xkvgWoJxxYdUH7GIPdqfSE7pVmkT68CikLRlZooVsI5GckoGYOCQ8yuV_dFfK-77r2wWOwgdWJ3pydUMG5HR5fL4ioban73Cl5Jg/1nVlOUJOU23RMXd7ebPDLjAYmzIZGRBe7LtTH-nv6_4",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/244LOwJw5rvN20BZLNz-wQ/At71qz5sWJYW6LPb5hpco3GvW06gK44m0RBfFuoUEcJAMG3gm50PoS5bz2axAuoA1m4mYSXbAK9lfnnXKdnraLUbCX5zt0wsmZwA77DTuaPzLUYkbGWnowLORMi5kmrbkdL9eBuZbed0NSfhCQP7vQ/WfO0cHgO_YyjgQNRBZCvz5mB-CKqBXhysdgb2ALQsP8",
               "width": 40,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/EWGLNgACYYJ92zegc4CufQ/8vpf0Hb70mAE21QmNj5lAzdO4i9D0lTRdEPEDAg7abaEytwFfet9geHZs9fMIZamw9ePAg8uRD6nHWA9u917doeJ6AGC1nEIhqzWvj8b2fldmxJ7fK34PBC9Ulwq19ENdopIJoLsESZXPUgUanSrDg/-R2RripEKkoumd8-nVPYWogxTbUTcPxV48Ls8F-A5nw",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/tWEAzsxjhisrUeBX-v_OkA/pbOus8yHQM7N0FYm8a6I0_ybMQTAaAEq6FL7HzuSQKbwmTY6G8H7DuF1L27zzBrzAUpVgdNT9bUmSRqaX2Qe88gKBEbk7lgu11W4CyYH3LygsWprA9l5s8wwapWy7ghN8pRgRts2sAbfr0CQzZynvA/Glp_6o6vyyDg6iv0NspRdLSRC1uYv1avFlFO-G96k2s",
               "width": 565,
               "height": 512
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/aq1Tnu7cnAdtzBjC6e0wNg/mAYUHkY9005EaaH3M5WVL1bRrWpBnjv4Xo9BzKG1DWKh8_uQzRMmEvChJyh4ldiKZil-O7ItKylKrmmiumJWFt60ssejASSeOpRc6op36iZ5BFcEPaM4ES9tUhJaWt4ng-L4p5zIOD9wCVfqy39Oqw/Ig59_XMQVNotxBXOsMPmOmM9u718E-ObCBKaF2PrHY0",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/1ilPA--5V-WH_1muQf3uVA/D-NAqMffH77hW93e07gkP_OhILIqooDIHURRE2etsccp5AQUgOgFNGOKxcmzY_KEBp2K5aAV1nuixyfDacY5xtj0N-PkMbKq1f8Z7G2wwTHHRA-QESlPiJs4GVvZlmBSgs-B3RPPH_K7341DOzK2zg/9aHk7i9e1AXXEooa6ane0p7LoTc4Kn4rS6OgQ5XCPak",
               "width": 2065,
               "height": 1870
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg",
-          "imageId": 10
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Diamond Nwankwo",
+      "Author(s)": [
+        {
+          "id": "usrrjqx70rvmstwSL",
+          "email": "diamond.s.nwankwo@census.gov",
+          "name": "Diamond Nwankwo"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -215,41 +252,46 @@
     {
       "Blurb": "Ian Munoz (he/him) is excited to be a part of the xD team. He started his career in academic computing supporting research at a National Science Foundation (NSF) funded environmental research center at University of Maryland. Later, he worked in bioinformatics at Oregon State University and then spent time working for fintech startups as a DevOps engineer.\n",
       "ID": 11,
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
       "Title": "Tech Lead",
       "Images": [
         {
           "id": "attlQoVOY2bfunFKj",
           "width": 421,
           "height": 481,
-          "url": "/assets/img/import/bio/ian-munoz/ian-munoz.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/iKqCHSvBxh2XcH_B4obV0Q/bDG1hrI22X6nowfToFFYt3p7WxfTXcIkSPfwyFL2k9Il5MIYq5vaLnvkfFm4n1YvGL81eWD-10eS1_xw-aqyyOmu7FPXUDoXm8uwzaf-dpXPEoxjDUASfIhjTbA5dgb0xNqQd7raBJDMni4KYEFuYnTBIac9JET8vcbhygDP7qE/kLMSqpWTSUnCJCGvrUWrWkxq-tH0FlUi8dG61FtuC9c",
           "filename": "ian-munoz-headshot.jpg",
           "size": 262296,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/hgl8y9p6uhTvEyLVQIyL4A/TppDYbjnu5UXWSCwrLwEhUbrrro9yrVjaTa_trJqb_djz842JvcNiOUPb74t4UhypQVGEle26yz58GhOPuAmteLgf6bwisloLmzXfpvzFLQY20JCO4jOvkX74y6bGGSRFcwxF5lNOyUQcCIJVUUJrw/w4WbQGzabCbo3kB1Hv8FW5Ulof0GmL-X5nmZWRSFmX4",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/oV4zLUG6TqoNZPBe-mXumg/bkgxKtKXs2scXdhxgHF7jbpWY5ejhQCf6fgTAFpbcZ08f9izqgoc-MKw1J2Htl2q_ieX4C2BgKBKHVNPNmEgynltGc_Wu5MxOSzLWEgVXFgsbXAwX00XTbb8X8zcWYXi3ayx37OU0Np4VLv6w8zchA/Ab9rx9prqRJyTqA1tjOHoYUVWoXVxsyaLeu3zwcCfds",
               "width": 32,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/4oO_g29RYJ-gTubjloAL_w/0YaLKobLWklSckGQwmMXxDLWhYf2LBHDHDBO4NoQMskjr5uh4HRX_SrDOEDOMYBIDT8kOI_EeWEunUzTn5rO0GZCs3f77GPhOSVsIMkjeu454WeYxv3KaWjGmVNmRUrlI5xy64aFMGkQjdrddh1UnQ/8tPKoHMJDLd7JIETiHU2cDWW2RL_zwuY58RjLZePJI0",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/wOtVTn9WUnAxRagnrBKeDA/12-THTfJHPkctYH_IXaopgYmetxWr31pCgRNX90ftTlxCnruxWCo6OaMwfflaHUk0wS-z42c8ovNNAPFUsPJGCPT2H4XsbkiDu8nrXpajMmJqxsXSv7GrtcGMT47OYgMe6UWTc1Euyiylbwwq5Kq7A/Oj3Iu8b4Ay15LdwfLaghTMu4vffICUK7BPCbc9HzK2k",
               "width": 421,
               "height": 481
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/_b9OIWDsNzZ2vvDQ1qvvFw/irpHoFHIdq7p9rmRYlXufAAC7aFzOTU0DvvC09DCq-64w9GeKG6E0vC3I5ripO2l2kkuIXXuUcPAekI9vBFJCUmC-Fr-DHpLK5dsBf3Xml1JQeRQaIGnDgeY6LgNeWJYn09g0aLmnlYpSGDzEmAaGQ/hJUglD_DBLpyJ2tqUd3GGtd3pYB5AbC9btDO8M0lCU8",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/DqoWDNYpyRO0r5MKZFkySA/KrbCZsAhus77HK2mDGmOg28EKMMBJm6m5I01xkhHOo1CvCSamWjKGAyG1f1sc7T_WGO7zLLXcH-GNZYEdL2An8IGqgyqAHL8WkmkBVVMCo6J7Pcez9QhNSOliNM-7crABvA-zOnorgqvWCBq8-rMSQ/EZv4yly9Ry273-BxVS44C2-f8Ij4YisqDGmJiJzdnik",
               "width": 421,
               "height": 481
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/ian-munoz/ian-munoz.jpg",
-          "imageId": 11
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Ian Munoz",
+      "Author(s)": [
+        {
+          "id": "usra69yDSFQmtuWFO",
+          "email": "ian.a.munoz@census.gov",
+          "name": "Ian Munoz"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -257,41 +299,47 @@
     {
       "Blurb": "Tomo Lazovich (they/them) is a senior research scientist at the Institute for Experiential AI at Northeastern University. Prior to joining the institute in 2023, they were a senior machine learning researcher at Twitter, developing a suite of metrics to measure inequality in outcomes for the Machine Learning Ethics, Transparency, and Accountability (META) team. Tomo has a significant amount of experience as an interdisciplinary researcher and machine learning practitioner, with defined expertise in building technical solutions to complex problems from the ground up.\n",
       "ID": 12,
-      "Title": "Emerging Technology Fellow - 2023 Cohort",
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
+      "What is your ETF cohort year?": "2023",
+      "Title": "Emerging Technology Fellow",
       "Images": [
         {
           "id": "attR760W90B7VP511",
           "width": 398,
           "height": 398,
-          "url": "/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/VxHhdlHsRpPkk2dUKs1o3g/XFXl4xQp08U9fVhPDbEWbiS68ZBg9gBdjqXS6e9t5rO7QWkXRwkn9GqhP160mlVKEumdVfO5kgCBhln0yfn12avOWF4QJbZFDZiLxN6pDQAM3WDEBz0u9zy36_i64PZTPimp9MKFCeTgUEVv6R6b7-S9FgGkss33DQZ6vWDYokU/3jWEKcFz0XY7miMMy0NJAuRadie9dYVF3xDmYL7L4IE",
           "filename": "tomo-lazovich-headshot.png",
           "size": 234486,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/BZdwIk2GrI_kP_9lS14kjQ/fd75cFeeHoPD8laHrv3eAfPPlb97aLXRY9ALpRHpdcO4z5OPPAE08PLcBKd3tgkoaH7-N8yafOZYrLlbODl4NLHLIwEHHIqHp3sCtIGXksekJKRHVNPH6KAcL_Ya6-gPE5dwCQRc3rJpKhwDSyHukA/zjTd58favGv0pVlNVbygyYu5_UPh81F7EzAYS4QX2Rs",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/A1L5w_lVbdnsK40v0WpeSQ/p1OuH_Vr8slh7LyKYMQTGAqis6nBYRwRuRvE44FK3HXWSoTGmWVvy5YI-Bbf55ajV2PCJTV-0hvkEEVn-WVQIP7oEl_7ZrgSjwlJtBSwS80qaoLlO-5KImATTBfJyPB1TOwaPjMF-ucaYlqhNKuaCw/X6xrMqfipw-sHRDMv0YB7M9HCR2dp3vYBahjz5mg8wc",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/WKYuhhdxAc_ipZwAyO-uGg/uz9v9DPQldWHjdpVZZEk9_3h8ixQlZti9hmchTy7i7EFgVii5HCBiux0OJwUyxOLojAwIAug_U_DicPT8ji4GYF9L1dshGf7oNIkeStekNEKZ4clmVN1ZEpjarjaTR17svEdzQjwqR1ndODpk_nKmA/904yG80fiBrG7zzhtt5EINuuMV9pT1mB1_unAuBfD4U",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/D5L3Oz3aAFyVEeWBajNoag/qBciAFejJoxQpWkfIdVYVxP46O5QO8BBuL0OV2FNDWw5PYAgYN4yovg0JYsGr_lLEwVicKyK2M6ss5ORVWTOGoibL1bvM-QqTiXPYS_lkvGkX6pgXkcCiAtqEdgIjwRhCjsOfduyI_dc3UnDO9F4XQ/l4lKE_TeD3ku-GRBGu-KNbUeYTo7IWR10pGIz4H_MOU",
               "width": 398,
               "height": 398
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/VMWvsmjCtGCGYhxBO1cD6Q/ntDhw3nEW1rcdjluSZh-ycH-vql9BWU-HGdLgyspzEp6_Lu5a4qkCqke8tEgJ199f2lA46ZuH7klsxgk7QzH9x6K9XqWkraMi94efc99RREWLCs3buLDjytF6EQ3dulYc01ygXaKjw7mwEJrLkXFWA/B-wanYXF0XRTwmlM0MmHsRosMe0NFFWWDTD7zaosNhk",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/FhdilEPfABPf9fO8DaCkDA/RYyUHbhPkSW5_sGekdEEORYDdiWhptup9MIvcyI7Ukwk2gKa-V8o7JpKJLvWmTVIfcuoZZGaVxjt6LSCU-r0aPLYwQVSU4tPBmSgvT7o2rgeswIYytjpnBIxqyzNjs_6SrL46hxlgX71R2j153HTCg/GCj6tJSB6XKTPea5QHs32zQ2TEzfRjEOGC8pLT1q1to",
               "width": 398,
               "height": 398
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg",
-          "imageId": 12
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Tomo Lazovich",
+      "Author(s)": [
+        {
+          "id": "usrWvoUPJyx6PhVsO",
+          "email": "tomo.lazovich@census.gov",
+          "name": "Tomo Lazovich"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -299,41 +347,47 @@
     {
       "Blurb": "Mike Walton (he/him) is a researcher, technologist and writer endlessly fascinated by the study of cognition and intelligent systems. His research aims to synthesize ideas from multi-agent reinforcement learning, game theory and participatory design to address socially impactful cooperation and coordination problems. Mike’s research has been supported by the Office of Naval Research (ONR), Defense Advanced Research Projects Agency (DARPA) and The Naval Information Warfare Center (NIWC) In-house Laboratory Independent Research Program.\n",
       "ID": 13,
-      "Title": "Emerging Technology Fellow - 2023 Cohort",
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
+      "What is your ETF cohort year?": "2023",
+      "Title": "Emerging Technology Fellow",
       "Images": [
         {
           "id": "attROSxw6AXAkJppo",
           "width": 432,
           "height": 436,
-          "url": "/assets/img/import/bio/mike-walton/mike-walton.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/0INvSQI9I2229WeP8naWOg/KNiP0T_CPl3wf4iTlPNODcoYAervcWz2kdIPMOpxukcS7JKK4wEr7ztzI8QbG_dgYDY4p8-Dwp0Ze9eqDVlIoHB_QXrMm_AMXbwExG7j_jKMfKJ1FWCHQCTkEZsUFN1sMRqFcXdFaQiYpN2KQUcFW1QJruVXK_9i41Zk2gYGlrs/qW3rfGVEEVjZz1ck7JU1Nj1w_wGjCnm6hFzVJu4XrSE",
           "filename": "mike-walton-headshot.png",
           "size": 326917,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/F3F5uJMsn6CQP--ZJLhsIA/mZflMDObxix-UXPGMMlyhc7yYBlnjX1Py1GBja2OelfTcaC8mMsvKbTPfpJKEyl8u4ieh3eFEyDKBZFY8LG8yfGjQtfj4Jn7-GTX8VWNVgroGoWAgtGkWSgvcrhAZyjPnmnvAFfDJyr0tDhaPZdN5A/7mkm46Cb2bPKukJ3GvI5wUm7GWHLACZrgQm4LmTd4ik",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/Zkq53SHwkXWEdWVHDLdYoA/vy7C4LFbNlLF9n372B5OO01exz1kHvIxWcMOyxxQQx-rGtYhYV1LIF9VOpFDdCpWqqz7wuhhPnKZ24zroSJJp56w770LExlFlTfBkI5tttME_XoCSetb0wMIjTuSLQCnqfd2eDX3A_qFyRiLEbvTwg/yds97qG03g1MTck0USjo0VOR5THvb8I70OVy3z-2Y5g",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/fso_mJeuFmUkHitmmXTAAA/X1gKnjauwBnRoBynXshYH-O3iGmoIHvHP2rmu5kpT5vtj_zUyRCEjaybw6tzDfrKjPWq0t66pY7uMtA_P96uvt-QeGeDNZO7BWjmJH_y_5twVgbpz-SVYwd3uSA1cxHC_eOPNzvDquNQzYHFduh59g/k2qwvmPz9KQQqvQVM8e5PuH_b4Vj_gbeP45VwGik4VA",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/ZkTeJ7vtnjKDSgEfuPBlJQ/Om8sg4BqFo7nlKKud9guq-h6hHQESbvfVOdea-DHfAvxsFXlKqQtrrifuQTVMqr5aBZdclkk2eteqM28lHU12QqgTOrZNt_38nAI3tbsZG0G764SiGlicioPC4jX2Ws4siJd3sqMbHomp7ksRrKH2Q/b1J7WCzuM_BpJBf5K_2CQUL-GA_ZzhL-AZHaYTXpkas",
               "width": 432,
               "height": 436
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/CMlEjTEMMc3nYPuoboNG9g/ymA_aVkCF87UVZI89nqYx32vz0H1PZHCBm_eCrs-om7Ly0CTI8JSGLBVh8kGWePTWjvqI78zGzqR96yNI3nmXNAeY3J4T0yIsl_JiwNnPndz_2w6Plw8LZuo05Ug_dpOZH2lDW8h8gvAgTDegbr1Ww/ws9_RXnAJQ18p3b4sZn0V45ORLOf20bwXIOnFz2B8sQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/T9rA5xZXpFUDfJUaQgBUyA/h2FVhU1qFXHXCuUFI3JxvRFD9ovTRg9xXapAn2_1Hsq9jDp2h4Vix1_EIAqaPqwNOSJGdoG205Tz2AsJwtU8mMVVmyROqlIVCseK3T8K_fdmtEi-Swd0EqBCgeY2vxO-UeigALYYVhjg73PbYnJYVA/Ip8BCzo8nYDtZs_WSrlIxQ7r3d7Nv7eygwQz_ZtHOzo",
               "width": 432,
               "height": 436
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/mike-walton/mike-walton.jpg",
-          "imageId": 13
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Mike Walton",
+      "Author(s)": [
+        {
+          "id": "usrtqjFkUi50HUhnE",
+          "email": "michael.w.walton@census.gov",
+          "name": "Mike Walton"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -341,41 +395,46 @@
     {
       "Blurb": "Kate McCall-Kiley (she/her) co-founded and currently serves as managing director of xD where she's continually motivated by what amazing emerging technology talent can do for public good. Previously, Kate served as a White House Presidential Innovation Fellow where she worked on projects including [vote.gov](http://vote.gov/), The Opportunity Project, [worker.gov](http://worker.gov/), and then Vice President Biden's Cancer Moonshot. Her work has been featured in _The Economist, Time_, _Fast Company,_ and _Wired_. When not at xD, she enjoys teaching at Carnegie Mellon University, coaching toddler soccer, reading philosophy, and tending to houseplants.\n",
       "ID": 18,
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
       "Title": "Managing Director",
       "Images": [
         {
           "id": "attAbROOShOJO6KDY",
           "width": 1062,
           "height": 1168,
-          "url": "/assets/img/import/bio/kate-mccall-kiley/kate-mccall-kiley.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/hCNcm2WuOQl0RKlDiFtnyA/X_m53GyMGPD6yWktb0FNb1EOs9R0tvnYTsKVf--UdLSJ9kPsAUf4b7Q8BPpGzaekr4Tj-S_VY7kwb2j28wbzl_nh-MbiXSdu1SnK8AoYG6K7q96z6b8upbEYFC651BU8AMQUKkG6mpWpoXei9bU9OIn3jOHphGbawwjNPLnNSuEngBPdtcA_OuTNMJBvGKMS/LrgSLppUNgSEJXt7Eb1pxGW0meqypTX817D_NPf5ds8",
           "filename": "thumbnail_Screen Shot 2021-09-14 at 10.48.37 AM.png",
           "size": 854984,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/oBV3ijpDJr0ZAVwXDhxdfA/Xe1PeMGAHid1-z_VElwGbqUwpqagOWxALwfwq26X6JuMdVtVDX_9AwP6irfQJOrwUkBhQyKinj65edaVfG1rtNdJxb0wpT0ys-e6M1pr_P1uqVIYZnfaD3MHPH69NUU4mvCVlYncqU8BBjDMssY_Ow/PJ6jBKQ38b6ivN3QjhvMX9wWvzAlDPjIuKMl6tg7Zsw",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/nTrdchFUCnBk12CR67SP8Q/VoUcrQpghPyhz5MomTaRRMyZQW2FShAzIHv_tcOpdzI8KRhiOOuVtY0lz-eUyoY4K9H2yufi3Jdjtt6-YII41f7z5SrdWb-pORvHaZ82VvL4SsfxW-dB7zrbxoX6yrCWrI8nMpxujXHUcXGl-Owr2g/ikHt_nIHFJuRBP3y1hzJCBV6HLmYME-Ex8QV-xnB47U",
               "width": 33,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/XO79BBt-4Yl0jz4wM5E56g/p7ic-y6n2qCTLmD7Jb3dhnCynrQcABRF520e-rSSkZiavarIarx4rrol8ff-u5e6r5tbw3Yk1-rnphbsOC1JsuZw4eFid9sUfRpO4z2Wb347NgU9LolcBMyVqgp1t-VmQ9nrmAb07pOzIU_Byw5GIg/mbm8Jn26e-Z4SRAaFKhqW5x2qMWmFysvgI_PufGoxAU",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/2GZm3pUNG5j7cZPoIcHPYg/sDroLVlgAvEe2ofIxWMHfME3UjN6ArTYNfSy_36VF-ZjQ2CaqRfWtoWJ_G_as44-GluipffIfgrUr_FGVppVR8w7gDrEXapto_hRRXoG_XS_TSjx_Z0KvQwZI-bJYwOKP74l3eziP5Pmh4UuDeV-xg/82XpuiSj2LIIRUrU7vJtFG6qUJ5Y1Uz3EqxOPBOmcjo",
               "width": 512,
               "height": 563
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/YZTMCl5-RSz-LO8lvfvpTQ/lJmtOcomPg3yJHT56BC8vqi9AEmB3jGqvxB27MvS5pAK00hH3bvT5p0NRVykixN7id1zt7zraKjRDlxNcaImTBB81uiaZzzeHo-vKr40yHD3c-GQbzbJTyJ8D-tCTsyrtEzpwWAkYxdklwMEZvqa9w/LhqF1oQbElxQqDSvdRjiEE_4u1jRPPYob_5I8roxEns",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/1z7y2xlcnHHQG3rRoqcJhw/cAxlVy_B-E6e7N1hpUcaEEISZ3FzEMLvlosaL1K-NLkTDIKDmaMN-aiYWpJNw3hdOnICIj5mmRdF2SdXFOshhywqJ7vQbta_BsjX68OQXq1m37Mzzp9_C0RrymYrhRSFmycqr3tgh5rBZhd5dlBKxQ/TapjoQewDa_E99eT4EO-xQ6-7tWJ6tbcwi217tOV-hU",
               "width": 1062,
               "height": 1168
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/kate-mccall-kiley/kate-mccall-kiley.jpg",
-          "imageId": 18
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Kate McCall-Kiley",
+      "Author(s)": [
+        {
+          "id": "usrZo6wk2YDp64A7u",
+          "email": "katelyn.mccall.kiley@census.gov",
+          "name": "Kate McCall-Kiley"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -383,41 +442,46 @@
     {
       "Blurb": "Ally Burleson-Gibson (she/her) manages the Emerging Technology Fellowship with xD and builds partnerships to bring highly skilled technologists into government. Just before xD, Ally led a team of project managers on the Operational Readiness and Integration team for the 2020 Census, and before that worked with the public to teach them how to find and use Census Bureau data through a variety of tools on census.gov, and then later engaged stakeholders and captured their feedback to help inform the development of data.census.gov. Ally also worked in state government and non-profits, typically in community social work settings with newly arrived immigrants and refugees and facilitating their access to services, with emphasis on health care for children with special needs. When not trying to re-imagine the best path to finding amazing candidates to work with us, Ally loves walking her dog and having fun with her two adolescent kids, who are always on the go!\n",
       "ID": 19,
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
       "Title": "Emerging Tech Fellowship Manager",
       "Images": [
         {
           "id": "attUgtNaqlodQQUZ7",
           "width": 505,
           "height": 505,
-          "url": "/assets/img/import/bio/ally-burleson-gibson/ally-burleson-gibson.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/4dsxFSK2i5muMrlRX91DKw/MnU37XGkL0fGZdbcmX-oq6ydhUhmKhcXf0zHB9XFoDPD-D4Xtn41dGsiqrn2jd14TUWBs6j3RuQj2aRx_v2WfLljz51p_onOEpwsH9KDSKcDnmvZusbP0g7kTcjAoukStyws9iBmzoJbxQX-XdsURp8xSZ08QQ085y3v8HZTfL4nzQLIO-NsMb1t0v4tMjrD/hL3FHoWqmEfOw-Fc1LtHXHkEx0ZsCA67n-6xx-HZhgU",
           "filename": "ally-burleson-gibson-profile-picture.jpg",
           "size": 88585,
           "type": "image/jpeg",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/1GbtvahZpl5MzNMWJTM7ig/Srg5LAmVAdZqyOEi6XVhZZzea7OSPLiTrjjYiK88SlsCdZkQ9_FR-EIrctyX24AK4aC8aUJjJtCk7w9081tuP2FvXsxBfFB7NoyVIPxstuDWgMrv8BNaN1xBydl6E4OJE3AIku81hwAOrWIq3i9djQ/rvoWqG8bDvlWzz-wP9qrbjSszBDA8DGaEfR3KGKGIas",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/T16LuwFjJbJy9j0eRQLS5w/t7a1rA-tj4AyRVXb5Yq8jf5ewGTSnkV1H3Poe9MumfSocQnCKXNVY9u0WVdLXnOPYRZ8YkgFqqsbU7uEuk-3cYsgT4BZZHfY-MyW643_0JZ3YsGCnEbAQMJVTvN9VVlZF1wjEgMgE3PXwS1hoQuWqw/HAuoRqPOUgssEkvypag0FeSTUVMuDw8dRjg-yp8QV3w",
               "width": 36,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/UVeV5e5mgGuQrUpBjLCvNg/8vv4F3y2CcJwQrZENeoOGKqYx5I9gMx1SItGAPodio6bKeOlIpOGvGfnqLrLZFLnHB42o2PW8fNjj2bgQSl_UhaV_jFQk9WI3lQ0UuXQFNeBOwWmXialNNZrd8bky4JJ37HSvyp_ci1HE1VFD7GSkg/MKCHcGfF7HFED0EMXI4N2bK64bA11htadG1Fp1n84xQ",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/xqnYycN3oxoxQkNDnLPh9g/emswxQsDKoRQplX3Fbch_YFjTqSeR3Ktsu913o4cIqhqPFKmUAXaRdFb9tYTBv8zX2vPRHTz0wuK_qIfMF48FRwEPUX6Tlpf_rUWpwxnBYysa3Z8Y5cr_7nFjH4S0dxtvkKKGaO_yEgsogIzy61Fvg/AYgRsAnYYE74DLK-wTYgIJEgPKB1LYm9JqvvCL7BSXA",
               "width": 505,
               "height": 505
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/Ds2pexh-oGA8YFbC_g8dxA/ivoz2tVF6BiySsxP5-IHGy7q-qgdPuGNPNN37NS0EBlo2HdqkgJbxQUEVQO7xLKv0X5NyosT6YJ8gk1ZB49dUjr29UN_7xdvzzmqGy3MgTMtRF3ukUUh7jVzh0-DLV_z7BdB_2WxNgoll8kDRbF4SQ/xEKZklP28hyLM6PAPt5yUiHeWD-BmVEzaS1FpqkyNsk",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/TgYe1_KycFizoMVHj9DD6w/JHp6Tvb0Ob56uysyPifAkfGMxVbYhZW79ASCRb8D46ZfLYFy7-oHbcyaFB6nfkQPVDb5-6EB7U4aqlbuH3fW4NFTLJXgALUGBOtrYK54FEPnckTgfcxluFomkUvJzhZg2wrd_Kxa_CL5lF-c_TEeOA/n6T3K6JyQhsg7YsvvfnQwSwcaKY5fRcgI7dF_8JUgbw",
               "width": 505,
               "height": 505
             }
-          },
-          "newLocalPath": "/assets/img/import/bio/ally-burleson-gibson/ally-burleson-gibson.jpg",
-          "imageId": 19
+          }
         }
       ],
       "Related Tasks": [
         "recfDbx9eqvyVheRd"
       ],
-      "Name": "Ally Burleson-Gibson",
+      "Author(s)": [
+        {
+          "id": "usrEiYlZCIfaxT3MC",
+          "email": "allyson.r.burleson.gibson@census.gov",
+          "name": "Ally Burleson-Gibson"
+        }
+      ],
       "Content Type": [
         "Bio"
       ]
@@ -428,31 +492,42 @@
       "Attachments": [
         {
           "id": "attNn21fp0jAEBoAo",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/NkksiJuDkokU66OWqfTFiw/1lDen30zBZMG8PW5Gjot_idfUtULlB6MfogSsE3sM05tv-tKhg_iXCk62bj47Wxd9LtXSZlb4NhmpiR9pK8XEHMQ2W1XjlgMM7D9bdus6kWSEjnDzVi-4HWWJD5bWeDxDa052Hv9Qd8UcF4o8zuFCb4Hn47cZO7wHdRQknM8pCJ_-uPmqkfjeboxJ-28QhGr7PUKBxsgaObyybbBeGfNAQ/X6G30qWgLZrQeF5_F0lG7x84rRc0fKtVPVunTF-NKH4",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/qLXlCQhx29sjLBXnABbw6w/pJq56ovSyw3PlSyEapniOpjJMr5BWWZzebj9edwKhh7vdJGAToevdtjwJeEbs66TmHkYeFPRFWUTZv2sUd1cbkautw4PnpRX5TFYEuUR6Bo1LXn7JUZ84YJPJuxXOZcq_vx09vHHb1fjt0V-G_9kIUjPKsR_TTshviXKvegNiC1hK3O23shE6_8YidueHTmDxNtVwkrQMAzRP22XPbvDEw/DHe33pldvPqLJURSW8AKJPuZivaTr_kpVQSft039vRM",
           "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
           "size": 346576,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/a6ZLoexeGvONmv7cbz0VVw/wcDrb41BWvJ8WOqNn2wYZGppd5_P-xrehkD3pgJcc9dVmSnS_VLGE_Fb3qenPU1mlzTY-fBmhm8pJXmXv8V1kplBYK4fw4Wp_ioGH-MNJkw-lMzUAEuno18lzaN2YTUgZ8xeSkMYaoYWkAjxjnBQEA/uYv5WajwWSMioU1SfEzwP3pqPR6nqS1XXlUW51wesjM",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/4gfPxSVjmk1sOCfufQaqTg/a7PzYRuBzU1EXwZj8P7a4nOgWxEiaJzQTEMIZCp7sUr6NZBwYmlJUrr4ZbCar8C478LpBSVL5Jgqi3Wk4PFgSj1vYgDwgvRZmv6flvJ_EGHQl88q6kijnTU6_PpMaKl6lrn7p_fGEAX8gSw-JvWaLA/9l0qA3e8zPpgvs0kcH6gxky-MAI0zKzMS7f77tu7khc",
               "width": 28,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/7dsQuB2iMwsEDQGdE7TaDA/3QkMmaO9XhLbb-9sr4IcIaKVyK3FNw5KQpPo76EZFPDZgvtPk1-lH1D6nlufHqAxbRwx0yCHrmn19ovisZ_1BxjBr0UMseMUZ2NAwOWI31vdobkQ2fm09RUmVO3X8W_-RgIzX6GSkT7SoTW9x7bltw/emrp2Pbci9G_m9-BcWU3p2_sDA1FC7iF_l7FCzWGwXg",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/SHBv6_pfI8gWx_wh2HmQVg/Vyvejna7sW2HukIoJwYcUqZM97tKOG1Kjwkiq_SaAxeKu7umgYUUHZ0BntojXhwsXBdvhdrogjuxOecbNMLjIi3qprDbfuAdmkFg0gcfWycQeU71F7aBdpGxAck_8uKHNeDrlg9Fo1uUPf9Zu0R1jw/wAJkPHp2ZILadD-qP4RlPVwdNyjm10rs6N0JsYG-QVA",
               "width": 512,
               "height": 663
             }
           }
         }
       ],
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "Our team recently completed our phase one report for the data driven services for Tribal Nations project. Through our investigation we found that this is first and foremost a trust problem. The report outlines a proposal for how a data project could provide an avenue for relationship building between the US federal government and Tribal Nations. Although the project will not move to the next phase of the 10x program, our team hopes to connect our partners and facilitate next steps for this important work. \n",
       "ID": 15,
       "Title": "10x Phase One Project Data Driven Services for Tribal Nations Report",
-      "Name": "Samantha Weinstock, Diamond Nwankwo",
+      "Author(s)": [
+        {
+          "id": "usrSYrPapySwVCuuP",
+          "email": "samantha.l.weinstock@census.gov",
+          "name": "Samantha Weinstock"
+        },
+        {
+          "id": "usrrjqx70rvmstwSL",
+          "email": "diamond.s.nwankwo@census.gov",
+          "name": "Diamond Nwankwo"
+        }
+      ],
       "Content Type": [
         "Publication"
       ],
@@ -466,18 +541,18 @@
       "Attachments": [
         {
           "id": "attNOFJqLm7Vs8cZF",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/mDARtxQPhe8YTnuKOfsu6g/iH0YHjycQ05aMQfYF8Zql0xk-CLdHfLeWEnVEcUTa7xGnLSE72UtzAibQKTTQEzgMPZCAox4WVEigG_F1ketHFJR0OsOt0qREJq2uD5aL2YrtznSpIsauMmLzqcGP3RUzqqC-YGvL4ovVkS5M-XCiXCuJS8wr_SoEtOp9h0gMmkvvGWxtKnPnIM5y0WusGHwHdt7-1FOrJfNq3rCekmVvQ/WQexd2jvbrUSqRVrJzQ06vOfeGJtIMsaPn_uLM0SwPY",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/UK6K7vj-EXXou6XHVnTA0Q/sxL1dHDsP_DqSba8fF3uXqN8cH3vaZnOksWXBGRbh2KwbVJypBC2iMU72LJXvm-cdLLGXNrn9gy9YGUI-LsLoWGmOAe2CiQlXoELZMscUmngcq4WAsHQqp4zQptjFBpGKePoYFLleLkAMzM80zbqLjqdN9ZKYIxjuPVsoLN1xzMfnNJht5795r-u3iSvXTxZJKgN-5t95M3HfFx2yA14FQ/CAjSUQB4QrO-hFfXevdMeMXadeN5c59wr2oF3AD7sRw",
           "filename": "10x Data Driven Services for Tribal Nations Presentation.pdf",
           "size": 395981,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/JUDIQuoDyHNC5lo0rTxcZQ/62i-1u76cZDNDB8tRKuHYP83hM5RCE_K0jZTdLBYj65_B5SOe8HCXM-emJ_FLEQyP6nWiGQg6CtTixY3Dz4nLv9YNZZ1mVYzmsiQ95PfoW_yhdlNFC5I5zSSswwemCCUrEsxNt703b2zjXykopa-tg/8USjn13Mpy3mgMZpkDqsm6rfZJf2YSyUY3QGXYN3uB4",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/ERWmOkz-_J6P31X4N38kyQ/r44C9gs0mIfdVujE4JepDYfK5DhKQW4yZxLv1CC3jyxbXJ4UZNwK66w7UTEoFgJ7We6JN9Ax_MrkGUEPxmI7vvV1uCGpIyoKTJy8eCut_d1T0qnaCQPnw0asPo-FiwpxduvEKu3dvZr-0kWucDv5Hw/x9-eexfHNcoWcT23CfBZktu23l7U598PKosf7hRN1oM",
               "width": 64,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/-dSeVQjl03qXquTj3XZfMg/pvDEt6j6gczxeCeM9lkF7zHbLlzaODtHB4XtaguidaBhMu9CbFYOM1giLM8Sr6cIn7J0aXNeZpMWqSbg3dLGC50c5Fb9CwjLXamL-DSbKOXUjdgSPiGLXLb4-4bil4u_DmFQwjsSt9KNvptNPw094Q/IRG-79MaGl9ErG5i1HIb6ttY454PnCxi8w8Enj2J9Og",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/FHIQbbII_trEQWdKe7T2TQ/En9CUQ9AjShoenXukrQ7Ev3cvMsNlhHCa4GF9Ofhn-jfOHlwahwQR1I5vxNneo08OW-MonUI-kjucD8OS5aORx9kAKTA3rIp4Rz6ReYymNxu40q3f-ygi5Wp9Op1-PpQ_RZ3132An1zFbKzdZ6usZg/c478OecyPPQ_BscB5PhN2ADlzq0T7Xc6vPQ8Mn-oWGs",
               "width": 910,
               "height": 512
             }
@@ -485,25 +560,25 @@
         },
         {
           "id": "attgOVogkwXHAyGBM",
-          "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/YBd175kbirDwPSUwNWQaZg/ORwuvc2HnuNxB5zEC_5gpByNzaRqwRK3eJq4IJvhf303JwrHx4GWS4PUEKLAD0_3QfFkQt5J2loag_y7Klzw1MblhJa3rSIjYwqbyUq7bsC4L1C6IaGsYPZTyMKQHfqdwa6dqcUhnThd_0n6zHklGkX341Lj1ucI4K1PBPBhKKzfrJ0Z1ATG5gKawnwoMQdU5BmlPsk7yeLbytL6wdKJnw/QPh_bgG2muUOmRzrvHJWo3r7yxyxBlYCf7gA5DnoFt4",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/_0elDjXZcfOafXpNj6dA5g/EgNlFMV5mc0RKnyaqy9DBSXVKODnjFCfr3Yfu91UIvjVXbelgq_N_Mgl0XgpAEccz94T4Tps1rnQJ63yy_PADfWlSGEbVnw82ZYHHxjHNoeNXNl6M7wt_JZR-dzoJE-QYX0Dm1pkAmU2ez2RugVH4Zao5Ib8D3zn3I91g32DhoIkIVNzOBwFzYBFz6jAalMMjJsMwURfaP_Di912UjMmZA/S2bFaRwOAY8WHCLDbhBPEjFPKmqTe864t1Zlls5soVo",
           "filename": "10x Investigation Report for Phase One_Tribal Nations (Final) (3).pdf",
           "size": 346576,
           "type": "application/pdf",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/6RzQ8Wz7QTpcsHfAA_0qdw/7Can7F5P_q_e2bLvbAWo2oVIaYIaWQF6b1V7Ivj7FFHW6HIZ0ReIMknqWSVGLmRRaTWUhkunThirbPvEOyfDYADFWejhlQ5MeLuRwhnb-cEt_nvohhrZpw8ZIyMhC_MN2_BPNMdubdKBNJSvLM7_ZA/QUKO_wTwWZdgVY6h8qFVsuo9Nmfr3dBuIQw8SRiO7Zw",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/7bhblk5GfHWICgAgGvztNQ/jayP8XUSSaaGIyMSy5KouL2Zz9ZGVVZ1IBzVnQu37tgAJAYrtwUsMV8aQ4fuMB8ax8yxH4sI6IGgtYKfWbspBdHBkLAS2WqOqYbyPcEexY2-WBvdPIsgqBIE95LR_r6EjEYMoV2OTeGP41uRRVmCtA/cOh7eoULxTXgqGHC00qS-BmqCUmi2dswtLHQLpfPAuY",
               "width": 28,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/S3WlJ_pXDaeRxGc6gsF_hQ/IyPrd_XGuo7tKyD5IuVmGeJtGMu1hN-5yq_OtVqXKOmAHJhgWvt-YeZV2RLMstA8UVNE_AR3qWsKThuAFL5H2HVnk1KQGkJWQ94gn0fEdB00-hpsEVkWy2LEFtq7nCc_U_5PIMPpAKzBH1PVfNnRdQ/qj8MAGYhc3K1bzsX9RO2EDSyKpfnRL1xRWEjhEjAElY",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/E6OrsCC0c6dDeJljlXRKZQ/JhqB5fIVTZbw-6hRmBoThNbb31OVx8JIiTdtm1lEVtEThii2zB3mxqY2BGI-RcJ7mfTeGXaTpZ7_E4FLRsrszCy3sVcOnKP_Kkt7JssMW5MfFugaW-OK-tCm_34kkgjbxYZTA51YImViw1guELtbhw/m9S2afjoh-h0ONNnwRdi9-AI-0536mpoxQ5MO2Q9KdA",
               "width": 512,
               "height": 663
             }
           }
         }
       ],
-      "Related Projects": [
+      "Projects": [
         "recmgaWZQyms4wZ1Q"
       ],
       "Blurb": "This project is in phase one of the 10x program. The team includes several xD team members as well as collaborators from other parts of the Census Bureau and other agencies. \n\nThe original project prompt identified a need for a data sharing tool for government agencies and tribal nations to improve transparency and access to transportation data. Our team set out to understand the specific data problems tribal nations face to determine the requirements for such a data tool. Through our interviews with tribal leaders and government employees that work with tribal nations, and our investigation of existing programs involving tribal data, our team learned about many different data challenges that are not limited to data sharing or transportation data. As we explored these data challenges further and considered additional perspectives an overarching theme of distrust between tribal governments and federal government agencies emerged.  \n \nWe recommend that the project move forward and that the next phase is structured as a collaboration with a small group of tribal nations to promote trust building. We propose that the project focuses on identifying one data challenge that, if addressed, would provide significant value to tribal nations. However, we believe there are several conditions that must be met for this work to be successful:  \n- The project team should first **approach this challenge as an opportunity to collaborate** with tribal nations and to learn about their data needs and current data collection practices.  \n- 10x should consider **extending the time frame for phase 2 (perhaps combining timeframes for phase 2 and 3) to allow enough time for relationship building.** \n- Rather than attempting to work with multiple tribes to create a data tool or conduct a data collection survey, **the project should be approached as a case study** that focuses on the data needs of 1-3 tribes.  \n\nRead our report and presentation for more details about our proposed project. \n",
@@ -514,37 +589,99 @@
           "id": "attvDHzvXPdXbzQaX",
           "width": 71,
           "height": 82,
-          "url": "/assets/img/import/project/samantha-weinstock,-diamond-nwankwo/samantha-weinstock,-diamond-nwankwo.jpg",
+          "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/mpzH6shRTadPUkqoTN_wKQ/iKkEI4gbafWMhP8jGf5Rp1kJefa1AKGA6CDDw2PC3lCEZo2An3sutRU9Wwkm2sjARwshG-oyzgMgYpoUXD2eDsXEPJPk4_C7BRs1TVv2M7fgdh8iUZkFATM4uRmSWfYYraWayLs_xRBpdvpWk0Z5k8pRQkuxB4KGy_ofvuqiF6A/WHsswdHA1BtQYeeuD8CW4iCBeN-PPgVD8fHcZ4QeRmg",
           "filename": "xd-logo.png",
           "size": 1442,
           "type": "image/png",
           "thumbnails": {
             "small": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/9-YWMLeHetxlDBTIQtEXRw/tUd70viUO2ALS02L6ofGFfzkR63eOjYjO3OxF3hnMgLwsh2H1pbOCOFJDbo_4b6KPI0JlBTrvbk-RrOlGThZHMYDWgioLz3jGj3yuYE6n_g-UPRuW1r1AwD6Gzh5-zP3DGGambqBmJlPdcGg3JnkNg/1nqG_A92BliSUJSZkSgJBPf4ttgSdKw7oe2UkE6EJsA",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/TMEGUWXsdGHWylkCgdxMlQ/ryD2hWLs0Y06sSDivJfrauh36wkvSWN0yulo1NTvdLtJlDs2Xi4AKtA0b6lrctWu6y-XGC_At3LVIiwguxkJEOb5_fYALgNrSSGlEHZknTezRERUDuUnPVD5LhL8Qh6RIlQgAD-aAnLPoMItttX9VA/wJ9wRu4-b9QpYeCsKMEkoaBj0XwMAVql31ck491mJaQ",
               "width": 31,
               "height": 36
             },
             "large": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/dN5HTQSnFIVOciaQVw9T0A/a__HyM8580TMWg2MzV2em8_qj6E-GSrgphRvdJvawmxBhkBpfb14PyKQ4NyLkH1glhnO9tg5O9cYnXxeM0VBcTqrfrDxRVG3THkN18RsWsFLVteeB8_gMfH0HTU13KdKnQQ2-vMgsYneHef2iM0q3Q/jsA_k-dUXvJwm_vb0InXlTyxuJvon-hgl1OkQjWgT78",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/jFAsWF8tskE_Wei_-rHChw/1NcPbEMDC8xw0QV6msL7f_XlM41CrcgUWLMJbry-rcaRIl80-273JCTBaxC96RHIEBp2uwFZ2hGL25OZZCejBNQD5w6M9eXzfHQQcADs0YX51GR9rNW51wqFhd71crzQ_tMXcfLz5Zia6IK8jqC-Tw/AVfrnEmwy2M_E7xWNEBAHSwHRD2PWQlDc2dGRttp-fo",
               "width": 71,
               "height": 82
             },
             "full": {
-              "url": "https://v5.airtableusercontent.com/v3/u/26/26/1709330400000/wm9I0E6cy08jJ8kJO8rqlw/OmaeACdwZ2o3Yre8i6AHn90pDLU-NlOkbhMrnxnC86yJhoY-Tjb8vsBkn4WbLTLK78UNErEZhpseBHDZeIHaYxpqG0OFYxzheYL9zmSNp4OeUVweDLO2c1SVpIQy5Dm-xf_vyHFqR_o2IuNYCKMnFQ/ORO8ZkHFPWIN2ZmP1SqH112kk2zjw3sb5V_B5MZHkbk",
+              "url": "https://v5.airtableusercontent.com/v3/u/27/27/1711598400000/d5wSvK4KkjIRh75vQyhoOQ/OFiA_3BABzi4mnZwoCTsUAyZ1BUtjLEkOg_00mr_z0zlYObvGjNVl5DW9W1kQYxqT0eq9DvwLw1cCkdNVIUDBVCKlk1gZOS4QxloZPZLXCJgGnEXJ403FRUlrEWh3qdDdXDxf1EaAllonac-FCbCzQ/wbBP6TGF2b6TreCLC7RM6sqm5AsrfOhSZe30Fl3DInI",
               "width": 71,
               "height": 82
             }
-          },
-          "newLocalPath": "/assets/img/import/project/samantha-weinstock,-diamond-nwankwo/samantha-weinstock,-diamond-nwankwo.jpg",
-          "imageId": 16
+          }
         }
       ],
-      "Name": "Samantha Weinstock, Diamond Nwankwo",
+      "Author(s)": [
+        {
+          "id": "usrSYrPapySwVCuuP",
+          "email": "samantha.l.weinstock@census.gov",
+          "name": "Samantha Weinstock"
+        },
+        {
+          "id": "usrrjqx70rvmstwSL",
+          "email": "diamond.s.nwankwo@census.gov",
+          "name": "Diamond Nwankwo"
+        }
+      ],
       "Content Type": [
         "Project"
       ],
       "Portfolio": [
         "Incubating/Early Stage"
+      ]
+    },
+    {
+      "Projects": [
+        "recA5QdbdLkKEBCgX"
+      ],
+      "Blurb": "To demonstrate a practical example of secure multiparty computation and privacy-enhancing technologies using low-risk, open trade data. \n\nThe project is being done in conjunction with the United Nations' PET Lab and other national statistical organizations such as Italy's Istat.\n",
+      "ID": 35,
+      "Title": "UN PET Lab Pilot",
+      "Author(s)": [
+        {
+          "id": "usre9y5z5ohWmUeAH",
+          "email": "curtis.l.mitchell@census.gov",
+          "name": "Curtis Mitchell"
+        }
+      ],
+      "Content Type": [
+        "Project"
+      ],
+      "Portfolio": [
+        "Privacy Enhancing Technologies (PETs)"
+      ],
+      "Project Team (from Utilization) (from Related Projects)": [
+        "James Mccoy"
+      ]
+    },
+    {
+      "Projects": [
+        "recgRl4g5yEw2Kucx"
+      ],
+      "Blurb": "To build online resources and testing environments so that technical and non-technical experts can learn about individual PETs, their relative strengths and weaknesses, and what problems they are best designed to address.\n",
+      "ID": 36,
+      "Title": "US PETs Lab",
+      "Author(s)": [
+        {
+          "id": "usre9y5z5ohWmUeAH",
+          "email": "curtis.l.mitchell@census.gov",
+          "name": "Curtis Mitchell"
+        },
+        {
+          "id": "usrtqjFkUi50HUhnE",
+          "email": "michael.w.walton@census.gov",
+          "name": "Mike Walton"
+        }
+      ],
+      "Content Type": [
+        "Project"
+      ],
+      "Portfolio": [
+        "Privacy Enhancing Technologies (PETs)"
+      ],
+      "Project Team (from Utilization) (from Related Projects)": [
+        "Curtis Mitchell, Mike Walton"
       ]
     }
   ],
@@ -553,11 +690,18 @@
       "Blurb": "xD recently closed its application period for the 2024 emerging technology fellowship – thank you to all who applied! Over the past six months, xD fellows have worked on a range of technology projects with different partners across the federal government. As we prepare to welcome new team members, we asked our 2023 fellows to share a few thoughts about their experiences so far on the xD team – what they’ve learned, their favorite thing about the xD team, and what they aim to accomplish in 2024.  Here are their reflections on the past few months:  \n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \nDiamond \n**Current Projects: **I’m working on the Database Modernization project that is focused on moving on-premises servers into the cloud. This is a multi-year project that will assist the Census Bureau with open-source technology adoption. \n\n**Learnings from 2023: **The biggest learning I had from my project so far is being open to change. Over time, the focus of my project has shifted to higher priority data migrations. So being flexible and continuously seeking the root problem that we are solving has been key. \n\n**Favorite thing about xD: **My favorite thing about xD is everyone in this cohort. Every person brings such a unique skillset to our group. This makes it super easy to learn new tools and technologies from each other. Moreover, each person's understanding of when to lead and when to follow makes this such a collaborative environment. I can’t think of better people to share this experience with.  \n\n**Goals for 2024:** \n\n- Grow in my practical understanding in artificial intelligence and machine learning and product management. \n- Complete IRE-EDL data migration MVP by September 2024 \n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \nTomo \n \n \n\n**Current Projects:** My work right now focuses on how to use privacy enhancing technologies to connect sensitive datasets that have different owners in a secure way. The long-term goal of that work is to enable third-party audits of machine learning models so that engineers and practitioners who build these models can detect disparities or biases in their work both reliably and quickly. \n\n**Learnings from 2023: **One of the biggest things I learned in my first six months at xD is that even though starting out a new project can be a bit overwhelming at first, the key is to ask for help when you need it and not get too stuck in the mud trying to figure things out yourself. It’s another reason that I so appreciate the awesome team that we have! \n\n**Favorite thing about xD: **One of my favorite things about xD is the stellar team of people we’ve put together. Everyone on the team is both extremely friendly and extremely good at what they do. \n\n**Goals for 2024:** \n\n- Create a demo to show how we can use PETs to enable third party audits of ML systems \n- Work towards using PETs to join datasets across different federal agencies \n- Publish my work in blog posts and papers \n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \nMike  \n \n \n\n**Current Projects: **I’m working on user-centered model cards for transparent documentation of government applications of machine learning and a privacy enhancing technologies lab to help policymakers and developers implement best practices for sharing sensitive information while protecting privacy. \n\n**Learnings from 2023:** Thinking about technical challenges with social impact can be daunting. Developing creative solutions together has helped build nuance into our team’s approach. I’ve learned so much through interrogating gaps in my own understanding and workshopping ideas with other fellows. \n\n**Favorite thing about xD: **The most exciting thing about xD is the opportunity for collaboration within our awesome cohort of fellows, across government, nonprofits, academic labs, and industry. \n\n**Goals for 2024:** \n\n- Publish work on model cards and ML audits using privacy enhancing technologies. \n- Onboard the next emerging technology fellowship cohort! \n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \nAnna \n**Current Projects:** I am currently working on a pilot project to establish a secure multi-party computation between Census and the Bureau of Economic Analysis.  \n\n**Learnings from 2023: ** \n**Favorite thing about xD:** \n\n**Goals for 2024:** \n\n- Build MVP for the Census-Bureau of Economic Analysis SMPC project \n- Facilitate an external speaker presentation about data visualization research \n- Present at one of Census’ affinity groups \n  \n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \nCurtis \n \n**Current Projects: **I’m working on privacy enhancing technologies (or PETs) both with a group at the United Nations and with NIST, the National Institute of Standards and Technology. We are working on deploying, testing, and documenting PETs for different use cases. Another area I’m contributing to is bias mitigation in AI applications. Specifically, I’m creating tools and proofs-of-concept for Census Bureau teams such as a [model card generator](https://bias.xd.gov/resources/model-card-generator/tool/). I’ve also been helping to maintain and update our team website.  \n\n**Learnings from 2023: **Keeping stakeholders engaged is key to moving a project forward and along the correct path. Also, working in government often requires the review or approval of several different parties, so it’s important to have different projects you can pivot to during times when you’re waiting on work from others. \n\n**Favorite thing about xD: **The best part of being on the xD team is being able to work with a great group of people with diverse skillsets and backgrounds on lots of interesting applications in government. \n\n**Goals for 2024:** \n\n- Publish a paper and give a conference presentation about our ongoing privacy enhancing technology projects. \n- Add new sections and features to xd.gov to increase our web presence and better publicize our work. \n- Hire and onboard new fellows! \n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \n\nIan \n**Current Projects:**  \n**Learnings from 2023: ** \n\n**Favorite thing about xD:** \n\n**Goals for 2024:** \n",
       "ID": 23,
       "List any co-authors": "Tomo Lazovich, Curtis Mitchell, Ian Munoz, Diamond Nwankwo, Anna Vasylytsya, Mike Walton",
+      "Is this a new entry or an update of existing content on xd.gov?": "New content",
       "Title": "xD Emerging Technology Fellowship: Our 2023 fellows reflect on their first six months at xD ",
       "Related Tasks": [
         "recoUKIGQjlzwmjFo"
       ],
-      "Name": "Samantha Weinstock",
+      "Author(s)": [
+        {
+          "id": "usrSYrPapySwVCuuP",
+          "email": "samantha.l.weinstock@census.gov",
+          "name": "Samantha Weinstock"
+        }
+      ],
       "Content Type": [
         "Blogpost"
       ]
