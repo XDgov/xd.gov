@@ -75,7 +75,7 @@ const fetchAirtablePromise = () => new Promise((resolve, reject) => {
 
     websiteContentBase('xd.gov Content').select({
         // Selecting the first 3 records in Grid view:
-        maxRecords: 20,
+        maxRecords: 50,
         view: "Grid view"
     }).eachPage((records, fetchNextPage) => {
         // This function will get called for each page of records.
@@ -110,19 +110,19 @@ const findProject = (projectId) => new Promise((resolve, reject) => {
 });
 
 const writeBioMarkdown = ({ Name, Images, Title, Description, Blurb, CohortYear, Skillsets, ProjectsList}) => {
-    return `---
-name: ${Name}
-title: ${Name}
-permalink: /team/${dashCaseString(Name)}/
-image_id: ${Images[0].id}
-image_path: ${Images[0].newLocalPath}
-job_title: ${Title}
-cohort_year: ${CohortYear || ''}
-portfolio: ${ProjectsList?.join(",") || ''}
-description: ${marked.parse(Description || '')}
-blurb: ${marked.parse(Blurb)}
-skillsets: ${Skillsets?.join(",") || ''}
----`;
+    return [`---`,
+        `name: ${Name}`,
+        `title: ${Name}`,
+        `permalink: /team/${dashCaseString(Name)}/`,
+        `image_id: ${Images && Images[0].id}`,
+        `image_path: ${Images && Images[0].newLocalPath}`,
+        `job_title: ${Title}`,
+        `cohort_year: ${CohortYear || ''}`,
+        `portfolio: ${ProjectsList?.join(",") || ''}`,
+        `description: ${marked.parse(Description || '')}`,
+        `blurb: ${Blurb && marked.parse(Blurb)}`,
+        `skillsets: ${Skillsets?.join(",") || ''}`,
+    `---`].join('\n');
 }
 
 const generateXdMarkdown = (content) => {
@@ -145,9 +145,7 @@ const generateXdMarkdown = (content) => {
             const CohortYear = obj['What is your ETF cohort year?'];
             const Skillsets = obj['What is your area of expertise?'];
             const Description = obj['Brief Description'];
-            console.log('Description');
-            console.log(Description);
-            let itemMarkdown = ``
+            let itemMarkdown = ``;
 
             switch (contentType) {
                 // case 'News':
@@ -167,8 +165,6 @@ const generateXdMarkdown = (content) => {
                     const ProjectsList = [];
                     const content = { Name, Images, Title, Description, Blurb, CohortYear, Skillsets, ProjectsList };
                     let bioMarkdownAttrs = '';
-
-                    if ([Name, Title, Images, Blurb].some(item => item === undefined)) return;
 
                     if (Skillsets !== undefined) {
                         await Promise.all(Projects.map(async (projectId) => {
