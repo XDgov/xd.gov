@@ -1,4 +1,4 @@
-<form class="usa-form--large application-form">
+<form id="application-form" class="usa-form--large">
     <fieldset class="usa-fieldset">
         <legend class="usa-legend usa-legend--large">Application Submission</legend>
 
@@ -119,7 +119,7 @@
         <input class="usa-input" type="file" id="resume-file" name="resume-file" accept=".doc, .docx, .pdf" required /> -->
 
         <div class="usa-form-group">
-            <label class="usa-label" for="file-input-specific">Current Resume</label>
+            <label class="usa-label" for="file-input-specific">Current Resume<abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
             <span class="usa-hint" id="file-input-specific-hint">Please upload a PDF or Word file</span>
             <input
                 id="file-input-specific"
@@ -128,10 +128,12 @@
                 name="file-input-specific"
                 aria-describedby="file-input-specific-hint"
                 accept=".pdf,.doc,.docx"
+                required
             />
         </div>
 
 
     </fieldset>
-    <button class="usa-button submission-button" type="button">Submit Application</button>
+    <button class="usa-button submission-button" type="submit">Submit Application</button>
 </form>
+<script src="{{ site.baseurl }}/helpers/applicationFormSubmission.js"></script>
