@@ -8,6 +8,7 @@ function onFormSubmit(event) {
     const data = new FormData(event.target);
     const dataObject = Object.fromEntries(data.entries());
 
+    // example submission post
     // postAjax('census-application-submit.gov', dataObject, onSubmitSuccess);
 }
 
@@ -15,8 +16,6 @@ function onSubmitSuccess(responseText) {
     console.log(responseText);
     form.reset();
 }
-
-
 
 function postAjax(url, data, success) {
     var params = typeof data == 'string' ? data : Object.keys(data).map(
@@ -33,6 +32,3 @@ function postAjax(url, data, success) {
     xhr.send(params);
     return xhr;
 }
-
-// example request with data object
-// postAjax('http://foo.bar/', { p1: 1, p2: 'Hello World' }, function(data){ console.log(data); });
