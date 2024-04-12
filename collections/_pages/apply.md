@@ -29,6 +29,8 @@ seo_excerpt:
         {% for position in site.positions %}
             {% include components/position.html position=position %}
         {% endfor %}
+        {% include components/application-form.html %}
+
         <div class="grid-row">
             <div class="grid-col-12">
                 <h3>Our Next Cohort</h3>
