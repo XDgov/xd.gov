@@ -18,13 +18,13 @@ function onSubmitSuccess(responseText) {
 }
 
 function postAjax(url, data, success) {
-    const params = typeof data == 'string' ? data : Object.keys(data).map(
-            function(k){ return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }
+    const params = typeof data === 'string' ? data : Object.keys(data).map(
+            k => `${encodeURIComponent(k)}=${encodeURIComponent(data[k])}`
         ).join('&');
     const xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xhr.open('POST', url);
-    xhr.onreadystatechange = function() {
+    xhr.onreadystatechange = () => {
         if (xhr.readyState>3 && xhr.status==200) { success(xhr.responseText); }
     };
     xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
