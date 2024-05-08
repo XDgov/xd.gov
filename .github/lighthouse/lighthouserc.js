@@ -25,7 +25,8 @@ module.exports = {
         "unused-css-rules": "off",
         "unused-javascript": "off",
         "uses-optimized-images": "off",
-        "uses-responsive-images": "off"
+        "uses-responsive-images": "off",
+        "uses-text-compression": "off"
       }
     }
   }
