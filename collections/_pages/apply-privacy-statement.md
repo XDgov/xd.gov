@@ -7,7 +7,7 @@ title: Application Form Privacy Policy
 <div class="grid-container">
   <h1>Privacy Act and Burden Statement</h1>
   <p>
-    Solicitation of your personal information is authorized by Title 13 U.S.C., Chapter 1, Subchapter II, Section 23a and c; Title 5 U.S.C., Part II, Chapter 13; Title 5 U.S.C., Part III, Chapter 33, Subchapter 1, Section 1 and 20; and Executive Orders 9397, 10566.
+    Solicitation of your personal information is authorized by Title 5 U.S.C., Part III, Chapter 33, Subchapter 1, Section 3327; Title 5 U.S.C., Part III, Chapter 33, Subchapter 1, Section 3330; and Executive Orders 9397, as amended, and 10566.
   </p>
   <p>
     The purpose of collecting this information is primarily to determine your qualifications for employment and may also be used to identify you to other sources asked to comment on your qualifications, e.g. educational institutions, former employers, and enforcement agencies, or to a court during legal proceedings. Personal information collected includes your name, email address, mailing address, telephone number, citizenship status, and resume.
