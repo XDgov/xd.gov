@@ -1,6 +1,6 @@
 ---
 title: "xD Team Member Publishes \"Causality for Trustworthy Artificial Intelligence: Status, Challenges, and Perspectives\" in ACM Computing Surveys"
-publish_date: 2024-05-20
+publish_date: 2024-05-22
 permalink: /news/causality-paper-announcement/
 img_alt_text: Causality for Trustworthy AI
 image: assets/img/news/xd-team-member-publishes-causality-for-trustworthy-artificial-intelligence-status-challenges-and-perspectives-in-acm-computing-surveys.jpg
