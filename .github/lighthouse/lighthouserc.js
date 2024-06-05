@@ -18,6 +18,7 @@ module.exports = {
         "image-size-responsive": "off",
         "link-text": "off",
         "maskable-icon": "off",
+        "offscreen-images": "off",
         "service-worker": "off",
         "splash-screen": "off",
         "themed-omnibox": "off",
@@ -25,6 +26,7 @@ module.exports = {
         "unused-css-rules": "off",
         "unused-javascript": "off",
         "uses-optimized-images": "off",
+        "uses-rel-preconnect": "off", // can't use with GSA DAP script
         "uses-responsive-images": "off",
         "uses-text-compression": "off"
       }
