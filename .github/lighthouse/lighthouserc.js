@@ -18,6 +18,7 @@ module.exports = {
         "image-size-responsive": "off",
         "link-text": "off",
         "maskable-icon": "off",
+        "offscreen-images": "off",
         "service-worker": "off",
         "splash-screen": "off",
         "themed-omnibox": "off",
