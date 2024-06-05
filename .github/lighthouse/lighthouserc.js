@@ -25,6 +25,7 @@ module.exports = {
         "unused-css-rules": "off",
         "unused-javascript": "off",
         "uses-optimized-images": "off",
+        "uses-rel-preconnect": "off", // can't use with GSA DAP script
         "uses-responsive-images": "off",
         "uses-text-compression": "off"
       }
