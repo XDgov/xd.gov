@@ -78,6 +78,10 @@ td {
   padding: 8px 10px;
 }
 
+th.highlight, td.highlight {
+  background-color: red;
+}
+
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
 }
@@ -96,7 +100,7 @@ tbody > tr:nth-of-type(even) {
 </style>
 
 <div>
-  <table>
+  <table id="document-table">
     <caption>
       Trustworthy AI Policy Documents, Frameworks, and Principles
     </caption>
@@ -104,11 +108,11 @@ tbody > tr:nth-of-type(even) {
       <tr>
         <th scope="col">Principle</th>
         <th scope="col">EO 13859</th>
-        <th scope="col">EO 13960</th>
+        <th scope="col" class="eo_13960">EO 13960</th>
         <th scope="col">HR 2575</th>
         <th scope="col">HR 6216</th>
         <th scope="col">Blueprint for an AI Bill of Rights</th>
-        <th scope="col">S 1353</th>
+        <th scope="col" class="s_1353">S 1353</th>
         <th scope="col">NIST AI RMF</th>
         <th scope="col">GAO Accountability Framework</th>
         <th scope="col">EO 14110</th>
@@ -119,11 +123,11 @@ tbody > tr:nth-of-type(even) {
       <tr>
         <th scope="row">Transparency</th>
         <td></td>
+        <td class="eo_13960">&#10004;</td>
         <td>&#10004;</td>
-        <td>&#10004;</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td class="s_1353"></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
         <td></td>
@@ -132,11 +136,11 @@ tbody > tr:nth-of-type(even) {
       <tr>
         <th scope="row">Accountability</th>
         <td></td>
-        <td>&#10004;</td>
+        <td class="eo_13960">&#10004;</td>
         <td></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
-        <td></td>
+        <td class="s_1353"></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
         <td>&#10004;</td>
@@ -145,11 +149,11 @@ tbody > tr:nth-of-type(even) {
       <tr>
         <th scope="row">Privacy and confidentiality</th>
         <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="eo_13960">&#10004;</td>
         <td></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="s_1353">&#10004;</td>
         <td>&#10004;</td>
         <td>&#10004;</td>
         <td>&#10004;</td>
@@ -158,11 +162,11 @@ tbody > tr:nth-of-type(even) {
       <tr>
         <th scope="row">Safety and security</th>
         <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="eo_13960">&#10004;</td>
         <td></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
-        <td></td>
+        <td class="s_1353"></td>
         <td>&#10004;</td>
         <td>&#10004;</td>
         <td>&#10004;</td>
@@ -172,10 +176,10 @@ tbody > tr:nth-of-type(even) {
           <th scope="row">Resiliency</th>
           <td></td>
           <td>&#10004;</td>
+          <td class="eo_13960"></td>
           <td></td>
           <td></td>
-          <td></td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td></td>
           <td>&#10004;</td>
@@ -184,11 +188,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Reliability</th>
           <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td>&#10004;</td>
@@ -197,11 +201,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Accuracy</th>
           <td></td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td></td>
@@ -210,11 +214,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Responsibility</th>
           <td></td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
+          <td class="s_1353"></td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
@@ -223,11 +227,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Interpretability/understandability/traceability </th>
           <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td></td>
@@ -236,11 +240,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Reproducibility/repeatability </th>
           <td></td>
+          <td class="eo_13960"></td>
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
-          <td></td>
+          <td class="s_1353"></td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
@@ -249,11 +253,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Testing/evaluation/audit </th>
           <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td>&#10004;</td>
@@ -262,11 +266,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Mitigating risks </th>
           <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td>&#10004;</td>
@@ -275,11 +279,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Algorithmic Bias </th>
           <td></td>
-          <td></td>
+          <td class="eo_13960"></td>
           <td>&#10004;</td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
           <td>&#10004;</td>
@@ -288,11 +292,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Disclosure of AI use</th>
           <td></td>
-          <td>&#10004;</td>
+          <td class="eo_13960">&#10004;</td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td></td>
           <td>&#10004;</td>
           <td>&#10004;</td>
@@ -301,11 +305,11 @@ tbody > tr:nth-of-type(even) {
         <tr>
           <th scope="row">Contestability of AI use</th>
           <td></td>
-          <td></td>
+          <td class="eo_13960"></td>
           <td></td>
           <td></td>
           <td>&#10004;</td>
-          <td></td>
+          <td class="s_1353"></td>
           <td></td>
           <td></td>
           <td>&#10004;</td>

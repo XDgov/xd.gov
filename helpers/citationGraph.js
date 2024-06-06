@@ -101,11 +101,14 @@ var node = svg.append("g")
         })
         .on("click", function(event, d) {
             // TODO: this should highlight the entry in the table and/or show a list of principles
-            d3.select(this).select("circle")
-                .attr("stroke", "red");
+            const circleElem = d3.select(this).select("circle");
+
+            circleElem.attr("stroke", "red");
+            highlightTableColumn(circleElem.attr("id"));
         });
 
 node.append("circle")
+    .attr("id", d => d.name)
     .attr("stroke", "white")
     .attr("stroke-width", 1.5)
     .attr("r", 20)
@@ -176,3 +179,12 @@ function calcX(nodeA, nodeB) {
     d.fx = null;
     d.fy = null;
   }
+
+
+function highlightTableColumn(documentName) {
+    const tableColumn = document.getElementsByClassName(documentName);
+
+    for (let i = 0; i < tableColumn.length; i++) {
+        tableColumn[i].classList.add('highlight');
+    }
+}
