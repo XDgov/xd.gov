@@ -1,15 +1,16 @@
 ---
-title: Citation Graph
+title: "Mapping the AI Policy Landscape: Trustworthy AI Principles"
 publish_date: 2024-06-05
 permalink: /blog/citation-graph/
 img_alt_text: Example Model Card
-image: /assets/img/news/citation-graph.jpg
+image: /assets/img/news/citation-graph.png
 image_accessibility: Example Model Card
 layout: blog
 post_author: Anna Vasylytsya, Mike Walton
 ---
 
 <head>
+
   <!-- <link rel="stylesheet" href="styles.css"> -->
           <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
@@ -25,7 +26,32 @@ post_author: Anna Vasylytsya, Mike Walton
 
 </head>
 
+<div class="page-bios">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-7 margin-1 margin-left-neg-1 tablet:margin-0">
+        <section>
+          <div id="citation-graph">
+            <svg width="960" height="600"></svg>
+          </div>
+        </section>
+      </div>
+  </div>
+  </div>
+
 <style>
+
+#citation-graph {
+  .links line {
+    stroke: #CCCCCC;
+  }
+
+  .nodes circle {
+    fill: #6D619E;
+    stroke: $color-white;
+  }
+}
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
@@ -64,6 +90,8 @@ tbody > tr:nth-of-type(even) {
                  position: relative;
                  float: left;
              }
+
+
 
 </style>
 
@@ -286,3 +314,13 @@ tbody > tr:nth-of-type(even) {
     </tbody>
   </table>
 </div>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+<script src="{{ site.baseurl }}/helpers/albersUsaPr.js"></script>
+<script src="{{ site.baseurl }}/helpers/states.js"></script>
+<script src="{{ site.baseurl }}/helpers/citationGraph.js"></script>
