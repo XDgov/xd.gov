@@ -119,3 +119,9 @@ body.news {
   }
 }
 
+.news-list {
+  @media (min-width: 64em) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
