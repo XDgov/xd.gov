@@ -175,8 +175,8 @@ tbody > tr:nth-of-type(even) {
       <tr>
           <th scope="row">Resiliency</th>
           <td></td>
-          <td>&#10004;</td>
-          <td class="eo_13960"></td>
+          <td class="eo_13960">&#10004;</td>
+          <td></td>
           <td></td>
           <td></td>
           <td class="s_1353"></td>
@@ -320,11 +320,5 @@ tbody > tr:nth-of-type(even) {
 </div>
 
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://d3js.org/d3-selection.v1.min.js"></script>
-<script src="https://d3js.org/d3-array.v1.min.js"></script>
-<script src="https://d3js.org/d3-geo.v1.min.js"></script>
-<script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
-<script src="{{ site.baseurl }}/helpers/albersUsaPr.js"></script>
-<script src="{{ site.baseurl }}/helpers/states.js"></script>
+<script src="{{ site.baseurl }}/src/js/citation-graph.bundle.js"></script>
 <script src="{{ site.baseurl }}/helpers/citationGraph.js"></script>
