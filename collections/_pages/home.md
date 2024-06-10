@@ -13,7 +13,7 @@ title: Home
   <div class="grid-container">
     <div class="breadcrumb">About xD</div>
     <h2>
-      xD is an emerging technologies group that’s advancing the delivery of 
+      xD is an emerging technologies group that’s advancing the delivery of
       data-driven services through new and transformative technologies.
     </h2>
     <a class="square-link" href="{{ site.baseurl }}/about">Learn More<span class="visually-hidden"> about xD</span></a>
@@ -40,7 +40,7 @@ title: Home
       {% assign site_news = site.news | sort: 'publish_date' | reverse %}
       {% for news in site_news limit:1 %}
         <div class="col-12 tablet:grid-col-6 featured-news-col">
-          {% include components/featured-news-item.html news=news %}  
+          {% include components/featured-news-item.html news=news %}
         </div>
       {% endfor %}
       <div class="col-12 tablet:grid-col-6">

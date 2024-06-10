@@ -5,6 +5,9 @@
     </a>
   </div>
   <div class="grid-col-8">
+    {% if full_list %}
+      <span class="news-list-date">{{ news.publish_date  | date: "%b %d, %Y" }}</span>
+    {% endif %}
     <h3>
       <a href="{{ site.baseurl }}{{ news.permalink }}">{{ news.title }}</a>
     </h3>
