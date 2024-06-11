@@ -29,7 +29,7 @@ title: Home
         {% include components/project-card.html project=project %}
       {% endfor %}
     </div>
-    <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All<span class="visually-hidden"> xD projects</span></a>
+    <a class="usa-button usa-button-black" href="{{ site.baseurl }}/projects">View All Projects</a>
   </div>
 </section>
 
@@ -43,11 +43,12 @@ title: Home
           {% include components/featured-news-item.html news=news %}
         </div>
       {% endfor %}
-      <div class="col-12 tablet:grid-col-6">
+      <div class="col-12 tablet:grid-col-6 additional-news-items">
         {% for news in site_news limit:3 offset:1 %}
           {% include components/news-item.html news=news %}
         {% endfor %}
       </div>
     </div>
+    <a class="usa-button usa-button-black all-news-button" href="{{ site.baseurl }}/projects">View All News</a>
   </div>
 </section>
