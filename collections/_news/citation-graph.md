@@ -107,213 +107,213 @@ tbody > tr:nth-of-type(even) {
     <thead>
       <tr>
         <th scope="col">Principle</th>
-        <th scope="col">EO 13859</th>
+        <th scope="col" class="eo_13859">EO 13859</th>
         <th scope="col" class="eo_13960">EO 13960</th>
-        <th scope="col">HR 2575</th>
-        <th scope="col">HR 6216</th>
-        <th scope="col">Blueprint for an AI Bill of Rights</th>
+        <th scope="col" class="hr_2575">HR 2575</th>
+        <th scope="col" class="hr_6216">HR 6216</th>
+        <th scope="col" class="baibor">Blueprint for an AI Bill of Rights</th>
         <th scope="col" class="s_1353">S 1353</th>
-        <th scope="col">NIST AI RMF</th>
-        <th scope="col">GAO Accountability Framework</th>
-        <th scope="col">EO 14110</th>
-        <th scope="col">OMB M-24-10</th>
+        <th scope="col" class="nist_rmf">NIST AI RMF</th>
+        <th scope="col" class="gao_21_519sp">GAO Accountability Framework</th>
+        <th scope="col" class="eo_14110">EO 14110</th>
+        <th scope="col" class="m_24_10">OMB M-24-10</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th scope="row">Transparency</th>
-        <td></td>
+        <td class="eo_13859"></td>
         <td class="eo_13960">&#10004;</td>
-        <td>&#10004;</td>
-        <td></td>
-        <td></td>
+        <td class="hr_2575">&#10004;</td>
+        <td class="hr_6216"></td>
+        <td class="baibor"></td>
         <td class="s_1353"></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td></td>
-        <td>&#10004;</td>
+        <td class="nist_rmf">&#10004;</td>
+        <td class="gao_21_519sp">&#10004;</td>
+        <td class="eo_14110"></td>
+        <td class="m_24_10">&#10004;</td>
       </tr>
       <tr>
         <th scope="row">Accountability</th>
-        <td></td>
+        <td class="eo_13859"></td>
         <td class="eo_13960">&#10004;</td>
-        <td></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="hr_2575"></td>
+        <td class="hr_6216">&#10004;</td>
+        <td class="baibor">&#10004;</td>
         <td class="s_1353"></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td></td>
+        <td class="nist_rmf">&#10004;</td>
+        <td class="gao_21_519sp">&#10004;</td>
+        <td class="eo_14110">&#10004;</td>
+        <td class="m_24_10"></td>
       </tr>
       <tr>
         <th scope="row">Privacy and confidentiality</th>
-        <td>&#10004;</td>
+        <td class="eo_13859">&#10004;</td>
         <td class="eo_13960">&#10004;</td>
-        <td></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="hr_2575"></td>
+        <td class="hr_6216">&#10004;</td>
+        <td class="baibor">&#10004;</td>
         <td class="s_1353">&#10004;</td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td></td>
+        <td class="nist_rmf">&#10004;</td>
+        <td class="gao_21_519sp">&#10004;</td>
+        <td class="eo_14110">&#10004;</td>
+        <td class="m_24_10"></td>
       </tr>
       <tr>
         <th scope="row">Safety and security</th>
-        <td>&#10004;</td>
+        <td class="eo_13859">&#10004;</td>
         <td class="eo_13960">&#10004;</td>
-        <td></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="hr_2575"></td>
+        <td class="hr_6216">&#10004;</td>
+        <td class="baibor">&#10004;</td>
         <td class="s_1353"></td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
-        <td>&#10004;</td>
+        <td class="nist_rmf">&#10004;</td>
+        <td class="gao_21_519sp">&#10004;</td>
+        <td class="eo_14110">&#10004;</td>
+        <td class="m_24_10">&#10004;</td>
       </tr>
       <tr>
           <th scope="row">Resiliency</th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor"></td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td></td>
-          <td>&#10004;</td>
-          <td></td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp"></td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10"></td>
         </tr>
         <tr>
           <th scope="row">Reliability</th>
-          <td>&#10004;</td>
+          <td class="eo_13859">&#10004;</td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td></td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10"></td>
         </tr>
         <tr>
           <th scope="row">Accuracy</th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td></td>
-          <td></td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110"></td>
+          <td class="m_24_10"></td>
         </tr>
         <tr>
           <th scope="row">Responsibility</th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor"></td>
           <td class="s_1353"></td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf"></td>
+          <td class="gao_21_519sp"></td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Interpretability/understandability/traceability </th>
-          <td>&#10004;</td>
+          <td class="eo_13859">&#10004;</td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110"></td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Reproducibility/repeatability </th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960"></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor"></td>
           <td class="s_1353"></td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
-          <td></td>
+          <td class="nist_rmf"></td>
+          <td class="gao_21_519sp"></td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10"></td>
         </tr>
         <tr>
           <th scope="row">Testing/evaluation/audit </th>
-          <td>&#10004;</td>
+          <td class="eo_13859">&#10004;</td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Mitigating risks </th>
-          <td>&#10004;</td>
+          <td class="eo_13859">&#10004;</td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Algorithmic Bias </th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960"></td>
-          <td>&#10004;</td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575">&#10004;</td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf">&#10004;</td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Disclosure of AI use</th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960">&#10004;</td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf"></td>
+          <td class="gao_21_519sp">&#10004;</td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
         <tr>
           <th scope="row">Contestability of AI use</th>
-          <td></td>
+          <td class="eo_13859"></td>
           <td class="eo_13960"></td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
+          <td class="hr_2575"></td>
+          <td class="hr_6216"></td>
+          <td class="baibor">&#10004;</td>
           <td class="s_1353"></td>
-          <td></td>
-          <td></td>
-          <td>&#10004;</td>
-          <td>&#10004;</td>
+          <td class="nist_rmf"></td>
+          <td class="gao_21_519sp"></td>
+          <td class="eo_14110">&#10004;</td>
+          <td class="m_24_10">&#10004;</td>
         </tr>
     </tbody>
   </table>
