@@ -57,6 +57,9 @@ var link_force =  d3.forceLink(links_data)
 
 simulation.force("links",link_force)
 
+// store state of selected node to unhighlight it when a new one is clicked
+let selectedNode = null;
+
 // add arrows to the endpoints of edges
 svg.append("svg:defs").append("svg:marker")
   .attr("id", "arrow")
@@ -100,12 +103,13 @@ var node = svg.append("g")
                 .attr("r", 20);
         })
         .on("click", function(event, d) {
-            // TODO: this should highlight the entry in the table and/or show a list of principles
             const circleElem = d3.select(this).select("circle");
 
-            circleElem.attr("stroke", "red");
+            updateNodeState(circleElem);
             resetTableHighlightState();
-            highlightTableColumn(circleElem.attr("id"));
+            if (selectedNode !== null) {
+                highlightTableColumn(circleElem.attr("id"));
+            }
         });
 
 node.append("circle")
@@ -188,6 +192,22 @@ function highlightTableColumn(documentName) {
     for (let i = 0; i < tableColumn.length; i++) {
         tableColumn[i].classList.add('highlight');
     }
+}
+
+// unhighlight current node (if it exists) and highlight newly-clicked node
+function updateNodeState(currentCircleElem) {
+    currentCircleElem.attr("class", "highlight");
+    if (!selectedNode) {
+        selectedNode = currentCircleElem;
+        return;
+    } else if (currentCircleElem.attr("id") === selectedNode.attr("id")) {
+        // unselect current node if it's clicked again
+        currentCircleElem.attr("class", "");
+        selectedNode = null;
+        return;
+    }
+    selectedNode.attr("class", "");
+    selectedNode = currentCircleElem;
 }
 
 function resetTableHighlightState() {

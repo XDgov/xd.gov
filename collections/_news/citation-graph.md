@@ -49,6 +49,9 @@ post_author: Anna Vasylytsya, Mike Walton
   .nodes circle {
     fill: #6D619E;
     stroke: $color-white;
+    &.highlight {
+      stroke: red;
+    }
   }
 }
 
@@ -85,16 +88,6 @@ th.highlight, td.highlight {
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
 }
-
-#mynetwork {
-                 width: 100%;
-                 height: 600px;
-                 background-color: #ffffff;
-                 border: 1px solid lightgray;
-                 position: relative;
-                 float: left;
-             }
-
 
 
 </style>
