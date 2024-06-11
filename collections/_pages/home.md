@@ -49,6 +49,6 @@ title: Home
         {% endfor %}
       </div>
     </div>
-    <a class="usa-button usa-button-black all-news-button" href="{{ site.baseurl }}/projects">View All News</a>
+    <a class="usa-button usa-button-black all-news-button" href="{{ site.baseurl }}/news">View All News</a>
   </div>
 </section>
