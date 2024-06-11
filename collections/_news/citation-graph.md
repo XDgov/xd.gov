@@ -47,10 +47,10 @@ post_author: Anna Vasylytsya, Mike Walton
   }
 
   .nodes circle {
-    fill: #6D619E;
+    fill: rgb(203, 195, 227);
     stroke: $color-white;
     &.highlight {
-      stroke: red;
+      fill: rgb(150, 141, 176);
     }
   }
 }
@@ -82,7 +82,7 @@ td {
 }
 
 th.highlight, td.highlight {
-  background-color: red;
+  background-color: rgb(150, 141, 176);
 }
 
 tbody > tr:nth-of-type(even) {
