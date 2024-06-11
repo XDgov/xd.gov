@@ -47,10 +47,10 @@ post_author: Anna Vasylytsya, Mike Walton
   }
 
   .nodes circle {
-    fill: rgb(203, 195, 227);
+    fill: rgb(150, 141, 176);
     stroke: $color-white;
     &.highlight {
-      fill: rgb(150, 141, 176);
+      fill: rgb(82, 74, 107);
     }
   }
 }
