@@ -47,7 +47,7 @@ post_author: Anna Vasylytsya, Mike Walton
   }
 
   .nodes circle {
-    fill: rgb(150, 141, 176);
+    fill: rgb(133, 119, 186);
     stroke: $color-white;
     &.highlight {
       fill: rgb(82, 74, 107);
