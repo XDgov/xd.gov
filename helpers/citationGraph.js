@@ -104,6 +104,7 @@ var node = svg.append("g")
             const circleElem = d3.select(this).select("circle");
 
             circleElem.attr("stroke", "red");
+            resetTableHighlightState();
             highlightTableColumn(circleElem.attr("id"));
         });
 
@@ -186,5 +187,17 @@ function highlightTableColumn(documentName) {
 
     for (let i = 0; i < tableColumn.length; i++) {
         tableColumn[i].classList.add('highlight');
+    }
+}
+
+function resetTableHighlightState() {
+    const table = document.getElementById('document-table');
+
+    // iterate through rows
+    for (let i = 0, row; row = table.rows[i]; i++) {
+        //iterate through columns
+        for (let j = 0, col; col = row.cells[j]; j++) {
+            col.classList.remove("highlight");
+        }
     }
 }
