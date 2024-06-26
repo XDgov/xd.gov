@@ -22,7 +22,7 @@ layout: default
           </div>
         </div>
         <img class="profile-img tablet:grid-col-auto tablet:margin-left-9 desktop:grid-col-3 desktop:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
-        {% if page.portfolio %}
+        <!-- {% if page.portfolio %}
           {% assign projects = page.portfolio | split: "," %}
           <h3 class="project-header">Current Projects:</h3>
           <div class="project-container">
@@ -34,7 +34,7 @@ layout: default
               {% endfor %}
             </ul>
           </div>
-        {% endif %}
+        {% endif %} -->
       </div>
     </div>
     <p class="contact-info">To get in touch with {{ page.name | split: " " | first }}, please send a message to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.</p>
