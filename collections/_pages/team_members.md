@@ -12,7 +12,7 @@ seo_excerpt: meet the members of the xD team
         <section class="mission">
           <div class="grid-container">
             <div class="breadcrumb">Our Team</div>
-            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in eight states across the country.</div>
+            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in ten states across the country.</div>
           </div>
         </section>
       </div>
