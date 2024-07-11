@@ -1,19 +1,43 @@
 ---
 layout: default
 ---
-<section class="story">
+<section class="team-member">
   <article class="grid-container">
     <div class="grid-row grid-gap-lg news-row">
-      <div class="news-content-container">
-        <header>
-          <div class="breadcrumb">Team Bios</div>
-          <h1>{{ member.name }}</h1>
-        </header>
-        <div class="bios-content">
-          {{ member.content }}
+      <div class="grid-row">
+        <div class="profile-description-container tablet:grid-col-10 desktop:grid-col-6">
+          <header>
+            <div class="breadcrumb">
+              <a href="{{ site.baseurl }}/team">Team Members</a>
+            </div>
+            <h1 class="member-name">{{ page.name }}</h1>
+            {% if page.cohort_year %}
+              <h2 class="member-title">{{ page.job_title }} - {{ page.cohort_year }} Cohort</h2>
+            {% else %}
+              <h2 class="member-title">{{ page.job_title }}</h2>
+            {% endif %}
+          </header>
+          <div class="bio-content">
+            {{ page.blurb }}
+          </div>
         </div>
+        <img class="profile-img tablet:grid-col-auto tablet:margin-left-9 desktop:grid-col-3 desktop:margin-left-2" id="{{ page.image_id }}" alt="Image of {{page.name}}" src="{{ site.baseurl }}{{ page.image_path }}" />
+        <!-- {% if page.portfolio %}
+          {% assign projects = page.portfolio | split: "," %}
+          <h3 class="project-header">Current Projects:</h3>
+          <div class="project-container">
+            <ul class="skills-container">
+              {% for project in projects %}
+                <li>
+                  <span class="">{{ project }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %} -->
       </div>
     </div>
+    <p class="contact-info">To get in touch with {{ page.name | split: " " | first }}, please send a message to <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>.</p>
   </article>
 </section>
 <section class="more-news">
