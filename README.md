@@ -45,6 +45,9 @@ AIRTABLE_BASE_ID="..."
 
 If you need to update the version of Ruby, be sure to specify the version both in the `Gemfile` and `.ruby-version` file. The later is used by Cloud.gov: [https://cloud.gov/pages/documentation/rvm-on-pages/](https://cloud.gov/pages/documentation/rvm-on-pages/).
 
+## Embedding Videos
+
+Currently we can embed YouTube videos (see the [2024 PEPR presentation post](collections/_news/pepr-2024-presentation.md) for an example). If you want to add videos from other sources see this repository for examples: https://github.com/nathancy/jekyll-embed-video. We include responsive styling suggested in this repo in `_news-item.scss`.
 
 ## Code Syntax Highlighting
 
