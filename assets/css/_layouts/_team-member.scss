@@ -30,7 +30,9 @@
       width: 100%;
       display: block;
       margin-bottom: auto;
-      margin-top: auto;
+      @media (min-width: 1024px) {
+        margin-top: 40px;
+      }
     }
 
     .project-header {

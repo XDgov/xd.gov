@@ -1,7 +1,7 @@
 <div class="col-12 tablet:grid-col-4 team-member-cards">
   <a class="member-link" href="{{ site.baseurl }}{{ member.permalink }}">
     <div class="team-member-card">
-      <img id="{{ member.image_id }}" alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
+      <img alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
       <h4 class="team-member-heading member-name">{{ member.name }}</h4>
       {% if member.cohort_year %}
       <h4 class="team-member-heading member-title">{{ member.job_title }} - {{ member.cohort_year }}</h4>

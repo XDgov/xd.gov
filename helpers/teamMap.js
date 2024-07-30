@@ -12,7 +12,7 @@ const aspect_ratio = 0.582;
 let width;
 let height;
 const svg = container.append("svg");
-const stateIds = ["CA", "MD", "MA", "MO", "NY", "PA", "VA", "WA"]
+const stateIds = ["CA", "CO", "MD", "MA", "MO", "NY", "OR", "PA", "VA", "WA"]
 
 d3.geoAlbersUsaPr = geoAlbersUsaPr;
 
