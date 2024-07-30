@@ -28,15 +28,15 @@ image_accessibility: 2024 xD Emerging Technology Fellows
 
 <p>If you’d like to learn more about this year’s projects or discuss future projects, you can reach the team xD at <a class="usa-link long-link" href="mailto:inquiries@xd.gov">inquiries@xd.gov</a>. To learn more about xD and the Emerging Technology Fellowship, please visit <a href="https://www.xd.gov/apply" target="_blank">https://www.xd.gov/apply</a>.</p>
 
-<p class="title">Meet the 2024 Emerging Technology Fellows: </p>
+<p class="title">Meet the 2024 Emerging Technology Fellows:</p>
 
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/amari-cowan.jpg" alt="Amari Cowan">
-  <p><span class="title">Amari Cowan</span> comes to xD with 7 years of experience working in emerging technologies and public policy. Amari most recently supported the U.S. Federal Energy Regulatory Commission as an AI Trust Officer, a consultant role meant to address 2024 federal AI policy priorities. She led the early development and design of FERC’s Responsible AI policy framework, while also assessing the maturity of FERC’s AI governance strategy. Prior to her role at FERC, Amari also served as the first NORAM Policy Performance Manager at TikTok, during which time her team worked to further improve and test TikTok’s content moderation system. </p>
+  <p><span class="title">Amari Cowan (she/her)</span> comes to xD with 7 years of experience working in emerging technologies and public policy. Amari most recently supported the U.S. Federal Energy Regulatory Commission as an AI Trust Officer, a consultant role meant to address 2024 federal AI policy priorities. She led the early development and design of FERC’s Responsible AI policy framework, while also assessing the maturity of FERC’s AI governance strategy. Prior to her role at FERC, Amari also served as the first NORAM Policy Performance Manager at TikTok, during which time her team worked to further improve and test TikTok’s content moderation system.</p>
 
-  <p>As an Associate Manager on Meta’s Governance team, Amari worked on a variety of global, cutting-edge tech governance projects including launching the Oversight Board — a first-of-its-kind independent content moderation decision-making body — researching community-led governance methods in the Metaverse in partnership with Stanford’s Digital Democracy Lab, and enhancing Meta’s elections-related policies during the U.S. 2020 Presidential Election in partnership with Harvard’s Social Science One. She concurrently serves as a Fellow at the Portulans Institute, where she researches novel AI governance frameworks and collaborates with public interest Responsible AI organizations. </p>
+  <p>As an Associate Manager on Meta’s Governance team, Amari worked on a variety of global, cutting-edge tech governance projects including launching the Oversight Board — a first-of-its-kind independent content moderation decision-making body — researching community-led governance methods in the Metaverse in partnership with Stanford’s Digital Democracy Lab, and enhancing Meta’s elections-related policies during the U.S. 2020 Presidential Election in partnership with Harvard’s Social Science One. She concurrently serves as a Fellow at the Portulans Institute, where she researches novel AI governance frameworks and collaborates with public interest Responsible AI organizations.</p>
 
-  <p>Beyond her professional endeavors, Amari finds solace in exploring nature, often hiking and climbing in national and state parks. </p>
+  <p>Beyond her professional endeavors, Amari finds solace in exploring nature, often hiking and climbing in national and state parks.</p>
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/jess-stahl.jpg" alt="Jess Stahl">
@@ -50,7 +50,7 @@ image_accessibility: 2024 xD Emerging Technology Fellows
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/richard-martinez.jpg" alt="Richard Martinez">
-  <p><span class="title">Richard Martinez</span> is a Human-Computer Interaction researcher specializing in Community-Based Participatory Design (CBPD) and Design-Based Implementation Research (DBIR) methodologies. His work focuses on integrating HCI approaches with community collaboration to develop and promote equitable emerging technologies. Richard has partnered with companies such as Google, Meta, Snapchat, and Polygon Technologies to explore the socio-technical implications of emerging technologies like blockchain, AI, and mixed reality. He is dedicated to addressing challenges in social computing, education, and human-AI interactions to build fair, accountable, transparent, and ethical technologies.</p>
+  <p><span class="title">Richard Martinez (he/him)</span> is a Human-Computer Interaction researcher specializing in Community-Based Participatory Design (CBPD) and Design-Based Implementation Research (DBIR) methodologies. His work focuses on integrating HCI approaches with community collaboration to develop and promote equitable emerging technologies. Richard has partnered with companies such as Google, Meta, Snapchat, and Polygon Technologies to explore the socio-technical implications of emerging technologies like blockchain, AI, and mixed reality. He is dedicated to addressing challenges in social computing, education, and human-AI interactions to build fair, accountable, transparent, and ethical technologies.</p>
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/wesley-pasfield.jpg" alt="Wesley Pasfield">
