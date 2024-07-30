@@ -1,6 +1,6 @@
 ---
 title: Announcing the 2024 xD Emerging Technology Fellows
-publish_date: 2024-07-15
+publish_date: 2024-07-30
 permalink: /news/announcing-2024-xd-emerging-technology-fellows/
 img_alt_text: 2024 Emerging Technology Fellows
 image: /assets/img/news/announcing-the-2024-xd-emerging-technology-fellows.jpg
