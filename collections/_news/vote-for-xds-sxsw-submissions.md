@@ -15,7 +15,7 @@ image_accessibility: Vote for xD's SXSW Submissions
     <li>“Exploring Speculative Future Data Ecosystems” (panel):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/153149" target="_blank"> SXSW PanelPicker®</a>
     </li>
-    <li>“Exploring Speculative Future Data Ecosystems” (meetup):
+    <li>“Exploring Speculative Future Data Ecosystems” (meet up):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/153942" target="_blank">SXSW PanelPicker®</a>
     </li>
   </ul>
