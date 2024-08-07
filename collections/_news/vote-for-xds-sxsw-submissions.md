@@ -7,13 +7,11 @@ image: assets/img/news/vote-for-xd-s-sxsw-submissions.jpg
 image_accessibility: Vote for xD's SXSW Submissions
 ---
 <p>
-  XD submitted three proposals to SXSW 2025:
+  XD submitted two proposals to SXSW 2025:
   <ul class="usa-list">
     <li>“Responsible AI at the Census Bureau: Principles & Practice” (panel):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/148456" target="_blank">SXSW PanelPicker®</a>
     </li>
-    <li>“Exploring Speculative Future Data Ecosystems” (panel):
-      <a class="usa-link" href="https://panelpicker.sxsw.com/vote/153149" target="_blank"> SXSW PanelPicker®</a>
     </li>
     <li>“Exploring Speculative Future Data Ecosystems” (meet up):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/153942" target="_blank">SXSW PanelPicker®</a>
