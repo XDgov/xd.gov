@@ -12,7 +12,6 @@ image_accessibility: Vote for xD's SXSW Submissions
     <li>“Responsible AI at the Census Bureau: Principles & Practice” (panel):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/148456" target="_blank">SXSW PanelPicker®</a>
     </li>
-    </li>
     <li>“Exploring Speculative Future Data Ecosystems” (meet up):
       <a class="usa-link" href="https://panelpicker.sxsw.com/vote/153942" target="_blank">SXSW PanelPicker®</a>
     </li>
