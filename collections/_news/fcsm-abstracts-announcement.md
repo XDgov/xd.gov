@@ -3,7 +3,7 @@ title: "xD to Present Four Papers at FCSM"
 publish_date: 2024-07-10
 permalink: /news/fcsm-abstracts-announcement/
 img_alt_text: FCSM Logo
-image: assets/img/news/xd-to-present-four-papers-at-fcsm.jpg
+image: /assets/img/news/xd-to-present-four-papers-at-fcsm.jpg
 image_accessibility: FCSM Logo
 ---
 <p>

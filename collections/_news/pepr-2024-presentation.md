@@ -3,7 +3,7 @@ title: "xD Presents at PEPR 2024 Conference"
 publish_date: 2024-07-19
 permalink: /news/pepr-2024-presentation/
 img_alt_text: PEPR 2024 Presentation Title Slide
-image: assets/img/news/xd-presents-at-pepr-2024-conference.jpg
+image: /assets/img/news/xd-presents-at-pepr-2024-conference.jpg
 image_accessibility: PEPR 2024 Presentation Title Slide
 youtubeId: 69_RGhIJwMU
 ---

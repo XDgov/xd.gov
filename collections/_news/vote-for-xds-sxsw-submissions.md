@@ -3,7 +3,7 @@ title: "Vote for xD's SXSW Submissions!"
 publish_date: 2024-08-06
 permalink: /news/vote-for-xd-s-sxsw-submissions/
 img_alt_text: Vote for xD's SXSW Submissions
-image: assets/img/news/vote-for-xd-s-sxsw-submissions.jpg
+image: /assets/img/news/vote-for-xd-s-sxsw-submissions.jpg
 image_accessibility: Vote for xD's SXSW Submissions
 ---
 <p>
