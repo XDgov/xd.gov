@@ -20,6 +20,7 @@ Include screenshots or GIFs that demonstrate the changes, if relevant.
 
 - [ ] I have read the CONTRIBUTING.md document.
 - [ ] My code follows the project's coding standards.
+- [ ] I've included leading slashes in the image reference to prevent Open Graph image issues
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] All new and existing tests passed.
 - [ ] I have updated the documentation accordingly.
