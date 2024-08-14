@@ -3,7 +3,7 @@ title: "Mapping the AI Policy Landscape: Trustworthy AI Principles"
 publish_date: 2024-06-05
 permalink: /blog/citation-graph/
 img_alt_text: Example Model Card
-image: /assets/img/news/citation-graph.png
+image: /assets/img/news/mapping-the-ai-policy-landscape-trustworthy-ai-principles.jpg
 image_accessibility: Example Model Card
 layout: blog
 post_author: Anna Vasylytsya, Mike Walton
