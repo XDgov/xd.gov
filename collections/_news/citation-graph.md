@@ -1,6 +1,6 @@
 ---
 title: "Mapping the AI Policy Landscape: Trustworthy AI Principles"
-publish_date: 2024-06-05
+publish_date: 2024-08-15
 permalink: /blog/citation-graph/
 img_alt_text: Example Model Card
 image: /assets/img/news/mapping-the-ai-policy-landscape-trustworthy-ai-principles.jpg
