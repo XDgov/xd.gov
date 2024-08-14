@@ -45,12 +45,25 @@ AIRTABLE_BASE_ID="..."
 
 If you need to update the version of Ruby, be sure to specify the version both in the `Gemfile` and `.ruby-version` file. The later is used by Cloud.gov: [https://cloud.gov/pages/documentation/rvm-on-pages/](https://cloud.gov/pages/documentation/rvm-on-pages/).
 
+## Embedding Videos
+
+Currently we can embed YouTube videos (see the [2024 PEPR presentation post](collections/_news/pepr-2024-presentation.md) for an example). If you want to add videos from other sources see this repository for examples: https://github.com/nathancy/jekyll-embed-video. We include responsive styling suggested in this repo in `_news-item.scss`.
 
 ## Code Syntax Highlighting
 
 Syntax highlighting is handled by Kramdown and Rouge.
 [Jekyll Documentation](https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting)
 To update the syntax styling, add create a new style from these [examples](https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html), add it to the folder `assets/css/_syntax_highlighting`, and import it in `assets/css/main.scss`.
+
+## JavaScript compression
+
+Using the tools [Browserify](https://browserify.org/) and [UglifyJS](https://github.com/mishoo/UglifyJS), JavaScript used in the application can be transformed into a form appropriate for running in a browser (via Browserify) and minified (via UglifyJS) to reduce the bundle size sent to a user's browser.
+
+For example, the D3 map on the Teams page runs through the following CLI commands:
+```bash
+browserify teamMap.js -o mapBundle.js
+uglifyjs mapBundle.js --compress --mangle -o mapBundle.js
+```
 
 ## Analytics
 

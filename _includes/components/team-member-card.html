@@ -1,13 +1,24 @@
-<div class="col-12 tablet:grid-col-4 project-cards">
-  <div class="team-member-card">
-    <img id="{{ member.image_id }}" alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
-    <h4 class="team-member-heading">{{ member.name }}</h4>
-    <h4 class="team-member-heading">{{ member.job_title }}</h4>
-    {% if member.portfolio %}
-      <h4>Project Status: {{member.portfolio}}</h4>
-    {% endif %}
-    <div class="member-card-content">
-      {{ member.blurb }}
+<div class="col-12 tablet:grid-col-4 team-member-cards">
+  <a class="member-link" href="{{ site.baseurl }}{{ member.permalink }}">
+    <div class="team-member-card">
+      <img alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
+      <h4 class="team-member-heading member-name">{{ member.name }}</h4>
+      {% if member.cohort_year %}
+      <h4 class="team-member-heading member-title">{{ member.job_title }} - {{ member.cohort_year }}</h4>
+      {% else %}
+      <h4 class="team-member-heading member-title">{{ member.job_title }}</h4>
+      {% endif %}
+      <div class="bio-content">
+        {{ member.description }}
+      </div>
+      <ul class="skills-container usa-list--unstyled">
+        {% assign skillsets = member.skillsets | split: "," %}
+        {% for skill in skillsets %}
+          <li class="skills-tag">
+            <span class="skill-text {{ skill | slugify }}">{{ skill }}</span>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-  </div>
+  </a>
 </div>

@@ -3,7 +3,7 @@ permalink: /team/
 image: /assets/img/pages/index/xd-og.png
 layout: page
 title: xD Team
-seo_excerpt: xD team members
+seo_excerpt: meet the members of the xD team
 ---
 <div class="page-bios">
   <div class="grid-container">
@@ -12,7 +12,7 @@ seo_excerpt: xD team members
         <section class="mission">
           <div class="grid-container">
             <div class="breadcrumb">Our Team</div>
-            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in eight states across the country.</div>
+            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in ten states across the country.</div>
           </div>
         </section>
       </div>
@@ -26,7 +26,7 @@ seo_excerpt: xD team members
   <section class="bios-content">
     <div class="grid-container">
       <div class="breadcrumb">Meet the Team</div>
-      <div class="grid-row grid-gap-lg">
+      <div class="grid-row grid-gap-6">
         {% assign team_members = site.team_members %}
         {% for member in team_members %}
           {% include components/team-member-card.html member=member %}
@@ -36,7 +36,4 @@ seo_excerpt: xD team members
   </section>
 </div>
 
-<script src="{{ site.baseurl }}/src/js/team-map.bundle.js"></script>
-<script src="{{ site.baseurl }}/helpers/albersUsaPr.js"></script>
-<script src="{{ site.baseurl }}/helpers/states.js"></script>
-<script src="{{ site.baseurl }}/helpers/teamMap.js"></script>
+<script src="{{ site.baseurl }}/helpers/mapBundle.js"></script>

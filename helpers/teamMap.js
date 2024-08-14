@@ -1,12 +1,20 @@
+const topojson = require('topojson');
+const d3 = require('d3');
+
+const states = require('./states');
+const geoAlbersUsaPr = require('./albersUsaPr');
+
 const feature = topojson.feature(states, states.objects.states_20m_2017);
-const projection = d3.geoAlbersUsaPr();
+const projection = geoAlbersUsaPr();
 const path = d3.geoPath().projection(projection);
 const container = d3.select("#team-map");
 const aspect_ratio = 0.582;
 let width;
 let height;
 const svg = container.append("svg");
-const stateIds = ["CA", "MD", "MA", "MO", "NY", "PA", "VA", "WA"]
+const stateIds = ["CA", "CO", "MD", "MA", "MO", "NY", "OR", "PA", "VA", "WA"]
+
+d3.geoAlbersUsaPr = geoAlbersUsaPr;
 
 const paths_states = svg.selectAll(".state")
                         .data(feature.features)
