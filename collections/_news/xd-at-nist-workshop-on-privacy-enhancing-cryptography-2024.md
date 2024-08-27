@@ -1,7 +1,7 @@
 ---
 title: xD fellow to present at the NIST workshop on Privacy Enhancing Cryptography
 publish_date: 2024-08-27
-permalink: /news/xd-at-joint-statistical-meetings-2024/
+permalink: /news/xd-at-nist-workshop-on-privacy-enhancing-cryptography-2024/
 img_alt_text: Logo for NIST Privacy Enhancing Cryptography Workshop Registration
 image: /assets/img/news/xd-fellow-to-present-at-the-nist-workshop-on-privacy-enhancing-cryptography.jpg
 image_accessibility: Logo for NIST Privacy Enhancing Cryptography Workshop Registration
