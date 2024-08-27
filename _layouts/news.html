@@ -15,7 +15,11 @@ layout: default
         </div>
       </div>
       <div class="news-image-container tablet:grid-col-4">
-        <img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" alt="{{ page.title}}">
+        {% if page.image_accessibility %}
+          <img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
+        {% else %}
+          <img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+        {% endif %}
       </div>
     </div>
   </article>
