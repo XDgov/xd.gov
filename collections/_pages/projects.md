@@ -67,7 +67,7 @@ seo_excerpt: View projects built by and with xD.
     <div class="project-data">Additional Resources</div>
   </div>
 </section>
-
+<!--
 <section class="projects-page active-projects">
   <div class="grid-container">
     <div class="breadcrumb">Select Projects</div>
@@ -90,4 +90,4 @@ seo_excerpt: View projects built by and with xD.
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
