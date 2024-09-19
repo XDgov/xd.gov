@@ -42,31 +42,17 @@ seo_excerpt: View projects built by and with xD.
     <h2>Privacy Enhancing Technology (PETs) Portfolio</h2>
     <div>
       <p>The goal of this work is to leverage the potential for Privacy Enhancing Technologies to enable new data-driven insights while improving privacy protections.</p>
-      <p>What are Privacy Enhancing Technologies? PETs resources can be found here.</p>
-      <p>PETs allow for data analysis without revealing private information, but there are trade-offs between data fidelity, privacy, and computation cost. Examples of PETs include Secure Multi-Party Computation, Remote Execution, Homomorphic Encryption, and Differential Privacy.</p>
+      <h3>What are Privacy Enhancing Technologies?</h3>
+      <p>PETs allow for data analysis without revealing private information, but there are trade-offs between data fidelity, privacy, and computation cost. Examples of PETs include Secure Multi-Party Computation, Remote Execution, Homomorphic Encryption, and Differential Privacy. PETs resources can be found <a>here</a>.</p>
       <img class="portfolio-img" alt="Chart of PET categories comparing information revealed versus computation fidelity, highlighting where xD invests its resources" src="{{ site.baseurl }}/assets/img/projects/portfolios/pets-chart.jpg" />
       <p>XD projects primarily focus on techniques that reveal the least amount of private information while maintaining computation fidelity (left—hand side of the chart – SMPC, FHE, synthetic data, and Differential privacy).</p>
+    </div>
+    <div>
+      <p>Project collaborators include NIST, ISTAT, Openmined, Statistics Canada, INEGI, ECON, 10x, the Social, Economic, and Housing Statistics Division (SEHSD), the Census Associate Directorate for Demographic Programs (ADDP), EHealth, National Center for Health Statistics (NCHS), Chicago Area Patient-Centered Outcomes Research Network (CAPriCORN). </p>
     </div>
   </div>
 </section>
 
-<section class="projects-page active-projects">
-  <div class="grid-container">
-    <h3>Ongoing Projects</h3>
-    <h4>Project DELPHI (Demonstration Environment for Learning Privacy enHancIng technologies). </h4>
-    <div class="project-data">Launched July 2023</div>
-    <div class="project-data">xD Team Members: Mike Walton, Curtis Mitchell</div>
-    <div class="project-data">About the project (objective and why it is important):</div>
-    <div class="project-data description">Privacy-enhancing techniques have a range of potential benefits for data sharing and research within the federal government; however, government agencies are still learning about PETs and their applications. Project DELPHI facilitates PETs adoption by providing a research environment that allows users to:</div>
-    <ul class="usa-list">
-      <li>Explore documentation</li>
-      <li>Understand use cases</li>
-      <li>Experiment with hands-on examples of PETs deployed in a sandbox environment.</li>
-    </ul>
-    <div class="project-data">Partners: NIST</div>
-    <div class="project-data">Additional Resources</div>
-  </div>
-</section>
 <!--
 <section class="projects-page active-projects">
   <div class="grid-container">
