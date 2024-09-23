@@ -1,6 +1,6 @@
 ---
 title: "xD @ The White House: Federal Innovations in AI and Data Privacy"
-publish_date: 2024-09-19
+publish_date: 2024-09-23
 permalink: /news/xd-at-the-white-house/
 img_alt_text: xD logo
 image: /assets/img/news/xd-the-white-house-federal-innovations-in-ai-and-data-privacy.jpg
