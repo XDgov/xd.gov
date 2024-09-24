@@ -5,6 +5,55 @@ layout: page
 title: Projects
 seo_excerpt: View projects built by and with xD.
 ---
+<section class="intro">
+    <div class="grid-container">
+        <div class="breadcrumb">projects</div>
+        <h1>Project Portfolios</h1>
+        <p>
+          At xD, we organize our work in “portfolios” of projects. All projects within a portfolio share a common theme, such as responsible AI or applying privacy enhancing technologies (PETs) to government data-sharing challenges. This approach allows for easier knowledge sharing between projects so that the lessons learned from one project benefit all projects within a portfolio. In addition to the project portfolios, xD has a number of incubation projects that investigate new emerging technologies and project ideas.
+        </p>
+        <p>Current xD portfolios include:</p>
+        <ul>
+            <li>
+              <p>
+                <strong>Privacy Enhancing Technologies (PETs):</strong> xD’s ongoing PETs projects are deploying PETs to address data sharing challenges in a range of different government contexts.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Deploying Responsible AI:</strong> This portfolio has evolved to encompass researching technical techniques to promote transparency and explainability as well as analyzing existing federal policy and AI strategies to develop recommendations for implementing these policies.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Data Transformation:</strong> xD’s data transformation projects are collaborations with other Census teams to migrate data and build new data architecture for key government services.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Project Incubation:</strong> This portfolio is for exploratory projects that investigate new emerging technologies and/or new applications of emerging technologies.
+              </p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="projects-page">
+  <div class="grid-container">
+    <h2>Privacy Enhancing Technology (PETs) Portfolio</h2>
+    <div>
+      <p>The goal of this work is to leverage the potential for Privacy Enhancing Technologies to enable new data-driven insights while improving privacy protections.</p>
+      <h3>What are Privacy Enhancing Technologies?</h3>
+      <p>PETs allow for data analysis without revealing private information, but there are trade-offs between data fidelity, privacy, and computation cost. Examples of PETs include Secure Multi-Party Computation, Remote Execution, Homomorphic Encryption, and Differential Privacy. PETs resources can be found <a>here</a>.</p>
+      <img class="portfolio-img" alt="Chart of PET categories comparing information revealed versus computation fidelity, highlighting where xD invests its resources" src="{{ site.baseurl }}/assets/img/projects/portfolios/pets-chart.jpg" />
+      <p>XD projects primarily focus on techniques that reveal the least amount of private information while maintaining computation fidelity (left—hand side of the chart – SMPC, FHE, synthetic data, and Differential privacy).</p>
+    </div>
+    <div>
+      <p>Project collaborators include NIST, ISTAT, Openmined, Statistics Canada, INEGI, ECON, 10x, the Social, Economic, and Housing Statistics Division (SEHSD), the Census Associate Directorate for Demographic Programs (ADDP), EHealth, National Center for Health Statistics (NCHS), Chicago Area Patient-Centered Outcomes Research Network (CAPriCORN). </p>
+    </div>
+  </div>
+</section>
+
+<!--
 <section class="projects-page active-projects">
   <div class="grid-container">
     <div class="breadcrumb">Select Projects</div>
@@ -27,4 +76,4 @@ seo_excerpt: View projects built by and with xD.
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
