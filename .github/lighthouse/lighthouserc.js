@@ -16,6 +16,7 @@ module.exports = {
         "csp-xss": "off",
         "heading-order": "off",
         "image-size-responsive": "off",
+        "installable-manifest": "off",
         "link-text": "off",
         "maskable-icon": "off",
         "offscreen-images": "off",
