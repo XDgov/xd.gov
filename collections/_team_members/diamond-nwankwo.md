@@ -5,7 +5,6 @@ permalink: /team/diamond-nwankwo/
 image_id: attquY60OgMxdz6nJ
 image_path: /assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg
 job_title: Emerging Technology Fellow
-cohort_year: 2023
 portfolio: ADRM DB Modernization Project,DAO for more Equitable Government Participation
 description: <p>Quality Engineer turned Data Engineer fascinated with finding means to improve data insights and usability through auditing, governance, and engineering. Experience working in aerospace manufacturing, renewable energy, management consulting, and federal government.</p>
 
