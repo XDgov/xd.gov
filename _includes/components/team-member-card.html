@@ -3,11 +3,7 @@
     <div class="team-member-card">
       <img alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
       <h4 class="team-member-heading member-name">{{ member.name }}</h4>
-      {% if member.cohort_year %}
-      <h4 class="team-member-heading member-title">{{ member.job_title }} - {{ member.cohort_year }}</h4>
-      {% else %}
       <h4 class="team-member-heading member-title">{{ member.job_title }}</h4>
-      {% endif %}
       <div class="bio-content">
         {{ member.description }}
       </div>

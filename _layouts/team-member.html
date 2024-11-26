@@ -11,11 +11,7 @@ layout: default
               <a href="{{ site.baseurl }}/team">Team Members</a>
             </div>
             <h1 class="member-name">{{ page.name }}</h1>
-            {% if page.cohort_year %}
-              <h2 class="member-title">{{ page.job_title }} - {{ page.cohort_year }} Cohort</h2>
-            {% else %}
-              <h2 class="member-title">{{ page.job_title }}</h2>
-            {% endif %}
+            <h2 class="member-title">{{ page.job_title }}</h2>
           </header>
           <div class="bio-content">
             {{ page.blurb }}

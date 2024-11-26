@@ -5,7 +5,6 @@ permalink: /team/anna-vasylytsya/
 image_id: attoZc4P4TFYJW2aW
 image_path: /assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg
 job_title: Emerging Technology Fellow
-cohort_year: 2023
 portfolio: 10x P1 - Bias in Infrastructure,PETs Econ+BEA Pilot
 description: <p>Generalist data scientist with a background in analytics, machine learning, and cloud implementation. Experience working in federal government, non-profit, and start-up sectors. </p>
 

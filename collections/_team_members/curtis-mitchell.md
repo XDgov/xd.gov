@@ -5,7 +5,6 @@ permalink: /team/curtis-mitchell/
 image_id: attlVfSWFOzhOwYsK
 image_path: /assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg
 job_title: Emerging Technology Fellow
-cohort_year: 2023
 portfolio: Model Card Generator,UN Global Platform Pilot,NIST US PET Lab
 description: <p>Generalist software and machine-learning engineer focused on the mainstream adoption of privacy-enhancing technologies. Experience working at small startups, large corporations, research institutions, and open-source communities.</p>
 
