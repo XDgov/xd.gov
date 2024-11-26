@@ -1,0 +1,12 @@
+.portfolio-img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.project-data {
+    padding-bottom: 8px;
+    &.description {
+        padding: 0;
+    }
+}
