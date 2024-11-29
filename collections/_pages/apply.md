@@ -26,17 +26,6 @@ seo_excerpt:
         {% for position in site.positions %}
             {% include components/position.html position=position %}
         {% endfor %}
-        <div class="grid-row">
-            <div class="grid-col-12">
-                <h3>Our Next Cohort</h3>
-                <p>
-                    <strong>
-                        Applications for the 2024 Cohort of the ETF are now closed.
-                    </strong>
-                    Future openings will be listed on this page when we have more information to share.
-                </p>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -54,7 +43,7 @@ seo_excerpt:
       include components/praise.html
       content="Being an Emerging Technology Fellow with xD at the Census Bureau has been such an honor. I get to work with the best and brightest in America. I'm challenged to think outside of the box and discover creative solutions to drive improvement. The best part about being an xD Fellow would be the camaraderie amongst the cohort of fellows. Each fellow has helped broaden my perspective on how to solve such complex issues while being a safe space to ask questions when I don't know what to do next."
       author="Diamond Nwankwo"
-      author_title="2023 Fellow. Technologist, Problem Solver, Adjunct Instructor of Data Analytics, Mom, Wife, Author"
+      author_title="Fellow, Technologist, Problem Solver, Adjunct Instructor of Data Analytics, Mom, Wife, Author"
       image_path="/assets/img/praise/DiamondNwankwo.png"
     %}
     <div class="grid-row">
