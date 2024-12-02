@@ -19,13 +19,10 @@ seo_excerpt:
             <div class="usa-alert__body">
                 <h4 class="usa-alert__heading">Application Period Closed</h4>
                 <p class="usa-alert__text">
-                    The application period for the Emerging Technology Fellowship has closed.
+                    Applications for the fellowship are now closed. Future openings will be listed on this page when we have more information to share.
                 </p>
             </div>
         </div>
-        {% for position in site.positions %}
-            {% include components/position.html position=position %}
-        {% endfor %}
     </div>
 </section>
 
@@ -71,8 +68,8 @@ seo_excerpt:
       <div class="tablet:grid-col">
         <ul class="usa-icon-list usa-icon-list--primary">
           {% include components/icon-list-item.html content="Data Governance & AI Policy" %}
-          {% include components/icon-list-item.html content="Privacy-enhancing Technologies" %}
-          {% include components/icon-list-item.html content="Algorithmic Bias" %}
+          {% include components/icon-list-item.html content="Privacy-Enhancing Technologies (PETs)" %}
+          {% include components/icon-list-item.html content="Transparency and Accountability" %}
           {% include components/icon-list-item.html content="Technical Project Management" %}
         </ul>
       </div>
@@ -81,7 +78,7 @@ seo_excerpt:
           {% include components/icon-list-item.html content="Data Science" %}
           {% include components/icon-list-item.html content="Machine Learning" %}
           {% include components/icon-list-item.html content="Natural Language Processing" %}
-          {% include components/icon-list-item.html content="Responsible AI " %}
+          {% include components/icon-list-item.html content="Artificial Intelligence (AI)" %}
         </ul>
       </div>
     </div>
