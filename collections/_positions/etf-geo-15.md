@@ -6,7 +6,7 @@ location: TBD Upon Selection
 pay_range_min: $117,890
 pay_range_max: $152,771
 subject_line: Emerging Technology Fellowship Application
-subtitle: 2024 Cohort
+subtitle:
 travel: Minimal
 ---
 
