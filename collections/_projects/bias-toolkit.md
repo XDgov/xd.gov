@@ -1,6 +1,6 @@
 ---
-title: Bias Toolkit
-subtitle: Equipping experts with tools that help mitigate and correct sources of bias in federal data.
+title: AI Toolkit
+subtitle: Tools that help deploy AI in government contexts.
 excerpt: Bias in federal data is not a new issue, but the importance of addressing it is compounded by the increasing application of machine learning (ML) models. This toolkit is designed to meet the unique needs of the public sector, highlighting the range of government processes that can benefit from a consideration of machine learning ethics.
 seo_excerpt: This project seeks to build tools designed to meet the unique needs of the public sector, highlighting the range of government processes that can benefit from a consideration of machine learning ethics.
 permalink: /projects/bias-toolkit/
@@ -11,7 +11,7 @@ partners:
     - { url: 'https://10x.gsa.gov', name: 'General Services Administration - 10x' }
     - { url: 'https://www.dol.gov/agencies/odep', name: 'Department of Labor - Office of Disability Employment Policy' }
 status: Ongoing
-project_url: 
+project_url:
 featured: false
 active: true
 portfolio: bias
