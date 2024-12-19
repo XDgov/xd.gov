@@ -16,7 +16,7 @@ seo_excerpt: View projects built by and with xD.
     </div>
   </div>
 </section>
-
+<!--
 <section class="projects-page all-projects">
   <div class="grid-container">
     <div class="breadcrumb">Previous Projects</div>
@@ -27,4 +27,4 @@ seo_excerpt: View projects built by and with xD.
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->

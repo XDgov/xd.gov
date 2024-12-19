@@ -24,7 +24,7 @@ seo_excerpt:
     <div class="grid-row">
       <div class="grid-col-6">
         <div class="about-priority">
-          <h3>1. Bias Mitigation in Federal Data</h3>
+          <h3>1. AI in Federal Statistics</h3>
         </div>
         <div class="about-priority">
           <h3>2. Future of Data Collection and Sharing</h3>
@@ -51,7 +51,7 @@ seo_excerpt:
       intelligence solutions to the delivery of government services. Each team
       works with federal stakeholders across government and often with the
       support of outside partners, such as academic research groups, to apply
-      the latest innovations in artificial intelligence to each project.
+      the latest innovations in data science to each project.
     </p>
   </div>
 </section>
