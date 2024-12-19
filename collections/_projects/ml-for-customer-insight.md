@@ -1,16 +1,18 @@
 ---
-title: Machine Learning for Customer Insight
-subtitle: Better customer experience by utilizing machine learning.
-seo_excerpt: Better customer experience by utilizing machine learning.
-permalink: /projects/ml-for-customer-insight/
-image: /assets/img/projects/ml-for-customer-insight/ml-for-customer-insight-og.png
+title: Data Modernization Project
+subtitle: Operationalize cloud-based data management and storage
+seo_excerpt: Operationalize cloud-based data management and storage
+permalink: /projects/data-modernization-project/
+image: /assets/img/projects/data-modernization-project/data-modernization-project-og.png
 partners:
   entities:
-    - { url: 'https://10x.gsa.gov', name: 'General Services Administration - 10x' }
 featured: false
-status: Completed
+status: Ongoing
 active: false
 ---
 <p>
-  What are the ways machine learning can make for better experiences with government? Whether it is maximizing data quality, unifying cross-agency service opportunities, or private and secure personalization, government (and its customers) have so much to gain from unlocking these capabilities. We're working to make that a reality. 
+  This project is a collaboration with the Associate Director for Research and Methodology (ADRM) and aims to help stakeholders understand the extent of data utilization and storage, the applicability and cost/benefit of developing bespoke solutions internally and lead the execution of operationalizing cloud-based data management and data storage.
+</p>
+<p>
+  Related resources: <a href=" https://www.census.gov/about/what/transformation/maximizing-operational-efficiency/data-centric-business-ecosystem.Overview.html.html"> https://www.census.gov/about/what/transformation/maximizing-operational-efficiency/data-centric-business-ecosystem.Overview.html.html</a>
 </p>
