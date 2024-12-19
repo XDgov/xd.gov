@@ -16,10 +16,5 @@ active: true
 portfolio: bias
 ---
 <p>
-  Are there emerging technologies and methods that might serve us as we work to ensure we have timely
-  and complete collection of residential addresses from which we create critical data? We’re employing
-  machine learning models which correlate changes in housing unit data with satellite imagery to improve
-  automation around change detection and bias reduction. If successful, this project will reduce algorithmic
-  bias and bias caused by human error in current workflows, to improve operational efficiencies and
-  representation in surveys.
+  Are there emerging technologies and methods that might serve us as we work to ensure we have timely and complete collection of residential addresses from which we create critical data? We’re employing machine learning models which correlate changes in housing unit data with satellite imagery to improve automation around change detection. If successful, this project will reduce algorithmic bias and bias caused by human error in current workflows, to improve operational efficiencies and representation in surveys.
 </p>
