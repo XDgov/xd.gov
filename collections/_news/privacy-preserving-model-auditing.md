@@ -18,7 +18,7 @@ go through the basics of what we built, while future posts will dive into more o
 
 Many of the privacy preservation methods in use at the Census Bureau now focus on either obscuring values or adding noise to individual-level microdata 
 (for example, with techniques like differential privacy). In this demo, we wanted to try something new, and so we chose a cryptography-based PET, the open-source
-cryptographic protcol from Google called [Private Join and Compute](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html) (PJC).
+cryptographic protocol from Google called [Private Join and Compute](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html) (PJC).
 Mathematically, this protocol is a [Private Set Intersection with Sum and Cardinality](https://eprint.iacr.org/2019/723). For the non-mathematicians, that's a fancy way of
 saying that if we have two sets of IDs, we can get all of the following in a privacy-preserving fashion:
 
