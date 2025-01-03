@@ -44,7 +44,7 @@ Now let's think about how we would apply this to measuring demographic disparity
 
 ![cloud configuration]({{ site.baseurl }}/assets/img/news/demonstrating-privacy-preserving-model-auditing.jpg)
 
-Now, when Party B wants to compute the difference in model accuracy across demographic groups, they run the PJC protocol for each group and compare the results. In practice, we built a demo of this on the [cloud.gov](cloud.gov) infrastructure, and we'll have a future post going into more of the technical details. 
+Now, when Party B wants to compute the difference in model accuracy across demographic groups, they run the PJC protocol for each group and compare the results. In practice, we built a demo of this on the [cloud.gov](https://cloud.gov) infrastructure, and we'll have a future post going into more of the technical details. 
 
 ## The Vision
 
